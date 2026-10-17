@@ -1,0 +1,69 @@
+[
+  {
+    "id": "EH89publisher",
+    "url": "https://www.sciencedirect.com/science/article/pii/0890540189900011/pdf",
+    "error": "HTTP Error 403: Forbidden",
+    "source": "EH89",
+    "status": "fulltext_not_obtained",
+    "current_access_status": "original_pdf_subsequently_supplied_by_user",
+    "resolved_by_snapshot": "EH89original"
+  },
+  {
+    "id": "EH89api",
+    "url": "https://api.elsevier.com/content/article/PII:0890540189900011?httpAccept=application/pdf",
+    "error": "HTTP Error 406: Not Acceptable",
+    "source": "EH89",
+    "status": "fulltext_not_obtained",
+    "current_access_status": "original_pdf_subsequently_supplied_by_user",
+    "resolved_by_snapshot": "EH89original"
+  },
+  {
+    "id": "Nis91publisher",
+    "url": "https://epubs.siam.org/doi/pdf/10.1137/0220062",
+    "error": "HTTP Error 403: Forbidden",
+    "source": "Nis91",
+    "status": "fulltext_not_obtained"
+  },
+  {
+    "id": "Nis89publisher",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/73007.73038",
+    "error": "HTTP Error 403: Forbidden",
+    "source": "Nis89",
+    "status": "fulltext_not_obtained",
+    "current_access_status": "original_pdf_subsequently_supplied_by_user",
+    "resolved_by_snapshot": "Nis89original"
+  },
+  {
+    "source": "DFLLV26",
+    "url": "https://escholarship.org/content/qt0p80m4dg/qt0p80m4dg.pdf",
+    "retrieved": "2026-10-17",
+    "status": "fulltext_not_obtained",
+    "error": "Response did not pass the PDF file-signature check; not treated as an inspected journal PDF.",
+    "current_access_status": "official_journal_pdf_subsequently_downloaded_in_browser",
+    "resolved_by_snapshot": "DFLLV26journal"
+  },
+  {
+    "source": "DFLLV26",
+    "url": "https://dermatology.cdlib.org/content/qt0p80m4dg/qt0p80m4dg.pdf",
+    "retrieved": "2026-10-17",
+    "status": "fulltext_not_obtained",
+    "error": "Response did not pass the PDF-signature check; no journal proof verification inferred.",
+    "current_access_status": "official_journal_pdf_subsequently_downloaded_in_browser",
+    "resolved_by_snapshot": "DFLLV26journal"
+  },
+  {
+    "source": "AB25",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00037-025-00277-4.pdf",
+    "retrieved": "2026-10-17",
+    "status": "fulltext_not_obtained",
+    "error": "Response did not pass the PDF-signature check; no journal proof verification inferred."
+  },
+  {
+    "id": "Nis91-browser-subscription",
+    "source": "Nis91",
+    "url": "https://epubs.siam.org/doi/10.1137/0220062",
+    "retrieved": "2026-10-17",
+    "status": "fulltext_not_obtained",
+    "error": "Normal browser publisher page offers subscriber sign-in or paid article access; no full text obtained."
+  }
+]

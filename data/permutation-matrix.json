@@ -1,0 +1,1498 @@
+{
+  "order": [
+    "permD",
+    "permRfail23",
+    "permR",
+    "permC",
+    "permUC",
+    "permFBS",
+    "permBS",
+    "permS",
+    "permDegree",
+    "permAdeg",
+    "permQE",
+    "permQ"
+  ],
+  "warning": "Derived upper exponents from indexed S_n claims only. Not best-known certification; no lower-bound optimality is asserted. Symbol queries allow forward and inverse values. Edge sensitivity t is excluded from this polynomial-equivalence matrix.",
+  "cells": [
+    {
+      "A": "permD",
+      "B": "permRfail23",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permR",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permUC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permFBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permD-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permS",
+      "upper_exponent": "16",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permDegree",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permAdeg",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permQE",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permD",
+      "B": "permQ",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permR",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permUC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permFBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permS",
+      "upper_exponent": "16",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permDegree",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permAdeg",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permQE",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permRfail23",
+      "B": "permQ",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permRfail23",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permUC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permFBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permS",
+      "upper_exponent": "16",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permDegree",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permAdeg",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permQE",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permR",
+      "B": "permQ",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permC-permUC",
+        "perm-chain-permUC-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permRfail23",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permR",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permUC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permFBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permC-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permS",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permDegree",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permAdeg",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permQE",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permC",
+      "B": "permQ",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permUC-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permRfail23",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permR",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permFBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permS",
+      "upper_exponent": "16",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permDegree",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permAdeg",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permQE",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permUC",
+      "B": "permQ",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permUC-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC",
+        "perm-chain-permUC-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permRfail23",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permR",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permUC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permS",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permDegree",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permAdeg",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permQE",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permFBS",
+      "B": "permQ",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permRfail23",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permR",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permUC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permFBS",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permDegree",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permAdeg",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permQE",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permBS",
+      "B": "permQ",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permRfail23",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permR",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permUC",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permFBS",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permBS",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permS-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permDegree",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permAdeg",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permQE",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permS",
+      "B": "permQ",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permDegree-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permRfail23",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permR",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permC",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permUC",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permFBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permAdeg",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permQE",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permDegree",
+      "B": "permQ",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree",
+        "perm-chain-permDegree-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permRfail23",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permR",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permC",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permUC",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permFBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permBS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity",
+        "perm-chain-permS-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permS",
+      "upper_exponent": "2",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permDegree",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permQE",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permAdeg-permQ",
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permAdeg",
+      "B": "permQ",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permQE-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permRfail23",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permR",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permUC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permFBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permS",
+      "upper_exponent": "16",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permDegree",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permAdeg",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQE",
+      "B": "permQ",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permQE-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permQ"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permD",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permRfail23",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permR",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permQ-permR"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permUC",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS",
+        "perm-chain-permFBS-permC",
+        "perm-chain-permC-permUC"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permFBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "perm-chain-permBS-permFBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permBS",
+      "upper_exponent": "4",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permS",
+      "upper_exponent": "16",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree",
+        "permutation-degree-sensitivity"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permDegree",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree",
+        "perm-chain-permAdeg-permDegree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permAdeg",
+      "upper_exponent": "8",
+      "claim_ids": [
+        "perm-chain-permQ-permR",
+        "perm-chain-permR-permRfail23",
+        "perm-chain-permRfail23-permD",
+        "perm-chain-permD-permBS",
+        "permutation-bs-degree"
+      ],
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "permQ",
+      "B": "permQE",
+      "upper_exponent": "1",
+      "claim_ids": [
+        "perm-chain-permQ-permQE"
+      ],
+      "globally_best_known_certified": false
+    }
+  ]
+}

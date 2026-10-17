@@ -1,0 +1,1337 @@
+{
+  "scope": "Total Boolean functions on composable query domains with the source query model. Constants and error conventions remain in cited claims.",
+  "warning": "Domain-dependent bounds are listed separately and never treated as uniform pure-power edges. Forward-only multislices and forward/inverse permutations have different oracles. Blank means unindexed, not open.",
+  "nodes": [
+    "domainD",
+    "domainR",
+    "domainRfail23",
+    "domainQ",
+    "domainQE",
+    "domainDegree",
+    "domainAdeg",
+    "domainC",
+    "domainUC",
+    "domainBS",
+    "domainFBS",
+    "domainS"
+  ],
+  "cells": [
+    {
+      "A": "domainD",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainD",
+      "B": "domainRfail23",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainD",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainD",
+      "B": "domainQE",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainD",
+      "B": "domainDegree",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainDegree"
+      ]
+    },
+    {
+      "A": "domainD",
+      "B": "domainAdeg",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainAdeg"
+      ]
+    },
+    {
+      "A": "domainD",
+      "B": "domainC",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [
+        "domain-parameterized-domainD-domainC"
+      ],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainC"
+      ]
+    },
+    {
+      "A": "domainD",
+      "B": "domainUC",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainUC"
+      ]
+    },
+    {
+      "A": "domainD",
+      "B": "domainBS",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [
+        "domain-parameterized-domainD-domainBS"
+      ],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainBS"
+      ]
+    },
+    {
+      "A": "domainD",
+      "B": "domainFBS",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainFBS"
+      ]
+    },
+    {
+      "A": "domainD",
+      "B": "domainS",
+      "status": "no_uniform_power_subclass_witness",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": [
+        "forward-multislice-D-unbounded-domainS"
+      ]
+    },
+    {
+      "A": "domainR",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainR-domainRfail23",
+        "domain-chain-domainRfail23-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainRfail23",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainR-domainRfail23"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainQE",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainUC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainR",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainRfail23-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainQE",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainUC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainRfail23",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-added-domainQ-domainR",
+        "domain-chain-domainR-domainRfail23",
+        "domain-chain-domainRfail23-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainR",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-added-domainQ-domainR"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainRfail23",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-added-domainQ-domainR",
+        "domain-chain-domainR-domainRfail23"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainQE",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainQ-domainQE"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainUC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQ",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainQE-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainRfail23",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainUC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainQE",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainDegree-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainRfail23",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainQE",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-added-domainDegree-domainQE"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainUC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainDegree",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainAdeg-domainQ",
+        "domain-added-domainQ-domainR",
+        "domain-chain-domainR-domainRfail23",
+        "domain-chain-domainRfail23-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainR",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainAdeg-domainQ",
+        "domain-added-domainQ-domainR"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainRfail23",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainAdeg-domainQ",
+        "domain-added-domainQ-domainR",
+        "domain-chain-domainR-domainRfail23"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainQ",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainAdeg-domainQ"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainQE",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainAdeg-domainQ",
+        "domain-chain-domainQ-domainQE"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainDegree",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainAdeg-domainDegree"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainUC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainAdeg",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainC-domainUC",
+        "domain-chain-domainUC-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainRfail23",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainQE",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainUC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainC-domainUC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [
+        "domain-parameterized-domainC-domainBS"
+      ],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainC",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainUC-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainRfail23",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainQE",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainC",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainFBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainUC",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainBS-domainR",
+        "domain-chain-domainR-domainRfail23",
+        "domain-chain-domainRfail23-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainR",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainBS-domainR"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainRfail23",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainBS-domainR",
+        "domain-chain-domainR-domainRfail23"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainQ",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainBS-domainAdeg",
+        "domain-chain-domainAdeg-domainQ"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainQE",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainBS-domainAdeg",
+        "domain-chain-domainAdeg-domainQ",
+        "domain-chain-domainQ-domainQE"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainDegree",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainBS-domainAdeg",
+        "domain-chain-domainAdeg-domainDegree"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainAdeg",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainBS-domainAdeg"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainBS-domainFBS",
+        "domain-chain-domainFBS-domainC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainUC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainBS-domainFBS",
+        "domain-chain-domainFBS-domainC",
+        "domain-chain-domainC-domainUC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainFBS",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainBS-domainFBS"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainBS",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainFBS-domainC",
+        "domain-chain-domainC-domainUC",
+        "domain-chain-domainUC-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainR",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainRfail23",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainQ",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainQE",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainDegree",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainAdeg",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainFBS-domainC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainUC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainFBS-domainC",
+        "domain-chain-domainC-domainUC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainBS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainFBS",
+      "B": "domainS",
+      "status": "not_yet_indexed",
+      "best_known_certified": false,
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainD",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainR",
+        "domain-chain-domainR-domainRfail23",
+        "domain-chain-domainRfail23-domainD"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainR",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainR"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainRfail23",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainR",
+        "domain-chain-domainR-domainRfail23"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainQ",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainAdeg",
+        "domain-chain-domainAdeg-domainQ"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainQE",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainAdeg",
+        "domain-chain-domainAdeg-domainQ",
+        "domain-chain-domainQ-domainQE"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainDegree",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainAdeg",
+        "domain-chain-domainAdeg-domainDegree"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainAdeg",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "2",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainAdeg"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainFBS",
+        "domain-chain-domainFBS-domainC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainUC",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainFBS",
+        "domain-chain-domainFBS-domainC",
+        "domain-chain-domainC-domainUC"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainBS",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    },
+    {
+      "A": "domainS",
+      "B": "domainFBS",
+      "status": "parameter_free_upper_chain",
+      "best_known_certified": false,
+      "exponent": "1",
+      "claim_ids": [
+        "domain-chain-domainS-domainBS",
+        "domain-chain-domainBS-domainFBS"
+      ],
+      "parameterized_direct_claim_ids": [],
+      "subclass_counterexample_claim_ids": []
+    }
+  ],
+  "parameterized_claim_ids": [
+    "domain-parameterized-domainD-domainBS",
+    "domain-parameterized-domainC-domainBS",
+    "domain-parameterized-domainD-domainC"
+  ],
+  "other_oracle_claim_ids": [
+    "forward-permutation-no-power-domainDegree",
+    "BD16-domainD-domainQ",
+    "BD16-domainD-domainR",
+    "BD16-domainC-domainBS",
+    "forward-multislice-D-unbounded-domainDegree",
+    "forward-multislice-D-unbounded-domainAdeg",
+    "forward-multislice-D-unbounded-domainC",
+    "forward-multislice-D-unbounded-domainUC",
+    "forward-multislice-D-unbounded-domainBS",
+    "forward-multislice-D-unbounded-domainFBS",
+    "forward-multislice-D-unbounded-domainS",
+    "product-domainD-domainUC-square",
+    "product-domainD-domainC-square",
+    "profile-witnessing-degree-sensitivity",
+    "profile-certificate-sensitivity-five",
+    "uniform-hypermatching-D-sensitivity-lift",
+    "lambda-partite-D-sensitivity-product-lift"
+  ]
+}

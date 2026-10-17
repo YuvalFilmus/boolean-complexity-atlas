@@ -1,0 +1,72 @@
+[
+  {
+    "A": "completion_D",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "capped-D-R1-square"
+    ]
+  },
+  {
+    "A": "completion_R0",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "R0-D",
+      "capped-D-R1-square"
+    ]
+  },
+  {
+    "A": "completion_QE",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "QE-D",
+      "capped-D-R1-square"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "side-UC-D",
+      "capped-D-R1-square"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "side-UC0-D",
+      "capped-D-R1-square"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "side-UC1-D",
+      "capped-D-R1-square"
+    ]
+  },
+  {
+    "A": "completion_Q0",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "Q0-R0",
+      "R0-D",
+      "capped-D-R1-square"
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-17",
+  "method": "separate assistant agent; independently reconstructed mathematical arguments",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "priority_certified": false,
+  "report_sha256": "543ba3842b279687cb5ddbc0b2d4a29d4b025f553646b32ce55aeac9b550f87f",
+  "audited_records": [
+    {
+      "section": "algorithmic_bounds",
+      "record": {
+        "id": "quantitative-kernel-line-slab-avoidance",
+        "source": "HKMP26",
+        "locator": "Repository bounded-radius refinement of Lemma 70",
+        "statement": "Let h be a nonzero polynomial from a fixed-support domain-kernel vector u. Fix gamma>0. Suppose |p(x)|>=gamma whenever h(x)=0. Choose representatives I of distinct nonconstant affine pairs (p(x),h(x)), h(x)!=0, and S=sum_{x in I} 1/|h(x)|. For any R>gamma*S there is t in [-R,R] with |p(x)+t*h(x)|>=gamma everywhere. If ||p||_infinity<=1, the resulting sign completion has approximate degree O(d*(1+R*||h||_infinity)/gamma).",
+        "proof_summary": "For each representative, the forbidden t interval |p(x)+t*h(x)|<gamma has length 2gamma/|h(x)|. Their total length is at most 2gamma*S<2R, so they cannot cover [-R,R]. Zero-slope constraints are safe by hypothesis. Choose an uncovered t, use ||p+t h||_infinity<=1+R||h||_infinity and compose a sign approximant. The coefficient displacement obeys ||Delta||_infinity<=R||u||_infinity. Exact promise values remain unchanged because u is in the domain kernel.",
+        "notes": "A sufficient quantitative condition in one chosen kernel direction, not a uniform polynomial bound implied by support minimality. The number of distinct constraints and small nonzero |h(x)| may force enormous R. This distinguishes the source qualitative finite-slab escape lemma from the polynomial-radius requirement. The degree d must be controlled by the native approximate degree for a D-versus-Q conclusion.",
+        "status": "repository_derivation_checked"
+      },
+      "sha256": "81dcb45ef79eda516abcbaf601d1b81cd26e495d16a800685dd2a06b8d652b05"
+    },
+    {
+      "section": "algorithmic_bounds",
+      "record": {
+        "id": "verification-fractional-sharp-constants",
+        "source": "Aar02",
+        "locator": "Repository refinement of Definition 3/Lemma 5 sampling characterization",
+        "statement": "Under expected-cost, rejecting-error-1/2 verification, FC/2<=RC<=(ln 2)*FC. The lower coefficient 1/2 is attained by a single bit. The upper coefficient ln 2 is asymptotically necessary over partial functions, using the promise {0^N} union {x:|x|=k}, with k->infinity and N=k^3.",
+        "proof_summary": "For the upper bound independently query i with probability 1-2^(-w_i) from a fractional certificate. Missing disagreement probability is at most 1/2, and expected cost is at most (ln 2)FC. The lower bound uses query probabilities on the claimed input: twice those probabilities form a fractional certificate. For sharpness on the zero-or-weight-k promise, FC=N/k at zero and FC=1 at positive inputs. A verifier on zero has a random query set of size T; averaging a positive uniform k-subset gives miss probability g(T)=binom(N-T,k)/binom(N,k). Its piecewise-linear extension is convex, since the second finite differences are nonnegative, so Jensen and miss probability<=1/2 imply expected T at least the interpolated half-threshold. Uniform random query sets of the two adjacent sizes attain it. That threshold is (ln 2+o(1))*N/k when N=k^3. Positive claims cost at most 1/2 by querying one known 1 with probability 1/2.",
+        "notes": "Constants are specific to the stored expected-query verification convention. This is a repository argument, not a printed sharp-constant theorem attributed to the source. The partial-promise sharpness does not establish sharpness of the upper coefficient on total functions or minimum completions. The linear upper inequalities themselves lift to minimum completions by choosing the right-hand minimizing completion.",
+        "status": "repository_derivation_checked"
+      },
+      "sha256": "0431afd6ae391b85c8884905f9e64d1eae9ad69deb99f7469c70c4a36ce70e9c"
+    },
+    {
+      "section": "algorithmic_bounds",
+      "record": {
+        "id": "minimal-support-bounded-interpolation-vertex",
+        "source": "HKMP26",
+        "locator": "Repository polyhedral analysis of fixed-support Definition 68/Lemma 71",
+        "statement": "On the support S of a support-minimal bounded degree-at-most-d approximant p, the bounded exact-interpolation polytope P={a:A_D a=A_D a_p, |H a|<=1} is compact. Every vertex retains all S coordinates nonzero, and its active constraint matrix [A_D; H_T] has full column rank, where H_T are the saturated full-cube evaluations.",
+        "proof_summary": "H is the full-cube evaluation matrix of distinct supported characters. Bounded function values bound every Fourier coefficient by one, so P is a compact nonempty polytope. A zero coefficient at any feasible point would produce a smaller-support bounded approximant with identical promised values and no higher degree, contradicting minimality. At a vertex, if the stacked domain and active-cube rows had a common nonzero null vector, sufficiently small positive and negative movements along it would preserve equality and all cube bounds; that would contradict extremality. Thus the stacked matrix has full column rank.",
+        "notes": "This supplies only an augmented rank certificate, not a proof that A_D alone has full rank or that its kernel amplification is polynomially bounded. It explains the role of saturated off-promise constraints. It is not a constructed support-minimal counterexample to the unrestricted lemma. If p is degree-optimal and then support-minimal, a lower-degree feasible point would itself contradict optimality, so the same argument applies.",
+        "status": "repository_derivation_checked"
+      },
+      "sha256": "aacace447df807fdfe8cc930c573892777edaec72078a188052b448cd8f963a4"
+    },
+    {
+      "section": "claims",
+      "record": {
+        "id": "capped-D-R1-square",
+        "kind": "upper_bound",
+        "A": "D",
+        "B": "R1",
+        "exponent": 2,
+        "statement": "For capped one-sided R1 with positive success at least p, D<=floor(R1/p)*C1<=R1^2/p. At p=2/3, D<=3 R1^2/2.",
+        "scope": {
+          "object_kind": "decision_function",
+          "totality": "total",
+          "classes": [],
+          "input_alphabet": "bits",
+          "output_alphabet": "bits",
+          "cost": "as_in_measure_definitions",
+          "error": "as_in_measure_definitions",
+          "assumptions": []
+        },
+        "loss": "none",
+        "status": "repository_derivation_checked",
+        "source": "definitions",
+        "locator": "Repository certificate-query coupling proof; compare Nis89 one-sided argument and AIK26 capped convention",
+        "proof_summary": "Query a consistent positive certificate each round. At any surviving zero input x, replace only its disagreeing literals in each queried certificate to obtain positive inputs y_j; their disagreement blocks are nonempty and disjoint. Couple an R1 computation on x and each y_j with the same randomness. Acceptance probability at least p on y_j and no false positives on x force querying block j with probability at least p on x. Hence kp<=T. After floor(T/p) rounds a nonconstant restriction would allow one more disjoint block, impossible. Each round costs at most C1. A positive accepting transcript is a certificate of width at most T, so C1<=T.",
+        "last_checked": "2026-10-17",
+        "best_known_certified": false,
+        "proof_audit": "not_independently_audited",
+        "proof_sources": [
+          "Nis89",
+          "AIK26"
+        ],
+        "scalar_inference_allowed": true,
+        "notes": "R1 here is a worst-execution query cap, with no false positives. This constant is not transferred to the expected-cost Nisan convention. Constant functions use zero queries. No optimality claim for the quadratic leading constant."
+      },
+      "sha256": "606ee5ea5ed1d2cb7a3d743edbaff3ab05cfbae809b58e9e4ce08c76963e2087"
+    }
+  ]
+}

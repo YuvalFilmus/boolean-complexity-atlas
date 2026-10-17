@@ -1,0 +1,667 @@
+[
+  {
+    "A": "completion_D",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "D-Q4",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_R0",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "R0-Q4-upper",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_R",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "R-Q4",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_lambda",
+    "B": "completion_UC0",
+    "before": "2",
+    "after": "1",
+    "claim_ids": [
+      "lambda-deg",
+      "side-deg-UC0"
+    ]
+  },
+  {
+    "A": "completion_lambda",
+    "B": "completion_UC1",
+    "before": "2",
+    "after": "1",
+    "claim_ids": [
+      "lambda-deg",
+      "deg-UC1"
+    ]
+  },
+  {
+    "A": "completion_QE",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "QE-D",
+      "D-Q4",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_deg",
+    "B": "completion_fbs",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "deg-s2",
+      "s-bs",
+      "bs-fbs"
+    ]
+  },
+  {
+    "A": "completion_deg",
+    "B": "completion_FC",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "deg-s2",
+      "s-bs",
+      "partial-bs-RC",
+      "completion-support-RC-FC"
+    ]
+  },
+  {
+    "A": "completion_deg",
+    "B": "completion_QC",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "deg-s2",
+      "s-bs",
+      "partial-bs-RC",
+      "completion-support-RC-FC",
+      "completion-support-FC-QC"
+    ]
+  },
+  {
+    "A": "completion_deg",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "2",
+    "claim_ids": [
+      "deg-Q2",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_deg",
+    "B": "completion_R1",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "deg-Q2",
+      "Q-R",
+      "side-R-R1"
+    ]
+  },
+  {
+    "A": "completion_adeg",
+    "B": "completion_fbs",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "adeg-deg",
+      "deg-s2",
+      "s-bs",
+      "bs-fbs"
+    ]
+  },
+  {
+    "A": "completion_adeg",
+    "B": "completion_FC",
+    "before": "3",
+    "after": "2",
+    "claim_ids": [
+      "adeg-deg",
+      "deg-s2",
+      "s-bs",
+      "partial-bs-RC",
+      "completion-support-RC-FC"
+    ]
+  },
+  {
+    "A": "completion_adeg",
+    "B": "completion_QC",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "adeg-deg",
+      "deg-s2",
+      "s-bs",
+      "partial-bs-RC",
+      "completion-support-RC-FC",
+      "completion-support-FC-QC"
+    ]
+  },
+  {
+    "A": "completion_C0",
+    "B": "completion_s",
+    "before": "8",
+    "after": "5",
+    "claim_ids": [
+      "side-C0-C",
+      "C-bs-s",
+      "bs-s4"
+    ]
+  },
+  {
+    "A": "completion_C0",
+    "B": "completion_lambda",
+    "before": "16",
+    "after": "6",
+    "claim_ids": [
+      "side-C0-C",
+      "C-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_C0",
+    "B": "completion_QE",
+    "before": "4",
+    "after": "3",
+    "claim_ids": [
+      "side-C0-C",
+      "C-D",
+      "D-deg3",
+      "deg-QE"
+    ]
+  },
+  {
+    "A": "completion_C0",
+    "B": "completion_deg",
+    "before": "4",
+    "after": "3",
+    "claim_ids": [
+      "side-C0-C",
+      "C-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_C1",
+    "B": "completion_s",
+    "before": "8",
+    "after": "5",
+    "claim_ids": [
+      "side-C1-C",
+      "C-bs-s",
+      "bs-s4"
+    ]
+  },
+  {
+    "A": "completion_C1",
+    "B": "completion_lambda",
+    "before": "16",
+    "after": "6",
+    "claim_ids": [
+      "side-C1-C",
+      "C-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_C1",
+    "B": "completion_QE",
+    "before": "4",
+    "after": "3",
+    "claim_ids": [
+      "side-C1-C",
+      "C-D",
+      "D-deg3",
+      "deg-QE"
+    ]
+  },
+  {
+    "A": "completion_C1",
+    "B": "completion_deg",
+    "before": "4",
+    "after": "3",
+    "claim_ids": [
+      "side-C1-C",
+      "C-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_s",
+    "before": "12",
+    "after": "6",
+    "claim_ids": [
+      "side-UC-D",
+      "D-deg3",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_lambda",
+    "before": "24",
+    "after": "6",
+    "claim_ids": [
+      "side-UC-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_QE",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-UC-D",
+      "D-deg3",
+      "deg-QE"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_deg",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-UC-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_Q",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC-D",
+      "D-Q4"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_adeg",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC-D",
+      "D-adeg4"
+    ]
+  },
+  {
+    "A": "completion_UC",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC-D",
+      "D-Q4",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_s",
+    "before": "12",
+    "after": "6",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-deg3",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_lambda",
+    "before": "24",
+    "after": "6",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_QE",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-deg3",
+      "deg-QE"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_deg",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_Q",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-Q4"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_adeg",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-adeg4"
+    ]
+  },
+  {
+    "A": "completion_UC0",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC0-D",
+      "D-Q4",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_s",
+    "before": "12",
+    "after": "6",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-deg3",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_lambda",
+    "before": "24",
+    "after": "6",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_QE",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-deg3",
+      "deg-QE"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_deg",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_Q",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-Q4"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_adeg",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-adeg4"
+    ]
+  },
+  {
+    "A": "completion_UC1",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-UC1-D",
+      "D-Q4",
+      "completion-support-Q-Q0"
+    ]
+  },
+  {
+    "A": "completion_fbs",
+    "B": "completion_s",
+    "before": "8",
+    "after": "4",
+    "claim_ids": [
+      "fbs-deg2",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_fbs",
+    "B": "completion_lambda",
+    "before": "16",
+    "after": "4",
+    "claim_ids": [
+      "fbs-deg2",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_FC",
+    "B": "completion_s",
+    "before": "8",
+    "after": "4",
+    "claim_ids": [
+      "completion-support-FC-fbs",
+      "fbs-deg2",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_FC",
+    "B": "completion_lambda",
+    "before": "16",
+    "after": "4",
+    "claim_ids": [
+      "completion-support-FC-fbs",
+      "fbs-deg2",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_QC",
+    "B": "completion_s",
+    "before": "4",
+    "after": "2",
+    "claim_ids": [
+      "QC-adeg",
+      "adeg-deg",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_QC",
+    "B": "completion_lambda",
+    "before": "8",
+    "after": "2",
+    "claim_ids": [
+      "QC-adeg",
+      "adeg-deg",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_Q0",
+    "B": "completion_s",
+    "before": "12",
+    "after": "6",
+    "claim_ids": [
+      "Q0-R0",
+      "R0-D",
+      "D-deg3",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_Q0",
+    "B": "completion_lambda",
+    "before": "24",
+    "after": "6",
+    "claim_ids": [
+      "Q0-R0",
+      "R0-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_Q0",
+    "B": "completion_deg",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "Q0-R0",
+      "R0-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_Q0",
+    "B": "completion_Q",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "Q0-R0",
+      "R0-Q4-upper"
+    ]
+  },
+  {
+    "A": "completion_Q0",
+    "B": "completion_adeg",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "Q0-R0",
+      "R0-D",
+      "D-adeg4"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_s",
+    "before": "12",
+    "after": "6",
+    "claim_ids": [
+      "side-R1-D",
+      "D-deg3",
+      "deg-s2"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_lambda",
+    "before": "24",
+    "after": "6",
+    "claim_ids": [
+      "side-R1-D",
+      "D-deg3",
+      "deg-lambda2"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_QE",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-R1-D",
+      "D-deg3",
+      "deg-QE"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_deg",
+    "before": "6",
+    "after": "3",
+    "claim_ids": [
+      "side-R1-D",
+      "D-deg3"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_Q",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-R1-D",
+      "D-Q4"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_adeg",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-R1-D",
+      "D-adeg4"
+    ]
+  },
+  {
+    "A": "completion_R1",
+    "B": "completion_Q0",
+    "before": "6",
+    "after": "4",
+    "claim_ids": [
+      "side-R1-D",
+      "D-Q4",
+      "completion-support-Q-Q0"
+    ]
+  }
+]

@@ -1,0 +1,927 @@
+[
+  {
+    "id": "BdW02",
+    "url": "https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf",
+    "resolved_url": "https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf",
+    "sha256": "7002019660c498b652611acf5cdbe264ea9c4a139f8f4da6e82e12822e5d9122",
+    "pages": 27,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BdW02"
+  },
+  {
+    "id": "HKP11",
+    "url": "https://arxiv.org/pdf/1011.0354",
+    "resolved_url": "https://arxiv.org/pdf/1011.0354",
+    "sha256": "dc988b3171d00dda91d609f3dd0758f9f6b08da58e11302ca454abcf4f694ede",
+    "pages": 16,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "HKP11"
+  },
+  {
+    "id": "Amb18",
+    "url": "https://arxiv.org/pdf/1712.06349",
+    "resolved_url": "https://arxiv.org/pdf/1712.06349",
+    "sha256": "6d2bfa659d7d29617635627ec6ab998b984cec6b5c8ef5cca8db69e226f40f80",
+    "pages": 20,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Amb18"
+  },
+  {
+    "id": "Nis91",
+    "url": "https://www.cs.huji.ac.il/~noam/crew.pdf",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "snapshot_id": "Nis91"
+  },
+  {
+    "id": "NS94",
+    "url": "https://web.vu.lt/mif/s.jukna/boolean/Nisan-Szegedy.pdf",
+    "resolved_url": "https://web.vu.lt/mif/s.jukna/boolean/Nisan-Szegedy.pdf",
+    "sha256": "059743f397f0a148e9117ee2f7762bd9a73b80b023c033ffca1e5fae6c2f9abe",
+    "pages": 13,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "NS94"
+  },
+  {
+    "id": "BBCMW01",
+    "url": "https://arxiv.org/pdf/quant-ph/9802049v3",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/9802049v3",
+    "sha256": "afec116657493976b70df7dcb8b174c8c0be55a9337d9e035afd5f1fc4d9cd4c",
+    "pages": 10,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BBCMW01"
+  },
+  {
+    "id": "Mid04",
+    "url": "https://arxiv.org/pdf/quant-ph/0403168v2",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/0403168v2",
+    "sha256": "0cdb580bd48d513b33a1c65bd27faa361bd2e4ebaceff29bbf24b16586e4ab21",
+    "pages": 5,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Mid04"
+  },
+  {
+    "id": "Aar02",
+    "url": "https://arxiv.org/pdf/quant-ph/0210020v1",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/0210020v1",
+    "sha256": "ba535dc3b15246d8baa513aab63ec764e090896a01155890181f8976e6607b2e",
+    "pages": 9,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Aar02"
+  },
+  {
+    "id": "KT13",
+    "url": "https://eccc.weizmann.ac.il/report/2013/168/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2013/168/download/",
+    "sha256": "d38a9b0509729d669c1e1e405bc21f965fc751e74249629e8fae34faa9173ca5",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KT13"
+  },
+  {
+    "id": "ABK16",
+    "url": "https://arxiv.org/pdf/1511.01937",
+    "resolved_url": "https://arxiv.org/pdf/1511.01937",
+    "sha256": "64380c861d0e0296a53c998a0109d62bf446529414001f8e46615991b558e4bc",
+    "pages": 31,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ABK16"
+  },
+  {
+    "id": "ABBLS17",
+    "url": "https://arxiv.org/pdf/1506.04719",
+    "resolved_url": "https://arxiv.org/pdf/1506.04719",
+    "sha256": "1b7803487ac696b1f8d81ee7bc26d55ed7a3c4ff4b78928faa269b71358fe66c",
+    "pages": 25,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ABBLS17"
+  },
+  {
+    "id": "Hua19",
+    "url": "https://arxiv.org/pdf/1907.00847",
+    "resolved_url": "https://arxiv.org/pdf/1907.00847",
+    "sha256": "9193d2dac7b3f6b6a84270884c6143913ae5a0ba9bf3db19273f9703db0ed6a2",
+    "pages": 6,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Hua19"
+  },
+  {
+    "id": "ABKBRT21",
+    "url": "https://arxiv.org/pdf/2010.12629",
+    "resolved_url": "https://arxiv.org/pdf/2010.12629",
+    "sha256": "445a34b0653042ad482bd95bc2c333d476df7ade6ce5d9ec45714f5b249e39ab",
+    "pages": 32,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ABKBRT21"
+  },
+  {
+    "id": "SSW20",
+    "url": "https://arxiv.org/pdf/2008.10223v4",
+    "resolved_url": "https://arxiv.org/pdf/2008.10223v4",
+    "sha256": "bafc286d1955c4b26a05af69f078b6f08acf6f9cb353cf1a787a6aacf441d325",
+    "pages": 43,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "SSW20"
+  },
+  {
+    "id": "BK19",
+    "url": "https://arxiv.org/pdf/1902.03660",
+    "resolved_url": "https://arxiv.org/pdf/1902.03660",
+    "sha256": "91e8000b3876342b789180762b8770ae5bd13e324cb56bc07bf42d07159d6f32",
+    "pages": 23,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BK19"
+  },
+  {
+    "id": "IJKKSWW23",
+    "url": "https://arxiv.org/pdf/2310.08004v2",
+    "resolved_url": "https://arxiv.org/pdf/2310.08004v2",
+    "sha256": "44ccc2ff0c963b79d321dd2e4bc630a025089fa4d66c1596ef1f5d8877040343",
+    "pages": 29,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "IJKKSWW23"
+  },
+  {
+    "id": "BK24",
+    "url": "https://arxiv.org/pdf/2410.16245v1",
+    "resolved_url": "https://arxiv.org/pdf/2410.16245v1",
+    "sha256": "3812ede6832eeadf0665f8ac895bb3e923a6f14a119383d91365e8e387373dd3",
+    "pages": 47,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BK24"
+  },
+  {
+    "id": "CG22",
+    "url": "https://arxiv.org/pdf/2211.03396v3",
+    "resolved_url": "https://arxiv.org/pdf/2211.03396v3",
+    "sha256": "ff4b1c856d4686a6c1aa1537376c55ff8ca217f6ff84f491eb540990aac2ef53",
+    "pages": 40,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CG22"
+  },
+  {
+    "id": "KLW14",
+    "url": "https://arxiv.org/pdf/1411.7280",
+    "resolved_url": "https://arxiv.org/pdf/1411.7280",
+    "sha256": "f37b8913b8d0f547159870a6587f98867b138d2caa5d84a417bda8b00ce745db",
+    "pages": 16,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KLW14"
+  },
+  {
+    "id": "AIK26",
+    "url": "https://arxiv.org/pdf/2609.11664v3",
+    "resolved_url": "https://arxiv.org/pdf/2609.11664v3",
+    "sha256": "7f8e01f1bfed8002a8f7fa80185751b6e8548846d844b1d38fb15c109befe78f",
+    "pages": 39,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AIK26"
+  },
+  {
+    "id": "BK26",
+    "url": "https://arxiv.org/pdf/2609.15063v1",
+    "resolved_url": "https://arxiv.org/pdf/2609.15063v1",
+    "sha256": "ba61287bc2555ce5ffe739e8308b9087c1d0743a683565d4b922a179bd6149c0",
+    "pages": 6,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BK26"
+  },
+  {
+    "id": "KLLPV26",
+    "url": "https://arxiv.org/pdf/2609.26757",
+    "resolved_url": "https://arxiv.org/pdf/2609.26757",
+    "sha256": "c0d8a867c70fc3691ac930c6cc49ab62013c7f4980d05f83f4fbc86c3e66a8a4",
+    "pages": 39,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KLLPV26"
+  },
+  {
+    "id": "AGL26",
+    "url": "https://arxiv.org/pdf/2602.17647",
+    "resolved_url": "https://arxiv.org/pdf/2602.17647",
+    "sha256": "0b1ceb52e5ae7e39744e1e27dcb3ba31acf1bd36fd5cbeb841e009ca8a10d340",
+    "pages": 29,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AGL26"
+  },
+  {
+    "id": "ARS26",
+    "url": "https://arxiv.org/pdf/2610.00506",
+    "resolved_url": "https://arxiv.org/pdf/2610.00506",
+    "sha256": "2fcded93cb40a7623dc038b31988c9a62b4079136889326b0d716485fbbfe0d8",
+    "pages": 34,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ARS26"
+  },
+  {
+    "id": "KSP20",
+    "url": "https://arxiv.org/pdf/1912.05406",
+    "resolved_url": "https://arxiv.org/pdf/1912.05406",
+    "sha256": "0381cb50624fdfc4e40ca2a6170897ebf0ce781528e5dbe069d446e43f27e48d",
+    "pages": 25,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KSP20"
+  },
+  {
+    "id": "CDM23",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol272-mfcs2023/LIPIcs.MFCS.2023.34/LIPIcs.MFCS.2023.34.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol272-mfcs2023/LIPIcs.MFCS.2023.34/LIPIcs.MFCS.2023.34.pdf",
+    "sha256": "8fd32dafe815f403972bfc4eea028f9a83c1b2cec06ae5d8fe352a91edf29160",
+    "pages": 15,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CDM23"
+  },
+  {
+    "id": "CMP24",
+    "url": "https://arxiv.org/pdf/2408.12595",
+    "resolved_url": "https://arxiv.org/pdf/2408.12595",
+    "sha256": "bbe0a27507b0bf0ed0614fa4c4637377e1dd97dd6168a4eabb9beba26c4d5847",
+    "pages": 21,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CMP24"
+  },
+  {
+    "id": "BJKM24",
+    "url": "https://arxiv.org/pdf/2406.07859v2",
+    "resolved_url": "https://arxiv.org/pdf/2406.07859v2",
+    "sha256": "528b2fe9477a35bec0e2ce20e5128f7ed3758e7f512f2a997d3aed870f7cecc6",
+    "pages": 27,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BJKM24"
+  },
+  {
+    "id": "BKMNSS25",
+    "url": "https://arxiv.org/pdf/2507.00148v1",
+    "resolved_url": "https://arxiv.org/pdf/2507.00148v1",
+    "sha256": "44b0cd6296ffd3a8892f2ec4daca3f7297f5a7de6ed0901793899dc01b70bdc0",
+    "pages": 43,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BKMNSS25"
+  },
+  {
+    "id": "DM23",
+    "url": "https://arxiv.org/pdf/2209.12877",
+    "resolved_url": "https://arxiv.org/pdf/2209.12877",
+    "sha256": "2c4937c9e93e4c4d786642f441e6f1b37285875aa41189870fb3b0fb2060c7f1",
+    "pages": 29,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "DM23"
+  },
+  {
+    "id": "LM26",
+    "url": "https://dmtcs.episciences.org/18512/pdf",
+    "resolved_url": "https://dmtcs.episciences.org/articles/18512/download",
+    "sha256": "0065fb2761ceea3f60352e1f1a16c228309fc3b6929a8df8418dd1aeb91f23b8",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "LM26"
+  },
+  {
+    "id": "OAI26",
+    "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-Nearly-Quartic-Separation-Between-Randomized-and-Quantum-Query-Complexity-October-5-2026/quartic-query-separation.pdf",
+    "resolved_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-Nearly-Quartic-Separation-Between-Randomized-and-Quantum-Query-Complexity-October-5-2026/quartic-query-separation.pdf",
+    "sha256": "a99f1c38d086a33591b6204ae3957fe3f25c8f31d97c48087325a18fd66daf3e",
+    "pages": 19,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "quarticRQ26"
+  },
+  {
+    "id": "CG26",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol386-mfcs2026/LIPIcs.MFCS.2026.61/LIPIcs.MFCS.2026.61.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol386-mfcs2026/LIPIcs.MFCS.2026.61/LIPIcs.MFCS.2026.61.pdf",
+    "sha256": "e6714301e8d5a580f587794911559940eac840bff7ab9eef3e61c608f231df23",
+    "pages": 17,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CG26"
+  },
+  {
+    "id": "Tal13",
+    "url": "https://eccc.weizmann.ac.il/report/2012/163/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2012/163/download/",
+    "sha256": "9d59db5e3cf2588196c027173f3e7f058ebf282d1b3ec7721cd6f4915a0d4104",
+    "pages": 26,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Tal13"
+  },
+  {
+    "id": "GSS13",
+    "url": "https://arxiv.org/pdf/1306.0630",
+    "resolved_url": "https://arxiv.org/pdf/1306.0630",
+    "sha256": "e3c66f2ddea294aec9c79fbbff1a0c8177a14dbf1aa4ef0756dec65048073cf9",
+    "pages": 36,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GSS13"
+  },
+  {
+    "id": "Pro21",
+    "url": "https://arxiv.org/pdf/2101.08600v2",
+    "resolved_url": "https://arxiv.org/pdf/2101.08600v2",
+    "sha256": "2ec96f3011cae0897dcd9758df46a78e5bd6700f9d21753c9010db97e25d0b79",
+    "pages": 16,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Pro21"
+  },
+  {
+    "id": "Mei26",
+    "url": "https://arxiv.org/pdf/2608.00851v1",
+    "resolved_url": "https://arxiv.org/pdf/2608.00851v1",
+    "sha256": "aea0b2317efa9b7e1503b20b58b398bf1a8653beb58d7e8bbb7c94f4916724e1",
+    "pages": 15,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Mei26"
+  },
+  {
+    "id": "AP14",
+    "url": "https://arxiv.org/pdf/1402.5078",
+    "resolved_url": "https://arxiv.org/pdf/1402.5078",
+    "sha256": "1334bfc283d089dadbcbeddda1c81d3f9670b4b7daa1c2b0cf7b3562e61dad82",
+    "pages": 12,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AP14"
+  },
+  {
+    "id": "Mid05",
+    "url": "https://arxiv.org/pdf/quant-ph/0501142",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/0501142",
+    "sha256": "b9054a7d926c47f8447933d8b30b6002799eedd083556a696b52c920e8665a94",
+    "pages": 10,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Mid05"
+  },
+  {
+    "id": "MNP24",
+    "url": "https://arxiv.org/pdf/2110.12616v5",
+    "resolved_url": "https://arxiv.org/pdf/2110.12616v5",
+    "sha256": "24aab5a7f138a628b2207c2ef8b86017d344313ad54c511aaa6fae41896cb30f",
+    "pages": 26,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "MNP24"
+  },
+  {
+    "id": "Wel22",
+    "url": "https://arxiv.org/pdf/2005.00566",
+    "resolved_url": "https://arxiv.org/pdf/2005.00566",
+    "sha256": "de2b8792e0bdda6266131ff20d18bf05e2224f5fb39a091301048365575f9f60",
+    "pages": 21,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Wel22"
+  },
+  {
+    "id": "CPS22",
+    "url": "https://arxiv.org/pdf/2209.08042",
+    "resolved_url": "https://arxiv.org/pdf/2209.08042",
+    "sha256": "21aa8f1ce34b21bf1e218e6da18c206c5bd332f26f49129410bbb6f74703fafe",
+    "pages": 23,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CPS22"
+  },
+  {
+    "id": "BHT17",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol067-itcs2017/LIPIcs.ITCS.2017.28/LIPIcs.ITCS.2017.28.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol067-itcs2017/LIPIcs.ITCS.2017.28/LIPIcs.ITCS.2017.28.pdf",
+    "sha256": "3615b4b81c6307bdc696f944fc72505da22a46a5bf3f7436c6f22e4a7612c41c",
+    "pages": 23,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BHT17"
+  },
+  {
+    "id": "AS11",
+    "url": "https://eccc.weizmann.ac.il/report/2011/116/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2011/116/download/",
+    "sha256": "83e9e1567f2c59ca76f14b997cb9c0ae9c16b79de74649c755be9d909798d38a",
+    "pages": 7,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AS11"
+  },
+  {
+    "id": "LNS20",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol170-mfcs2020/LIPIcs.MFCS.2020.62/LIPIcs.MFCS.2020.62.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol170-mfcs2020/LIPIcs.MFCS.2020.62/LIPIcs.MFCS.2020.62.pdf",
+    "sha256": "2414fff16bcfca7558ed81331a5b265b8960332c9aeb4815df567726de8824be",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "LNS20"
+  },
+  {
+    "id": "BS21",
+    "url": "https://arxiv.org/pdf/2008.07003",
+    "resolved_url": "https://arxiv.org/pdf/2008.07003",
+    "sha256": "afe53c8bd918d07590f29a947ef044453db73959043135082d1a3c29b2863a35",
+    "pages": 40,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BS21"
+  },
+  {
+    "id": "APV18",
+    "url": "https://arxiv.org/pdf/1810.02393",
+    "resolved_url": "https://arxiv.org/pdf/1810.02393",
+    "sha256": "123a0d8c77a385bf70990dcab9a42a3443c3d72a09316a6ce44080f4eb7c5267",
+    "pages": 4,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GSSgap18"
+  },
+  {
+    "id": "KKWY26",
+    "url": "https://arxiv.org/pdf/2601.08727v3",
+    "sha256": "4bccb3a78c2f0658a0a2b0180726f2dbff7a9c382d3e27ebb2a0e4df801794b7",
+    "pages": 28,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KKWY26"
+  },
+  {
+    "id": "BT22",
+    "url": "https://open.bu.edu/bitstreams/10d0eff1-b992-412f-a66b-dd19ceadcc35/download",
+    "resolved_url": "https://open.bu.edu/server/api/core/bitstreams/10d0eff1-b992-412f-a66b-dd19ceadcc35/content",
+    "pages": 124,
+    "sha256": "9e5989cfd924b1958635a1eed2aa19308c83fceafb988f94609e7a6c3bf63cd1",
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BT22"
+  },
+  {
+    "id": "Amb13",
+    "url": "https://arxiv.org/pdf/1211.0721v6",
+    "resolved_url": "https://arxiv.org/pdf/1211.0721v6",
+    "sha256": "136af603a17cb985ac6460a0086c46dab9ae2779ff5b9c4bf29f154ae1ddb688",
+    "pages": 20,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Amb13"
+  },
+  {
+    "id": "BT17",
+    "url": "https://arxiv.org/pdf/1703.05784",
+    "resolved_url": "https://arxiv.org/pdf/1703.05784",
+    "sha256": "a7182564b44322205387edaaafd7369ece0b7fbe5c74c0dc04d3a599c405ffa0",
+    "pages": 40,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BT17"
+  },
+  {
+    "id": "GJPW18",
+    "url": "https://eccc.weizmann.ac.il/report/2015/169/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2015/169/download/",
+    "sha256": "adcb9c2194ce3e8946d74503bdd1974dbd6f15d59194e18778dfe88e99487b6b",
+    "pages": 20,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GJPW18"
+  },
+  {
+    "id": "Kothari15",
+    "url": "https://eccc.weizmann.ac.il/report/2015/195/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2015/195/download/",
+    "sha256": "049aa21c361c70b636363f720a4b023fbb40be75d9dad621c66abd67f50df2f5",
+    "pages": 13,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AKK16"
+  },
+  {
+    "id": "HS05survey",
+    "url": "https://arxiv.org/pdf/quant-ph/0509153",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/0509153",
+    "sha256": "4bf3739060154ccf7a1c350cb7c546ad7e89430ff472d3f0449d2156454ffaee",
+    "pages": 22,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "HS05survey"
+  },
+  {
+    "id": "Aar21survey",
+    "url": "https://arxiv.org/pdf/2109.06917",
+    "resolved_url": "https://arxiv.org/pdf/2109.06917",
+    "sha256": "218a97ec9b939839db05f5540498d63d94a2b154562a791af88f1ebf133fd750",
+    "pages": 11,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Aar21survey"
+  },
+  {
+    "id": "AKK16",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol050-ccc2016/LIPIcs.CCC.2016.4/LIPIcs.CCC.2016.4.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol050-ccc2016/LIPIcs.CCC.2016.4/LIPIcs.CCC.2016.4.pdf",
+    "sha256": "e8aa6536c9aefabb440c82a362da7b5548dd62331cff0ae2d5c76fbac2d835a7",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AKK16final"
+  },
+  {
+    "id": "GPW18",
+    "url": "https://eccc.weizmann.ac.il/report/2015/050/revision/1/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2015/050/revision/1/download/",
+    "sha256": "adb3bcfbdb2b2652cbbd5e461c8070628773ff0601e35a67abcc45ad3cf3e156",
+    "pages": 17,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GPW18"
+  },
+  {
+    "id": "NW95",
+    "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/NOAM/RANK/journal.pdf",
+    "resolved_url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/NOAM/RANK/journal.pdf",
+    "sha256": "351d290d97313cb932e209ec843862c92ab62e92d23a8b5615195f322da9ee0e",
+    "pages": 10,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "NW95"
+  },
+  {
+    "id": "Bal21",
+    "url": "https://arxiv.org/pdf/2103.05593",
+    "resolved_url": "https://arxiv.org/pdf/2103.05593",
+    "sha256": "1b33f1c038ccd7ebd4931dbf50c2562e5cfafcb816400540d589af01620326d1",
+    "pages": 5,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Several21"
+  },
+  {
+    "id": "BBGJK21",
+    "url": "https://arxiv.org/pdf/2102.08348",
+    "resolved_url": "https://arxiv.org/pdf/2102.08348",
+    "sha256": "5915f76cb7ab3d6d76a81b9c3ac5acbecbc4e6a26fec200c7a83af643e1367dd",
+    "pages": 15,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BGJK21"
+  },
+  {
+    "id": "Pab26",
+    "url": "https://arxiv.org/pdf/2608.02533",
+    "resolved_url": "https://arxiv.org/pdf/2608.02533",
+    "sha256": "e682d8ae2ff6693200d06f887f5867f72e2137bc33378bc0a9cc0b847349fe0d",
+    "pages": 41,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Bal26UC"
+  },
+  {
+    "id": "Bal26",
+    "url": "https://arxiv.org/pdf/2608.30351",
+    "resolved_url": "https://arxiv.org/pdf/2608.30351",
+    "sha256": "67f1d332ba19a2e8a6d474bbad2695c7edb456fc281d1c5838c10045edde0827",
+    "pages": 17,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Bal26adeg"
+  },
+  {
+    "id": "SW86",
+    "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SW86/SW86.pdf",
+    "resolved_url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SW86/SW86.pdf",
+    "sha256": "1dc6c6ad7faf874843443711ee78f0a6d219d85c26707f9191727acd48062df5",
+    "pages": 10,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "SW86"
+  },
+  {
+    "id": "HLS07",
+    "url": "https://arxiv.org/pdf/quant-ph/0611054",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/0611054",
+    "sha256": "8c705081dc3243baa1c83a64ed92870c7cd42fa91dd872c469621158af2c37bb",
+    "pages": 29,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "HLS07"
+  },
+  {
+    "id": "LMRSS11",
+    "url": "https://arxiv.org/pdf/1011.3020",
+    "resolved_url": "https://arxiv.org/pdf/1011.3020",
+    "sha256": "edb6a9db14e47b34a18a5b54610041c680bbe090084e81ca1822eddd990228f1",
+    "pages": 19,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "LMRSS11"
+  },
+  {
+    "id": "AB23",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol264-ccc2023/LIPIcs.CCC.2023.24/LIPIcs.CCC.2023.24.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol264-ccc2023/LIPIcs.CCC.2023.24/LIPIcs.CCC.2023.24.pdf",
+    "sha256": "f718a04c79b578dde01b2f0ce98eb6e5e3e7d30d7b653a8a5f6357149b9e7c13",
+    "pages": 13,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AB23"
+  },
+  {
+    "id": "ABK21",
+    "url": "https://arxiv.org/pdf/2012.03415",
+    "resolved_url": "https://arxiv.org/pdf/2012.03415",
+    "sha256": "6a9cad1335639b2c5b4edb252e22c32903724fc2b268bb23431008b3f80df44b",
+    "pages": 39,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ABK21"
+  },
+  {
+    "id": "AKPVZ18",
+    "url": "https://arxiv.org/pdf/1709.08985",
+    "resolved_url": "https://arxiv.org/pdf/1709.08985",
+    "sha256": "b21bf94143e94c17f5a61181c6fe91b5afa659ea8aa81346935e3e55b37b3f65",
+    "pages": 22,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AKPV18"
+  },
+  {
+    "id": "GIPS21",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol200-ccc2021/LIPIcs.CCC.2021.36/LIPIcs.CCC.2021.36.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol200-ccc2021/LIPIcs.CCC.2021.36/LIPIcs.CCC.2021.36.pdf",
+    "sha256": "d79091562a42393bea363263515e4f525b202b0eda2a844d3e8363ad135df41c",
+    "pages": 22,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GIPS21"
+  },
+  {
+    "id": "CDM23full",
+    "url": "https://eccc.weizmann.ac.il/report/2023/039/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2023/039/download/",
+    "sha256": "00f2e6c2c268f37e761d8da1beec66ba26916960d3d5e936df2743bb27bff4a7",
+    "pages": 23,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CDM23full"
+  },
+  {
+    "id": "AGL26",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/LIPIcs.ICALP.2026.3/LIPIcs.ICALP.2026.3.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/LIPIcs.ICALP.2026.3/LIPIcs.ICALP.2026.3.pdf",
+    "sha256": "090cf8cd9f7c91fe18967a7a7fb316512b35d60cc2bb0a7c5b1594373b340287",
+    "pages": 22,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AGL26final"
+  },
+  {
+    "id": "GS26",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/LIPIcs.ITCS.2026.72/LIPIcs.ITCS.2026.72.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/LIPIcs.ITCS.2026.72/LIPIcs.ITCS.2026.72.pdf",
+    "sha256": "6ddca758ad889faed006ef129078304b710326bd1a860e6128bbad9743ef8426",
+    "pages": 22,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GS26"
+  },
+  {
+    "id": "BHMT02",
+    "url": "https://arxiv.org/pdf/quant-ph/0005055",
+    "resolved_url": "https://arxiv.org/pdf/quant-ph/0005055",
+    "sha256": "badedce80b0fe53e6cd93f915ce79c9680e375bb6565f83d2f572bc4114b0278",
+    "pages": 32,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BHMT02"
+  },
+  {
+    "id": "DJ92",
+    "url": "https://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/deutsch_jozsa92/deutsch_jozsa92.pdf",
+    "resolved_url": "https://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/deutsch_jozsa92/deutsch_jozsa92.pdf",
+    "sha256": "385cde04e3846b8ff60f5bc348aef8c61aec14f923503d998edb4555a3f13a3c",
+    "pages": 3,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "DJ92"
+  },
+  {
+    "id": "ABK21",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol200-ccc2021/LIPIcs.CCC.2021.30/LIPIcs.CCC.2021.30.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol200-ccc2021/LIPIcs.CCC.2021.30/LIPIcs.CCC.2021.30.pdf",
+    "sha256": "62110b0c53e26e8cccf332743f693769b230340509ea5e69b5c53501b5ac781b",
+    "pages": 39,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ABK21final"
+  },
+  {
+    "id": "AKPV18",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol096-stacs2018/LIPIcs.STACS.2018.8/LIPIcs.STACS.2018.8.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol096-stacs2018/LIPIcs.STACS.2018.8/LIPIcs.STACS.2018.8.pdf",
+    "sha256": "dbaca5f94003db356f3c381194224ae4d9f7a61bc683bbacb52a462d3cdedf7c",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AKPV18final"
+  },
+  {
+    "id": "GGR13",
+    "url": "https://www.wisdom.weizmann.ac.il/~oded/VO/b-alg.pdf",
+    "resolved_url": "https://www.wisdom.weizmann.ac.il/~oded/VO/b-alg.pdf",
+    "sha256": "2f9001da0fb4503ab39d87480fbef9dcb6f4549a23d4c33259c9c041ceae9147",
+    "pages": 18,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GGR13"
+  },
+  {
+    "id": "CDMRS23",
+    "url": "https://ir.cwi.nl/pub/33241/33241.pdf",
+    "resolved_url": "https://ir.cwi.nl/pub/33241/33241.pdf",
+    "sha256": "fe7983980a9cd8b4bcf05fb8fbdbaf651eb577638e45269e2782bdce42b1b629",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CDMRS23"
+  },
+  {
+    "id": "KLMY21survey",
+    "url": "https://cseweb.ucsd.edu/~shmcguir/papers/KLMYsigact.pdf",
+    "resolved_url": "https://cseweb.ucsd.edu/~shmcguir/papers/KLMYsigact.pdf",
+    "sha256": "aa3932ea41848d2bef0d9dd1aa7a7e7014c7821a41cb240b3eeeb0be93687d98",
+    "pages": 27,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KLMY21survey"
+  },
+  {
+    "id": "ZPP26",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/LIPIcs.ITCS.2026.60/LIPIcs.ITCS.2026.60.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/LIPIcs.ITCS.2026.60/LIPIcs.ITCS.2026.60.pdf",
+    "sha256": "cbf215661b92f5d9de451e31ec2fdd0b36003efcb4dec46274431d73f270d9ec",
+    "pages": 26,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "ZPP26"
+  },
+  {
+    "id": "CMP22",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol250-fsttcs2022/LIPIcs.FSTTCS.2022.15/LIPIcs.FSTTCS.2022.15.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol250-fsttcs2022/LIPIcs.FSTTCS.2022.15/LIPIcs.FSTTCS.2022.15.pdf",
+    "sha256": "70ab014dfa5a76b7aa8b2dd33c3087133519b599ca742341180f9661dc35533d",
+    "pages": 22,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CMP22"
+  },
+  {
+    "id": "KLMY21",
+    "url": "https://cseweb.ucsd.edu/~shmcguir/papers/KLMY21.pdf",
+    "resolved_url": "https://cseweb.ucsd.edu/~shmcguir/papers/KLMY21.pdf",
+    "sha256": "a87446190d8bd6c60258798f5a8a9f887885b540fa2ab74bb80efde11782a95a",
+    "pages": 20,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "KLMY21"
+  },
+  {
+    "id": "LL16",
+    "url": "https://theoryofcomputing.org/articles/v012a018/v012a018.pdf",
+    "resolved_url": "https://theoryofcomputing.org/articles/v012a018/v012a018.pdf",
+    "sha256": "a3c969c6dbc5d7dc9a27ade1e2309e9b8dc07f7d1bf4559d31378de0a2b217b0",
+    "pages": 35,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "LL16"
+  },
+  {
+    "id": "BT20",
+    "url": "https://quantum-journal.org/papers/q-2020-03-02-241/pdf/",
+    "resolved_url": "https://quantum-journal.org/papers/q-2020-03-02-241/pdf/",
+    "sha256": "12dcd94a7a1f28b52de0d1786968e8a98776bd5baed1d31642a4241e65ef228f",
+    "pages": 32,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BT20"
+  },
+  {
+    "id": "LM19",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol126-stacs2019/LIPIcs.STACS.2019.50/LIPIcs.STACS.2019.50.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol126-stacs2019/LIPIcs.STACS.2019.50/LIPIcs.STACS.2019.50.pdf",
+    "sha256": "3367c8a2067476a7e2a1155358772ae025b932bbf2c11ad0091add3828397233",
+    "pages": 19,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "LM19"
+  },
+  {
+    "id": "DMbasis25",
+    "url": "https://eccc.weizmann.ac.il/report/2025/101/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2025/101/download/",
+    "sha256": "6c7fb2222e5fe43bf843c77e639392a4e0651490ed6b00fe2658745e6dc25f45",
+    "pages": 32,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "DMbasis25"
+  },
+  {
+    "id": "Sparse25",
+    "url": "https://eccc.weizmann.ac.il/report/2025/172/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2025/172/download/",
+    "sha256": "cf6be0d77b9a25d88538fd1e705709e63cfbb755636e52039cc2bea62ab12590",
+    "pages": 37,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "Sparse25"
+  },
+  {
+    "id": "CCM26",
+    "url": "https://arxiv.org/pdf/2602.07503",
+    "resolved_url": "https://arxiv.org/pdf/2602.07503",
+    "sha256": "2358028aff7ccf12b2aaf9191d8a1bc9ec035010d00aa2393f1c6b765ef9497e",
+    "pages": 34,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CCM26"
+  },
+  {
+    "id": "CMP25",
+    "url": "https://quantum-journal.org/papers/q-2025-06-23-1777/pdf/",
+    "resolved_url": "https://quantum-journal.org/papers/q-2025-06-23-1777/pdf/",
+    "sha256": "ac54724bc1140ce9363feaee49629a636671504b670afcc47bfdfaf62fd578e5",
+    "pages": 42,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CMP25"
+  },
+  {
+    "id": "CDM25",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00037-025-00266-7.pdf",
+    "resolved_url": "https://link.springer.com/content/pdf/10.1007/s00037-025-00266-7.pdf?error=cookies_not_supported&code=168a103a-6f2b-4d03-a7dc-abefa8e22fe4",
+    "sha256": "2d08d846e167a313781c4461de7ef17557cfcb2396f191b52188e14710fdfba3",
+    "pages": 57,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CDM25"
+  },
+  {
+    "id": "EH89",
+    "source_file": "user-supplied/1-s2.0-0890540189900011-main.pdf",
+    "sha256": "c2a7d30a5c858bdf123992c7057b7e9635d62c33bf3e605350db21e02aac0c13",
+    "pages": 16,
+    "retrieved": "2026-10-17",
+    "provenance": "user_supplied_original_pdf",
+    "snapshot_id": "EH89original"
+  },
+  {
+    "id": "Nis89",
+    "source_file": "user-supplied/73007.73038.pdf",
+    "sha256": "fef3d08ddcd8e1f57292001267ca63c581a04211c223b236f42c57859ee10d93",
+    "pages": 9,
+    "retrieved": "2026-10-17",
+    "provenance": "user_supplied_original_pdf",
+    "snapshot_id": "Nis89original"
+  },
+  {
+    "id": "CHS20",
+    "url": "https://arxiv.org/pdf/1801.08564",
+    "resolved_url": "https://arxiv.org/pdf/1801.08564",
+    "sha256": "5fa0f8bee0b65c6bb9f85c0c0ae076520d5bd69b3b34c2f39fcf5a82b8389e4d",
+    "pages": 6,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "CHS20"
+  },
+  {
+    "id": "DFLLV21",
+    "url": "https://arxiv.org/pdf/2010.07405",
+    "resolved_url": "https://arxiv.org/pdf/2010.07405",
+    "sha256": "c5520c93336800632009f0ccc8fa7904640386a1e3b10b7a33d14c30de7585d2",
+    "pages": 59,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "DFLLV21"
+  },
+  {
+    "id": "HKMP26",
+    "url": "https://arxiv.org/pdf/2603.29256",
+    "resolved_url": "https://arxiv.org/pdf/2603.29256",
+    "sha256": "cff2cc4ef69030ae57a191898dad79a4586db598618ea798489c193134a3a159",
+    "pages": 40,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "HKMP26"
+  },
+  {
+    "id": "HKMP26final",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol386-mfcs2026/LIPIcs.MFCS.2026.10/LIPIcs.MFCS.2026.10.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol386-mfcs2026/LIPIcs.MFCS.2026.10/LIPIcs.MFCS.2026.10.pdf",
+    "sha256": "0923217b844e00e7df1a1e004bbb782de98fde4f06e07cf12c2eed09d18e8fa7",
+    "pages": 17,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "HKMP26final"
+  },
+  {
+    "id": "DFLLV22author",
+    "url": "https://yuvalfilmus.cs.technion.ac.il/Papers/measures.pdf",
+    "resolved_url": "https://yuvalfilmus.cs.technion.ac.il/Papers/measures.pdf",
+    "sha256": "c89741e4dbb46b433b10115e678ab76f6ab9c00501fdbf6b2eb61e0ac3ab4b99",
+    "pages": 62,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "DFLLV22author"
+  },
+  {
+    "id": "AA14",
+    "url": "https://theoryofcomputing.org/articles/v010a006/v010a006.pdf",
+    "resolved_url": "https://theoryofcomputing.org/articles/v010a006/v010a006.pdf",
+    "sha256": "1788bd82ce2ac8b6864bec7843ff934f98ff65cfad03028b02ad1c7e04d0864a",
+    "pages": 34,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "AA14"
+  },
+  {
+    "id": "GMNR26",
+    "url": "https://arxiv.org/pdf/2609.35327",
+    "resolved_url": "https://arxiv.org/pdf/2609.35327",
+    "sha256": "97712578bd65c081c26bf625dde17835e926803cd29d28fafd2ad4c9eb03d6fd",
+    "pages": 23,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "GMNR26"
+  },
+  {
+    "id": "DFLLV26",
+    "source_file": "user-supplied/qt0p80m4dg.pdf",
+    "url": "https://escholarship.org/content/qt0p80m4dg/qt0p80m4dg.pdf",
+    "sha256": "1a2f5ab8280dead7f0ecf8d007b36fef1934b457d83bae22d08bf352816d3fc5",
+    "pages": 61,
+    "retrieved": "2026-10-17",
+    "provenance": "official_journal_download_via_browser",
+    "snapshot_id": "DFLLV26journal"
+  },
+  {
+    "id": "BD16",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol061-tqc2016/LIPIcs.TQC.2016.7/LIPIcs.TQC.2016.7.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol061-tqc2016/LIPIcs.TQC.2016.7/LIPIcs.TQC.2016.7.pdf",
+    "sha256": "93147c3b5014e01256630e090e28fe520d5a8b543d7e7536f74eb304e3336dcd",
+    "pages": 14,
+    "retrieved": "2026-10-17",
+    "snapshot_id": "BD16"
+  },
+  {
+    "id": "Aar02",
+    "snapshot_id": "AarAuthor",
+    "url": "https://www.scottaaronson.com/papers/qcc.pdf",
+    "resolved_url": "https://www.scottaaronson.com/papers/qcc.pdf",
+    "sha256": "10a20d9222ed7eedd7822566337e28d1a44ed74be901e8444a91438747af8265",
+    "pages": 12,
+    "retrieved": "2026-10-17",
+    "version_note": "Undated later author manuscript; not authenticated as publisher journal PDF."
+  },
+  {
+    "id": "CL12",
+    "snapshot_id": "CL12author",
+    "url": "https://cs.uwaterloo.ca/~lapchi/papers/hypergraph.pdf",
+    "resolved_url": "https://cs.uwaterloo.ca/~lapchi/papers/hypergraph.pdf",
+    "sha256": "ce486d455d83539911fa81d283d2b44a3b81cbe0cbbfd027153291d55fe4cce5",
+    "pages": 26,
+    "retrieved": "2026-10-17"
+  }
+]

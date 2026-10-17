@@ -1,0 +1,1078 @@
+{
+  "source": "ABKBRT21",
+  "locator": "Table 1, printed PDF p.5",
+  "scope": "total Boolean decision functions",
+  "order": [
+    "D",
+    "R0",
+    "R",
+    "C",
+    "RC",
+    "bs",
+    "s",
+    "lambda",
+    "QE",
+    "deg",
+    "Q",
+    "adeg"
+  ],
+  "rounding": "Decimal labels are historical approximations. Do not treat 1.15, 1.33, 1.63, 2.22, 2.44 as exact optimal exponents.",
+  "cells": [
+    {
+      "A": "D",
+      "B": "R0",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "R",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "s",
+      "lower_label": "3",
+      "upper_label": "6",
+      "attribution_label": "BHT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "lambda",
+      "lower_label": "4",
+      "upper_label": "6",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "QE",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "deg",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "GPW18",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "Q",
+      "lower_label": "4",
+      "upper_label": "4",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "D",
+      "B": "adeg",
+      "lower_label": "4",
+      "upper_label": "4",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "R",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "s",
+      "lower_label": "3",
+      "upper_label": "6",
+      "attribution_label": "BHT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "lambda",
+      "lower_label": "4",
+      "upper_label": "6",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "QE",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "deg",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "GJPW18",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "Q",
+      "lower_label": "3",
+      "upper_label": "4",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R0",
+      "B": "adeg",
+      "lower_label": "4",
+      "upper_label": "4",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "s",
+      "lower_label": "3",
+      "upper_label": "6",
+      "attribution_label": "BHT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "lambda",
+      "lower_label": "4",
+      "upper_label": "6",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "QE",
+      "lower_label": "1.5",
+      "upper_label": "3",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "deg",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "GJPW18",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "Q",
+      "lower_label": "3",
+      "upper_label": "4",
+      "attribution_label": "BS21+SSW20",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "R",
+      "B": "adeg",
+      "lower_label": "4",
+      "upper_label": "4",
+      "attribution_label": "ABBLS17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "2",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "GSS13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "GSS13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "s",
+      "lower_label": "2.22",
+      "upper_label": "5",
+      "attribution_label": "BHT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "lambda",
+      "lower_label": "2.44",
+      "upper_label": "6",
+      "attribution_label": "BHT17footnote",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "QE",
+      "lower_label": "1.15",
+      "upper_label": "3",
+      "attribution_label": "Amb13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "deg",
+      "lower_label": "1.63",
+      "upper_label": "3",
+      "attribution_label": "NW95",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "Q",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "C",
+      "B": "adeg",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "C",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "bs",
+      "lower_label": "1.5",
+      "upper_label": "2",
+      "attribution_label": "GSS13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "s",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "Rub95",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "lambda",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "QE",
+      "lower_label": "1.15",
+      "upper_label": "2",
+      "attribution_label": "Amb13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "deg",
+      "lower_label": "1.63",
+      "upper_label": "2",
+      "attribution_label": "NW95",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "Q",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "RC",
+      "B": "adeg",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "C",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "RC",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "s",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "Rub95",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "lambda",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "QE",
+      "lower_label": "1.15",
+      "upper_label": "2",
+      "attribution_label": "Amb13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "deg",
+      "lower_label": "1.63",
+      "upper_label": "2",
+      "attribution_label": "NW95",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "Q",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "bs",
+      "B": "adeg",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "C",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "RC",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "bs",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "lambda",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "QE",
+      "lower_label": "1.15",
+      "upper_label": "2",
+      "attribution_label": "Amb13",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "deg",
+      "lower_label": "1.63",
+      "upper_label": "2",
+      "attribution_label": "NW95",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "Q",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "s",
+      "B": "adeg",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "C",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "RC",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "bs",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "s",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "QE",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "deg",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "Q",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "lambda",
+      "B": "adeg",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "R0",
+      "lower_label": "1.33",
+      "upper_label": "2",
+      "attribution_label": "NANDtree",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "R",
+      "lower_label": "1.33",
+      "upper_label": "3",
+      "attribution_label": "NANDtree",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "s",
+      "lower_label": "3",
+      "upper_label": "6",
+      "attribution_label": "BHT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "lambda",
+      "lower_label": "4",
+      "upper_label": "6",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "deg",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "Q",
+      "lower_label": "2",
+      "upper_label": "4",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "QE",
+      "B": "adeg",
+      "lower_label": "4",
+      "upper_label": "4",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "R0",
+      "lower_label": "1.33",
+      "upper_label": "2",
+      "attribution_label": "NANDtree",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "R",
+      "lower_label": "1.33",
+      "upper_label": "2",
+      "attribution_label": "NANDtree",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "s",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ANDOR",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "lambda",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "QE",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "Q",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "deg",
+      "B": "adeg",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "s",
+      "lower_label": "3",
+      "upper_label": "6",
+      "attribution_label": "BHT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "lambda",
+      "lower_label": "4",
+      "upper_label": "6",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "QE",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "deg",
+      "lower_label": "2",
+      "upper_label": "3",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "Q",
+      "B": "adeg",
+      "lower_label": "4",
+      "upper_label": "4",
+      "attribution_label": "ABK16",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "D",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "R0",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "R",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "C",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "BT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "RC",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "BT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "bs",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "BT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "s",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "BT17",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "lambda",
+      "lower_label": "2",
+      "upper_label": "2",
+      "attribution_label": "AND",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "QE",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "deg",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    },
+    {
+      "A": "adeg",
+      "B": "Q",
+      "lower_label": "1",
+      "upper_label": "1",
+      "attribution_label": "parity",
+      "status": "historical_table_transcribed_not_current_best"
+    }
+  ]
+}

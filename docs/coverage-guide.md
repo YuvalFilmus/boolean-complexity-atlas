@@ -1,0 +1,273 @@
+# Measures covered so far
+
+There are 249 defined entries. This counts separately different carriers, cost/error conventions, orientations, certification transformations and minimum-completion measures. It is not a count of independent mathematical notions. Definitions and source-dependent notation are in `measures.md` and `historical-notation.md`.
+
+| Family | Included notions |
+|---|---|
+| Query complexity | Deterministic D; bounded-error R,Q; zero-error R0,Q0; one-sided R1; exact QE; error-parameterized, expected, average, distributional, weighted and nonadaptive variants |
+| Sensitivity | Sensitivity and output sides; block sensitivity and bounded block sizes; fractional block sensitivity; spectral sensitivity; monotone, critical and promise-exit variants; block and brick numbers |
+| Certificates | C,C0,C1; fractional FC; randomized RC and quantum QC; unambiguous UC,UC0,UC1,UCmin; minimum/downward-closed variants; strong, output-set and exclusion certificates |
+| Polynomial measures | Exact, approximate and globally bounded degree; rational, approximate rational, nondeterministic and threshold degree; one-sided, block-multilinear, conical/nonnegative-literal and sum-of-squares degree |
+| Sparsity and weight | Fourier sparsity, degree-optimal bounded Fourier sparsity, coordinate sparsity/influence, 0/1-monomial sparsity and weight, approximate and generalized versions |
+| Lower-bound and verification measures | Positive and general adversary; classical adversary; quantum distinguishing and statistical-zero-knowledge queries; sabotage variants; certificate games with public/private coins, entanglement and nonsignaling resources; expectational certificates |
+| Search and tree structure | Deterministic/randomized/quantum relation measures; pseudo-deterministic queries; relation polynomial/adversary/sensitivity measures; verification; leaf/node size, deterministic/randomized rank, guessing complexity and monochromatic cover numbers |
+| Other query models | Parity and conjunction/AND–OR queries; zero-answer depth; hazard-free/unknown-input queries; postselection; bomb queries; negligent/dephasing noisy quantum queries |
+| Relevance and analytic parameters | Number of relevant variables; distributional variance and influences; slice swap influence; promise covering radius and polynomial derivative norms |
+| Completion and certification | 23 minimum-over-total-completion measures; completion-critical sensitivity/certificates; a separate family of measures for certifying a computation’s output |
+| Beyond the cube | Permutation measures, distinguishing forward-only from forward/inverse queries; a common query-domain family with profiles for products, permutations, perfect matchings, hypermatchings, multislices and slices |
+
+Scopes distinguish total and partial Boolean functions, total and partial search relations, symmetric functions and other restricted classes. Search and non-cube comparisons do not inherit cube theorems without a checked reduction and compatible oracle.
+
+The full 23-measure completion comparison inventory has 506 ordered cells with evidence; the main total and promise core each contains twelve measures. The generic-domain inventory has twelve measures, with domain-dependent constants retained. This is broader than the core, but is not yet an exhaustive inventory of every measure ever introduced. Historical aliases remain source-qualified, including clashes.
+
+## Complete entry index
+
+- `adeg`: approximate degree
+- `adeg_bounded`: bounded-range approximate degree
+- `adeg_eps`: error-parameterized approximate degree
+- `adegOptimalFourierSparsity`: degree-optimal bounded approximate Fourier sparsity of a partial function
+- `AdvGeneral`: general adversary bound
+- `AdvPlus`: positive-weight adversary bound
+- `AdvPlus_cert`: certification of positive-weight adversary bound
+- `ANDD`: conjunctive decision tree depth
+- `approxGeneralizedSparsity`: approximate generalized real monomial sparsity
+- `approxGeneralizedWeight`: approximate generalized real monomial coefficient weight
+- `approxMonomialSparsity`: approximate real monomial sparsity
+- `approxMonomialWeight`: approximate real monomial coefficient weight
+- `Bbomb`: bomb query complexity
+- `BbombParams`: error-parameter bomb query complexity
+- `biasedCoordInfluence`: biased Fourier coefficient influence
+- `blocknumber`: block number
+- `blocknumber_l`: bounded-size block number
+- `bmAdeg`: block-multilinear bounded approximate degree
+- `boundedPolyDelta`: asymmetric bounded polynomial degree
+- `bricknumber`: brick number
+- `bricknumber_l`: bounded-size brick number
+- `bs`: block sensitivity
+- `bs0`: 0-block sensitivity
+- `bs1`: 1-block sensitivity
+- `bs_l`: bounded-block-size sensitivity
+- `C`: certificate complexity
+- `C0`: 0-certificate complexity
+- `C1`: 1-certificate complexity
+- `CAdv`: classical adversary bound
+- `CAdv_cert`: certification of classical adversary bound
+- `Cbar0`: certificate complexity for excluding output zero
+- `Cbar1`: certificate complexity for excluding output one
+- `cfbs_boolean`: critical fractional block sensitivity of a partial Boolean function
+- `CGent`: entangled certificate game complexity
+- `CGns`: nonsignaling certificate game complexity
+- `CGpriv`: private-coin certificate game complexity
+- `CGprivSingle`: single-bit private-coin certificate game complexity
+- `CGpub`: public-coin certificate game complexity
+- `CGpubSingle`: single-bit public-coin certificate game complexity
+- `Cmin`: minimum certificate complexity
+- `completion_adeg`: minimum-completion approximate degree
+- `completion_bs`: minimum-completion block sensitivity
+- `completion_C`: minimum-completion certificate complexity
+- `completion_C0`: minimum-completion 0-certificate complexity
+- `completion_C1`: minimum-completion 1-certificate complexity
+- `completion_D`: minimum-completion deterministic query complexity
+- `completion_deg`: minimum-completion real exact polynomial degree
+- `completion_fbs`: minimum-completion fractional block sensitivity
+- `completion_FC`: minimum-completion fractional certificate complexity
+- `completion_lambda`: minimum-completion spectral sensitivity
+- `completion_nRelevant`: minimum relevant-variable count of a total completion
+- `completion_Q`: minimum-completion bounded-error quantum query complexity
+- `completion_Q0`: minimum-completion zero-error quantum query complexity
+- `completion_QC`: minimum-completion quantum certificate complexity
+- `completion_QE`: minimum-completion exact quantum query complexity
+- `completion_R`: minimum-completion bounded-error randomized query complexity
+- `completion_R0`: minimum-completion zero-error randomized query complexity
+- `completion_R1`: minimum-completion one-sided-error randomized query complexity
+- `completion_RC`: minimum-completion randomized certificate complexity
+- `completion_s`: minimum-completion sensitivity
+- `completion_UC`: minimum-completion unambiguous certificate complexity
+- `completion_UC0`: minimum-completion 0-unambiguous certificate complexity
+- `completion_UC1`: minimum-completion 1-unambiguous certificate complexity
+- `conical`: two-sided approximate nonnegative degree for decision functions
+- `coverN`: monochromatic subcube cover number
+- `coverN0`: 0-monochromatic subcube cover number
+- `coverN1`: 1-monochromatic subcube cover number
+- `criticalBScompletion`: completion-critical block sensitivity
+- `criticalCertificate`: block-optimal-completion critical certificate complexity
+- `Cset`: output-set certificate complexity
+- `Cstrong`: strong certificate complexity of a partial function
+- `cubeBoundedAdeg`: globally bounded approximate polynomial degree
+- `cubeBoundedAdeg_cert`: certification of globally bounded approximate polynomial degree
+- `cubeBoundedDeg`: globally bounded exact polynomial degree
+- `cubeBoundedDeg_cert`: certification of globally bounded exact polynomial degree
+- `D`: deterministic query complexity
+- `D_cert`: certification of deterministic query complexity
+- `DandOr`: deterministic positive AND/OR query complexity
+- `DandPos`: deterministic positive and query complexity
+- `Davg`: average-cost deterministic query complexity
+- `Ddist`: distributional deterministic query depth
+- `deg`: real exact polynomial degree
+- `degreeOptimalFourierSparsity`: degree-optimal bounded exact Fourier sparsity of a partial function
+- `distFlipInfluence`: distributional bit-flip squared influence
+- `distTotalInfluence`: distributional total bit-flip squared influence
+- `distVariance`: distributional variance
+- `Dna`: nonadaptive deterministic query complexity
+- `domainAdeg`: query-domain spatial approximate degree
+- `domainBS`: query-domain block sensitivity
+- `domainC`: query-domain certificate complexity
+- `domainCoverRadius`: covering radius of a promise domain
+- `domainD`: query-domain deterministic depth
+- `domainDegree`: query-domain spatial degree
+- `domainFBS`: query-domain fractional block sensitivity
+- `domainQ`: query-domain bounded-error quantum queries
+- `domainQE`: query-domain exact quantum queries
+- `domainR`: query-domain bounded-error randomized depth
+- `domainRfail23`: query-domain detectable-failure depth
+- `domainS`: query-domain chunk sensitivity
+- `domainUC`: query-domain unambiguous certificate complexity
+- `Dpar`: deterministic parity query complexity
+- `DSizeDist`: distributional deterministic leaf size
+- `DTGuess`: minimum deterministic tree guessing complexity
+- `DTNodes`: deterministic decision tree total-node size
+- `DTRank`: decision tree rank
+- `DTSize`: decision tree leaf size
+- `Dweighted`: weighted deterministic query complexity
+- `DzeroDepth`: deterministic zero-answer depth
+- `EC`: expectational certificate complexity
+- `EC_cert`: certification of expectational certificate complexity
+- `fbs`: fractional block sensitivity
+- `fbs0`: 0-input fractional block sensitivity
+- `fbs1`: 1-input fractional block sensitivity
+- `fbs_at0`: fractional block sensitivity at the all-zero input
+- `fbsmin`: minimum fractional block sensitivity
+- `fbsminDown`: downward-closed minimum fractional block sensitivity
+- `FC`: fractional certificate complexity
+- `FC0`: 0-input fractional certificate complexity
+- `FC1`: 1-input fractional certificate complexity
+- `fmbs`: fractional monotone block sensitivity
+- `generalizedSparsity`: generalized real monomial sparsity
+- `generalizedWeight`: generalized real monomial coefficient weight
+- `hazardBS`: u-block sensitivity
+- `hazardC`: u-certificate complexity
+- `hazardD`: deterministic u-query complexity
+- `hazardQ`: quantum u-query complexity
+- `hazardR`: randomized u-query complexity
+- `hazardS`: u-sensitivity
+- `IC`: query instance complexity
+- `input1bs`: input-one block sensitivity
+- `input1s`: input-one sensitivity
+- `lambda`: spectral sensitivity
+- `lambda_cert`: certification of spectral sensitivity
+- `literaldeg`: nonnegative literal degree
+- `mbs`: monotone block sensitivity
+- `MCC`: monotone certificate complexity
+- `monomialSparsity`: real multilinear monomial sparsity on the 0/1 cube
+- `monomialWeight`: real monomial coefficient weight
+- `ms`: monotone sensitivity
+- `ndeg`: nondeterministic polynomial degree
+- `NisR1expect`: Nisan expected one-sided-error randomized query complexity
+- `NisR2expect`: Nisan expected two-sided-error randomized query complexity
+- `nRelevant`: number of relevant variables
+- `osdeg`: two-orientation one-sided bounded polynomial degree
+- `osdeg0`: one-sided bounded polynomial degree (osdeg0)
+- `osdeg1`: one-sided bounded polynomial degree (osdeg1)
+- `osdeg_cert`: certification of two-orientation one-sided bounded polynomial degree
+- `permAdeg`: permutation approximate degree
+- `permBS`: permutation block sensitivity
+- `permC`: permutation certificate complexity
+- `permD`: permutation decision-tree depth
+- `permDegree`: permutation polynomial degree
+- `permEdgeS`: transposition edge sensitivity
+- `permFBS`: permutation fractional block sensitivity
+- `permQ`: permutation bounded-error quantum query complexity
+- `permQE`: permutation exact quantum query complexity
+- `permR`: permutation randomized query depth
+- `permRfail23`: permutation detectable-failure query depth
+- `permS`: disjoint-transposition sensitivity
+- `permUC`: permutation unambiguous certificate complexity
+- `polyCoordInfluence`: coordinate Fourier influence of a fixed polynomial
+- `polyCoordSparsity`: coordinate Fourier sparsity of a fixed polynomial
+- `polyMaxDerivative`: maximum coordinate derivative sup norm
+- `PostQ`: postselected bounded-error quantum query complexity
+- `PostQE`: exact postselected quantum query complexity
+- `promiseBS`: exit-sensitive block sensitivity
+- `promiseS`: exit-sensitive sensitivity
+- `psDTSize`: pseudo-deterministic randomized decision tree leaf size
+- `psQ`: pseudo-deterministic quantum query complexity
+- `psR`: pseudo-deterministic randomized classical query complexity
+- `psR0avg`: average-cost strict canonical zero-error query complexity
+- `psRandOr`: pseudo-deterministic randomized positive AND/OR query complexity
+- `psRandPos`: pseudo-deterministic randomized positive and query complexity
+- `psRavg`: average-cost pseudo-deterministic query complexity
+- `psRna`: nonadaptive pseudo-deterministic randomized query complexity
+- `psRpar`: pseudo-deterministic randomized parity query complexity
+- `Q`: bounded-error quantum query complexity
+- `Q0`: zero-error quantum query complexity
+- `Q0_cert`: certification of zero-error quantum query complexity
+- `Q_cert`: certification of bounded-error quantum query complexity
+- `Q_eps`: error-parameter quantum query complexity
+- `QC`: quantum certificate complexity
+- `QC0`: 0-input quantum certificate complexity
+- `QC1`: 1-input quantum certificate complexity
+- `QD`: quantum distinguishing complexity
+- `QD_cert`: certification of quantum distinguishing complexity
+- `Qdephasing`: noisy quantum query complexity (Qdephasing)
+- `QE`: exact quantum query complexity
+- `QE_cert`: certification of exact quantum query complexity
+- `Qexp`: quantum query complexity in expectation
+- `Qnegligent`: noisy quantum query complexity (Qnegligent)
+- `QS`: weak-input quantum sabotage complexity
+- `QS_cert`: certification of weak-input quantum sabotage complexity
+- `QSstrong`: quantum sabotage complexity (QSstrong)
+- `QSstrongIndex`: quantum sabotage complexity (QSstrongIndex)
+- `QSweakIndex`: quantum sabotage complexity (QSweakIndex)
+- `QSZK`: quantum statistical-zero-knowledge query complexity
+- `R`: bounded-error randomized query complexity
+- `R0`: zero-error randomized query complexity
+- `R0_cert`: certification of zero-error randomized query complexity
+- `R0avg`: average-cost strict Las Vegas query complexity
+- `R1`: one-sided-error randomized query complexity
+- `R_cert`: certification of bounded-error randomized query complexity
+- `RandOr`: bounded-error randomized positive AND/OR query complexity
+- `RandPos`: bounded-error randomized positive and query complexity
+- `Ravg`: average-cost bounded-error randomized query complexity
+- `RC`: randomized certificate complexity
+- `RC0`: 0-input randomized certificate complexity
+- `RC1`: 1-input randomized certificate complexity
+- `RCmin`: minimum randomized certificate complexity
+- `RCminDown`: downward-closed minimum randomized certificate complexity
+- `rdeg`: exact rational degree
+- `rdeg_cert`: certification of exact rational degree
+- `rdeg_eps`: approximate rational degree
+- `rel_adeg`: bounded approximate degree for relations
+- `rel_Adv`: relation positive adversary bound
+- `rel_bs`: relation block sensitivity
+- `rel_CAdv`: relation classical adversary bound
+- `rel_cbs`: critical block sensitivity
+- `rel_conical`: two-sided approximate nonnegative degree for relations
+- `rel_deg`: exact bounded polynomial degree for relations
+- `rel_fbs`: relation fractional block sensitivity
+- `rel_fcbs`: fractional critical block sensitivity
+- `rel_Qeps`: error-parameter quantum search query complexity
+- `rel_udeg`: promise-only approximate degree for relations
+- `Rexp`: randomized query complexity in expectation
+- `Rfail`: zero-error randomized query cap with detectable failure
+- `Rna`: nonadaptive randomized query complexity
+- `RNodes`: randomized decision tree total-node size
+- `Rpar`: bounded-error randomized parity query complexity
+- `rrank`: randomized decision tree rank
+- `RS`: randomized sabotage complexity
+- `RS_cert`: certification of randomized sabotage complexity
+- `RSize`: randomized decision tree leaf size
+- `RzeroDepth`: randomized zero-answer depth
+- `s`: sensitivity
+- `s0`: 0-sensitivity
+- `s1`: 1-sensitivity
+- `signDeg`: sign / threshold degree
+- `sliceSwapInfluence`: slice transposition squared influence
+- `sosdeg`: sum-of-squares degree
+- `sparsity`: Fourier sparsity
+- `sparsityNonempty`: nonconstant Fourier sparsity
+- `UC`: unambiguous certificate complexity
+- `UC0`: 0-unambiguous certificate complexity
+- `UC1`: 1-unambiguous certificate complexity
+- `UC_cert`: certification of unambiguous certificate complexity
+- `UCmin`: minimum one-sided unambiguous certificate complexity
+- `V`: deterministic verification query complexity

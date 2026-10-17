@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-17",
+  "method": "separate assistant agent follow-up checks",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "checks": [
+    {
+      "id": "old-Aaronson-reset-counterexample",
+      "input": "OR_2; X=00; Z=11; sample each coordinate independently with probability 1/2",
+      "finding": "Valid optimal independent verifier; reset assertion gives 1/4, contradicting printed >=1/2. Does not refute Theorem 10.",
+      "status": "independently_checked_against_old_source_text"
+    },
+    {
+      "record": {
+        "id": "fractional-bs-quadratic-subtractive-completion",
+        "source": "Tal13",
+        "locator": "Repository consequence of original Section 5.1.2 and LP duality; minimum-completion lifting",
+        "statement": "Put g(0)=0 and g(b)=b^2-b+1 for integers b>=1. For total f, fbs(f)=FC(f)<=g(bs(f)); for arbitrary partial f, completion_fbs(f)=completion_FC(f)<=g(completion_bs(f)).",
+        "proof_summary": "For nonconstant total f, 1<=s<=b=bs and t-1+1/t is increasing on [1,infinity), so the original mixed packing bound gives fbs<=b*(b-1+1/b)=b^2-b+1. Fractional packing/covering LP duality gives FC=fbs. For completions choose a single total extension F minimizing bs. Minimum fbs is at most fbs(F), and apply the total bound to F. When b=0, this extension is constant and both minima are zero.",
+        "notes": "This retains lower-order terms beyond the quadratic upper exponent. It does not change the count of matching completion exponents. Separate minima are never multiplied. A separate agent checked the original Tal statement as well as the deduction; this is not an independent proof audit of the earlier hypergraph theorem. No optimality or novelty claim.",
+        "status": "repository_derivation_checked",
+        "proof_audit": "independent_agent_original_statement_algebra_and_completion_lift_passed"
+      },
+      "record_sha256": "28fbad1e8260d83f60f4f5764f528156061a0ae6587b00fff3bc7fca96a48e50",
+      "finding": "Original Tal Section 5.1.2 statement, monotonicity calculation, LP-duality use and single-minimizing-extension lift checked separately; g(0)=0 required. Does not audit the older original hypergraph proof.",
+      "status": "independently_checked_original_Boolean_statement_and_deduction"
+    }
+  ]
+}

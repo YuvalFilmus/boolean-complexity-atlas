@@ -1,0 +1,53 @@
+{
+  "source": "HKMP26",
+  "read_version": "arXiv v3, 30 September 2026",
+  "constructions": [
+    {
+      "name": "naive completions",
+      "notation": [
+        "F_0",
+        "F_1"
+      ],
+      "definition": "Extend f by a fixed output 0 or 1 on the entire complement of its promise.",
+      "locator": "Section 5.2"
+    },
+    {
+      "name": "natural completion",
+      "notation": [
+        "F",
+        "sign(p)"
+      ],
+      "definition": "For a fixed full-cube approximant to a ±1-valued function, F(x)=+1 when p(x)>=0 and -1 otherwise. It agrees with f on the promise.",
+      "locator": "Definition 59"
+    },
+    {
+      "name": "domain evaluation matrix",
+      "notation": [
+        "A_D(p)"
+      ],
+      "definition": "Rows are promised inputs and columns are the selected Fourier basis functions of a fixed approximant; entry (x,j) is phi_j(x). The surrounding definition chooses a degree-optimal sparsest approximant.",
+      "locator": "Definition 68"
+    },
+    {
+      "name": "coefficient perturbation",
+      "notation": [
+        "Delta",
+        "p_Delta"
+      ],
+      "definition": "p_Delta=p+sum_j Delta_j phi_j. Membership in Ker(A_D(p)) preserves values only on the promised domain.",
+      "locator": "Section 5.5.2"
+    }
+  ],
+  "parameters": {
+    "eta": "(2/3-d^(-c))/r_C(Dom f), positive and with r_C>0.",
+    "mu": "1-2p under HKMP26 Pr[x=-1]=p.",
+    "sigma": "2*sqrt(p*(1-p)).",
+    "beta": "max(sqrt(p/(1-p)),sqrt((1-p)/p)).",
+    "K": "sum_{l=0}^{d-1} binom(n-1,l)*beta^(2l)."
+  },
+  "warnings": [
+    "Natural completion fixes p; minimum-completion complexity minimizes over all total completions.",
+    "Coefficient infinity norm does not bound the full-cube function sup norm.",
+    "Exact or approximate sparsity in Definition 29 is minimized subject to degree optimality."
+  ]
+}

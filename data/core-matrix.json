@@ -1,0 +1,4941 @@
+{
+  "scope": "total Boolean decision functions, unrestricted class, fixed error, measure-specific zero-error conventions",
+  "order": [
+    "D",
+    "R0",
+    "R",
+    "C",
+    "RC",
+    "bs",
+    "s",
+    "lambda",
+    "QE",
+    "deg",
+    "Q",
+    "adeg"
+  ],
+  "cells": [
+    {
+      "A": "D",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "D-R0-sep-ABB",
+        "claim_ids": [
+          "D-R0-sep-ABB"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-C2",
+          "C-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "BdW02": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "R0",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "C-R2-sep-BK",
+        "claim_ids": [
+          "C-R2-sep-BK",
+          "C-D"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-R3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "BK26": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "R",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "D-UC-sep-AKK",
+        "claim_ids": [
+          "D-UC-sep-AKK",
+          "C-UC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-C2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "AKK16": "see_bibliography",
+        "BdW02": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "D-Q4-sep",
+        "claim_ids": [
+          "D-Q4-sep",
+          "partial-RC-Q2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-bs3",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "Aar02": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "D-Q4-sep",
+        "claim_ids": [
+          "D-Q4-sep",
+          "partial-bs-RC",
+          "partial-RC-Q2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-bs3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "Aar02": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 3,
+        "numeric_for_ranking": 3.0,
+        "witness": "C-s3-Pab",
+        "claim_ids": [
+          "C-s3-Pab",
+          "C-D"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-deg3",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "Pab26": "SODA_2027_camera_ready_as_reported_by_author"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "s",
+        "lower_label": "3",
+        "upper_label": "6",
+        "attribution_label": "BHT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "D-Q4-sep",
+        "claim_ids": [
+          "D-Q4-sep",
+          "partial-lambda-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-deg3",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "lambda",
+        "lower_label": "4",
+        "upper_label": "6",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "R0-QE-sep-ABB",
+        "claim_ids": [
+          "R0-QE-sep-ABB",
+          "R0-D"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-deg3",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "QE",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "D-Q4-sep",
+        "claim_ids": [
+          "D-Q4-sep",
+          "deg-Q2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-deg3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "deg",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "GPW18",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "D-Q4-sep",
+        "claim_ids": [
+          "D-Q4-sep"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-Q4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "ABKBRT21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "Q",
+        "lower_label": "4",
+        "upper_label": "4",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "D",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "D-Q4-sep",
+        "claim_ids": [
+          "D-Q4-sep",
+          "adeg-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "D-adeg4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "D",
+        "B": "adeg",
+        "lower_label": "4",
+        "upper_label": "4",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "R0",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "R0-R-sep-ABB",
+        "claim_ids": [
+          "R0-R-sep-ABB"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": false,
+        "claim_ids": [
+          "R0-R2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "KT13": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "R",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "Q-R",
+          "R-R0"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-C2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BdW02": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "R0-Q4-sep",
+        "claim_ids": [
+          "R0-Q4-sep",
+          "partial-RC-Q2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-bs3",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "AIK26": "see_bibliography",
+        "Aar02": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "R0-R-sep-ABB",
+        "claim_ids": [
+          "R0-R-sep-ABB",
+          "bs-R"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-bs3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 3,
+        "numeric_for_ranking": 3.0,
+        "witness": "C-s3-Pab",
+        "claim_ids": [
+          "C-s3-Pab",
+          "C-R0"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-deg3",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "Pab26": "SODA_2027_camera_ready_as_reported_by_author"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "s",
+        "lower_label": "3",
+        "upper_label": "6",
+        "attribution_label": "BHT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "R0-Q4-sep",
+        "claim_ids": [
+          "R0-Q4-sep",
+          "partial-lambda-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-deg3",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "AIK26": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "lambda",
+        "lower_label": "4",
+        "upper_label": "6",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "R0-QE-sep-ABB",
+        "claim_ids": [
+          "R0-QE-sep-ABB"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-deg3",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "QE",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "R0-Q4-sep",
+        "claim_ids": [
+          "R0-Q4-sep",
+          "deg-Q2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-deg3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "AIK26": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "deg",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "GJPW18",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "R0-Q4-sep",
+        "claim_ids": [
+          "R0-Q4-sep"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-Q4-upper"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "AIK26": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "Q",
+        "lower_label": "3",
+        "upper_label": "4",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R0",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "C-adeg4-sep",
+        "claim_ids": [
+          "C-adeg4-sep",
+          "C-R0"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R0-D",
+          "D-adeg4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "AIK26": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R0",
+        "B": "adeg",
+        "lower_label": "4",
+        "upper_label": "4",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "R",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "R",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "Q-R"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-C2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BdW02": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "R-Q4-sep-2026",
+        "claim_ids": [
+          "R-Q4-sep-2026",
+          "partial-RC-Q2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-bs3",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Aar02": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "OAI26": "repository_preprint"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "R-adeg-sep-ABB",
+        "claim_ids": [
+          "R-adeg-sep-ABB",
+          "bs-adeg2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-bs3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 3,
+        "numeric_for_ranking": 3.0,
+        "witness": "Q-s3-sep-BHT",
+        "claim_ids": [
+          "Q-s3-sep-BHT",
+          "Q-R"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-deg3",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BHT17": "see_bibliography",
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "s",
+        "lower_label": "3",
+        "upper_label": "6",
+        "attribution_label": "BHT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "R-Q4-sep-2026",
+        "claim_ids": [
+          "R-Q4-sep-2026",
+          "partial-lambda-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-deg3",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "OAI26": "repository_preprint"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "lambda",
+        "lower_label": "4",
+        "upper_label": "6",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": "3/2",
+        "numeric_for_ranking": 1.5,
+        "witness": "R-QE-sep-ABB",
+        "claim_ids": [
+          "R-QE-sep-ABB"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-deg3",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "QE",
+        "lower_label": "1.5",
+        "upper_label": "3",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "R-deg2-GJPW",
+        "claim_ids": [
+          "R-deg2-GJPW"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-deg3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "GJPW18": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "deg",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "GJPW18",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "R-Q4-sep-2026",
+        "claim_ids": [
+          "R-Q4-sep-2026"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-Q4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "OAI26": "repository_preprint"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "Q",
+        "lower_label": "3",
+        "upper_label": "4",
+        "attribution_label": "BS21+SSW20",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "R",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "R-adeg-sep-ABB",
+        "claim_ids": [
+          "R-adeg-sep-ABB"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "R-D",
+          "D-adeg4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABBLS17": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "R",
+        "B": "adeg",
+        "lower_label": "4",
+        "upper_label": "4",
+        "attribution_label": "ABBLS17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "C",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "C",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "C-R2-sep-BK",
+        "claim_ids": [
+          "C-R2-sep-BK"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-R2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "BK26": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "2",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "C-R2-sep-BK",
+        "claim_ids": [
+          "C-R2-sep-BK",
+          "RC-R"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-bs2",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "BK26": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "GSS13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "C-R2-sep-BK",
+        "claim_ids": [
+          "C-R2-sep-BK",
+          "bs-R"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-bs2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "BK26": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "GSS13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 3,
+        "numeric_for_ranking": 3.0,
+        "witness": "C-s3-Pab",
+        "claim_ids": [
+          "C-s3-Pab"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "5",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-bs-s",
+          "bs-s4"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "Pab26": "SODA_2027_camera_ready_as_reported_by_author"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "s",
+        "lower_label": "2.22",
+        "upper_label": "5",
+        "attribution_label": "BHT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "C-lambda4-BBGJK",
+        "claim_ids": [
+          "C-lambda4-BBGJK"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-D",
+          "D-deg3",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBGJK21": "see_bibliography",
+        "BHT17": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "lambda",
+        "lower_label": "2.44",
+        "upper_label": "6",
+        "attribution_label": "BHT17footnote",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "AIK26-C-QE-quadratic",
+        "claim_ids": [
+          "AIK26-C-QE-quadratic"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-D",
+          "D-deg3",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "AIK26": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "QE",
+        "lower_label": "1.15",
+        "upper_label": "3",
+        "attribution_label": "Amb13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "C-deg2-Pab",
+        "claim_ids": [
+          "C-deg2-Pab"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-D",
+          "D-deg3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Mid04": "see_bibliography",
+        "Pab26": "SODA_2027_camera_ready_as_reported_by_author"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "deg",
+        "lower_label": "1.63",
+        "upper_label": "3",
+        "attribution_label": "NW95",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "C-Q4-sep-BK",
+        "claim_ids": [
+          "C-Q4-sep-BK"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-Q4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BK26": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "Q",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "C",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "C-adeg4-sep",
+        "claim_ids": [
+          "C-adeg4-sep"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "C-adeg4-upper"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "AIK26": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Pro21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "C",
+        "B": "adeg",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-R",
+          "R-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "RC",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "RC",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-R"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "RC",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-C"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "RC",
+        "B": "C",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": "3/2",
+        "numeric_for_ranking": 1.5,
+        "witness": "fbs-bs-sep-constant",
+        "claim_ids": [
+          "fbs-bs-sep-constant",
+          "fbs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-C",
+          "C-bs2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "APV18": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "KT13": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "bs",
+        "lower_label": "1.5",
+        "upper_label": "2",
+        "attribution_label": "GSS13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "bs-s2-sep-AS",
+        "claim_ids": [
+          "bs-s2-sep-AS",
+          "partial-bs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-adeg2",
+          "adeg-deg",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "AS11": "see_bibliography",
+        "Hua19": "see_bibliography",
+        "KT13": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "s",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "Rub95",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": "2.127",
+        "numeric_for_ranking": 2.127,
+        "witness": "bs-lambda-sep-2026",
+        "claim_ids": [
+          "bs-lambda-sep-2026",
+          "partial-bs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-adeg2",
+          "adeg-deg",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "KT13": "see_bibliography",
+        "Mei26": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "lambda",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": {
+          "op": "mul",
+          "left": 8,
+          "right": {
+            "op": "log_ratio",
+            "numerator": 3,
+            "denominator": 2048
+          }
+        },
+        "numeric_for_ranking": 1.1527000005244774,
+        "witness": "s-QE-Amb13",
+        "claim_ids": [
+          "s-QE-Amb13",
+          "s-bs",
+          "partial-bs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-RC-Q2",
+          "Q-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Aar02": "see_bibliography",
+        "Amb13": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "QE",
+        "lower_label": "1.15",
+        "upper_label": "2",
+        "attribution_label": "Amb13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 6,
+          "denominator": 3
+        },
+        "numeric_for_ranking": 1.6309297535714573,
+        "witness": "s-deg-Kushilevitz",
+        "claim_ids": [
+          "s-deg-Kushilevitz",
+          "s-bs",
+          "partial-bs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-adeg2",
+          "adeg-deg"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "KT13": "see_bibliography",
+        "NW95": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "deg",
+        "lower_label": "1.63",
+        "upper_label": "2",
+        "attribution_label": "NW95",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "C-Q4-sep-BK",
+        "claim_ids": [
+          "C-Q4-sep-BK",
+          "C-bs2",
+          "partial-bs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-RC-Q2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "Aar02": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "BK26": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "Q",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "RC",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "C-adeg4-sep",
+        "claim_ids": [
+          "C-adeg4-sep",
+          "C-bs2",
+          "partial-bs-RC"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "RC-adeg2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "AIK26": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "KT13": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "RC",
+        "B": "adeg",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-R",
+          "R-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "bs",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "bs",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-R"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "bs",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-C"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "bs",
+        "B": "C",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "bs",
+        "B": "RC",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "bs-s2-sep-AS",
+        "claim_ids": [
+          "bs-s2-sep-AS"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-s4"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "AS11": "see_bibliography",
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "bs",
+        "B": "s",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "Rub95",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": "2.127",
+        "numeric_for_ranking": 2.127,
+        "witness": "bs-lambda-sep-2026",
+        "claim_ids": [
+          "bs-lambda-sep-2026"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-deg2-Pro",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "Mei26": "see_bibliography",
+        "Pro21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "bs",
+        "B": "lambda",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": {
+          "op": "mul",
+          "left": 8,
+          "right": {
+            "op": "log_ratio",
+            "numerator": 3,
+            "denominator": 2048
+          }
+        },
+        "numeric_for_ranking": 1.1527000005244774,
+        "witness": "s-QE-Amb13",
+        "claim_ids": [
+          "s-QE-Amb13",
+          "s-bs"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-deg2-Pro",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Amb13": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Pro21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "bs",
+        "B": "QE",
+        "lower_label": "1.15",
+        "upper_label": "2",
+        "attribution_label": "Amb13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 6,
+          "denominator": 3
+        },
+        "numeric_for_ranking": 1.6309297535714573,
+        "witness": "s-deg-Kushilevitz",
+        "claim_ids": [
+          "s-deg-Kushilevitz",
+          "s-bs"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-deg2-Pro"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "NW95": "see_bibliography",
+        "Pro21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "bs",
+        "B": "deg",
+        "lower_label": "1.63",
+        "upper_label": "2",
+        "attribution_label": "NW95",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "C-Q4-sep-BK",
+        "claim_ids": [
+          "C-Q4-sep-BK",
+          "C-bs2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-bs-RC",
+          "partial-RC-Q2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "Aar02": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "BK26": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "bs",
+        "B": "Q",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "bs",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": {
+          "op": "div",
+          "left": 4,
+          "right": "2"
+        },
+        "numeric_for_ranking": 2.0,
+        "witness": "C-adeg4-sep",
+        "claim_ids": [
+          "C-adeg4-sep",
+          "C-bs2"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "bs-adeg2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "AIK26": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "NS94": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "bs",
+        "B": "adeg",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-R",
+          "R-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-R"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-C"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "C",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "RC",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "bs",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-s-lambda",
+        "claim_ids": [
+          "OR-s-lambda"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "s",
+        "B": "lambda",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": {
+          "op": "mul",
+          "left": 8,
+          "right": {
+            "op": "log_ratio",
+            "numerator": 3,
+            "denominator": 2048
+          }
+        },
+        "numeric_for_ranking": 1.1527000005244774,
+        "witness": "s-QE-Amb13",
+        "claim_ids": [
+          "s-QE-Amb13"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-deg2-Pro",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "Amb13": "see_bibliography",
+        "BBCMW01": "see_bibliography",
+        "Pro21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "s",
+        "B": "QE",
+        "lower_label": "1.15",
+        "upper_label": "2",
+        "attribution_label": "Amb13",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 6,
+          "denominator": 3
+        },
+        "numeric_for_ranking": 1.6309297535714573,
+        "witness": "s-deg-Kushilevitz",
+        "claim_ids": [
+          "s-deg-Kushilevitz"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-deg2-Pro"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "NW95": "see_bibliography",
+        "Pro21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "s",
+        "B": "deg",
+        "lower_label": "1.63",
+        "upper_label": "2",
+        "attribution_label": "NW95",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-s-Q",
+        "claim_ids": [
+          "OR-s-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-lambda2",
+          "partial-lambda-Q"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "s",
+        "B": "Q",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "s",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-s-adeg",
+        "claim_ids": [
+          "OR-s-adeg"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "s-bs",
+          "bs-adeg2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "s",
+        "B": "adeg",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-deg",
+          "deg-QE",
+          "QE-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "lambda",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-lambda-Q",
+          "Q-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-lambda-Q",
+          "Q-R"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-s",
+          "s-bs",
+          "bs-C"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "C",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-s",
+          "s-bs",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "RC",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-s",
+          "s-bs"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "bs",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-s"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "s",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-deg",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "lambda",
+        "B": "QE",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-deg"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "lambda",
+        "B": "deg",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-lambda-Q"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "lambda",
+        "B": "Q",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "lambda",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "lambda-adeg"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "lambda",
+        "B": "adeg",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "QE",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 2,
+          "denominator": {
+            "op": "div",
+            "left": {
+              "op": "add",
+              "left": 1,
+              "right": {
+                "op": "sqrt",
+                "arg": 33
+              }
+            },
+            "right": 4
+          }
+        },
+        "numeric_for_ranking": 1.3267440252463396,
+        "witness": "QE-R0-NAND-SW",
+        "claim_ids": [
+          "QE-R0-NAND-SW"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-C2",
+          "C-R0"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BdW02": "see_bibliography",
+        "Nis89": "see_bibliography",
+        "SW86": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "R0",
+        "lower_label": "1.33",
+        "upper_label": "2",
+        "attribution_label": "NANDtree",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "R",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 2,
+          "denominator": {
+            "op": "div",
+            "left": {
+              "op": "add",
+              "left": 1,
+              "right": {
+                "op": "sqrt",
+                "arg": 33
+              }
+            },
+            "right": 4
+          }
+        },
+        "numeric_for_ranking": 1.3267440252463396,
+        "witness": "QE-R0-NAND-SW",
+        "claim_ids": [
+          "QE-R0-NAND-SW",
+          "R-R0"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-R3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "Nis89": "see_bibliography",
+        "SW86": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "R",
+        "lower_label": "1.33",
+        "upper_label": "3",
+        "attribution_label": "NANDtree",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "Q-QE"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-C2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BdW02": "see_bibliography",
+        "Nis89": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "Q-QE",
+          "RC-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-bs3",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "Q-QE",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-bs3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 3,
+        "numeric_for_ranking": 3.0,
+        "witness": "Q-s3-sep-BHT",
+        "claim_ids": [
+          "Q-s3-sep-BHT",
+          "Q-QE"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-deg3",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BHT17": "see_bibliography",
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "s",
+        "lower_label": "3",
+        "upper_label": "6",
+        "attribution_label": "BHT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "Q-adeg4-sep",
+        "claim_ids": [
+          "Q-adeg4-sep",
+          "Q-QE",
+          "lambda-adeg"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-deg3",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "lambda",
+        "lower_label": "4",
+        "upper_label": "6",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-deg2-ABK",
+        "claim_ids": [
+          "Q-deg2-ABK",
+          "Q-QE"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-deg3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "deg",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-deg-Q",
+        "claim_ids": [
+          "OR-deg-Q",
+          "deg-QE"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-Q4"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "Q",
+        "lower_label": "2",
+        "upper_label": "4",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "QE",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "Q-adeg4-sep",
+        "claim_ids": [
+          "Q-adeg4-sep",
+          "Q-QE"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "QE-D",
+          "D-adeg4"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "QE",
+        "B": "adeg",
+        "lower_label": "4",
+        "upper_label": "4",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-QE",
+          "QE-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 2,
+          "denominator": {
+            "op": "div",
+            "left": {
+              "op": "add",
+              "left": 1,
+              "right": {
+                "op": "sqrt",
+                "arg": 33
+              }
+            },
+            "right": 4
+          }
+        },
+        "numeric_for_ranking": 1.3267440252463396,
+        "witness": "deg-R0-NAND-SW",
+        "claim_ids": [
+          "deg-R0-NAND-SW"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-Q2",
+          "Q-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "SW86": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "R0",
+        "lower_label": "1.33",
+        "upper_label": "2",
+        "attribution_label": "NANDtree",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "R",
+      "lower": {
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": 2,
+          "denominator": {
+            "op": "div",
+            "left": {
+              "op": "add",
+              "left": 1,
+              "right": {
+                "op": "sqrt",
+                "arg": 33
+              }
+            },
+            "right": 4
+          }
+        },
+        "numeric_for_ranking": 1.3267440252463396,
+        "witness": "deg-R0-NAND-SW",
+        "claim_ids": [
+          "deg-R0-NAND-SW",
+          "R-R0"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-Q2",
+          "Q-R"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "SW86": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "R",
+        "lower_label": "1.33",
+        "upper_label": "2",
+        "attribution_label": "NANDtree",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "deg-C2-ANDOR",
+        "claim_ids": [
+          "deg-C2-ANDOR"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-s2",
+          "s-bs",
+          "bs-C"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "deg-C2-ANDOR",
+        "claim_ids": [
+          "deg-C2-ANDOR",
+          "RC-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-s2",
+          "s-bs",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "deg-C2-ANDOR",
+        "claim_ids": [
+          "deg-C2-ANDOR",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-s2",
+          "s-bs"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "deg-C2-ANDOR",
+        "claim_ids": [
+          "deg-C2-ANDOR",
+          "s-bs",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "s",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ANDOR",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-deg-Q",
+        "claim_ids": [
+          "OR-deg-Q",
+          "partial-lambda-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "lambda",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "QE",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-deg-Q",
+        "claim_ids": [
+          "OR-deg-Q"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-Q2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "Q",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "deg",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "OR-deg-adeg",
+        "claim_ids": [
+          "OR-deg-adeg"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "deg-adeg2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "deg",
+        "B": "adeg",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "Q",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "Q",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "Q",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-C2-upper"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BdW02": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "RC-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-D",
+          "D-bs3",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-C2-sep",
+        "claim_ids": [
+          "Q-C2-sep",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-D",
+          "D-bs3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 3,
+        "numeric_for_ranking": 3.0,
+        "witness": "Q-s3-sep-BHT",
+        "claim_ids": [
+          "Q-s3-sep-BHT"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-D",
+          "D-deg3",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "BHT17": "see_bibliography",
+        "Hua19": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "s",
+        "lower_label": "3",
+        "upper_label": "6",
+        "attribution_label": "BHT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "Q-adeg4-sep",
+        "claim_ids": [
+          "Q-adeg4-sep",
+          "lambda-adeg"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "6",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-D",
+          "D-deg3",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "lambda",
+        "lower_label": "4",
+        "upper_label": "6",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-QE"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "Q",
+        "B": "QE",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "Q-deg2-ABK",
+        "claim_ids": [
+          "Q-deg2-ABK"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "3",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-R",
+          "R-D",
+          "D-deg3"
+        ]
+      },
+      "matched_recorded_exponents": false,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "Mid04": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "deg",
+        "lower_label": "2",
+        "upper_label": "3",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "Q",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 4,
+        "numeric_for_ranking": 4.0,
+        "witness": "Q-adeg4-sep",
+        "claim_ids": [
+          "Q-adeg4-sep"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "4",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "Q-adeg4-upper"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABK16": "see_bibliography",
+        "ABKBRT21": "see_bibliography",
+        "Mid04": "see_bibliography",
+        "NS94": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "Q",
+        "B": "adeg",
+        "lower_label": "4",
+        "upper_label": "4",
+        "attribution_label": "ABK16",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "D",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-adeg-R",
+          "R-D"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "adeg",
+        "B": "D",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "R0",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-adeg-R",
+          "R-R0"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "adeg",
+        "B": "R0",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "R",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "partial-adeg-R"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "adeg",
+        "B": "R",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "C",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "adeg-C2-BT17",
+        "claim_ids": [
+          "adeg-C2-BT17"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-Q",
+          "Q-C2-upper"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography",
+        "BT17": "see_bibliography",
+        "BdW02": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "C",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "BT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "RC",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "adeg-C2-BT17",
+        "claim_ids": [
+          "adeg-C2-BT17",
+          "RC-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-deg",
+          "deg-s2",
+          "s-bs",
+          "partial-bs-RC"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BT17": "see_bibliography",
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "RC",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "BT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "bs",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "adeg-C2-BT17",
+        "claim_ids": [
+          "adeg-C2-BT17",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-deg",
+          "deg-s2",
+          "s-bs"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BT17": "see_bibliography",
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "bs",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "BT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "s",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "adeg-C2-BT17",
+        "claim_ids": [
+          "adeg-C2-BT17",
+          "s-bs",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-deg",
+          "deg-s2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BT17": "see_bibliography",
+        "Hua19": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "s",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "BT17",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "lambda",
+      "lower": {
+        "exponent_expression": 2,
+        "numeric_for_ranking": 2.0,
+        "witness": "adeg-C2-BT17",
+        "claim_ids": [
+          "adeg-C2-BT17",
+          "lambda-s",
+          "s-bs",
+          "bs-C"
+        ],
+        "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
+      },
+      "upper": {
+        "exponent": "2",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-deg",
+          "deg-lambda2"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "ABKBRT21": "see_bibliography",
+        "BT17": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "lambda",
+        "lower_label": "2",
+        "upper_label": "2",
+        "attribution_label": "AND",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "QE",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-deg",
+          "deg-QE"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "QE",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "deg",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-deg"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": {
+        "A": "adeg",
+        "B": "deg",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "Q",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": [
+          "adeg-Q"
+        ]
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {
+        "BBCMW01": "see_bibliography"
+      },
+      "historical_2021": {
+        "A": "adeg",
+        "B": "Q",
+        "lower_label": "1",
+        "upper_label": "1",
+        "attribution_label": "parity",
+        "status": "historical_table_transcribed_not_current_best"
+      },
+      "globally_best_known_certified": false
+    },
+    {
+      "A": "adeg",
+      "B": "adeg",
+      "lower": {
+        "exponent_expression": 1,
+        "numeric_for_ranking": 1.0,
+        "witness": "parity-core",
+        "claim_ids": [],
+        "proof": "All twelve core measures are Theta(n) on parity."
+      },
+      "upper": {
+        "exponent": "1",
+        "endpoint_without_log": true,
+        "claim_ids": []
+      },
+      "matched_recorded_exponents": true,
+      "source_publication_statuses": {},
+      "historical_2021": null,
+      "globally_best_known_certified": false
+    }
+  ],
+  "inference_policy": "Restricted scalar power closure and explicitly stored multivariate bounds; every witness retains provenance. Not a complete current-best literature certification.",
+  "excluded_loss_claims": [
+    "R0-R-s-RC",
+    "Q0-QD5-history",
+    "deg-rdeg3",
+    "deg-sign2-rdeg",
+    "D-rdeg3-n",
+    "bs-rdeg3",
+    "D-rdeg-RCmin"
+  ]
+}

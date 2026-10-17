@@ -1,0 +1,1836 @@
+{
+  "scope": "Boolean decision functions on arbitrary promises; weak certificates; unrestricted promise polynomial degrees; R0 worst-case expected Las Vegas cost",
+  "convention": "A=O(max(1,B)^p). A no_finite_power entry uses a growing numerator and bounded denominator, or an original-source superpolynomial separation.",
+  "certification": "Evidence inventory, not a globally certified best-known table. Finite entries have matching lower exponents from parity or the zero-or-unit-vector promise. These are statements about power exponents, not optimal constants.",
+  "nodes": [
+    "D",
+    "R0",
+    "R",
+    "C",
+    "RC",
+    "bs",
+    "s",
+    "lambda",
+    "QE",
+    "deg",
+    "Q",
+    "adeg"
+  ],
+  "cells": [
+    {
+      "A": "D",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "D",
+      "B": "R0",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-R0-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "R",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-R-promise-dense-two-axes",
+        "promise-unbounded-D-R-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-C-promise-dense-two-axes",
+        "promise-unbounded-D-C-promise-nonempty-two-axes",
+        "promise-unbounded-D-C-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-RC-promise-dense-two-axes",
+        "promise-unbounded-D-RC-promise-nonempty-two-axes",
+        "promise-unbounded-D-RC-promise-restricted-DJ",
+        "promise-unbounded-D-RC-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-bs-promise-dense-two-axes",
+        "promise-unbounded-D-bs-promise-nonempty-two-axes",
+        "promise-unbounded-D-bs-promise-projective-plane",
+        "promise-unbounded-D-bs-promise-restricted-DJ",
+        "promise-unbounded-D-bs-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-s-promise-doubled-parity",
+        "promise-unbounded-D-s-promise-dense-two-axes",
+        "promise-unbounded-D-s-promise-nonempty-two-axes",
+        "promise-unbounded-D-s-promise-projective-plane",
+        "promise-unbounded-D-s-promise-restricted-DJ",
+        "promise-unbounded-D-s-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-lambda-promise-doubled-parity",
+        "promise-unbounded-D-lambda-promise-dense-two-axes",
+        "promise-unbounded-D-lambda-promise-nonempty-two-axes",
+        "promise-unbounded-D-lambda-promise-projective-plane",
+        "promise-unbounded-D-lambda-promise-restricted-DJ",
+        "promise-unbounded-D-lambda-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "QE",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-QE-promise-extremal-forrelation",
+        "promise-unbounded-D-QE-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-deg-promise-unit-OR",
+        "promise-unbounded-D-deg-promise-projective-plane",
+        "promise-unbounded-D-deg-promise-extremal-forrelation",
+        "promise-unbounded-D-deg-promise-restricted-DJ",
+        "promise-unbounded-D-deg-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "Q",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-Q-promise-dense-two-axes",
+        "promise-unbounded-D-Q-promise-extremal-forrelation",
+        "promise-unbounded-D-Q-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "D",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-D-adeg-promise-unit-OR",
+        "promise-unbounded-D-adeg-promise-dense-two-axes",
+        "promise-unbounded-D-adeg-promise-projective-plane",
+        "promise-unbounded-D-adeg-promise-extremal-forrelation",
+        "promise-unbounded-D-adeg-promise-restricted-DJ",
+        "promise-unbounded-D-adeg-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "R0-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "R0",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "R0",
+      "B": "R",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-R-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-C-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-RC-promise-restricted-DJ",
+        "promise-unbounded-R0-RC-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-bs-promise-projective-plane",
+        "promise-unbounded-R0-bs-promise-restricted-DJ",
+        "promise-unbounded-R0-bs-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-s-promise-doubled-parity",
+        "promise-unbounded-R0-s-promise-projective-plane",
+        "promise-unbounded-R0-s-promise-restricted-DJ",
+        "promise-unbounded-R0-s-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-lambda-promise-doubled-parity",
+        "promise-unbounded-R0-lambda-promise-projective-plane",
+        "promise-unbounded-R0-lambda-promise-restricted-DJ",
+        "promise-unbounded-R0-lambda-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "QE",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-QE-promise-extremal-forrelation",
+        "promise-unbounded-R0-QE-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-deg-promise-unit-OR",
+        "promise-unbounded-R0-deg-promise-projective-plane",
+        "promise-unbounded-R0-deg-promise-extremal-forrelation",
+        "promise-unbounded-R0-deg-promise-restricted-DJ",
+        "promise-unbounded-R0-deg-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "Q",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-Q-promise-extremal-forrelation",
+        "promise-unbounded-R0-Q-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "R0",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R0-adeg-promise-unit-OR",
+        "promise-unbounded-R0-adeg-promise-projective-plane",
+        "promise-unbounded-R0-adeg-promise-extremal-forrelation",
+        "promise-unbounded-R0-adeg-promise-restricted-DJ",
+        "promise-unbounded-R0-adeg-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "R",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "R",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "R",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-C-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-RC-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-bs-promise-projective-plane",
+        "promise-unbounded-R-bs-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-s-promise-doubled-parity",
+        "promise-unbounded-R-s-promise-projective-plane",
+        "promise-unbounded-R-s-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-lambda-promise-doubled-parity",
+        "promise-unbounded-R-lambda-promise-projective-plane",
+        "promise-unbounded-R-lambda-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "QE",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "partial-R-QE-GS26",
+        "promise-unbounded-R-QE-promise-extremal-forrelation"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-deg-promise-unit-OR",
+        "promise-unbounded-R-deg-promise-projective-plane",
+        "promise-unbounded-R-deg-promise-extremal-forrelation",
+        "promise-unbounded-R-deg-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "Q",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "partial-R-Q",
+        "promise-unbounded-R-Q-promise-extremal-forrelation"
+      ]
+    },
+    {
+      "A": "R",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-R-adeg-promise-unit-OR",
+        "promise-unbounded-R-adeg-promise-projective-plane",
+        "promise-unbounded-R-adeg-promise-extremal-forrelation",
+        "promise-unbounded-R-adeg-promise-unique-mark-color"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "C-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "C",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "C-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "C",
+      "B": "R",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-R-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "C",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "C",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-RC-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-bs-promise-projective-plane",
+        "promise-unbounded-C-bs-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-s-promise-doubled-parity",
+        "promise-unbounded-C-s-promise-projective-plane",
+        "promise-unbounded-C-s-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-lambda-promise-doubled-parity",
+        "promise-unbounded-C-lambda-promise-projective-plane",
+        "promise-unbounded-C-lambda-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "QE",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-QE-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-deg-promise-unit-OR",
+        "promise-unbounded-C-deg-promise-projective-plane",
+        "promise-unbounded-C-deg-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "Q",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-Q-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "C",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-C-adeg-promise-unit-OR",
+        "promise-unbounded-C-adeg-promise-projective-plane",
+        "promise-unbounded-C-adeg-promise-restricted-DJ"
+      ]
+    },
+    {
+      "A": "RC",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "RC-R",
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "RC",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "RC-R",
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "RC",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "RC-R"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "RC",
+      "B": "C",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "RC-C"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "RC",
+      "B": "RC",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "RC",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-RC-bs-promise-projective-plane"
+      ]
+    },
+    {
+      "A": "RC",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-RC-s-promise-doubled-parity",
+        "promise-unbounded-RC-s-promise-projective-plane"
+      ]
+    },
+    {
+      "A": "RC",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-RC-lambda-promise-doubled-parity",
+        "promise-unbounded-RC-lambda-promise-projective-plane"
+      ]
+    },
+    {
+      "A": "RC",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "partial-RC-Q2",
+          "Q-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-RC-QE"
+        ]
+      }
+    },
+    {
+      "A": "RC",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-RC-deg-promise-unit-OR",
+        "promise-unbounded-RC-deg-promise-projective-plane"
+      ]
+    },
+    {
+      "A": "RC",
+      "B": "Q",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "partial-RC-Q2"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-RC-Q"
+        ]
+      }
+    },
+    {
+      "A": "RC",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-RC-adeg-promise-unit-OR",
+        "promise-unbounded-RC-adeg-promise-projective-plane"
+      ]
+    },
+    {
+      "A": "bs",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "bs-R",
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "bs",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "bs-R",
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "bs",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "bs-R"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "bs",
+      "B": "C",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "bs-C"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "bs",
+      "B": "RC",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-bs-RC"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "bs",
+      "B": "bs",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "bs",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-bs-s-promise-doubled-parity"
+      ]
+    },
+    {
+      "A": "bs",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-bs-lambda-promise-doubled-parity"
+      ]
+    },
+    {
+      "A": "bs",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "partial-bs-RC",
+          "partial-RC-Q2",
+          "Q-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-bs-QE"
+        ]
+      }
+    },
+    {
+      "A": "bs",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-bs-deg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "bs",
+      "B": "Q",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "partial-bs-RC",
+          "partial-RC-Q2"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-bs-Q"
+        ]
+      }
+    },
+    {
+      "A": "bs",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-bs-adeg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "s",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "s-bs",
+          "bs-R",
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "s-bs",
+          "bs-R",
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "s-bs",
+          "bs-R"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "C",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "s-bs",
+          "bs-C"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "RC",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "s-bs",
+          "partial-bs-RC"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "bs",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "s-bs"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "s",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "s",
+      "B": "lambda",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "s-lambda2"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-s-lambda"
+        ]
+      }
+    },
+    {
+      "A": "s",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "s-lambda2",
+          "partial-lambda-Q",
+          "Q-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-s-QE"
+        ]
+      }
+    },
+    {
+      "A": "s",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-s-deg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "s",
+      "B": "Q",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "2",
+        "claim_ids": [
+          "s-lambda2",
+          "partial-lambda-Q"
+        ]
+      },
+      "lower": {
+        "exponent": "2",
+        "witness_id": "promise-unit-OR",
+        "claim_ids": [
+          "partial-quadratic-s-Q"
+        ]
+      }
+    },
+    {
+      "A": "s",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-s-adeg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "lambda",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-lambda-Q",
+          "Q-R",
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-lambda-Q",
+          "Q-R",
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-lambda-Q",
+          "Q-R"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "C",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "lambda-s",
+          "s-bs",
+          "bs-C"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "RC",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "lambda-s",
+          "s-bs",
+          "partial-bs-RC"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "bs",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "lambda-s",
+          "s-bs"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "s",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "lambda-s"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "lambda",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-lambda-Q",
+          "Q-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-lambda-deg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "lambda",
+      "B": "Q",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-lambda-Q"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "lambda",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-lambda-adeg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "QE-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "QE",
+      "B": "R0",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-R0-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "R",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-R-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-C-promise-dense-two-axes",
+        "promise-unbounded-QE-C-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-RC-promise-dense-two-axes",
+        "promise-unbounded-QE-RC-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-bs-promise-dense-two-axes",
+        "promise-unbounded-QE-bs-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-s-promise-doubled-parity",
+        "promise-unbounded-QE-s-promise-dense-two-axes",
+        "promise-unbounded-QE-s-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-lambda-promise-doubled-parity",
+        "promise-unbounded-QE-lambda-promise-dense-two-axes",
+        "promise-unbounded-QE-lambda-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "QE",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-deg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "Q",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-Q-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "QE",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-QE-adeg-promise-unit-OR",
+        "promise-unbounded-QE-adeg-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "deg-QE",
+          "QE-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "deg",
+      "B": "R0",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-R0-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "R",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-R-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-C-promise-dense-two-axes",
+        "promise-unbounded-deg-C-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-RC-promise-dense-two-axes",
+        "promise-unbounded-deg-RC-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-bs-promise-dense-two-axes",
+        "promise-unbounded-deg-bs-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-s-promise-doubled-parity",
+        "promise-unbounded-deg-s-promise-dense-two-axes",
+        "promise-unbounded-deg-s-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-lambda-promise-doubled-parity",
+        "promise-unbounded-deg-lambda-promise-dense-two-axes",
+        "promise-unbounded-deg-lambda-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "deg-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "deg",
+      "B": "deg",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "deg",
+      "B": "Q",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-Q-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "deg",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-deg-adeg-promise-dense-two-axes"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "Q-R",
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "Q",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "Q-R",
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "Q",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "Q-R"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "Q",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-C-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-RC-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-bs-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-s-promise-doubled-parity",
+        "promise-unbounded-Q-s-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-lambda-promise-doubled-parity",
+        "promise-unbounded-Q-lambda-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "Q-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "Q",
+      "B": "deg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-deg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "Q",
+      "B": "Q",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "Q",
+      "B": "adeg",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-Q-adeg-promise-unit-OR"
+      ]
+    },
+    {
+      "A": "adeg",
+      "B": "D",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-adeg-R",
+          "R-D"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "adeg",
+      "B": "R0",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-adeg-R",
+          "R-R0"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "adeg",
+      "B": "R",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "partial-adeg-R"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "adeg",
+      "B": "C",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-adeg-C-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "adeg",
+      "B": "RC",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-adeg-RC-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "adeg",
+      "B": "bs",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-adeg-bs-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "adeg",
+      "B": "s",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-adeg-s-promise-doubled-parity",
+        "promise-unbounded-adeg-s-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "adeg",
+      "B": "lambda",
+      "status": "no_finite_power",
+      "claim_ids": [
+        "promise-unbounded-adeg-lambda-promise-doubled-parity",
+        "promise-unbounded-adeg-lambda-promise-nonempty-two-axes"
+      ]
+    },
+    {
+      "A": "adeg",
+      "B": "QE",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "adeg-deg",
+          "deg-QE"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "adeg",
+      "B": "deg",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "adeg-deg"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "adeg",
+      "B": "Q",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": [
+          "adeg-Q"
+        ]
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    },
+    {
+      "A": "adeg",
+      "B": "adeg",
+      "status": "finite_upper_bound",
+      "upper": {
+        "exponent": "1",
+        "claim_ids": []
+      },
+      "lower": {
+        "exponent": "1",
+        "witness_id": "parity-core",
+        "source": "BBCMW01",
+        "note": "Total parity is included among arbitrary-promise functions."
+      }
+    }
+  ]
+}

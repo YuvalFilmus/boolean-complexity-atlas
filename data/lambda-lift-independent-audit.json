@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17",
+  "method": "separate assistant agent; source-level mathematical audit",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "audited_doc_sha256": "4bb18432dc9fafaf18a91d7dcc055246e391dfa379bd4354153fd44e90cd2fc5",
+  "audited_original_claim": {
+    "id": "lambda-partite-D-sensitivity-product-lift",
+    "A": "domainD",
+    "B": "domainS",
+    "exponent": 10,
+    "kind": "upper_bound",
+    "statement": "For lambda-partite perfect hypermatchings, k=sum_i lambda_i>=2 and m=min_i lambda_i>=1, D<=5184*max(2,k/m)*(2k-1)^10*s^10 under vertex-to-hyperedge queries.",
+    "source": "definitions",
+    "locator": "Repository product-permutation lift using final-journal Theorems 5.3/5.5 and Lemmas 3.3,3.5,3.6",
+    "proof_summary": "Represent a hypermatching by independent permutations of the lambda_i*n vertices in each color class, grouping lambda_i consecutive positions per common block label. Lazy simultaneous assignment of a discovered hyperedge to a free common block label simulates each forward/inverse permutation query using at most one hyperedge query. Products of the source permutation pseudo-characters span the product degree filtration and induce product cubes of at least half their degree, giving degree<=2s^2 on the permutation product. There Delta<=2, beta_c>=1/3, M>=min_i(lambda_i*n), and total set-input size is k*n. Thus C<=72s^5 and D<=max(2,k/m)*C^2. Disjoint sensitive component transpositions form a multigraph on original hyperedges of maximum degree at most k; matching extraction gives s_product<=(2k-1)*s_hyper. Combine these inequalities.",
+    "scope": {
+      "object_kind": "decision_function",
+      "totality": "total",
+      "classes": [
+        "lambda_partite_hypermatching_vertex_queries"
+      ],
+      "input_alphabet": "query_domain",
+      "output_alphabet": "bits",
+      "cost": "one_unique_element_answer_per_query",
+      "error": "as_in_measure_definitions",
+      "assumptions": [
+        "All lambda_i positive; n>=2; all lambda-partite perfect hypermatchings are allowed. Vertex queries reveal the entire hyperedge.",
+        "k=sum(lambda_i) and m=min(lambda_i) remain explicit parameters; uniform coefficients require controlling their growth."
+      ]
+    },
+    "loss": "domain_parameters",
+    "status": "repository_derivation_checked",
+    "proof_audit": "proof_route_checked_not_independent_full_proof",
+    "best_known_certified": false,
+    "last_checked": "2026-10-17",
+    "scalar_inference_allowed": false,
+    "notes": "Repository derivation with full proof in docs/lambda-partite-lift.md, not a published priority or best-known claim and not independently reviewed. The alpha=1/2 witnessing argument applies to the product of permutation domains, not to the hypermatching domain itself. Therefore this does not establish a quadratic degree/sensitivity theorem for general hypermatchings.",
+    "proof_sources": [
+      "DFLLV26"
+    ],
+    "journal_version_check": "Final 2026 journal definitions and main theorem/parameter statements checked; original priority source retained."
+  },
+  "findings": [
+    {
+      "issue": "False universal-completion simulation invariant",
+      "severity": "proof wording; main bound survives",
+      "resolution": "Replace with existence of a consistent representative of the fixed input at every transcript"
+    },
+    {
+      "issue": "Conservative conflict threshold",
+      "resolution": "M=N_total for the permutation product; improve coefficient to 10368*(2k-1)^10"
+    }
+  ],
+  "corrected_doc_sha256": "4889d4943f1df1480b32650d480d3adc0a2f643818685ee90cad2bb395185eff",
+  "priority_certified": false,
+  "result": "pass after repair; full-domain/oracle hypotheses retained"
+}

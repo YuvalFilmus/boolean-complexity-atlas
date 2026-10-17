@@ -1,0 +1,59 @@
+[
+  {
+    "family": "symmetric-group-and-general-domains",
+    "original": "DFLLV21",
+    "later_manuscript": "DFLLV22author",
+    "journal": "DFLLV26",
+    "status": "final_journal_selected_statements_and_proof_routes_checked",
+    "notes": "Official browser download verified: 60 article pages plus repository cover. Main parameters, query models and error conventions checked. Open questions are Section 8; author 2022 Circuits section omitted."
+  },
+  {
+    "family": "quantum-polynomial-exponential-separation",
+    "original": "AB23",
+    "journal": "AB25",
+    "status": "conference_proof_checked_journal_metadata_only",
+    "notes": "Publisher abstract and institutional metadata checked; journal PDF request did not yield a PDF. Crossmark checked 17 October 2026: document current, online 3 October 2025, print December 2025; this metadata check does not verify the journal proof."
+  },
+  {
+    "family": "Nisan-derandomization",
+    "original": "Nis89",
+    "journal": "Nis91",
+    "status": "original_conference_checked_journal_text_pending",
+    "notes": "The literal expected one-sided constant is audited against the conference PDF; no assertion about journal correction. Normal browser publisher page also confirms subscription/paid full-text access; journal text remains uninspected."
+  },
+  {
+    "family": "search-pseudodeterminism",
+    "original": "CDM23",
+    "journal": "CDM25",
+    "status": "selected_journal_statements_and_proof_routes_checked",
+    "notes": "Pinned journal PDF has 57 pages. Publisher HTML wording differs from the PDF query definitions; use pinned definitions."
+  },
+  {
+    "family": "quantum-tree-simulation",
+    "original": "CMP22",
+    "journal": "CMP25",
+    "status": "selected_journal_statements_and_proof_routes_checked",
+    "notes": "Randomized relation error 2/5 and node-size conventions retained."
+  },
+  {
+    "family": "structure-and-quantum-speedups",
+    "journal": "AA14",
+    "status": "original_journal_statement_and_selected_proof_routes_checked",
+    "notes": "Conjectures 1.5 and 1.7 are distinct; Appendix 7 proves the dense-promise reformulation of the former."
+  },
+  {
+    "family": "completion-framework",
+    "full": "HKMP26",
+    "proceedings": "HKMP26final",
+    "status": "full_v3_selected_results_checked_one_perturbation_proof_step_pending",
+    "notes": "Full arXiv v3 is 40 pages; MFCS final short version has 17. Numbering must remain version-specific."
+  },
+  {
+    "family": "quantum-certificate-complexity",
+    "original": "Aar02: quant-ph/0210020v1, 9 pages",
+    "later_manuscript": "AarAuthor: author-hosted 12-page PDF, separately hashed",
+    "journal": "JCSS 74(3), 313–322 (2008), DOI 10.1016/j.jcss.2007.06.020",
+    "status": "later_author_correction_checked_publisher_journal_text_pending",
+    "notes": "Definition 3 expected-query verifier convention retained. Theorem 10 proof is rewritten and footnote 3 acknowledges a false superfluous earlier claim, credited to Gatis Midrijanis. No claim that this undated 12-page file is the ten-page journal article."
+  }
+]

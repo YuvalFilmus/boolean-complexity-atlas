@@ -1,0 +1,3718 @@
+[
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "deterministic decision-tree complexity",
+    "source": "BdW02",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 3.1",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "DT",
+    "source": "LM26",
+    "locator": "Section 2; DM23 Section 2",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "Depth",
+    "source": "LM26",
+    "locator": "Section 2; DM23 Section 2",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "Depth",
+    "source": "DM23",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "same deterministic query depth"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "P^dt",
+    "source": "GPW18",
+    "locator": "Section 1, query notation",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "D",
+    "source": "ABK16",
+    "locator": "Section 2.2",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "D",
+    "source": "SW86",
+    "locator": "Section I, p.29",
+    "status": "source_checked",
+    "normalization": "deterministic query complexity",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "D^dt",
+    "source": "CDM23full",
+    "locator": "Section 2: decision-tree and pseudo-deterministic definitions",
+    "status": "source_checked",
+    "normalization": "Depth is worst case; psD^dt is randomized pseudo-deterministic depth despite the letter D. The notation also applies to search relations."
+  },
+  {
+    "measure": "D",
+    "category": "aliases",
+    "text": "P^dt(f)",
+    "source": "Goos15",
+    "status": "source_checked",
+    "locator": "Sections 1.1–2, pp.2–4",
+    "normalization": "Total Boolean functions; superscript dt denotes query model.",
+    "alias_kind": "symbol"
+  },
+  {
+    "measure": "D",
+    "category": "alias_attribution_history",
+    "text": "D",
+    "source": "BdW02",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "ABK16"
+  },
+  {
+    "measure": "R",
+    "category": "aliases",
+    "text": "R",
+    "source": "ABK16",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2.2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "R",
+    "category": "aliases",
+    "text": "BPP^dt",
+    "source": "GJPW18",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "R",
+    "category": "aliases",
+    "text": "R_2",
+    "source": "Aar02",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Equivalent up to constants; inspect the source’s expected-cost and one-sided conventions.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "R",
+    "category": "aliases",
+    "text": "Monte Carlo",
+    "source": "ABBLS17",
+    "locator": "Section 2, Randomized decision tree algorithms",
+    "status": "source_checked",
+    "normalization": "Expected query cost in this source; source error constants differ from fixed-cap R.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "R",
+    "category": "aliases",
+    "text": "R^dt",
+    "source": "CDM23full",
+    "locator": "Section 2: decision-tree and pseudo-deterministic definitions",
+    "status": "source_checked",
+    "normalization": "Depth is worst case; psD^dt is randomized pseudo-deterministic depth despite the letter D. The notation also applies to search relations."
+  },
+  {
+    "measure": "R",
+    "category": "aliases",
+    "text": "BPP^dt",
+    "source": "GIPS21",
+    "locator": "Theorem 4 and Section 2",
+    "status": "source_checked",
+    "normalization": "Search relations; classical/quantum bounded-error depth and pseudo-deterministic depth, as specified by the stable ID."
+  },
+  {
+    "measure": "R",
+    "category": "alias_attribution_history",
+    "text": "R_2",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "Aar02"
+  },
+  {
+    "measure": "R",
+    "category": "alias_attribution_history",
+    "text": "Monte Carlo query complexity",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "ABBLS17"
+  },
+  {
+    "measure": "R",
+    "category": "repository_display_variants",
+    "text": "R_{1/3}",
+    "source": "ABK16",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "reason": "Do not present as a verified historical occurrence."
+  },
+  {
+    "measure": "R0",
+    "category": "aliases",
+    "text": "R_0",
+    "source": "ABK16",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2.2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "R0",
+    "category": "aliases",
+    "text": "Las Vegas",
+    "source": "BdW02",
+    "locator": "Section 3.3, footnote",
+    "status": "source_checked",
+    "normalization": "Zero-error randomized model; numerical cost convention must be specified.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "R0",
+    "category": "aliases",
+    "text": "R",
+    "source": "SW86",
+    "locator": "Section I, p.29",
+    "status": "source_checked",
+    "normalization": "Source requires always-correct output and uses worst-case expected queries. R here means modern R0, not bounded-error R.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "R0",
+    "category": "aliases",
+    "text": "Las Vegas",
+    "source": "ABBLS17",
+    "locator": "Section 2, Randomized decision tree algorithms",
+    "status": "source_checked",
+    "normalization": "Expected query cost in this source; source error constants differ from fixed-cap R.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "R0",
+    "category": "alias_attribution_history",
+    "text": "Las Vegas query complexity",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "ABBLS17"
+  },
+  {
+    "measure": "R1",
+    "category": "aliases",
+    "text": "R_1",
+    "source": "AIK26",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "Q",
+    "category": "aliases",
+    "text": "Q",
+    "source": "ABK16",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2.2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "Q",
+    "category": "aliases",
+    "text": "Q_2",
+    "source": "Aar02",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Equivalent up to constants; inspect the source’s expected-cost and one-sided conventions.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "Q",
+    "category": "aliases",
+    "text": "Q_{1/3}",
+    "source": "HS05survey",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "Fixed two-sided error 1/3; Q_epsilon is parameterized.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "Q",
+    "category": "aliases",
+    "text": "Q^dt",
+    "source": "GIPS21",
+    "locator": "Theorem 4 and Section 2",
+    "status": "source_checked",
+    "normalization": "Search relations; classical/quantum bounded-error depth and pseudo-deterministic depth, as specified by the stable ID."
+  },
+  {
+    "measure": "Q",
+    "category": "alias_attribution_history",
+    "text": "Q_2",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "Aar02"
+  },
+  {
+    "measure": "Q",
+    "category": "alias_attribution_history",
+    "text": "Q_{1/3}",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "HS05survey"
+  },
+  {
+    "measure": "QE",
+    "category": "aliases",
+    "text": "Q_E",
+    "source": "ABK16",
+    "locator": "Section 2.2",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "QE",
+    "category": "alias_attribution_history",
+    "text": "Q_E",
+    "source": "Mid04",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "ABK16"
+  },
+  {
+    "measure": "QE",
+    "category": "repository_display_variants",
+    "text": "Q_{\\mathrm E}",
+    "source": "Mid04",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "See definition; verify exact typography during source audit."
+  },
+  {
+    "measure": "Q0",
+    "category": "aliases",
+    "text": "Q_0",
+    "source": "Aar02",
+    "status": "source_checked",
+    "normalization": "Equivalent up to constants; inspect the source’s expected-cost and one-sided conventions.",
+    "locator": "Section 1",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "s",
+    "category": "aliases",
+    "text": "s",
+    "source": "KLLPV26",
+    "locator": "Definition 31",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "s",
+    "category": "aliases",
+    "text": "critical sensitivity",
+    "source": "Nis89",
+    "locator": "Publisher abstract",
+    "status": "source_checked",
+    "normalization": "Historical name identified in the original introduction/abstract; later sensitivity definitions fix the normalization.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "s",
+    "category": "aliases",
+    "text": "s_w(f)",
+    "source": "Nis89",
+    "locator": "Section 2, p.330",
+    "status": "source_checked",
+    "normalization": "Input-local notation, not the global maximum."
+  },
+  {
+    "measure": "s",
+    "category": "alias_attribution_history",
+    "text": "s",
+    "source": "BdW02",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "KLLPV26"
+  },
+  {
+    "measure": "s",
+    "category": "alias_attribution_history",
+    "text": "critical sensitivity",
+    "source": "BdW02",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "Nis89"
+  },
+  {
+    "measure": "s0",
+    "category": "aliases",
+    "text": "s_0",
+    "source": "ABKBRT21",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Appendix A, Lemma 31",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "s1",
+    "category": "aliases",
+    "text": "s_1",
+    "source": "ABKBRT21",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Appendix A, Lemma 31",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "bs",
+    "category": "aliases",
+    "text": "bs",
+    "source": "NS94",
+    "locator": "Definition 3.6",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "bs",
+    "category": "aliases",
+    "text": "bs_w(f)",
+    "source": "Nis89",
+    "locator": "Section 2, p.330",
+    "status": "source_checked",
+    "normalization": "Input-local notation, not the global maximum."
+  },
+  {
+    "measure": "bs",
+    "category": "alias_attribution_history",
+    "text": "bs",
+    "source": "Nis91",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "NS94"
+  },
+  {
+    "measure": "bs0",
+    "category": "aliases",
+    "text": "bs_0",
+    "source": "GSS13",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "bs0",
+    "category": "alias_attribution_history",
+    "text": "bs_0",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "GSS13"
+  },
+  {
+    "measure": "bs1",
+    "category": "aliases",
+    "text": "bs_1",
+    "source": "GSS13",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "bs1",
+    "category": "alias_attribution_history",
+    "text": "bs_1",
+    "source": "ABK16",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "GSS13"
+  },
+  {
+    "measure": "bs_l",
+    "category": "aliases",
+    "text": "bs_ell",
+    "source": "HKP11",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 3.1",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "bs_l",
+    "category": "aliases",
+    "text": "ell-block sensitivity",
+    "source": "HKP11",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 3.1",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "C",
+    "category": "aliases",
+    "text": "certificate size",
+    "source": "BdW02",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 2.2",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "C",
+    "category": "aliases",
+    "text": "C",
+    "source": "KLLPV26",
+    "locator": "Definition 22",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "C",
+    "category": "aliases",
+    "text": "N",
+    "source": "SW86",
+    "locator": "Section I, p.31",
+    "status": "source_checked",
+    "normalization": "Nondeterministic complexity means maximum over both output orientations, modern C.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "C",
+    "category": "aliases",
+    "text": "HSC",
+    "source": "CDMRS23",
+    "locator": "Definition 2.4",
+    "status": "source_checked",
+    "normalization": "A set hits every minimal sensitive block iff fixing it certifies the target value."
+  },
+  {
+    "measure": "C",
+    "category": "aliases",
+    "text": "C_w(f)",
+    "source": "Nis89",
+    "locator": "Section 2, p.330",
+    "status": "source_checked",
+    "normalization": "Input-local notation, not the global maximum."
+  },
+  {
+    "measure": "C",
+    "category": "alias_attribution_history",
+    "text": "C",
+    "source": "BdW02",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "KLLPV26"
+  },
+  {
+    "measure": "C0",
+    "category": "aliases",
+    "text": "C^0",
+    "source": "KT13",
+    "locator": "Section 1 notation paragraph",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "C0",
+    "category": "aliases",
+    "text": "C_0",
+    "source": "KLLPV26",
+    "locator": "Definition 22",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "C0",
+    "category": "aliases",
+    "text": "CNF width",
+    "source": "GPW18",
+    "locator": "Section 1, complement of nondeterministic model",
+    "status": "source_checked",
+    "normalization": "Minimum width over CNFs; follows by complementing the DNF characterization.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "C0",
+    "category": "aliases",
+    "text": "coNP^dt(f)",
+    "source": "Goos15",
+    "status": "source_checked",
+    "locator": "Sections 1.1–2, pp.2–4",
+    "normalization": "Total Boolean functions; superscript dt denotes query model.",
+    "alias_kind": "symbol"
+  },
+  {
+    "measure": "C0",
+    "category": "alias_attribution_history",
+    "text": "C_0",
+    "source": "BdW02",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "KLLPV26"
+  },
+  {
+    "measure": "C1",
+    "category": "aliases",
+    "text": "C^1",
+    "source": "KT13",
+    "locator": "Section 1 notation paragraph",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "C1",
+    "category": "aliases",
+    "text": "NP^dt",
+    "source": "GPW18",
+    "locator": "Section 1, query notation",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "C1",
+    "category": "aliases",
+    "text": "C_1",
+    "source": "KLLPV26",
+    "locator": "Definition 22",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "C1",
+    "category": "aliases",
+    "text": "DNF width",
+    "source": "GPW18",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Minimum width over DNFs for a total function.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "C1",
+    "category": "aliases",
+    "text": "C^(1)(f)",
+    "source": "Nis89",
+    "locator": "Section 4, p.333",
+    "status": "source_checked",
+    "normalization": "As defined in the original."
+  },
+  {
+    "measure": "C1",
+    "category": "aliases",
+    "text": "NP^dt(f)",
+    "source": "Goos15",
+    "status": "source_checked",
+    "locator": "Sections 1.1–2, pp.2–4",
+    "normalization": "Total Boolean functions; superscript dt denotes query model.",
+    "alias_kind": "symbol"
+  },
+  {
+    "measure": "C1",
+    "category": "alias_attribution_history",
+    "text": "C_1",
+    "source": "BdW02",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "KLLPV26"
+  },
+  {
+    "measure": "fbs",
+    "category": "aliases",
+    "text": "fbs",
+    "source": "KT13",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "fbs",
+    "category": "aliases",
+    "text": "bs^*",
+    "source": "GSS13",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "Fractional block packing LP.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "FC",
+    "category": "aliases",
+    "text": "FC",
+    "source": "KT13",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "FC",
+    "category": "aliases",
+    "text": "C^*",
+    "source": "GSS13",
+    "locator": "Section 2 and Appendix A",
+    "status": "source_checked",
+    "normalization": "Fractional certificate LP; within constants of RC and exactly dual to fbs.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "FC",
+    "category": "aliases",
+    "text": "randomized certificate complexity",
+    "source": "FLLV20notes",
+    "locator": "Section 2, p.3, immediately after the certificate LP relaxation",
+    "status": "source_checked",
+    "alias_kind": "name",
+    "normalization": "Here the literal name labels the fractional covering LP, numerically FC. This must not identify its exact value with Aar02 operational expected-query RC; the measures are only constant-factor equivalent under the stored verifier convention."
+  },
+  {
+    "measure": "RC",
+    "category": "aliases",
+    "text": "RC",
+    "source": "Aar02",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Definition 3"
+  },
+  {
+    "measure": "QC",
+    "category": "aliases",
+    "text": "QC",
+    "source": "Aar02",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Definition 3"
+  },
+  {
+    "measure": "UC",
+    "category": "aliases",
+    "text": "UC",
+    "source": "AIK26",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "UC",
+    "category": "aliases",
+    "text": "2UP^dt",
+    "source": "GPW18",
+    "locator": "Section 1, query notation",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "UC",
+    "category": "aliases",
+    "text": "subcube partition complexity",
+    "source": "AKK16",
+    "locator": "Introduction, query complexity",
+    "status": "source_checked",
+    "normalization": "Minimum maximum codimension, not logarithm of the number of partition parts.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "UC0",
+    "category": "aliases",
+    "text": "UC_0",
+    "source": "AIK26",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "UC0",
+    "category": "aliases",
+    "text": "coUP^dt",
+    "source": "GPW18",
+    "locator": "Section 1, query notation",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "UC1",
+    "category": "aliases",
+    "text": "UC_1",
+    "source": "AIK26",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "UC1",
+    "category": "aliases",
+    "text": "UP^dt",
+    "source": "GPW18",
+    "locator": "Section 1, query notation",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "UC1",
+    "category": "aliases",
+    "text": "one-sided subcube partition complexity",
+    "source": "AKK16",
+    "locator": "Introduction, quantum query complexity",
+    "status": "source_checked",
+    "normalization": "Positive side; complement gives the other orientation.",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "UC1",
+    "category": "aliases",
+    "text": "UP^dt(f)",
+    "source": "Goos15",
+    "status": "source_checked",
+    "locator": "Sections 1.1–2, pp.2–4",
+    "normalization": "Total Boolean functions; superscript dt denotes query model.",
+    "alias_kind": "symbol"
+  },
+  {
+    "measure": "UCmin",
+    "category": "aliases",
+    "text": "UC_min",
+    "source": "AIK26",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2"
+  },
+  {
+    "measure": "deg",
+    "category": "aliases",
+    "text": "deg",
+    "source": "NS94",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Definition 1.1",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "deg",
+    "category": "aliases",
+    "text": "Fourier degree",
+    "source": "NS94",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Definition 1.1; representation by real polynomials",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "deg",
+    "category": "aliases",
+    "text": "real degree",
+    "source": "NS94",
+    "status": "definition_equivalence_checked_literal_name_pending",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Definition 1.1; representation by real polynomials",
+    "alias_kind": "descriptive_label"
+  },
+  {
+    "measure": "deg",
+    "category": "aliases",
+    "text": "Fourier-degree",
+    "source": "ABKBRT21",
+    "locator": "Section 2.3",
+    "status": "source_checked",
+    "normalization": "Equal degree under the source’s Fourier encoding.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "deg",
+    "category": "aliases",
+    "text": "gdeg",
+    "source": "Sparse25",
+    "locator": "Definition 2.11 and Remark 2.12",
+    "status": "source_checked",
+    "normalization": "Generalized subcube-indicator degree equals ordinary degree by replacing every complement variable with 1-x_i. Approximate version has pointwise error 1/3."
+  },
+  {
+    "measure": "adeg",
+    "category": "aliases",
+    "text": "\\widetilde{deg}",
+    "source": "ABK16",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2.2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "adeg",
+    "category": "aliases",
+    "text": "approximate polynomial degree",
+    "source": "ABK16",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 2.2",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "adeg",
+    "category": "aliases",
+    "text": "tilde gdeg",
+    "source": "Sparse25",
+    "locator": "Definition 2.11 and Remark 2.12",
+    "status": "source_checked",
+    "normalization": "Generalized subcube-indicator degree equals ordinary degree by replacing every complement variable with 1-x_i. Approximate version has pointwise error 1/3."
+  },
+  {
+    "measure": "adeg_eps",
+    "category": "aliases",
+    "text": "\\widetilde{deg}_epsilon",
+    "source": "BT17",
+    "locator": "Section 2.1",
+    "status": "source_checked",
+    "normalization": "Signed target in this source: epsilon signed error corresponds to epsilon/2 for a 0/1 target."
+  },
+  {
+    "measure": "adeg_bounded",
+    "category": "aliases",
+    "text": "\\widetilde{deg}_epsilon",
+    "source": "ABKBRT21",
+    "status": "source_checked",
+    "normalization": "Bounded range on Boolean inputs; source epsilon convention. This occurrence belongs to adeg_bounded, not unrestricted adeg_eps.",
+    "locator": "Section 2.3",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "adeg_bounded",
+    "category": "repository_display_variants",
+    "text": "\\widetilde{deg}^{bounded}_epsilon",
+    "source": "ABKBRT21",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "See definition; verify exact typography during source audit."
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "lambda",
+    "source": "ABKBRT21",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 3",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "K",
+    "source": "ABKBRT21",
+    "status": "source_checked",
+    "normalization": "Koutsoupias complexity, with norm unsquared; square gives formula-size lower bound.",
+    "locator": "Appendix A.1, Theorem 28",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "Adv_1",
+    "source": "ABKBRT21",
+    "locator": "Appendix A.1, Theorem 28",
+    "status": "source_checked",
+    "normalization": "Single-bit positive adversary, equal to lambda.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "Adv_1^{pm}",
+    "source": "ABKBRT21",
+    "locator": "Appendix A.1, Theorem 28",
+    "status": "source_checked",
+    "normalization": "Single-bit negative adversary, equal to lambda.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "SA_1",
+    "source": "ABKBRT21",
+    "locator": "Appendix A.1, Theorem 28",
+    "status": "source_checked",
+    "normalization": "Single-bit restrictions of the respective adversary formulations; equal to lambda, not to the unrestricted adversary.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "SWA_1",
+    "source": "ABKBRT21",
+    "locator": "Appendix A.1, Theorem 28",
+    "status": "source_checked",
+    "normalization": "Single-bit restrictions of the respective adversary formulations; equal to lambda, not to the unrestricted adversary.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "MM_1",
+    "source": "ABKBRT21",
+    "locator": "Appendix A.1, Theorem 28",
+    "status": "source_checked",
+    "normalization": "Single-bit restrictions of the respective adversary formulations; equal to lambda, not to the unrestricted adversary.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "lambda",
+    "category": "aliases",
+    "text": "GSA_1",
+    "source": "ABKBRT21",
+    "locator": "Appendix A.1, Theorem 28",
+    "status": "source_checked",
+    "normalization": "Single-bit restrictions of the respective adversary formulations; equal to lambda, not to the unrestricted adversary.",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "rdeg",
+    "category": "aliases",
+    "text": "rational degree",
+    "source": "IJKKSWW23",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Introduction and definitions",
+    "alias_kind": "name"
+  },
+  {
+    "measure": "rdeg",
+    "category": "aliases",
+    "text": "rdeg",
+    "source": "KLLPV26",
+    "locator": "Definition 37",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "rdeg",
+    "category": "alias_attribution_history",
+    "text": "rdeg",
+    "source": "IJKKSWW23",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "KLLPV26"
+  },
+  {
+    "measure": "ndeg",
+    "category": "aliases",
+    "text": "ndeg",
+    "source": "KLLPV26",
+    "locator": "Definition 36",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "ndeg",
+    "category": "alias_attribution_history",
+    "text": "ndeg",
+    "source": "IJKKSWW23",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "KLLPV26"
+  },
+  {
+    "measure": "AdvPlus",
+    "category": "aliases",
+    "text": "Adv",
+    "source": "BK19",
+    "status": "source_checked",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 1.1",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "AdvPlus",
+    "category": "aliases",
+    "text": "positive adversary",
+    "source": "BK19",
+    "status": "definition_equivalence_checked_literal_name_pending",
+    "normalization": "Same measure; source-specific cost/encoding caveats remain in the definition.",
+    "locator": "Section 1.1",
+    "alias_kind": "descriptive_label"
+  },
+  {
+    "measure": "AdvPlus",
+    "category": "aliases",
+    "text": "MM",
+    "source": "BK19",
+    "locator": "Section 1.1 and references to equivalent formulations",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "AdvPlus",
+    "category": "aliases",
+    "text": "SA",
+    "source": "ABKBRT21",
+    "locator": "Definition 8",
+    "status": "source_checked",
+    "normalization": "positive spectral adversary"
+  },
+  {
+    "measure": "AdvPlus",
+    "category": "alias_attribution_history",
+    "text": "SA",
+    "source": "BK19",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_source_checked_occurrence",
+    "replacement_source": "ABKBRT21"
+  },
+  {
+    "measure": "AdvGeneral",
+    "category": "aliases",
+    "text": "Adv^{\\pm}",
+    "source": "ABK16",
+    "locator": "Section 2; general-adversary characterization cited in Section 5",
+    "status": "source_checked",
+    "normalization": "The spectral norm is used; the general adversary differs from the positive-weight bound. Original HLS/LMRSS source reconciliation is in the bibliography queue."
+  },
+  {
+    "measure": "AdvGeneral",
+    "category": "aliases",
+    "text": "negative-weight adversary bound",
+    "source": "ABK16",
+    "locator": "Section 2; general-adversary characterization cited in Section 5",
+    "status": "source_checked",
+    "normalization": "The spectral norm is used; the general adversary differs from the positive-weight bound. Original HLS/LMRSS source reconciliation is in the bibliography queue."
+  },
+  {
+    "measure": "AdvGeneral",
+    "category": "aliases",
+    "text": "ADV^{pm}",
+    "source": "HLS07",
+    "locator": "Definition 2",
+    "status": "source_checked",
+    "normalization": "TeX transcription of the printed plus/minus superscript; signed spectral adversary."
+  },
+  {
+    "measure": "AdvGeneral",
+    "category": "alias_attribution_history",
+    "text": "Adv±",
+    "source": "ABKBRT21",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "replaced_by_original_HLS07_occurrence"
+  },
+  {
+    "measure": "QD",
+    "category": "aliases",
+    "text": "QD",
+    "source": "BK19",
+    "locator": "Definition 5, PDF p.7",
+    "status": "source_checked",
+    "normalization": "Trace distance is half the Schatten 1-norm. DQA is attributed to Barnum–Saks–Szegedy 2001 Remark 1 in Section 1.1; retain that historical attribution separately."
+  },
+  {
+    "measure": "QD",
+    "category": "aliases",
+    "text": "DQA",
+    "source": "BK19",
+    "locator": "Definition 5, PDF p.7",
+    "status": "source_checked",
+    "normalization": "Trace distance is half the Schatten 1-norm. DQA is attributed to Barnum–Saks–Szegedy 2001 Remark 1 in Section 1.1; retain that historical attribution separately."
+  },
+  {
+    "measure": "QSZK",
+    "category": "aliases",
+    "text": "QSZK",
+    "source": "BK19",
+    "locator": "Definition 14, PDF p.12",
+    "status": "source_checked",
+    "normalization": "This is the complete-problem-based state-distance definition, not an automatically identical interactive-protocol cost."
+  },
+  {
+    "measure": "RS",
+    "category": "aliases",
+    "text": "RS",
+    "source": "CG22",
+    "locator": "Definition 5.6",
+    "status": "source_checked",
+    "normalization": "Zero-error expected queries. Oracle alphabet {0,1,*,dagger}; underlying f may be partial. Original definition: Ben-David–Kothari randomized query composition and sabotage complexity."
+  },
+  {
+    "measure": "QS",
+    "category": "aliases",
+    "text": "QS_{weak}",
+    "source": "CMP24",
+    "locator": "Section 2 and Definition 1",
+    "status": "source_checked",
+    "normalization": "Do not identify with QD. BK19 suggests the name quantum sabotage for QD, whereas CMP24 studies four distinct sabotage oracle/output variants."
+  },
+  {
+    "measure": "QS",
+    "category": "aliases",
+    "text": "QS",
+    "source": "CMP24",
+    "locator": "Section 1.1, before the four-model split",
+    "status": "source_checked",
+    "normalization": "Initially Q(f_sab), the weak-input distinguishing model. Later unqualified QS may refer schematically to a selected variant; retain the model subscript when making comparisons."
+  },
+  {
+    "measure": "QS",
+    "category": "alias_attribution_history",
+    "text": "QS",
+    "source": "KLLPV26",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "unqualified_KLLPV26_is_schematic_across_four_models_not_a_weak_model_identity"
+  },
+  {
+    "measure": "CGpub",
+    "category": "aliases",
+    "text": "CG^{pub}",
+    "source": "CG22",
+    "locator": "Definition 2.4",
+    "status": "source_checked",
+    "normalization": "Possibly partial f. This is inverse probability, not its logarithm."
+  },
+  {
+    "measure": "CGpub",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "CG22",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "CGpriv",
+    "category": "aliases",
+    "text": "CG^{priv}",
+    "source": "CG22",
+    "locator": "Definition 2.3",
+    "status": "source_checked",
+    "normalization": "Possibly partial f. This is inverse probability, not its logarithm."
+  },
+  {
+    "measure": "CGpriv",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "CG22",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "CGent",
+    "category": "aliases",
+    "text": "CG^*",
+    "source": "CG22",
+    "locator": "Definition 2.5",
+    "status": "source_checked",
+    "normalization": "Possibly partial f. This is inverse probability, not its logarithm."
+  },
+  {
+    "measure": "CGent",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "CG22",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "CGns",
+    "category": "aliases",
+    "text": "CG^{ns}",
+    "source": "CG22",
+    "locator": "Definitions 2.1 and 2.6",
+    "status": "source_checked",
+    "normalization": "Possibly partial f. This is inverse probability, not its logarithm."
+  },
+  {
+    "measure": "CGns",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "CG22",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "conical",
+    "category": "aliases",
+    "text": "\\widetilde{deg}^{+2}",
+    "source": "BK24",
+    "locator": "Definition 12, decision-function specialization",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "conical",
+    "category": "aliases",
+    "text": "conical junta degree",
+    "source": "BK24",
+    "locator": "Definition 12, decision-function specialization",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "conical",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "BK24",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "rel_adeg",
+    "category": "aliases",
+    "text": "\\widetilde{deg}",
+    "source": "BK24",
+    "locator": "Definition 10, PDF pp.11–12",
+    "status": "source_checked",
+    "normalization": "Default epsilon=1/3. Positivity and normalization also hold off-promise. Single-output-function degree is a separate specialization."
+  },
+  {
+    "measure": "rel_adeg",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "BK24",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "Rexp",
+    "category": "aliases",
+    "text": "RE",
+    "source": "KLW14",
+    "locator": "Section 2.3 and Theorem 9",
+    "status": "source_checked",
+    "normalization": "f maps the full cube to nonnegative reals. This is not expected running time."
+  },
+  {
+    "measure": "Rexp",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "KLW14",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "Qexp",
+    "category": "aliases",
+    "text": "QE",
+    "source": "KLW14",
+    "locator": "Section 2.3 and Theorem 12",
+    "status": "source_checked",
+    "normalization": "Source QE collides with exact quantum query complexity Q_E. Preserve the distinction by stable IDs."
+  },
+  {
+    "measure": "Qexp",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "KLW14",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "literaldeg",
+    "category": "aliases",
+    "text": "ldeg_+",
+    "source": "KLW14",
+    "locator": "Section 2.3 and Theorem 9",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "literaldeg",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "KLW14",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "sosdeg",
+    "category": "aliases",
+    "text": "deg_sos",
+    "source": "KLW14",
+    "locator": "Section 2.3 and Theorem 12",
+    "status": "source_checked",
+    "normalization": "The roots have degree d; the sum of squares has formal degree at most 2d. Other SOS conventions count 2d."
+  },
+  {
+    "measure": "sosdeg",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "KLW14",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "psR",
+    "category": "aliases",
+    "text": "psR",
+    "source": "AGL26",
+    "locator": "Definitions 2.1–2.2",
+    "status": "source_checked",
+    "normalization": "The canonical selector may depend on the algorithm, but cannot depend on its random coins or measurement outcomes."
+  },
+  {
+    "measure": "psR",
+    "category": "aliases",
+    "text": "psD^dt",
+    "source": "CDM23full",
+    "locator": "Section 2: decision-tree and pseudo-deterministic definitions",
+    "status": "source_checked",
+    "normalization": "Depth is worst case; psD^dt is randomized pseudo-deterministic depth despite the letter D. The notation also applies to search relations."
+  },
+  {
+    "measure": "psR",
+    "category": "aliases",
+    "text": "psP^dt",
+    "source": "GIPS21",
+    "locator": "Theorem 4 and Section 2",
+    "status": "source_checked",
+    "normalization": "Search relations; classical/quantum bounded-error depth and pseudo-deterministic depth, as specified by the stable ID."
+  },
+  {
+    "measure": "psQ",
+    "category": "aliases",
+    "text": "psQ",
+    "source": "AGL26",
+    "locator": "Definitions 2.1–2.2",
+    "status": "source_checked",
+    "normalization": "The canonical selector may depend on the algorithm, but cannot depend on its random coins or measurement outcomes."
+  },
+  {
+    "measure": "psQ",
+    "category": "aliases",
+    "text": "psQ^dt",
+    "source": "GIPS21",
+    "locator": "Theorem 4 and Section 2",
+    "status": "source_checked",
+    "normalization": "Search relations; classical/quantum bounded-error depth and pseudo-deterministic depth, as specified by the stable ID."
+  },
+  {
+    "measure": "blocknumber",
+    "category": "aliases",
+    "text": "N_b",
+    "source": "CG26",
+    "locator": "Definitions 3–4",
+    "status": "source_checked",
+    "normalization": "KT13 Section 5 uses nbs. The size-ell version counts blocks of size at most ell in CG26, unlike exact-size nbs_k in KT13."
+  },
+  {
+    "measure": "blocknumber",
+    "category": "aliases",
+    "text": "nbs",
+    "source": "CG26",
+    "locator": "Definitions 3–4",
+    "status": "source_checked",
+    "normalization": "KT13 Section 5 uses nbs. The size-ell version counts blocks of size at most ell in CG26, unlike exact-size nbs_k in KT13."
+  },
+  {
+    "measure": "blocknumber",
+    "category": "aliases",
+    "text": "#bs",
+    "source": "CDMRS23",
+    "locator": "Definition 2.4",
+    "status": "source_checked",
+    "normalization": "Number of minimal sensitive blocks, not a maximum disjoint packing."
+  },
+  {
+    "measure": "blocknumber",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "CG26",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "bricknumber",
+    "category": "aliases",
+    "text": "N_{br}",
+    "source": "CG26",
+    "locator": "Definitions 7–8",
+    "status": "source_checked",
+    "normalization": "A brick need not itself be a sensitive block when |B|>1. Do not replace the defining condition by minimal sensitivity."
+  },
+  {
+    "measure": "bricknumber",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "CG26",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "See definition; verify exact typography during source audit.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "rel_conical",
+    "category": "aliases",
+    "text": "\\widetilde{deg}^{+2}",
+    "source": "BK24",
+    "locator": "Definition 12",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_conical",
+    "category": "aliases",
+    "text": "conical junta degree",
+    "source": "BK24",
+    "locator": "Definition 12",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_conical",
+    "category": "aliases",
+    "text": "two-sided conical junta degree",
+    "source": "BK24",
+    "locator": "Definition 12",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "mbs",
+    "category": "aliases",
+    "text": "mbs",
+    "source": "BJKM24",
+    "locator": "Definitions 5–8",
+    "status": "source_checked",
+    "normalization": "Defined for arbitrary total f. This is not merely ordinary complexity restricted to monotone f."
+  },
+  {
+    "measure": "mbs",
+    "category": "aliases",
+    "text": "bs_0",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 235–245",
+    "status": "source_checked",
+    "normalization": "Flip only input-zero coordinates; NOT the maximum over zero-output inputs. The source expressly identifies these with monotone sensitivity / monotone block sensitivity on total Boolean functions."
+  },
+  {
+    "measure": "mbs",
+    "category": "aliases",
+    "text": "bs_0",
+    "source": "CDM23",
+    "locator": "Section 2: directed sensitivity definitions",
+    "status": "source_checked",
+    "normalization": "Subscript is the value of the input bits being flipped, not an output restriction. Final Theorem 5.2 uses this convention."
+  },
+  {
+    "measure": "mbs",
+    "category": "aliases",
+    "text": "MBS",
+    "source": "KLMY21",
+    "locator": "Section 2.1",
+    "status": "source_checked",
+    "normalization": "Monotone block sensitivity on the upward restriction at each input."
+  },
+  {
+    "measure": "mbs",
+    "category": "aliases",
+    "text": "bs^{0→1}",
+    "source": "CDM25",
+    "locator": "Section 2 and Theorem 6.1",
+    "status": "source_checked",
+    "normalization": "Direction of input-coordinate flips, not output value."
+  },
+  {
+    "measure": "fmbs",
+    "category": "aliases",
+    "text": "fmbs",
+    "source": "BJKM24",
+    "locator": "Definitions 5–8",
+    "status": "source_checked",
+    "normalization": "Defined for arbitrary total f. This is not merely ordinary complexity restricted to monotone f."
+  },
+  {
+    "measure": "fmbs",
+    "category": "aliases",
+    "text": "FHSC_0",
+    "source": "CDMRS23",
+    "locator": "Definition 2.6",
+    "status": "source_checked",
+    "normalization": "Fractional hitting-set LP dual to the fractional packing of sensitive input-zero blocks. Not output-zero fractional block sensitivity."
+  },
+  {
+    "measure": "fmbs",
+    "category": "aliases",
+    "text": "FHSC",
+    "source": "KLMY21",
+    "locator": "Definition 2.13",
+    "status": "source_checked",
+    "normalization": "Fractional input-directed hitting-set LP, equal to FMBS. Interpret the printed smallest-p wording using the explicitly stated LP and largest feasible p."
+  },
+  {
+    "measure": "fmbs",
+    "category": "aliases",
+    "text": "FMBS",
+    "source": "KLMY21",
+    "locator": "Section 2.1",
+    "status": "source_checked",
+    "normalization": "Fractional monotone block sensitivity, equal by LP duality to FHSC."
+  },
+  {
+    "measure": "MCC",
+    "category": "aliases",
+    "text": "MCC",
+    "source": "BJKM24",
+    "locator": "Definitions 5–8",
+    "status": "source_checked",
+    "normalization": "Defined for arbitrary total f. This is not merely ordinary complexity restricted to monotone f."
+  },
+  {
+    "measure": "MCC",
+    "category": "aliases",
+    "text": "hitting set complexity",
+    "source": "BJKM24",
+    "locator": "Definitions 5–8",
+    "status": "source_checked",
+    "normalization": "Defined for arbitrary total f. This is not merely ordinary complexity restricted to monotone f."
+  },
+  {
+    "measure": "MCC",
+    "category": "aliases",
+    "text": "HSC_0",
+    "source": "CDMRS23",
+    "locator": "Definition 2.5",
+    "status": "source_checked",
+    "normalization": "Hit every sensitive block consisting of input-zero positions, at every input. This matches monotone certificate complexity, not output-zero C0."
+  },
+  {
+    "measure": "MCC",
+    "category": "aliases",
+    "text": "HSC",
+    "source": "KLMY21",
+    "locator": "Definition 2.10",
+    "status": "source_checked",
+    "normalization": "Input-zero/upward sensitive blocks. CDMRS23 uses bare HSC for ordinary C and HSC_0 for this quantity."
+  },
+  {
+    "measure": "ms",
+    "category": "aliases",
+    "text": "ms",
+    "source": "BJKM24",
+    "locator": "Definitions 5–8",
+    "status": "source_checked",
+    "normalization": "Defined for arbitrary total f. This is not merely ordinary complexity restricted to monotone f."
+  },
+  {
+    "measure": "ms",
+    "category": "aliases",
+    "text": "s_0",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 235–245",
+    "status": "source_checked",
+    "normalization": "Flip only input-zero coordinates; NOT the maximum over zero-output inputs. The source expressly identifies these with monotone sensitivity / monotone block sensitivity on total Boolean functions."
+  },
+  {
+    "measure": "ms",
+    "category": "aliases",
+    "text": "s_0",
+    "source": "CDM23",
+    "locator": "Section 2: directed sensitivity definitions",
+    "status": "source_checked",
+    "normalization": "Subscript is the value of the input bits being flipped, not an output restriction. Final Theorem 5.2 uses this convention."
+  },
+  {
+    "measure": "DTSize",
+    "category": "aliases",
+    "text": "DTSize",
+    "source": "DM23",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2"
+  },
+  {
+    "measure": "DTSize",
+    "category": "aliases",
+    "text": "DSize^dt",
+    "source": "CDM23full",
+    "locator": "Section 2: decision-tree and pseudo-deterministic definitions",
+    "status": "source_checked",
+    "normalization": "Depth is worst case; psD^dt is randomized pseudo-deterministic depth despite the letter D. The notation also applies to search relations."
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "Rank",
+    "source": "DM23",
+    "status": "source_checked",
+    "normalization": "same definition",
+    "locator": "Section 2",
+    "alias_kind": "notation"
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "Strahler number",
+    "source": "DM23",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "First a rooted-tree statistic; function measure minimizes over computing trees."
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "Horton-Strahler number",
+    "source": "DM23",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "First a rooted-tree statistic; function measure minimizes over computing trees."
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "tree rank",
+    "source": "DM23",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "First a rooted-tree statistic; function measure minimizes over computing trees."
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "rank",
+    "source": "CDMRS23",
+    "locator": "Definition 2.10",
+    "status": "source_checked",
+    "normalization": "Minimum Strahler rank of a correct deterministic tree."
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "rank",
+    "source": "CMP22",
+    "locator": "Definition 3",
+    "status": "source_checked",
+    "normalization": "Strahler rank; randomized rank takes the maximum rank in the support."
+  },
+  {
+    "measure": "DTRank",
+    "category": "aliases",
+    "text": "r(f)",
+    "source": "EH89",
+    "locator": "Definition p.241",
+    "status": "source_checked",
+    "normalization": "As defined in the original."
+  },
+  {
+    "measure": "sparsity",
+    "category": "aliases",
+    "text": "spar",
+    "source": "DM23",
+    "locator": "Section 2, Fourier representation, PDF p.6",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "ANDD",
+    "category": "aliases",
+    "text": "D_wedge",
+    "source": "DM23",
+    "locator": "Section 7, AND-decision tree model",
+    "status": "source_checked",
+    "normalization": "This source model uses monotone conjunctions; do not silently allow arbitrary negated literals."
+  },
+  {
+    "measure": "ANDD",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "DM23",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "Source-specific convention.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "IC",
+    "category": "aliases",
+    "text": "InstC",
+    "source": "LM26",
+    "locator": "Definition 2.3",
+    "status": "source_checked",
+    "normalization": "Competitive ratio. Constant functions require a separate zero-denominator convention; source results involving them are stated separately."
+  },
+  {
+    "measure": "IC",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "LM26",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "Source-specific convention.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "hazardD",
+    "category": "aliases",
+    "text": "D_u",
+    "source": "BKMNSS25",
+    "locator": "Definition 2.1",
+    "status": "source_checked",
+    "normalization": "Input and output alphabets are ternary. The symbol u is a queried value, distinct from an unrevealed coordinate."
+  },
+  {
+    "measure": "hazardD",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "BKMNSS25",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "Source-specific convention.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "hazardR",
+    "category": "aliases",
+    "text": "R_u",
+    "source": "BKMNSS25",
+    "locator": "Definition 2.5",
+    "status": "source_checked",
+    "normalization": "Input and output alphabets are ternary. The symbol u is a queried value, distinct from an unrevealed coordinate."
+  },
+  {
+    "measure": "hazardR",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "BKMNSS25",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "Source-specific convention.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "hazardQ",
+    "category": "aliases",
+    "text": "Q_u",
+    "source": "BKMNSS25",
+    "locator": "Definition 2.6",
+    "status": "source_checked",
+    "normalization": "Input and output alphabets are ternary. The symbol u is a queried value, distinct from an unrevealed coordinate."
+  },
+  {
+    "measure": "hazardQ",
+    "category": "alias_attribution_history",
+    "text": "source-specific",
+    "source": "BKMNSS25",
+    "status": "seed_alias_exact_occurrence_audit_pending",
+    "normalization": "Source-specific convention.",
+    "disposition": "withdrawn_placeholder_not_a_notation"
+  },
+  {
+    "measure": "rdeg_eps",
+    "category": "aliases",
+    "text": "rdeg_epsilon",
+    "source": "IJKKSWW23",
+    "locator": "Introduction and Section 2",
+    "status": "source_checked",
+    "normalization": "Explicit error and denominator nonvanishing condition; no off-promise bound is imposed here."
+  },
+  {
+    "measure": "PostQ",
+    "category": "aliases",
+    "text": "PostQ_epsilon",
+    "source": "IJKKSWW23",
+    "locator": "Section 2, postselection definitions",
+    "status": "source_checked",
+    "normalization": "The postselection success probability need not be inverse polynomial."
+  },
+  {
+    "measure": "PostQE",
+    "category": "aliases",
+    "text": "PostQ_E",
+    "source": "IJKKSWW23",
+    "locator": "Section 2 and Appendix A",
+    "status": "source_checked",
+    "normalization": "Exact conditioned output; not zero-error quantum query complexity Q_0."
+  },
+  {
+    "measure": "PostQE",
+    "category": "aliases",
+    "text": "PostEQP query complexity",
+    "source": "IJKKSWW23",
+    "locator": "Section 2 and Appendix A",
+    "status": "source_checked",
+    "normalization": "Exact conditioned output; not zero-error quantum query complexity Q_0."
+  },
+  {
+    "measure": "QSweakIndex",
+    "category": "aliases",
+    "text": "QS^{ind}_{weak}",
+    "source": "CMP24",
+    "locator": "Section 2; four-variant definitions",
+    "status": "source_checked",
+    "normalization": "All component input queries count; source access conventions retained."
+  },
+  {
+    "measure": "QSstrong",
+    "category": "aliases",
+    "text": "QS_{str}",
+    "source": "CMP24",
+    "locator": "Section 2; four-variant definitions",
+    "status": "source_checked",
+    "normalization": "All component input queries count; source access conventions retained."
+  },
+  {
+    "measure": "QSstrongIndex",
+    "category": "aliases",
+    "text": "QS^{ind}_{str}",
+    "source": "CMP24",
+    "locator": "Section 2; four-variant definitions",
+    "status": "source_checked",
+    "normalization": "All component input queries count; source access conventions retained."
+  },
+  {
+    "measure": "CGpubSingle",
+    "category": "aliases",
+    "text": "CG^{pub}_{[1]}",
+    "source": "CG22",
+    "locator": "Section 8, Theorems 8.4 and 8.8",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "CGprivSingle",
+    "category": "aliases",
+    "text": "CG^{priv}_{[1]}",
+    "source": "CG22",
+    "locator": "Section 8, Theorems 8.4 and 8.8",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "CAdv",
+    "category": "aliases",
+    "text": "CAdv",
+    "source": "BK24",
+    "locator": "Definition 14",
+    "status": "source_checked",
+    "normalization": "CG22 Definition 4.2 uses probability-normalized CMM; its equivalent normalization is recorded. Total-function CAdv=FC does not extend to all partial functions."
+  },
+  {
+    "measure": "CAdv",
+    "category": "aliases",
+    "text": "CMM",
+    "source": "BK24",
+    "locator": "Definition 14",
+    "status": "source_checked",
+    "normalization": "CG22 Definition 4.2 uses probability-normalized CMM; its equivalent normalization is recorded. Total-function CAdv=FC does not extend to all partial functions."
+  },
+  {
+    "measure": "EC",
+    "category": "aliases",
+    "text": "EC",
+    "source": "CG22",
+    "locator": "Definition 4.5",
+    "status": "source_checked",
+    "normalization": "The source extends this definition to partial functions. Distinct from randomized query complexity in expectation."
+  },
+  {
+    "measure": "rel_udeg",
+    "category": "aliases",
+    "text": "\\widetilde{udeg}",
+    "source": "BK24",
+    "locator": "Definition 11",
+    "status": "source_checked",
+    "normalization": "No off-promise boundedness. Do not conflate with bounded relation degree."
+  },
+  {
+    "measure": "rel_deg",
+    "category": "aliases",
+    "text": "deg",
+    "source": "BK24",
+    "locator": "Definition 10, epsilon=0",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_Adv",
+    "category": "aliases",
+    "text": "Adv",
+    "source": "BK24",
+    "locator": "Definition 13",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_CAdv",
+    "category": "aliases",
+    "text": "CAdv",
+    "source": "BK24",
+    "locator": "Definition 14",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_bs",
+    "category": "aliases",
+    "text": "bs",
+    "source": "BK24",
+    "locator": "Definition 15",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_cbs",
+    "category": "aliases",
+    "text": "cbs",
+    "source": "BK24",
+    "locator": "Definition 16",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_fbs",
+    "category": "aliases",
+    "text": "fbs",
+    "source": "BK24",
+    "locator": "Definition 17",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "rel_fcbs",
+    "category": "aliases",
+    "text": "fcbs",
+    "source": "BK24",
+    "locator": "Definition 17",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "blocknumber_l",
+    "category": "aliases",
+    "text": "N_b^{ell}",
+    "source": "CG26",
+    "locator": "Definition 4",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "bricknumber_l",
+    "category": "aliases",
+    "text": "N_{br}^{ell}",
+    "source": "CG26",
+    "locator": "Definition 8",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "sparsityNonempty",
+    "category": "aliases",
+    "text": "\\widetilde{spar}",
+    "source": "DM23",
+    "locator": "Section 2, Fourier representation, PDF p.6",
+    "status": "source_checked",
+    "normalization": "As in the cited definition."
+  },
+  {
+    "measure": "Cmin",
+    "category": "aliases",
+    "text": "C_min",
+    "source": "LM26",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "K in DM23 is unrelated to the Koutsoupias spectral-sensitivity alias K."
+  },
+  {
+    "measure": "Cmin",
+    "category": "aliases",
+    "text": "subcube kill number",
+    "source": "LM26",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "K in DM23 is unrelated to the Koutsoupias spectral-sensitivity alias K."
+  },
+  {
+    "measure": "Cmin",
+    "category": "aliases",
+    "text": "K",
+    "source": "LM26",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "K in DM23 is unrelated to the Koutsoupias spectral-sensitivity alias K."
+  },
+  {
+    "measure": "hazardS",
+    "category": "aliases",
+    "text": "s_u",
+    "source": "BKMNSS25",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "Input and output alphabets are ternary. The symbol u is a queried value, distinct from an unrevealed coordinate."
+  },
+  {
+    "measure": "hazardBS",
+    "category": "aliases",
+    "text": "bs_u",
+    "source": "BKMNSS25",
+    "locator": "Definition 2.3",
+    "status": "source_checked",
+    "normalization": "Input and output alphabets are ternary. The symbol u is a queried value, distinct from an unrevealed coordinate."
+  },
+  {
+    "measure": "hazardC",
+    "category": "aliases",
+    "text": "cc_u",
+    "source": "BKMNSS25",
+    "locator": "Definition 2.4",
+    "status": "source_checked",
+    "normalization": "Input and output alphabets are ternary. The symbol u is a queried value, distinct from an unrevealed coordinate."
+  },
+  {
+    "measure": "Qnegligent",
+    "category": "aliases",
+    "text": "Q^{neg}_{p,epsilon}",
+    "source": "ARS26",
+    "locator": "Section 1, equations (1.4) and (1.6)",
+    "status": "source_checked",
+    "normalization": "Fix p and epsilon explicitly; query-index dephasing differs from oracle negligence."
+  },
+  {
+    "measure": "Qdephasing",
+    "category": "aliases",
+    "text": "Q^{deph}_{p,epsilon}",
+    "source": "ARS26",
+    "locator": "Section 1, equations (1.4) and (1.6)",
+    "status": "source_checked",
+    "normalization": "Fix p and epsilon explicitly; query-index dephasing differs from oracle negligence."
+  },
+  {
+    "measure": "cubeBoundedDeg",
+    "category": "aliases",
+    "text": "deg",
+    "source": "KLLPV26",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "For partial f this differs from unrestricted exact degree. The source uses the same symbol deg; the stable ID distinguishes them."
+  },
+  {
+    "measure": "cubeBoundedDeg",
+    "category": "aliases",
+    "text": "deg",
+    "source": "AB23",
+    "locator": "Section 2.1",
+    "status": "source_checked",
+    "normalization": "Exact representing polynomial is in [0,1] on the entire cube, including off-promise inputs; this is not unrestricted promise interpolation degree."
+  },
+  {
+    "measure": "cubeBoundedAdeg",
+    "category": "aliases",
+    "text": "\\widetilde{deg}",
+    "source": "KLLPV26",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "cubeBoundedAdeg",
+    "category": "aliases",
+    "text": "tilde deg",
+    "source": "AB23",
+    "locator": "Section 2.1",
+    "status": "definition_convention_checked_not_literal_alias",
+    "normalization": "AB23 explicitly says approximate degree can be defined analogously but does not require it. Its detailed representing-polynomial definition is for exact degree; do not count this as a verified literal approximate-degree alias."
+  },
+  {
+    "measure": "boundedPolyDelta",
+    "category": "aliases",
+    "text": "Delta_{epsilon0,epsilon1,beta}",
+    "source": "KLLPV26",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "All three parameters are explicit."
+  },
+  {
+    "measure": "osdeg0",
+    "category": "aliases",
+    "text": "\\widehat{osdeg}^0",
+    "source": "KLLPV26",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "osdeg1",
+    "category": "aliases",
+    "text": "\\widehat{osdeg}^1",
+    "source": "KLLPV26",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "osdeg",
+    "category": "aliases",
+    "text": "\\widehat{osdeg}",
+    "source": "KLLPV26",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "Distinct from one-sided approximation notions allowing unbounded values on the other side."
+  },
+  {
+    "measure": "bmAdeg",
+    "category": "aliases",
+    "text": "\\widehat{bm-deg}",
+    "source": "KLLPV26",
+    "locator": "Definition 38",
+    "status": "source_checked",
+    "normalization": "Source error/encoding follows Definition 38. Each monomial uses exactly one variable from each block."
+  },
+  {
+    "measure": "D_cert",
+    "category": "aliases",
+    "text": "D^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "R_cert",
+    "category": "aliases",
+    "text": "R^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "R0_cert",
+    "category": "aliases",
+    "text": "R_0^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "QE_cert",
+    "category": "aliases",
+    "text": "Q_E^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "Q0_cert",
+    "category": "aliases",
+    "text": "Q_0^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "Q_cert",
+    "category": "aliases",
+    "text": "Q^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "QD_cert",
+    "category": "aliases",
+    "text": "QD^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "AdvPlus_cert",
+    "category": "aliases",
+    "text": "Adv^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "RS_cert",
+    "category": "aliases",
+    "text": "RS^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "QS_cert",
+    "category": "aliases",
+    "text": "QS_{weak}^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "EC_cert",
+    "category": "aliases",
+    "text": "EC^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "UC_cert",
+    "category": "aliases",
+    "text": "UC^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "CAdv_cert",
+    "category": "aliases",
+    "text": "CAdv^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "cubeBoundedDeg_cert",
+    "category": "aliases",
+    "text": "deg^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "cubeBoundedAdeg_cert",
+    "category": "aliases",
+    "text": "\\widetilde{deg}^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "osdeg_cert",
+    "category": "aliases",
+    "text": "\\widehat{osdeg}^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "lambda_cert",
+    "category": "aliases",
+    "text": "lambda^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "rdeg_cert",
+    "category": "aliases",
+    "text": "rdeg^{cert}",
+    "source": "KLLPV26",
+    "locator": "Definitions 1–2 and corresponding Theorems 3–12",
+    "status": "source_checked",
+    "normalization": "The certification problem always has a promise, even when the parent f is total. Preserve the base degree’s off-promise boundedness convention."
+  },
+  {
+    "measure": "signDeg",
+    "category": "aliases",
+    "text": "deg_{\\pm}",
+    "source": "KKWY26",
+    "locator": "Definition 3",
+    "status": "source_checked",
+    "normalization": "Source conventions use sign (-1)^f. Nonconstant Boolean inputs are the intended setting."
+  },
+  {
+    "measure": "nRelevant",
+    "category": "aliases",
+    "text": "n(f)",
+    "source": "Wel22",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "Does not count dummy input variables; distinguish from ambient input length n."
+  },
+  {
+    "measure": "nRelevant",
+    "category": "aliases",
+    "text": "R(f)",
+    "source": "CHS20",
+    "locator": "Introduction, p.1",
+    "status": "source_checked",
+    "normalization": "Number of relevant variables, not randomized query complexity."
+  },
+  {
+    "measure": "Dweighted",
+    "category": "aliases",
+    "text": "Depth_w",
+    "source": "DM23",
+    "locator": "Section 2, weighted decision trees",
+    "status": "source_checked",
+    "normalization": "Coordinate weights are part of the measure’s parameters."
+  },
+  {
+    "measure": "RCmin",
+    "category": "aliases",
+    "text": "RC_min",
+    "source": "KKWY26",
+    "locator": "Definition 10",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "fbsmin",
+    "category": "aliases",
+    "text": "fbs_min",
+    "source": "KKWY26",
+    "locator": "Definition 10",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "RCminDown",
+    "category": "aliases",
+    "text": "RC_min^downarrow",
+    "source": "KKWY26",
+    "locator": "Definition 11",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "fbsminDown",
+    "category": "aliases",
+    "text": "fbs_min^downarrow",
+    "source": "KKWY26",
+    "locator": "Definition 11",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "fbs_at0",
+    "category": "aliases",
+    "text": "fbs(f,0^n)",
+    "source": "ARS26",
+    "locator": "Theorem 1.1 and Section 2",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "fbs0",
+    "category": "aliases",
+    "text": "fbs^0",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "fbs1",
+    "category": "aliases",
+    "text": "fbs^1",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "FC0",
+    "category": "aliases",
+    "text": "FC^0",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "FC1",
+    "category": "aliases",
+    "text": "FC^1",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "RC0",
+    "category": "aliases",
+    "text": "RC^0",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "RC1",
+    "category": "aliases",
+    "text": "RC^1",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "QC0",
+    "category": "aliases",
+    "text": "QC^0",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "QC1",
+    "category": "aliases",
+    "text": "QC^1",
+    "source": "KT13",
+    "locator": "Section 1 notation and Section 2 definitions",
+    "status": "source_checked",
+    "normalization": "same definition"
+  },
+  {
+    "measure": "cfbs_boolean",
+    "category": "aliases",
+    "text": "cfbs",
+    "source": "KLLPV26",
+    "locator": "Definition 35",
+    "status": "source_checked"
+  },
+  {
+    "measure": "Cset",
+    "category": "aliases",
+    "text": "C_Sigma",
+    "source": "Bal21",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Output sets 0,1,bar0={1,*},bar1={0,*}."
+  },
+  {
+    "measure": "Cbar0",
+    "category": "aliases",
+    "text": "C_{\\bar{0}}",
+    "source": "Bal21",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Repository-qualified names; the source uses the displayed notation for ternary output functions. Not weak promise certificates."
+  },
+  {
+    "measure": "Cbar1",
+    "category": "aliases",
+    "text": "C_{\\bar{1}}",
+    "source": "Bal21",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Repository-qualified names; the source uses the displayed notation for ternary output functions. Not weak promise certificates."
+  },
+  {
+    "measure": "Cstrong",
+    "category": "aliases",
+    "text": "C",
+    "source": "Bal21",
+    "locator": "Section 1",
+    "status": "source_checked",
+    "normalization": "Repository-qualified names; the source uses the displayed notation for ternary output functions. Not weak promise certificates."
+  },
+  {
+    "measure": "Q_eps",
+    "category": "aliases",
+    "text": "Q_epsilon",
+    "source": "HLS07",
+    "locator": "Section 2",
+    "status": "source_checked",
+    "normalization": "Q is the specialization epsilon=1/3, up to the source oracle convention."
+  },
+  {
+    "measure": "V",
+    "category": "aliases",
+    "text": "V",
+    "source": "AGL26",
+    "locator": "ICALP introduction before Theorem 5",
+    "status": "source_checked",
+    "normalization": "This need not be small for an arbitrary total relation. TFNP in the query model additionally requires short, locally checkable solution certificates."
+  },
+  {
+    "measure": "input1s",
+    "category": "aliases",
+    "text": "s_1",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 235–245",
+    "status": "source_checked",
+    "normalization": "Input direction, not an output-conditioned maximum. Applies also to multi-output functions."
+  },
+  {
+    "measure": "input1s",
+    "category": "aliases",
+    "text": "s_1",
+    "source": "CDM23",
+    "locator": "Section 2: directed sensitivity definitions",
+    "status": "source_checked",
+    "normalization": "Subscript is the value of the input bits being flipped, not an output restriction. Final Theorem 5.2 uses this convention."
+  },
+  {
+    "measure": "input1bs",
+    "category": "aliases",
+    "text": "bs_1",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 235–245",
+    "status": "source_checked",
+    "normalization": "Input direction, not an output-conditioned maximum."
+  },
+  {
+    "measure": "input1bs",
+    "category": "aliases",
+    "text": "bs_1",
+    "source": "CDM23",
+    "locator": "Section 2: directed sensitivity definitions",
+    "status": "source_checked",
+    "normalization": "Subscript is the value of the input bits being flipped, not an output restriction. Final Theorem 5.2 uses this convention."
+  },
+  {
+    "measure": "RSize",
+    "category": "aliases",
+    "text": "RSize^dt",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 275–277",
+    "status": "source_checked",
+    "normalization": "Worst support size, not expected size and not random seed length."
+  },
+  {
+    "measure": "Ddist",
+    "category": "aliases",
+    "text": "D^dt_{mu,epsilon}",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 278–282",
+    "status": "source_checked",
+    "normalization": "The parameters mu and epsilon are part of the measure."
+  },
+  {
+    "measure": "DSizeDist",
+    "category": "aliases",
+    "text": "DSize^dt_{mu,epsilon}",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 278–283",
+    "status": "source_checked",
+    "normalization": "Different from averaging query cost over mu."
+  },
+  {
+    "measure": "psDTSize",
+    "category": "aliases",
+    "text": "psDSize^dt",
+    "source": "CDM23full",
+    "locator": "Section 2, lines 296–305",
+    "status": "source_checked",
+    "normalization": "Worst support size, not expected size. The algorithm must output one fixed valid selector value with high probability."
+  },
+  {
+    "measure": "DandPos",
+    "category": "aliases",
+    "text": "D^wedge-dt",
+    "source": "CDM23full",
+    "locator": "Section 6, lines 660–664",
+    "status": "source_checked",
+    "normalization": "An entire positive and query costs one. These are different measures from bit-query complexity."
+  },
+  {
+    "measure": "DandPos",
+    "category": "aliases",
+    "text": "P^{wedge-dt}",
+    "source": "KLMY21",
+    "locator": "Introduction and Claim 4.4",
+    "status": "source_checked",
+    "normalization": "P denotes deterministic positive-conjunction query depth, not a polynomial-time class parameter."
+  },
+  {
+    "measure": "DandPos",
+    "category": "aliases",
+    "text": "D^{dt}_{AND}",
+    "source": "LM19",
+    "locator": "Definition 10",
+    "status": "source_checked",
+    "normalization": "Zero-answer depth and positive-conjunction depth for search relations. The subscript 0 is a cost convention, not an error probability."
+  },
+  {
+    "measure": "RandPos",
+    "category": "aliases",
+    "text": "R^wedge-dt",
+    "source": "CDM23full",
+    "locator": "Section 6, lines 660–664",
+    "status": "source_checked",
+    "normalization": "An entire positive and query costs one. These are different measures from bit-query complexity."
+  },
+  {
+    "measure": "psRandPos",
+    "category": "aliases",
+    "text": "psD^wedge-dt",
+    "source": "CDM23full",
+    "locator": "Section 6, lines 660–664",
+    "status": "source_checked",
+    "normalization": "An entire positive and query costs one. These are different measures from bit-query complexity."
+  },
+  {
+    "measure": "Dpar",
+    "category": "aliases",
+    "text": "D^oplus-dt",
+    "source": "CDM23full",
+    "locator": "Section 6, lines 660–664",
+    "status": "source_checked",
+    "normalization": "An entire parity query costs one. These are different measures from bit-query complexity."
+  },
+  {
+    "measure": "Rpar",
+    "category": "aliases",
+    "text": "R^oplus-dt",
+    "source": "CDM23full",
+    "locator": "Section 6, lines 660–664",
+    "status": "source_checked",
+    "normalization": "An entire parity query costs one. These are different measures from bit-query complexity."
+  },
+  {
+    "measure": "psRpar",
+    "category": "aliases",
+    "text": "psD^oplus-dt",
+    "source": "CDM23full",
+    "locator": "Section 6, lines 660–664",
+    "status": "source_checked",
+    "normalization": "An entire parity query costs one. These are different measures from bit-query complexity."
+  },
+  {
+    "measure": "DandOr",
+    "category": "aliases",
+    "text": "D^{(wedge,vee)-dt}",
+    "source": "CDM23",
+    "locator": "Section 5, before Proposition 5.1",
+    "status": "source_checked",
+    "normalization": "Both subset queries cost one; do not identify with bit queries or conjunctions of arbitrary signed literals."
+  },
+  {
+    "measure": "RandOr",
+    "category": "aliases",
+    "text": "R^{(wedge,vee)-dt}",
+    "source": "CDM23",
+    "locator": "Section 5, before Proposition 5.1",
+    "status": "source_checked",
+    "normalization": "Both subset queries cost one; do not identify with bit queries or conjunctions of arbitrary signed literals."
+  },
+  {
+    "measure": "psRandOr",
+    "category": "aliases",
+    "text": "psD^{(wedge,vee)-dt}",
+    "source": "CDM23",
+    "locator": "Section 5, before Proposition 5.1",
+    "status": "source_checked",
+    "normalization": "Both subset queries cost one; do not identify with bit queries or conjunctions of arbitrary signed literals."
+  },
+  {
+    "measure": "DzeroDepth",
+    "category": "aliases",
+    "text": "D^{0-dt}",
+    "source": "CDMRS23",
+    "locator": "Section 2.2",
+    "status": "source_checked",
+    "normalization": "Zero-answer cost, not zero-error randomized complexity."
+  },
+  {
+    "measure": "DzeroDepth",
+    "category": "aliases",
+    "text": "P^{0-dt}",
+    "source": "KLMY21",
+    "locator": "Section 4.2, Claim 4.4",
+    "status": "source_checked",
+    "normalization": "Deterministic count of zero answers; not a zero-error randomized measure."
+  },
+  {
+    "measure": "DzeroDepth",
+    "category": "aliases",
+    "text": "D^{dt}_0",
+    "source": "LM19",
+    "locator": "Definition 9",
+    "status": "source_checked",
+    "normalization": "Zero-answer depth and positive-conjunction depth for search relations. The subscript 0 is a cost convention, not an error probability."
+  },
+  {
+    "measure": "RzeroDepth",
+    "category": "aliases",
+    "text": "R^{0-dt}_{epsilon}",
+    "source": "CDMRS23",
+    "locator": "Section 2.2",
+    "status": "source_checked",
+    "normalization": "Counts zero answers along paths; NOT R0, the expected cost of a zero-error algorithm."
+  },
+  {
+    "measure": "rrank",
+    "category": "aliases",
+    "text": "rrank",
+    "source": "CDMRS23",
+    "locator": "Definitions 2.9–2.10",
+    "status": "source_checked",
+    "normalization": "Support maximum, not expected rank; deterministic rank is DTRank."
+  },
+  {
+    "measure": "rrank",
+    "category": "aliases",
+    "text": "rrank",
+    "source": "CMP22",
+    "locator": "Definition 3",
+    "status": "source_checked",
+    "normalization": "Strahler rank; randomized rank takes the maximum rank in the support."
+  },
+  {
+    "measure": "coverN0",
+    "category": "aliases",
+    "text": "N_0",
+    "source": "CDMRS23",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "Counts subcubes, not certificate width; zero for an empty output fibre."
+  },
+  {
+    "measure": "coverN1",
+    "category": "aliases",
+    "text": "N_1",
+    "source": "CDMRS23",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "Counts subcubes, not certificate width; zero for an empty output fibre."
+  },
+  {
+    "measure": "coverN",
+    "category": "aliases",
+    "text": "N",
+    "source": "CDMRS23",
+    "locator": "Definition 2.2",
+    "status": "source_checked",
+    "normalization": "Unbounded counts are distinct from certificate widths and logarithms of cover counts."
+  },
+  {
+    "measure": "DTNodes",
+    "category": "aliases",
+    "text": "DTSize",
+    "source": "CMP22",
+    "locator": "Introduction, Corollary 9 and Appendix A.1",
+    "status": "source_checked",
+    "normalization": "CMP22 counts nodes; CDM23/CDMRS23 count leaves. For full binary trees DTNodes=2 DTSize(repository leaf count)-1. Do not use the same source typography to assert identical normalizations."
+  },
+  {
+    "measure": "RNodes",
+    "category": "aliases",
+    "text": "RDTSize",
+    "source": "CMP22",
+    "locator": "Corollary 27; Appendix A.1",
+    "status": "source_checked",
+    "normalization": "Whole-node count, not leaf count or expected size. RNodes=2 RSize-1 under full binary tree conventions."
+  },
+  {
+    "measure": "rel_Qeps",
+    "category": "aliases",
+    "text": "Q_epsilon",
+    "source": "CMP22",
+    "locator": "Theorem 5 and Corollary 27",
+    "status": "source_checked",
+    "normalization": "CMP22 uses epsilon=2/5 for randomized-tree simulations. Arbitrary relations do not automatically admit majority error reduction; this is separate from decision Q_eps and default search Q at error 1/3."
+  },
+  {
+    "measure": "DTGuess",
+    "category": "aliases",
+    "text": "G",
+    "source": "CMP22",
+    "locator": "Definitions 10–11 and Claim 12",
+    "status": "source_checked",
+    "normalization": "The source defines G(T) for a tree; this catalogue additionally minimizes it over valid trees. Claim 12 identifies tree guessing complexity with tree Strahler rank. No new source notation G(f) is asserted. Printed G(T), not the repository function-level minimum."
+  },
+  {
+    "measure": "Bbomb",
+    "category": "aliases",
+    "text": "B",
+    "source": "LL16",
+    "locator": "Section 3 and Theorem 4.1",
+    "status": "source_checked",
+    "normalization": "Fixed error constants; the source shorthand B is used only up to its constant-error equivalence."
+  },
+  {
+    "measure": "BbombParams",
+    "category": "aliases",
+    "text": "B_{epsilon,delta}",
+    "source": "LL16",
+    "locator": "Section 3 and Theorem 4.1",
+    "status": "source_checked",
+    "normalization": "Both error budgets are explicit; 0<epsilon<=delta in the usual regime. The source total-error requirement is not error conditioned on survival."
+  },
+  {
+    "measure": "monomialSparsity",
+    "category": "aliases",
+    "text": "spar",
+    "source": "KLMY21",
+    "locator": "Introduction before Theorem 1.1",
+    "status": "source_checked",
+    "normalization": "The 0/1 monomial basis, not the Walsh Fourier basis. KLMY21 separately uses Fourier sparsity when discussing XOR-functions."
+  },
+  {
+    "measure": "approxMonomialSparsity",
+    "category": "aliases",
+    "text": "tilde spar",
+    "source": "KLMY21survey",
+    "locator": "Definition 3.18",
+    "status": "source_checked",
+    "normalization": "Approximation on the full cube and sparsity in the 0/1 monomial basis, not Walsh approximate Fourier sparsity."
+  },
+  {
+    "measure": "monomialWeight",
+    "category": "aliases",
+    "text": "wt",
+    "source": "Sparse25",
+    "locator": "Definitions 2.2–2.3",
+    "status": "source_checked"
+  },
+  {
+    "measure": "approxMonomialWeight",
+    "category": "aliases",
+    "text": "tilde wt",
+    "source": "Sparse25",
+    "locator": "Definition 2.5",
+    "status": "source_checked"
+  },
+  {
+    "measure": "generalizedSparsity",
+    "category": "aliases",
+    "text": "gspar",
+    "source": "Sparse25",
+    "locator": "Definitions 2.9–2.11",
+    "status": "source_checked"
+  },
+  {
+    "measure": "approxGeneralizedSparsity",
+    "category": "aliases",
+    "text": "tilde gspar",
+    "source": "Sparse25",
+    "locator": "Definitions 2.9–2.11",
+    "status": "source_checked"
+  },
+  {
+    "measure": "generalizedWeight",
+    "category": "aliases",
+    "text": "gwt",
+    "source": "Sparse25",
+    "locator": "Definitions 2.9–2.11",
+    "status": "source_checked"
+  },
+  {
+    "measure": "approxGeneralizedWeight",
+    "category": "aliases",
+    "text": "tilde gwt",
+    "source": "Sparse25",
+    "locator": "Definitions 2.9–2.11",
+    "status": "source_checked"
+  },
+  {
+    "measure": "NisR2expect",
+    "category": "aliases",
+    "text": "R_2",
+    "source": "Nis89",
+    "locator": "Section 1.2, p.329",
+    "status": "source_checked"
+  },
+  {
+    "measure": "NisR1expect",
+    "category": "aliases",
+    "text": "R_1",
+    "source": "Nis89",
+    "locator": "Section 1.2, p.329",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permD",
+    "category": "aliases",
+    "text": "D",
+    "source": "DFLLV21",
+    "locator": "Introduction and Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permDegree",
+    "category": "aliases",
+    "text": "deg",
+    "source": "DFLLV21",
+    "locator": "Introduction and Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permAdeg",
+    "category": "aliases",
+    "text": "tilde deg",
+    "source": "DFLLV21",
+    "locator": "Introduction and Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permS",
+    "category": "aliases",
+    "text": "s",
+    "source": "DFLLV21",
+    "locator": "Introduction and Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permEdgeS",
+    "category": "aliases",
+    "text": "t",
+    "source": "DFLLV21",
+    "locator": "Introduction and Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permBS",
+    "category": "aliases",
+    "text": "bs",
+    "source": "DFLLV21",
+    "locator": "Introduction and Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "completion_D",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=D. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_D",
+    "category": "repository_display_variants",
+    "text": "overline D",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_R0",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=R0. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_R0",
+    "category": "repository_display_variants",
+    "text": "overline R_0",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_R",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=R. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_R",
+    "category": "repository_display_variants",
+    "text": "overline R",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_C",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=C. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_C",
+    "category": "repository_display_variants",
+    "text": "overline C",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_RC",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=RC. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_RC",
+    "category": "repository_display_variants",
+    "text": "overline RC",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_bs",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=bs. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_bs",
+    "category": "repository_display_variants",
+    "text": "overline bs",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_s",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=s. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_s",
+    "category": "repository_display_variants",
+    "text": "overline s",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_lambda",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=lambda. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_lambda",
+    "category": "repository_display_variants",
+    "text": "overline lambda",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_QE",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=QE. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_QE",
+    "category": "repository_display_variants",
+    "text": "overline Q_E",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_deg",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=deg. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_deg",
+    "category": "repository_display_variants",
+    "text": "overline deg",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_Q",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=Q. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_Q",
+    "category": "repository_display_variants",
+    "text": "overline Q",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_adeg",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic source template, explicitly instantiated here with M=adeg. The instantiated display symbol is repository notation, not a separate literal occurrence."
+  },
+  {
+    "measure": "completion_adeg",
+    "category": "repository_display_variants",
+    "text": "overline \\widetilde{deg}",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "promiseS",
+    "category": "aliases",
+    "text": "s prime",
+    "source": "HKMP26",
+    "locator": "Definition 15",
+    "status": "source_checked"
+  },
+  {
+    "measure": "promiseBS",
+    "category": "aliases",
+    "text": "bs prime",
+    "source": "HKMP26",
+    "locator": "Definition 15",
+    "status": "source_checked"
+  },
+  {
+    "measure": "criticalBScompletion",
+    "category": "aliases",
+    "text": "cbs",
+    "source": "HKMP26",
+    "locator": "Definition 18",
+    "status": "source_checked"
+  },
+  {
+    "measure": "criticalCertificate",
+    "category": "aliases",
+    "text": "C_cri",
+    "source": "HKMP26",
+    "locator": "Definition 19",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permC",
+    "category": "aliases",
+    "text": "C",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permUC",
+    "category": "aliases",
+    "text": "U",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permFBS",
+    "category": "aliases",
+    "text": "fbs",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permR",
+    "category": "aliases",
+    "text": "R",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permRfail23",
+    "category": "aliases",
+    "text": "R_0",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permQ",
+    "category": "aliases",
+    "text": "Q",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "permQE",
+    "category": "aliases",
+    "text": "Q_E",
+    "source": "DFLLV21",
+    "locator": "Section 2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "completion_nRelevant",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at relevant-variable count."
+  },
+  {
+    "measure": "completion_nRelevant",
+    "category": "repository_display_variants",
+    "text": "overline nRelevant",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_C0",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=C0."
+  },
+  {
+    "measure": "completion_C0",
+    "category": "repository_display_variants",
+    "text": "overline C_0",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_C1",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=C1."
+  },
+  {
+    "measure": "completion_C1",
+    "category": "repository_display_variants",
+    "text": "overline C_1",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_UC",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=UC."
+  },
+  {
+    "measure": "completion_UC",
+    "category": "repository_display_variants",
+    "text": "overline UC",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_UC0",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=UC0."
+  },
+  {
+    "measure": "completion_UC0",
+    "category": "repository_display_variants",
+    "text": "overline UC_0",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_UC1",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=UC1."
+  },
+  {
+    "measure": "completion_UC1",
+    "category": "repository_display_variants",
+    "text": "overline UC_1",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_fbs",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=fbs."
+  },
+  {
+    "measure": "completion_fbs",
+    "category": "repository_display_variants",
+    "text": "overline fbs",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_FC",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=FC."
+  },
+  {
+    "measure": "completion_FC",
+    "category": "repository_display_variants",
+    "text": "overline FC",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_QC",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=QC."
+  },
+  {
+    "measure": "completion_QC",
+    "category": "repository_display_variants",
+    "text": "overline QC",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_Q0",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=Q0."
+  },
+  {
+    "measure": "completion_Q0",
+    "category": "repository_display_variants",
+    "text": "overline Q_0",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "completion_R1",
+    "category": "aliases",
+    "text": "overline M",
+    "source": "HKMP26",
+    "locator": "Definition 45, p.22",
+    "status": "source_checked",
+    "normalization": "Generic overline-M template instantiated at M=R1."
+  },
+  {
+    "measure": "completion_R1",
+    "category": "repository_display_variants",
+    "text": "overline R_1",
+    "source": "HKMP26",
+    "status": "repository_display_not_a_historical_occurrence",
+    "normalization": "Instantiation of the source overline-M template."
+  },
+  {
+    "measure": "domainD",
+    "category": "aliases",
+    "text": "D",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainR",
+    "category": "aliases",
+    "text": "R",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainRfail23",
+    "category": "aliases",
+    "text": "R_0",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainQ",
+    "category": "aliases",
+    "text": "Q",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainQE",
+    "category": "aliases",
+    "text": "Q_E",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainDegree",
+    "category": "aliases",
+    "text": "deg",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainAdeg",
+    "category": "aliases",
+    "text": "tilde deg",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainC",
+    "category": "aliases",
+    "text": "C",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainUC",
+    "category": "aliases",
+    "text": "U",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainBS",
+    "category": "aliases",
+    "text": "bs",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainFBS",
+    "category": "aliases",
+    "text": "fbs",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainS",
+    "category": "aliases",
+    "text": "s",
+    "source": "DFLLV22author",
+    "locator": "Sections 2.1–2.2",
+    "status": "source_checked"
+  },
+  {
+    "measure": "domainS",
+    "category": "aliases",
+    "text": "s_2(f)",
+    "source": "BD16",
+    "locator": "Definition 7",
+    "status": "source_checked",
+    "normalization": "Packing sensitivity for disjoint sensitive two-coordinate blocks on a single multislice; equals domain chunk sensitivity there."
+  },
+  {
+    "measure": "domainCoverRadius",
+    "category": "aliases",
+    "text": "r_C",
+    "source": "HKMP26",
+    "locator": "Definition 61",
+    "status": "source_checked"
+  },
+  {
+    "measure": "polyCoordSparsity",
+    "category": "aliases",
+    "text": "spar_i",
+    "source": "HKMP26",
+    "locator": "Definition 28",
+    "status": "source_checked"
+  },
+  {
+    "measure": "polyCoordInfluence",
+    "category": "aliases",
+    "text": "Inf_i",
+    "source": "HKMP26",
+    "locator": "Definitions 21–22",
+    "status": "source_checked"
+  },
+  {
+    "measure": "polyMaxDerivative",
+    "category": "aliases",
+    "text": "max_i ||D_i p||_infinity",
+    "source": "HKMP26",
+    "locator": "Corollary 62",
+    "status": "definition_equivalence_checked_literal_name_pending"
+  },
+  {
+    "measure": "distFlipInfluence",
+    "category": "aliases",
+    "text": "Inf_i^(lambda)",
+    "source": "GMNR26",
+    "locator": "Definition 2.5",
+    "status": "source_checked"
+  },
+  {
+    "measure": "distFlipInfluence",
+    "category": "aliases",
+    "text": "Inf_i[p]",
+    "source": "AA14",
+    "locator": "Before Conjecture 1.7, p.139",
+    "status": "source_checked",
+    "normalization": "Uniform cube; unnormalized squared flip difference. Equals four times the HKMP26 derivative-normalized influence for the same full-cube function."
+  },
+  {
+    "measure": "distTotalInfluence",
+    "category": "aliases",
+    "text": "Inf^(lambda)",
+    "source": "GMNR26",
+    "locator": "Definition 2.5",
+    "status": "source_checked"
+  },
+  {
+    "measure": "distVariance",
+    "category": "aliases",
+    "text": "Var^(lambda)",
+    "source": "GMNR26",
+    "locator": "Definition 2.5",
+    "status": "source_checked"
+  },
+  {
+    "measure": "sliceSwapInfluence",
+    "category": "aliases",
+    "text": "swInf_(i,j)",
+    "source": "GMNR26",
+    "locator": "Lemma 2.6",
+    "status": "source_checked"
+  },
+  {
+    "measure": "degreeOptimalFourierSparsity",
+    "category": "aliases",
+    "text": "spar",
+    "source": "HKMP26",
+    "locator": "Definition 29",
+    "status": "source_checked"
+  },
+  {
+    "measure": "adegOptimalFourierSparsity",
+    "category": "aliases",
+    "text": "tilde spar",
+    "source": "HKMP26",
+    "locator": "Definition 29",
+    "status": "source_checked"
+  },
+  {
+    "measure": "biasedCoordInfluence",
+    "category": "aliases",
+    "text": "Inf_i",
+    "source": "HKMP26",
+    "locator": "Definitions 22–25 and Lemma 66",
+    "status": "source_checked"
+  }
+]

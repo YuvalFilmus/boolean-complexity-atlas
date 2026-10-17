@@ -1,0 +1,23 @@
+{
+  "warning": "Presentation-only TeX transcriptions of the linked statement strings. Their source records, exact scope, error convention and endpoint losses remain authoritative.",
+  "statements": {
+    "Rexp-literaldeg": "\\mathrm{RE}(f)=\\mathrm{ldeg}_{+}(f)",
+    "Qexp-sosdeg": "\\mathrm{QE}_{\\text{in expectation}}(f)=\\deg_{\\mathrm{sos}}(f)",
+    "D-rdeg-RCmin": "D(f)=O\\!\\left(\\mathrm{rdeg}(f)\\,\\mathrm{RC}_{\\min}^{\\downarrow}(f)\\log n\\right)",
+    "bs-boundedDegCert2": "\\mathrm{bs}(f)=O\\!\\left(\\bigl(\\deg_{\\text{globally bounded}}^{\\mathrm{cert}}(f)\\bigr)^2\\right)",
+    "C-boundedDegCert3": "C(f)=O\\!\\left(\\bigl(\\deg_{\\text{globally bounded}}^{\\mathrm{cert}}(f)\\bigr)^3\\right)",
+    "C-adeg4-Bal26": "\\text{A total family }G_n:\\quad C(G_n)=\\Omega(n^2),\\quad\\widetilde{\\deg}(G_n)=\\widetilde{\\Theta}(\\sqrt n),\\quad\\text{input length }\\widetilde{\\Theta}(n^3)",
+    "search-R-conical-unbounded": "\\text{There are total query-TFNP relations with }\\widetilde{\\deg}^{+2}=O(\\operatorname{polylog} n),\\quad R=\\widetilde{\\Omega}(\\sqrt n)",
+    "rank-log-size-sandwich": "\\operatorname{rank}(f)\\le\\log\\operatorname{DTSize}(f)\\le\\operatorname{rank}(f)\\log\\!\\left(\\frac{en}{\\operatorname{rank}(f)}\\right)\\quad\\text{for nonconstant total }f",
+    "monomial-weight-no-pure-approx-power": "\\text{No finite pure polynomial bound: }\\mathbf{1}_{\\{|x|\\ge n-1\\}}\\text{ has }\\operatorname{wt}=2n-1,\\quad\\widetilde{\\operatorname{wt}}=O(1)",
+    "promise-s-bs": "s'\\le\\mathrm{bs}'",
+    "promise-bs-strongC": "\\mathrm{bs}'\\le C_{\\mathrm{strong}}",
+    "perm-chain-permAdeg-permDegree": "\\widetilde{\\deg}\\le\\deg",
+    "perm-chain-permDegree-permD": "\\deg\\le D",
+    "relevant-hybrid-degree-sensitivity": "n(f)=O\\!\\left(\\sqrt{2^{\\deg(f)}4^{s(f)}}\\right)",
+    "relevant-hybrid-certificate-sensitivity": "n(f)=\\widetilde{O}\\!\\left(\\sqrt{4^{C(f)}4^{s(f)}}\\right)",
+    "domain-chain-domainAdeg-domainDegree": "\\widetilde{\\deg}\\le\\deg",
+    "domain-chain-domainDegree-domainD": "\\deg\\le D",
+    "domain-parameterized-domainD-domainBS": "D\\le\\beta^{-2}\\max\\!\\left(\\Delta,\\frac nM\\right)\\mathrm{bs}^{4}"
+  }
+}

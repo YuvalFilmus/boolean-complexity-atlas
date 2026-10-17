@@ -2523,16 +2523,16 @@
       "globally_best_known_certified": false,
       "status": "finite_exponent_interval",
       "lower": {
-        "exponent_expression": 2,
-        "numeric_for_ranking": 2.0,
-        "witness": "bs-s2-sep-AS",
+        "exponent_expression": "2.05",
+        "numeric_for_ranking": 2.05,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS",
+          "bs-s-superquadratic-205",
           "partial-bs-RC"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument.",
         "inherited_core_record": true,
-        "loss": "none",
+        "loss": "subpolynomial",
         "endpoint_transfer_detail": "Inherited core exponent exclusion; inspect the cited claim paths for any additional logarithmic transfer loss."
       },
       "upper": {
@@ -3087,15 +3087,15 @@
       "globally_best_known_certified": false,
       "status": "finite_exponent_interval",
       "lower": {
-        "exponent_expression": 2,
-        "numeric_for_ranking": 2.0,
-        "witness": "bs-s2-sep-AS",
+        "exponent_expression": "2.05",
+        "numeric_for_ranking": 2.05,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS"
+          "bs-s-superquadratic-205"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument.",
         "inherited_core_record": true,
-        "loss": "none",
+        "loss": "subpolynomial",
         "endpoint_transfer_detail": "Inherited core exponent exclusion; inspect the cited claim paths for any additional logarithmic transfer loss."
       },
       "upper": {
@@ -10334,14 +10334,14 @@
       "globally_best_known_certified": false,
       "status": "finite_exponent_interval",
       "lower": {
-        "exponent_expression": 2,
-        "numeric_for_ranking": 2.0,
-        "witness": "bs-s2-sep-AS",
+        "exponent_expression": "2.05",
+        "numeric_for_ranking": 2.05,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS",
+          "bs-s-superquadratic-205",
           "bs-fbs"
         ],
-        "loss": "none",
+        "loss": "subpolynomial",
         "upper_transfer_endpoints_without_log": true,
         "transformation": "original total witness",
         "proof": "Use X<=O(A^u) and B<=O(Y^v) on a total witness X>=Y^ell (with its recorded endpoint loss). Every target exponent below ell/(u*v) is excluded. Total witnesses have unique completions; no independently minimized product or promise witness is used."
@@ -10907,15 +10907,15 @@
       "globally_best_known_certified": false,
       "status": "finite_exponent_interval",
       "lower": {
-        "exponent_expression": 2,
-        "numeric_for_ranking": 2.0,
-        "witness": "bs-s2-sep-AS",
+        "exponent_expression": "2.05",
+        "numeric_for_ranking": 2.05,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS",
+          "bs-s-superquadratic-205",
           "partial-bs-RC",
           "completion-support-RC-FC"
         ],
-        "loss": "none",
+        "loss": "subpolynomial",
         "upper_transfer_endpoints_without_log": true,
         "transformation": "original total witness",
         "proof": "Use X<=O(A^u) and B<=O(Y^v) on a total witness X>=Y^ell (with its recorded endpoint loss). Every target exponent below ell/(u*v) is excluded. Total witnesses have unique completions; no independently minimized product or promise witness is used."
@@ -11506,18 +11506,18 @@
       "lower": {
         "exponent_expression": {
           "op": "div",
-          "left": 2,
+          "left": "2.05",
           "right": "2"
         },
-        "numeric_for_ranking": 1.0,
-        "witness": "bs-s2-sep-AS",
+        "numeric_for_ranking": 1.025,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS",
+          "bs-s-superquadratic-205",
           "partial-bs-RC",
           "completion-support-RC-FC",
           "completion-support-FC-QC"
         ],
-        "loss": "none",
+        "loss": "subpolynomial",
         "upper_transfer_endpoints_without_log": true,
         "transformation": "original total witness",
         "proof": "Use X<=O(A^u) and B<=O(Y^v) on a total witness X>=Y^ell (with its recorded endpoint loss). Every target exponent below ell/(u*v) is excluded. Total witnesses have unique completions; no independently minimized product or promise witness is used."

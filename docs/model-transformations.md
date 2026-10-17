@@ -361,6 +361,16 @@ Tal cites Chan–Lau for the packing bound; the later Chan–Lau journal-layout 
 
 Source: [Tal13](https://eccc.weizmann.ac.il/report/2012/163/), Original ECCC TR12-163, Section 5.1.2 pp. 13–14; CL12 introduction and related work pp. 2–5.
 
+## fractional-bs-quadratic-subtractive-completion
+
+Put g(0)=0 and g(b)=b^2-b+1 for integers b>=1. For total f, fbs(f)=FC(f)<=g(bs(f)); for arbitrary partial f, completion_fbs(f)=completion_FC(f)<=g(completion_bs(f)).
+
+For nonconstant total f, 1<=s<=b=bs and t-1+1/t is increasing on [1,infinity), so the original mixed packing bound gives fbs<=b*(b-1+1/b)=b^2-b+1. Fractional packing/covering LP duality gives FC=fbs. For completions choose a single total extension F minimizing bs. Minimum fbs is at most fbs(F), and apply the total bound to F. When b=0, this extension is constant and both minima are zero.
+
+This retains lower-order terms beyond the quadratic upper exponent. It does not change the count of matching completion exponents. Separate minima are never multiplied. A separate agent checked the original Tal statement as well as the deduction; this is not an independent proof audit of the earlier hypergraph theorem. No optimality or novelty claim.
+
+Source: [Tal13](https://eccc.weizmann.ac.il/report/2012/163/), Repository consequence of original Section 5.1.2 and LP duality; minimum-completion lifting.
+
 ## query_TFZPP
 
 Total relations with polylogarithmic certificate verification and a polylog-depth randomized decision tree that returns only valid answers or bottom, succeeding with probability at least 2/3 on each input.

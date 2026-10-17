@@ -1,0 +1,22 @@
+[
+  {
+    "d": 9,
+    "M": "3486784401",
+    "displayed_target": "2.000252407",
+    "log_ratio_numeric_check": "2.000252407139942960938163419600228056071408383696194711455799504144430589642572906475",
+    "A_definition": "2*(d+2)*M^(d+1)",
+    "B_definition": "M^2*(2*M^2+1)^d",
+    "B_exceeds_A_squared": true,
+    "warning": "High-precision numerical consistency check, not a substitute for the source proof or a certified interval-arithmetic proof."
+  },
+  {
+    "d": 20,
+    "M": "109418989131512359209",
+    "displayed_target": "2.006470828",
+    "log_ratio_numeric_check": "2.006470828227379604514372350747939543304786904890281851046898463182621282731023650091",
+    "A_definition": "2*(d+2)*M^(d+1)",
+    "B_definition": "M^2*(2*M^2+1)^d",
+    "B_exceeds_A_squared": true,
+    "warning": "High-precision numerical consistency check, not a substitute for the source proof or a certified interval-arithmetic proof."
+  }
+]

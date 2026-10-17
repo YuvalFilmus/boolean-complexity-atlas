@@ -58,7 +58,7 @@ Status: reported_refuted_in_primary_preprint.
 
 Source: [ABKBRT21](https://arxiv.org/abs/2010.12629), Open problems / spectral sensitivity questions.
 
-- The spectral variant is distinct from the still stronger sensitivity question bs=O(s^2); refuting it does not refute that sensitivity conjecture.
+- The spectral counterexample alone does not refute bs=O(s^2). The stronger ordinary-sensitivity quadratic question is separately refuted by OAIsens26 and improved campaign entries.
 
 Resolution records: bs-lambda-sep-2026.
 
@@ -239,6 +239,19 @@ Source: [FLLV20notes](https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeas
 
 - Separate coarse polynomial equivalence for fixed hyperedge size from a direct quadratic intrinsic degree/sensitivity theorem or a witnessing framework.
 - The separately audited repository query lift gives coarse parameterized polynomial bounds on full lambda-partite hypermatching domains; no published priority or resolution of every intended formulation is claimed.
+
+## bs-s-quadratic
+
+bs(f)=O(s(f)^2) for all total Boolean functions
+
+Status: refuted_in_primary_preprint_and_platform_improvements_recorded.
+
+Source: [NS94](https://web.vu.lt/mif/s.jukna/boolean/Nisan-Szegedy.pdf), Section 4 quadratic suggestion; original attribution checked against OAIsens26 introduction.
+
+- The qualitative polynomial sensitivity conjecture remains resolved positively. The quantitative quadratic strengthening fails; the recorded quartic universal upper exponent is unchanged.
+- The campaign attests exponent 2.05 as completed on 16 October 2026. Targets 2.0635 and 2.10 were open on inspection and are not lower-bound claims.
+
+Resolution records: bs-s-superquadratic-baseline, bs-s-superquadratic-205.
 
 ## Queue: quartic-RQ-2026
 

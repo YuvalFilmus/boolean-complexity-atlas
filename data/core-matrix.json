@@ -1872,11 +1872,11 @@
       "A": "RC",
       "B": "s",
       "lower": {
-        "exponent_expression": 2,
-        "numeric_for_ranking": 2.0,
-        "witness": "bs-s2-sep-AS",
+        "exponent_expression": "2.05",
+        "numeric_for_ranking": 2.05,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS",
+          "bs-s-superquadratic-205",
           "partial-bs-RC"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
@@ -1892,9 +1892,11 @@
       },
       "matched_recorded_exponents": false,
       "source_publication_statuses": {
-        "AS11": "see_bibliography",
         "Hua19": "see_bibliography",
-        "KT13": "see_bibliography"
+        "KT13": "see_bibliography",
+        "OAIsens26": "repository_preprint",
+        "P2M20526": "see_bibliography",
+        "P2Msens26": "see_bibliography"
       },
       "historical_2021": {
         "A": "RC",
@@ -2285,11 +2287,11 @@
       "A": "bs",
       "B": "s",
       "lower": {
-        "exponent_expression": 2,
-        "numeric_for_ranking": 2.0,
-        "witness": "bs-s2-sep-AS",
+        "exponent_expression": "2.05",
+        "numeric_for_ranking": 2.05,
+        "witness": "bs-s-superquadratic-205",
         "claim_ids": [
-          "bs-s2-sep-AS"
+          "bs-s-superquadratic-205"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
       },
@@ -2302,9 +2304,11 @@
       },
       "matched_recorded_exponents": false,
       "source_publication_statuses": {
-        "AS11": "see_bibliography",
         "Hua19": "see_bibliography",
-        "Mid04": "see_bibliography"
+        "Mid04": "see_bibliography",
+        "OAIsens26": "repository_preprint",
+        "P2M20526": "see_bibliography",
+        "P2Msens26": "see_bibliography"
       },
       "historical_2021": {
         "A": "bs",

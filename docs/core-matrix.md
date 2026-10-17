@@ -10,8 +10,8 @@ All 132 off-diagonal cells have source-linked support or an explicit derivation.
 | R0 | 1/1 | 1/1 | 2/2† | 2/2 | 2/3 | 2/3 | 3/6 | 4/6 | 2/3 | 2/3 | 4/4 | 4/4 |
 | R | 1/1 | 1/1 | 1/1 | 2/2 | 2/3 | 2/3 | 3/6 | 4/6 | 1.50000…/3 | 2/3 | 4/4 | 4/4 |
 | C | 1/1 | 1/1 | 2/2 | 1/1 | 2/2 | 2/2 | 3/5 | 4/6 | 2/3 | 2/3 | 4/4 | 4/4 |
-| RC | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1.50000…/2 | 2/4 | 2.12700…/4 | 1.15270…/2 | 1.63093…/2 | 2/2 | 2/2 |
-| bs | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 2/4 | 2.12700…/4 | 1.15270…/2 | 1.63093…/2 | 2/2 | 2/2 |
+| RC | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1.50000…/2 | 2.05000…/4 | 2.12700…/4 | 1.15270…/2 | 1.63093…/2 | 2/2 | 2/2 |
+| bs | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 2.05000…/4 | 2.12700…/4 | 1.15270…/2 | 1.63093…/2 | 2/2 | 2/2 |
 | s | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 2/2 | 1.15270…/2 | 1.63093…/2 | 2/2 | 2/2 |
 | lambda | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
 | QE | 1/1 | 1.32674…/2 | 1.32674…/3 | 2/2 | 2/3 | 2/3 | 3/6 | 4/6 | 1/1 | 2/3 | 2/4 | 4/4 |
@@ -415,7 +415,7 @@ Upper: 2 (endpoint without logarithmic loss). Claims: `RC-C`, `C-bs2`.
 
 ### RC / s
 
-Lower: 2; witness `bs-s2-sep-AS`; claims `bs-s2-sep-AS`, `partial-bs-RC`.
+Lower: 2.05; witness `bs-s-superquadratic-205`; claims `bs-s-superquadratic-205`, `partial-bs-RC`.
 
 Upper: 4 (endpoint without logarithmic loss). Claims: `RC-adeg2`, `adeg-deg`, `deg-s2`.
 
@@ -503,7 +503,7 @@ Upper: 1 (endpoint without logarithmic loss). Claims: `partial-bs-RC`.
 
 ### bs / s
 
-Lower: 2; witness `bs-s2-sep-AS`; claims `bs-s2-sep-AS`.
+Lower: 2.05; witness `bs-s-superquadratic-205`; claims `bs-s-superquadratic-205`.
 
 Upper: 4 (endpoint without logarithmic loss). Claims: `bs-s4`.
 

@@ -7536,3 +7536,71 @@ The same AIK26 total family gives C>=Omega_tilde(QE^2).
 - Proof: Theorem 2.1 gives C>=Omega(n^2), while Theorem 2.3 gives QE=Theta(n*log^2 n). Hence C>=Omega(QE^2/log^4 QE). The exact algorithm finds the unambiguous terms, reads the selected bits and checks the addressed cheat-sheet cell; the AND restriction gives its lower bound.
 
 New catalogue consequence of the original paper’s jointly specified family, not a new independent construction. Query caps, exactness and detectable-failure conventions match the source preliminary definitions.
+
+## bs-s-superquadratic-baseline
+
+There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.000252407).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_statement_and_proof_route_checked; loss: none.
+- Source: [OAIsens26](https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/paper.pdf), Original paper Theorem 1.1, Section 4 and Corollary 4.3; campaign OpenAI Baseline decimal certificate.
+- Proof: Random edge labels exclude excessive simultaneous near-satisfied clauses. Four coupled profiles control ordinary sensitivity and simultaneous flips of distinct nested predicates. Block witnesses at zero multiply through recursion; OR balancing gives s<=2(d+2)M^(d+1) and bs at zero >=M^2(2M^2+1)^d for M>=9^(d+1). Composition multiplies the zero-input block lower bound and at most multiplies sensitivity.
+
+Publication status: repository_preprint.
+
+The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.
+
+## bs-s-superquadratic-depth20
+
+There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.006470828 - o(1)).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2Mdepth2026](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Depth-20_Improvement), Mission description and completed goal; original general seed bounds in OAIsens26 Section 4.
+- Proof: Specialize the same general seed bounds to depth twenty, certify the stated decimal below log(B)/log(A), and invoke finite-seed amplification. This is a stronger specialization, not a different base architecture.
+
+The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.
+
+## bs-s-superquadratic-2007
+
+There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.007 - o(1)).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M200726](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.007), Campaign completed entry; mission goal and certificate framework.
+- Proof: The campaign records the asymptotic goal as proved. Its stated route is to certify a finite seed with s<=A, bs at a chosen input >=B, and A^2.007<=B, then use the shared normalization/composition theorem. The accepted proof body was not recovered here; this is a summary of the published certificate framework, not an assertion of its exact implementation.
+
+The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.
+
+## bs-s-superquadratic-20205
+
+There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.0205 - o(1)).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2020526](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.0205), Mission construction description, specified parameters, exact certificate and PROVED goal.
+- Proof: Retain four profiles, reduce the target-row count to fifteen, and split the gate estimate by whether the candidate tournament has a sink. The resulting finite certificate satisfies A^4041<B^2000, so A^2.0205<B. Apply the shared finite-certificate amplification theorem.
+
+The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.
+
+## bs-s-superquadratic-20391
+
+There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.0391 - o(1)).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2039126](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_%CE%B1_%E2%89%A5_2.0391), Mission goal, explicit PROVED badge, campaign completed entry.
+- Proof: The source marks the goal proved and records accepted activity. It formulates the finite-certificate route s<=A, bs at a chosen input >=B, A^2.0391<=B. The accepted proof body and actual seed parameters were not inspected; no more specific construction mechanism is asserted.
+
+The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.
+
+## bs-s-superquadratic-205
+
+There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.05 - o(1)).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M20526](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.05), Mission SensitivityCampaign.reach_205; explicit PROVED goal and accepted activity; campaign completed entry.
+- Proof: The inspected mission marks reach_205 proved and displays accepted activity attributed to Robin Kothari. The stated certificate criterion is s<=A, bs at a chosen input >=B, and A^(41/20)<=B, followed by the shared amplification theorem. The accepted proof body was not retrieved, so its exact seed and proof route remain source-extraction gaps.
+
+The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.

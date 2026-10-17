@@ -1,0 +1,77 @@
+{
+  "core-matrix.json": [
+    {
+      "A": "RC",
+      "B": "s",
+      "previous": 2.0,
+      "current": 2.05,
+      "claim_ids": [
+        "bs-s-superquadratic-205",
+        "partial-bs-RC"
+      ]
+    },
+    {
+      "A": "bs",
+      "B": "s",
+      "previous": 2.0,
+      "current": 2.05,
+      "claim_ids": [
+        "bs-s-superquadratic-205"
+      ]
+    }
+  ],
+  "extended-completion-exponents.json": [
+    {
+      "A": "completion_RC",
+      "B": "completion_s",
+      "previous": 2.0,
+      "current": 2.05,
+      "claim_ids": [
+        "bs-s-superquadratic-205",
+        "partial-bs-RC"
+      ]
+    },
+    {
+      "A": "completion_bs",
+      "B": "completion_s",
+      "previous": 2.0,
+      "current": 2.05,
+      "claim_ids": [
+        "bs-s-superquadratic-205"
+      ]
+    },
+    {
+      "A": "completion_fbs",
+      "B": "completion_s",
+      "previous": 2.0,
+      "current": 2.05,
+      "claim_ids": [
+        "bs-s-superquadratic-205",
+        "bs-fbs"
+      ]
+    },
+    {
+      "A": "completion_FC",
+      "B": "completion_s",
+      "previous": 2.0,
+      "current": 2.05,
+      "claim_ids": [
+        "bs-s-superquadratic-205",
+        "partial-bs-RC",
+        "completion-support-RC-FC"
+      ]
+    },
+    {
+      "A": "completion_QC",
+      "B": "completion_s",
+      "previous": 1.0,
+      "current": 1.025,
+      "claim_ids": [
+        "bs-s-superquadratic-205",
+        "partial-bs-RC",
+        "completion-support-RC-FC",
+        "completion-support-FC-QC"
+      ]
+    }
+  ]
+}

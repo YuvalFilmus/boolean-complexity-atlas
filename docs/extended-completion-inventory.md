@@ -121,7 +121,7 @@ Minimum-completion inventory. Upper bounds choose a completion optimal for B; mi
 | completion_bs | completion_R | completion_core_evidence | 1 |  |
 | completion_bs | completion_C | completion_core_evidence | 1 |  |
 | completion_bs | completion_RC | completion_core_evidence | 1 |  |
-| completion_bs | completion_s | completion_core_evidence | 4 | bs-s2-sep-AS |
+| completion_bs | completion_s | completion_core_evidence | 4 | bs-s2-sep-AS, bs-s-superquadratic-baseline, bs-s-superquadratic-depth20, bs-s-superquadratic-2007, bs-s-superquadratic-20205, bs-s-superquadratic-20391, bs-s-superquadratic-205 |
 | completion_bs | completion_lambda | completion_core_evidence | 4 | bs-lambda-sep-2026 |
 | completion_bs | completion_QE | completion_core_evidence | 2 |  |
 | completion_bs | completion_deg | completion_core_evidence | 2 |  |

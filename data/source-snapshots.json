@@ -923,5 +923,14 @@
     "sha256": "ce486d455d83539911fa81d283d2b44a3b81cbe0cbbfd027153291d55fe4cce5",
     "pages": 26,
     "retrieved": "2026-10-17"
+  },
+  {
+    "id": "OAIsens26",
+    "snapshot_id": "OAIsens26",
+    "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/paper.pdf",
+    "resolved_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/paper.pdf",
+    "sha256": "a589970798bc590e5a27cb35cfa3092a355a4048cfa383bc369177289a00a1f8",
+    "pages": 11,
+    "retrieved": "2026-10-17"
   }
 ]

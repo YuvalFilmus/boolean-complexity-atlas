@@ -3943,6 +3943,120 @@
         }
       ],
       "metadata_note": "Selected LP integrality-gap attribution checked, not an exhaustive proof audit of all theorems. The authors credit the earlier unweighted result to Füredi (1981), and the weighted result to Füredi–Kahn–Seymour (1993); this record does not assert Chan–Lau priority."
+    },
+    {
+      "id": "OAIsens26",
+      "authors": [
+        "OpenAI"
+      ],
+      "title": "A superquadratic separation between sensitivity and block sensitivity",
+      "year": 2026,
+      "date": "2026-09-25",
+      "kind": "preprint",
+      "publication_status": "repository_preprint",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/paper.pdf",
+      "accessed": "2026-10-17",
+      "read_version": "September 25, 2026 paper, 11 pages, Git commit 1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "annotation": "Breaks the quadratic sensitivity/block-sensitivity barrier using nested tournament predicates and self-composition. Distinct from OpenAI’s randomized/quantum query separation already keyed OAI26. Later campaign improvements are recorded separately.",
+      "metadata_note": "Corporate author and date are printed on the original. Selected Theorem 1.1, recursive proof route and Corollary 4.3 inspected. Lean files linked by the source have not been rebuilt here. The manuscript credits Meiburg’s tournament architecture; that spectral-sensitivity result alone does not imply this ordinary-sensitivity separation.",
+      "source_snapshot": {
+        "id": "OAIsens26",
+        "snapshot_id": "OAIsens26",
+        "url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/paper.pdf",
+        "resolved_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026/paper.pdf",
+        "sha256": "a589970798bc590e5a27cb35cfa3092a355a4048cfa383bc369177289a00a1f8",
+        "pages": 11,
+        "retrieved": "2026-10-17"
+      }
+    },
+    {
+      "id": "P2Msens26",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: campaign and progress record",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/campaigns/block-sensitivity-vs-sensitivity",
+      "accessed": "2026-10-17",
+      "annotation": "Dated primary platform record of completed sensitivity-separation missions and open targets. On inspection the strongest completed exponent is 2.05; 2.0635 and 2.10 are open targets. Goal headers and proposal prose can retain stale open wording, so use the explicit goal/progress status, not the old challenge text.",
+      "read_version": "HTML snapshot 2026-10-17; SHA-256 5cb1a7653dd33e091e9ac3ca36b78fa5c015845ae24676a8128372f64828ba55",
+      "metadata_note": "Platform-reported formalization status is not an independent Lean build or a journal publication. Snapshot details and per-entry proof-access limits are recorded in data/sensitivity-campaign.json."
+    },
+    {
+      "id": "P2Mdepth2026",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: Depth-20 Improvement",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Depth-20_Improvement",
+      "accessed": "2026-10-17",
+      "date": "2026-10-15",
+      "read_version": "Public goal page and dated campaign entry, inspected 17 October 2026",
+      "annotation": "Specialize the same general seed bounds to depth twenty, certify the stated decimal below log(B)/log(A), and invoke finite-seed amplification. This is a stronger specialization, not a different base architecture.",
+      "metadata_note": "Platform attests this goal proved. Acceptance/solve dates are distinguished from proposal text. No independent Lean rebuild or completeness of contributor attribution is claimed. See the witness card for proof-access limits."
+    },
+    {
+      "id": "P2M200726",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: Reach 2.007",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.007",
+      "accessed": "2026-10-17",
+      "date": "2026-10-15",
+      "read_version": "Public goal page and dated campaign entry, inspected 17 October 2026",
+      "annotation": "The campaign records the asymptotic goal as proved. Its stated route is to certify a finite seed with s<=A, bs at a chosen input >=B, and A^2.007<=B, then use the shared normalization/composition theorem. The accepted proof body was not recovered here; this is a summary of the published certificate framework, not an assertion of its exact implementation.",
+      "metadata_note": "Platform attests this goal proved. Acceptance/solve dates are distinguished from proposal text. No independent Lean rebuild or completeness of contributor attribution is claimed. See the witness card for proof-access limits."
+    },
+    {
+      "id": "P2M2020526",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: Reach 2.0205",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.0205",
+      "accessed": "2026-10-17",
+      "date": "2026-10-16",
+      "read_version": "Public goal page and dated campaign entry, inspected 17 October 2026",
+      "annotation": "Retain four profiles, reduce the target-row count to fifteen, and split the gate estimate by whether the candidate tournament has a sink. The resulting finite certificate satisfies A^4041<B^2000, so A^2.0205<B. Apply the shared finite-certificate amplification theorem.",
+      "metadata_note": "Platform attests this goal proved. Acceptance/solve dates are distinguished from proposal text. No independent Lean rebuild or completeness of contributor attribution is claimed. See the witness card for proof-access limits."
+    },
+    {
+      "id": "P2M2039126",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: α ≥ 2.0391",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_%CE%B1_%E2%89%A5_2.0391",
+      "accessed": "2026-10-17",
+      "date": "2026-10-16",
+      "read_version": "Public goal page and dated campaign entry, inspected 17 October 2026",
+      "annotation": "The source marks the goal proved and records accepted activity. It formulates the finite-certificate route s<=A, bs at a chosen input >=B, A^2.0391<=B. The accepted proof body and actual seed parameters were not inspected; no more specific construction mechanism is asserted.",
+      "metadata_note": "Platform attests this goal proved. Acceptance/solve dates are distinguished from proposal text. No independent Lean rebuild or completeness of contributor attribution is claimed. See the witness card for proof-access limits."
+    },
+    {
+      "id": "P2M20526",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: Reach 2.05",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.05",
+      "accessed": "2026-10-17",
+      "date": "2026-10-16",
+      "read_version": "Public goal page and dated campaign entry, inspected 17 October 2026",
+      "annotation": "The inspected mission marks reach_205 proved and displays accepted activity attributed to Robin Kothari. The stated certificate criterion is s<=A, bs at a chosen input >=B, and A^(41/20)<=B, followed by the shared amplification theorem. The accepted proof body was not retrieved, so its exact seed and proof route remain source-extraction gaps.",
+      "metadata_note": "Platform attests this goal proved. Acceptance/solve dates are distinguished from proposal text. No independent Lean rebuild or completeness of contributor attribution is claimed. See the witness card for proof-access limits."
     }
   ],
   "measures": [
@@ -33806,6 +33920,203 @@
       "best_known_certified": false,
       "proof_audit": "not_independently_audited",
       "notes": "New catalogue consequence of the original paper’s jointly specified family, not a new independent construction. Query caps, exactness and detectable-failure conventions match the source preliminary definitions."
+    },
+    {
+      "id": "bs-s-superquadratic-baseline",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.000252407",
+      "kind": "separation",
+      "statement": "There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.000252407).",
+      "statement_latex": "\\mathrm{bs}(F_k)\\ge s(F_k)^{2.000252407},\\qquad s(F_k)\\longrightarrow\\infty",
+      "source": "OAIsens26",
+      "proof_sources": [
+        "P2Msens26"
+      ],
+      "locator": "Original paper Theorem 1.1, Section 4 and Corollary 4.3; campaign OpenAI Baseline decimal certificate",
+      "proof_summary": "Random edge labels exclude excessive simultaneous near-satisfied clauses. Four coupled profiles control ordinary sensitivity and simultaneous flips of distinct nested predicates. Block witnesses at zero multiply through recursion; OR balancing gives s<=2(d+2)M^(d+1) and bs at zero >=M^2(2M^2+1)^d for M>=9^(d+1). Composition multiplies the zero-input block lower bound and at most multiplies sensitivity.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "none",
+      "status": "primary_statement_and_proof_route_checked",
+      "proof_audit": "original_paper_selected_proof_route_checked_not_Lean_rebuilt",
+      "best_known_certified": false,
+      "last_checked": "2026-10-17",
+      "witness_id": "sensitivity-baseline",
+      "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
+    },
+    {
+      "id": "bs-s-superquadratic-depth20",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.006470828",
+      "kind": "separation",
+      "statement": "There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.006470828 - o(1)).",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.006470828-\\varepsilon}",
+      "source": "P2Mdepth2026",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Mission description and completed goal; original general seed bounds in OAIsens26 Section 4",
+      "proof_summary": "Specialize the same general seed bounds to depth twenty, certify the stated decimal below log(B)/log(A), and invoke finite-seed amplification. This is a stronger specialization, not a different base architecture.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "platform_attestation_and_goal_checked_accepted_proof_not_rebuilt",
+      "best_known_certified": false,
+      "last_checked": "2026-10-17",
+      "witness_id": "sensitivity-depth20",
+      "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
+    },
+    {
+      "id": "bs-s-superquadratic-2007",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.007",
+      "kind": "separation",
+      "statement": "There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.007 - o(1)).",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.007-\\varepsilon}",
+      "source": "P2M200726",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Campaign completed entry; mission goal and certificate framework",
+      "proof_summary": "The campaign records the asymptotic goal as proved. Its stated route is to certify a finite seed with s<=A, bs at a chosen input >=B, and A^2.007<=B, then use the shared normalization/composition theorem. The accepted proof body was not recovered here; this is a summary of the published certificate framework, not an assertion of its exact implementation.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "platform_attestation_and_goal_checked_accepted_proof_not_rebuilt",
+      "best_known_certified": false,
+      "last_checked": "2026-10-17",
+      "witness_id": "sensitivity-2007",
+      "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
+    },
+    {
+      "id": "bs-s-superquadratic-20205",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.0205",
+      "kind": "separation",
+      "statement": "There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.0205 - o(1)).",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.0205-\\varepsilon}",
+      "source": "P2M2020526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Mission construction description, specified parameters, exact certificate and PROVED goal",
+      "proof_summary": "Retain four profiles, reduce the target-row count to fifteen, and split the gate estimate by whether the candidate tournament has a sink. The resulting finite certificate satisfies A^4041<B^2000, so A^2.0205<B. Apply the shared finite-certificate amplification theorem.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "platform_attestation_and_goal_checked_accepted_proof_not_rebuilt",
+      "best_known_certified": false,
+      "last_checked": "2026-10-17",
+      "witness_id": "sensitivity-20205",
+      "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
+    },
+    {
+      "id": "bs-s-superquadratic-20391",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.0391",
+      "kind": "separation",
+      "statement": "There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.0391 - o(1)).",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.0391-\\varepsilon}",
+      "source": "P2M2039126",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Mission goal, explicit PROVED badge, campaign completed entry",
+      "proof_summary": "The source marks the goal proved and records accepted activity. It formulates the finite-certificate route s<=A, bs at a chosen input >=B, A^2.0391<=B. The accepted proof body and actual seed parameters were not inspected; no more specific construction mechanism is asserted.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "platform_attestation_and_goal_checked_accepted_proof_not_rebuilt",
+      "best_known_certified": false,
+      "last_checked": "2026-10-17",
+      "witness_id": "sensitivity-20391",
+      "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
+    },
+    {
+      "id": "bs-s-superquadratic-205",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.05",
+      "kind": "separation",
+      "statement": "There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.05 - o(1)).",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.05-\\varepsilon}",
+      "source": "P2M20526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Mission SensitivityCampaign.reach_205; explicit PROVED goal and accepted activity; campaign completed entry",
+      "proof_summary": "The inspected mission marks reach_205 proved and displays accepted activity attributed to Robin Kothari. The stated certificate criterion is s<=A, bs at a chosen input >=B, and A^(41/20)<=B, followed by the shared amplification theorem. The accepted proof body was not retrieved, so its exact seed and proof route remain source-extraction gaps.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "platform_attestation_and_goal_checked_accepted_proof_not_rebuilt",
+      "best_known_certified": false,
+      "last_checked": "2026-10-17",
+      "witness_id": "sensitivity-205",
+      "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
     }
   ],
   "conjectures": [
@@ -33928,7 +34239,7 @@
         "bs-lambda-sep-2026"
       ],
       "implications": [
-        "The spectral variant is distinct from the still stronger sensitivity question bs=O(s^2); refuting it does not refute that sensitivity conjecture."
+        "The spectral counterexample alone does not refute bs=O(s^2). The stronger ordinary-sensitivity quadratic question is separately refuted by OAIsens26 and improved campaign entries."
       ]
     },
     {
@@ -34154,6 +34465,33 @@
         "DFLLV26"
       ],
       "notes": "The original notes closing sentence does not quantify the desired exponent or parameter uniformity. Do not replace this ambiguity by a stronger or weaker conjecture without qualification. The nearby notes context emphasizes Huang-type estimates; a direct quadratic reading is plausible, but no retroactive resolution of this ambiguous historical formulation is asserted."
+    },
+    {
+      "id": "bs-s-quadratic",
+      "statement": "bs(f)=O(s(f)^2) for all total Boolean functions",
+      "statement_latex": "\\mathrm{bs}(f)=O(s(f)^2)",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "source": "NS94",
+      "locator": "Section 4 quadratic suggestion; original attribution checked against OAIsens26 introduction",
+      "status": "refuted_in_primary_preprint_and_platform_improvements_recorded",
+      "status_source": "OAIsens26",
+      "resolution": [
+        "bs-s-superquadratic-baseline",
+        "bs-s-superquadratic-205"
+      ],
+      "implications": [
+        "The qualitative polynomial sensitivity conjecture remains resolved positively. The quantitative quadratic strengthening fails; the recorded quartic universal upper exponent is unchanged.",
+        "The campaign attests exponent 2.05 as completed on 16 October 2026. Targets 2.0635 and 2.10 were open on inspection and are not lower-bound claims."
+      ]
     }
   ],
   "leads": [
@@ -34771,6 +35109,187 @@
       "definition": "f_1(x)=x; f_d=(1-z)*f_{d-1}(L)+z*f_{d-1}(R) on disjoint fresh variable sets and a new root z.",
       "proof_summary": "There are 2^d-1 relevant variables, degree d and decision-tree depth d. Every core measure is O(d), so no finite power of any core measure bounds relevant-variable count.",
       "status": "repository_witness_derivation_checked"
+    },
+    {
+      "id": "sensitivity-baseline",
+      "name": "OpenAI baseline",
+      "source": "OAIsens26",
+      "proof_sources": [
+        "P2Msens26"
+      ],
+      "definition": "The base predicates are indicators of unions of separated Hamming balls. Recursive rows are indexed by a regular labelled tournament: each accepting clause requires strong predicates throughout its target row and weaker blocking predicates at labelled positions in outgoing rows. An OR of disjoint copies balances the two output sensitivities; disjoint self-composition amplifies the seed.",
+      "proof_summary": "Random edge labels exclude excessive simultaneous near-satisfied clauses. Four coupled profiles control ordinary sensitivity and simultaneous flips of distinct nested predicates. Block witnesses at zero multiply through recursion; OR balancing gives s<=2(d+2)M^(d+1) and bs at zero >=M^2(2M^2+1)^d for M>=9^(d+1). Composition multiplies the zero-input block lower bound and at most multiplies sensitivity.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Self-composition depth k, after a fixed finite seed; campaign targets quantify arbitrarily large sensitivity.",
+      "values": {
+        "bs": ">= s^(2.000252407)"
+      },
+      "status": "original_construction_and_amplification_checked",
+      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "claim_ids": [
+        "bs-s-superquadratic-baseline"
+      ],
+      "construction_latex": "\\begin{gathered}d=9,\\ M=9^{10},\\ A=22M^{10},\\ B=M^2(2M^2+1)^9,\\\\ s(f)\\le A,\\quad\\mathrm{bs}(f,0)\\ge B>A^2,\\\\ F_{k+1}=f\\circ F_k,\\quad s(F_k)\\le A^k,\\quad\\mathrm{bs}(F_k,0)\\ge B^k.\\end{gathered}"
+    },
+    {
+      "id": "sensitivity-depth20",
+      "name": "Depth-20 parameter improvement",
+      "source": "P2Mdepth2026",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "The base predicates are indicators of unions of separated Hamming balls. Recursive rows are indexed by a regular labelled tournament: each accepting clause requires strong predicates throughout its target row and weaker blocking predicates at labelled positions in outgoing rows. An OR of disjoint copies balances the two output sensitivities; disjoint self-composition amplifies the seed. Set d=20 and M=9^21; use A=44M^21 and B=M^2(2M^2+1)^20.",
+      "proof_summary": "Specialize the same general seed bounds to depth twenty, certify the stated decimal below log(B)/log(A), and invoke finite-seed amplification. This is a stronger specialization, not a different base architecture.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Self-composition depth k, after a fixed finite seed; campaign targets quantify arbitrarily large sensitivity.",
+      "values": {
+        "bs": ">= s^(2.006470828 - o(1))"
+      },
+      "status": "original_construction_and_amplification_checked",
+      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "claim_ids": [
+        "bs-s-superquadratic-depth20"
+      ],
+      "construction_latex": "d=20,\\quad M=9^{21},\\quad A=44M^{21},\\quad B=M^2(2M^2+1)^{20}"
+    },
+    {
+      "id": "sensitivity-2007",
+      "name": "Campaign exponent 2.007",
+      "source": "P2M200726",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "A completed campaign improvement to exponent 2.007, starting from the OpenAI construction as background. The public goal specifies a finite-certificate route but does not expose the actual accepted seed construction or its parameters; the baseline architecture must not be assumed to be that proof’s implementation.",
+      "proof_summary": "The campaign records the asymptotic goal as proved. Its stated route is to certify a finite seed with s<=A, bs at a chosen input >=B, and A^2.007<=B, then use the shared normalization/composition theorem. The accepted proof body was not recovered here; this is a summary of the published certificate framework, not an assertion of its exact implementation.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Self-composition depth k, after a fixed finite seed; campaign targets quantify arbitrarily large sensitivity.",
+      "values": {
+        "bs": ">= s^(2.007 - o(1))"
+      },
+      "status": "platform_attested_construction_details_partially_extracted",
+      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "claim_ids": [
+        "bs-s-superquadratic-2007"
+      ]
+    },
+    {
+      "id": "sensitivity-20205",
+      "name": "Sharper tournament recurrence: 2.0205",
+      "source": "P2M2020526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "The base predicates are indicators of unions of separated Hamming balls. Recursive rows are indexed by a regular labelled tournament: each accepting clause requires strong predicates throughout its target row and weaker blocking predicates at labelled positions in outgoing rows. An OR of disjoint copies balances the two output sensitivities; disjoint self-composition amplifies the seed. The mission specifies d=17, M=1475863, label alphabet r=88, and K=1439236 disjoint OR copies.",
+      "proof_summary": "Retain four profiles, reduce the target-row count to fifteen, and split the gate estimate by whether the candidate tournament has a sink. The resulting finite certificate satisfies A^4041<B^2000, so A^2.0205<B. Apply the shared finite-certificate amplification theorem.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Self-composition depth k, after a fixed finite seed; campaign targets quantify arbitrarily large sensitivity.",
+      "values": {
+        "bs": ">= s^(2.0205 - o(1))"
+      },
+      "status": "platform_attested_construction_details_partially_extracted",
+      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "claim_ids": [
+        "bs-s-superquadratic-20205"
+      ]
+    },
+    {
+      "id": "sensitivity-20391",
+      "name": "Campaign exponent 2.0391",
+      "source": "P2M2039126",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "A finite total-Boolean seed or family satisfying the completed campaign goal. The inspected public goal record does not expose the accepted seed construction or its parameters.",
+      "proof_summary": "The source marks the goal proved and records accepted activity. It formulates the finite-certificate route s<=A, bs at a chosen input >=B, A^2.0391<=B. The accepted proof body and actual seed parameters were not inspected; no more specific construction mechanism is asserted.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Self-composition depth k, after a fixed finite seed; campaign targets quantify arbitrarily large sensitivity.",
+      "values": {
+        "bs": ">= s^(2.0391 - o(1))"
+      },
+      "status": "platform_attested_construction_details_partially_extracted",
+      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "claim_ids": [
+        "bs-s-superquadratic-20391"
+      ]
+    },
+    {
+      "id": "sensitivity-205",
+      "name": "Campaign exponent 2.05",
+      "source": "P2M20526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "A total-Boolean construction certified by the completed reach_205 mission. The public goal text specifies the asymptotic theorem and a sufficient finite-certificate criterion, but not the accepted seed parameters.",
+      "proof_summary": "The inspected mission marks reach_205 proved and displays accepted activity attributed to Robin Kothari. The stated certificate criterion is s<=A, bs at a chosen input >=B, and A^(41/20)<=B, followed by the shared amplification theorem. The accepted proof body was not retrieved, so its exact seed and proof route remain source-extraction gaps.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Self-composition depth k, after a fixed finite seed; campaign targets quantify arbitrarily large sensitivity.",
+      "values": {
+        "bs": ">= s^(2.05 - o(1))"
+      },
+      "status": "platform_attested_construction_details_partially_extracted",
+      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "claim_ids": [
+        "bs-s-superquadratic-205"
+      ]
     }
   ],
   "pair_summaries": [

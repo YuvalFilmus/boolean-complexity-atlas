@@ -33321,7 +33321,13 @@
           "claim_ids": [
             "bs-s4",
             "bs-s4-Pro",
-            "bs-s2-sep-AS"
+            "bs-s2-sep-AS",
+            "bs-s-superquadratic-baseline",
+            "bs-s-superquadratic-depth20",
+            "bs-s-superquadratic-2007",
+            "bs-s-superquadratic-20205",
+            "bs-s-superquadratic-20391",
+            "bs-s-superquadratic-205"
           ],
           "historical_claim_ids": []
         },

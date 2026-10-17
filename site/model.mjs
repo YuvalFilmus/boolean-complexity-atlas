@@ -74,7 +74,7 @@ export function comparisonClaims(data,a,b,context){
 }
 export function claimYear(data,c){const s=data.catalog.sources.find(s=>s.id===c.source);return s?Math.min(s.year,...(s.versions||[]).map(v=>v.year).filter(Number.isFinite)):9999;}
 export function selectionCSV(data,selected,context){return [['A (row)','B (column)','lower exponent','upper exponent','upper endpoint loss','status','claim IDs'],...selected.flatMap(a=>selected.map(b=>{const r=tableRecord(data,a,b,context),s=cellSummary(r,a,b);return [a,b,r.lower?.expression_label??r.lower?.exponent??'',r.upper?.exponent??r.exponent??r.upper_exponent??'',s.loss?'yes':'',s.kind,recordClaimIds(r).join(';')]}))].map(row=>row.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',')).join('\n');}
-export function parseLocation(hash,measures){const [page='explorer',query='']=hash.replace(/^#/,'').split('?');const q=new URLSearchParams(query);const context=CONTEXTS[q.get('scope')]?q.get('scope'):'total';const ids=new Set(measures.map(m=>m.id));const raw=q.get('m');return {page:['explorer','bibliography','measures','conjectures','about'].includes(page)?page:'explorer',context,selected:raw===null?defaultSelection(context):[...new Set(raw.split(',').filter(x=>ids.has(x)))],a:q.get('a'),b:q.get('b'),q:q.get('q')||''};}
+export function parseLocation(hash,measures){const [page='explorer',query='']=hash.replace(/^#/,'').split('?');const q=new URLSearchParams(query);const context=CONTEXTS[q.get('scope')]?q.get('scope'):'total';const ids=new Set(measures.map(m=>m.id));const raw=q.get('m');return {page:['explorer','witnesses','bibliography','measures','conjectures','about'].includes(page)?page:'explorer',context,selected:raw===null?defaultSelection(context):[...new Set(raw.split(',').filter(x=>ids.has(x)))],a:q.get('a'),b:q.get('b'),q:q.get('q')||''};}
 export function shareHash(context,selected,a,b){const q=new URLSearchParams({scope:context,m:selected.join(',')});if(a&&b){q.set('a',a);q.set('b',b)}return '#explorer?'+q;}
 
 export function selectionLatex(data,selected,context){
@@ -84,4 +84,13 @@ export function selectionLatex(data,selected,context){
  const lines=['% Rows A, columns B. Recorded exponents; dagger retains upper endpoint loss.','% Scope: '+CONTEXTS[context]+'. Not certified current best.','% Requires amsmath. Exact expressions and provenance are in the JSON dossier.','\\begin{tabular}{l'+'c'.repeat(selected.length)+'}', ' & '+selected.map(label).join(' & ')+end,'\\hline'];
  for(const a of selected){const row=[label(a),...selected.map(b=>{const s=cellSummary(tableRecord(data,a,b,context),a,b);return '$'+exponentTex(s.text)+(s.loss?'^{\\dagger}':'')+'$'})];lines.push(row.join(' & ')+end)}
  lines.push('\\end{tabular}');return lines.join('\n')+'\n';
+}
+
+export function comparisonWitnesses(data,a,b,context){
+ const r=tableRecord(data,a,b,context),ids=new Set(r.lower?.claim_ids||[]);
+ if(r.status==='no_finite_power')for(const id of r.claim_ids||[])ids.add(id);
+ for(const c of directClaims(data,a,b,context,true))if(['separation','no_polynomial_bound'].includes(c.kind))ids.add(c.id);
+ const wids=new Set([...ids].flatMap(id=>data.gallery?.claim_to_witness[id]||[]));
+ const named=r.lower?.witness||r.lower?.witness_id;if(named&&data.gallery?.claim_to_witness[named])for(const id of data.gallery.claim_to_witness[named])wids.add(id);
+ return (data.gallery?.constructions||[]).filter(w=>wids.has(w.id));
 }

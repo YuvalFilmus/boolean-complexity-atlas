@@ -3,19 +3,20 @@
   "definition_statuses": {
     "source_checked": 249
   },
-  "claim_records": 763,
+  "claim_records": 769,
   "claim_statuses": {
     "definition_proof": 18,
     "survey_checked": 1,
-    "primary_statement_and_proof_route_checked": 296,
+    "primary_statement_and_proof_route_checked": 297,
     "source_checked": 28,
     "derived": 21,
     "secondary_checked": 1,
     "repository_derivation_checked": 395,
     "source_statement_refuted_under_literal_cost_convention": 1,
-    "statement_checked_proof_pending": 2
+    "statement_checked_proof_pending": 2,
+    "primary_platform_theorem_and_attestation_checked": 5
   },
-  "bibliographic_records": 105,
+  "bibliographic_records": 112,
   "surveys": 9,
   "pair_summaries": 12,
   "audited_as_of": "2026-10-17",

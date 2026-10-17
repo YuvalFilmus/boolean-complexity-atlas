@@ -55,7 +55,7 @@ For every pair choose the completion optimal for the right-hand measure. The min
 | completion_RC | completion_R | 1 | 1 | yes | RC-R |
 | completion_RC | completion_C | 1 | 1 | yes | RC-C |
 | completion_RC | completion_bs | 3/2 | 2 | yes | RC-C, C-bs2 |
-| completion_RC | completion_s | 2 | 4 | yes | RC-adeg2, adeg-deg, deg-s2 |
+| completion_RC | completion_s | 2.05 | 4 | yes | RC-adeg2, adeg-deg, deg-s2 |
 | completion_RC | completion_lambda | 2.127 | 4 | yes | RC-adeg2, adeg-deg, deg-lambda2 |
 | completion_RC | completion_QE | {'op': 'mul', 'left': 8, 'right': {'op': 'log_ratio', 'numerator': 3, 'denominator': 2048}} | 2 | yes | partial-RC-Q2, Q-QE |
 | completion_RC | completion_deg | {'op': 'log_ratio', 'numerator': 6, 'denominator': 3} | 2 | yes | RC-adeg2, adeg-deg |
@@ -66,7 +66,7 @@ For every pair choose the completion optimal for the right-hand measure. The min
 | completion_bs | completion_R | 1 | 1 | yes | bs-R |
 | completion_bs | completion_C | 1 | 1 | yes | bs-C |
 | completion_bs | completion_RC | 1 | 1 | yes | partial-bs-RC |
-| completion_bs | completion_s | 2 | 4 | yes | bs-s4 |
+| completion_bs | completion_s | 2.05 | 4 | yes | bs-s4 |
 | completion_bs | completion_lambda | 2.127 | 4 | yes | bs-deg2-Pro, deg-lambda2 |
 | completion_bs | completion_QE | {'op': 'mul', 'left': 8, 'right': {'op': 'log_ratio', 'numerator': 3, 'denominator': 2048}} | 2 | yes | bs-deg2-Pro, deg-QE |
 | completion_bs | completion_deg | {'op': 'log_ratio', 'numerator': 6, 'denominator': 3} | 2 | yes | bs-deg2-Pro |

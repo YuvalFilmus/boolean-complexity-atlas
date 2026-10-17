@@ -97,7 +97,7 @@ Exponent exclusions transferred through total-function witnesses and checked upp
 | completion_RC | completion_R | 1 | 1 | True |
 | completion_RC | completion_C | 1 | 1 | True |
 | completion_RC | completion_bs | 3/2 | 2 | False |
-| completion_RC | completion_s | 2 | 4 | False |
+| completion_RC | completion_s | 2.05 | 4 | False |
 | completion_RC | completion_lambda | 2.127 | 4 | False |
 | completion_RC | completion_QE | (8*log(3)/log(2048)) | 2 | False |
 | completion_RC | completion_deg | log(6)/log(3) | 2 | False |
@@ -119,7 +119,7 @@ Exponent exclusions transferred through total-function witnesses and checked upp
 | completion_bs | completion_R | 1 | 1 | True |
 | completion_bs | completion_C | 1 | 1 | True |
 | completion_bs | completion_RC | 1 | 1 | True |
-| completion_bs | completion_s | 2 | 4 | False |
+| completion_bs | completion_s | 2.05 | 4 | False |
 | completion_bs | completion_lambda | 2.127 | 4 | False |
 | completion_bs | completion_QE | (8*log(3)/log(2048)) | 2 | False |
 | completion_bs | completion_deg | log(6)/log(3) | 2 | False |
@@ -406,7 +406,7 @@ Exponent exclusions transferred through total-function witnesses and checked upp
 | completion_fbs | completion_C | 1 | 1 | True |
 | completion_fbs | completion_RC | 1 | 1 | True |
 | completion_fbs | completion_bs | 3/2 | 2 | False |
-| completion_fbs | completion_s | 2 | 4 | False |
+| completion_fbs | completion_s | 2.05 | 4 | False |
 | completion_fbs | completion_lambda | 2.127 | 4 | False |
 | completion_fbs | completion_QE | (8*log(3)/log(2048)) | 2 | False |
 | completion_fbs | completion_deg | log(6)/log(3) | 2 | False |
@@ -428,7 +428,7 @@ Exponent exclusions transferred through total-function witnesses and checked upp
 | completion_FC | completion_C | 1 | 1 | True |
 | completion_FC | completion_RC | 1 | 1 | True |
 | completion_FC | completion_bs | 3/2 | 2 | False |
-| completion_FC | completion_s | 2 | 4 | False |
+| completion_FC | completion_s | 2.05 | 4 | False |
 | completion_FC | completion_lambda | 2.127 | 4 | False |
 | completion_FC | completion_QE | (8*log(3)/log(2048)) | 2 | False |
 | completion_FC | completion_deg | log(6)/log(3) | 2 | False |
@@ -450,7 +450,7 @@ Exponent exclusions transferred through total-function witnesses and checked upp
 | completion_QC | completion_C | 1/2 | 1/2 | True |
 | completion_QC | completion_RC | 1/2 | 1/2 | True |
 | completion_QC | completion_bs | (3/2/2) | 1 | False |
-| completion_QC | completion_s | (2/2) | 2 | False |
+| completion_QC | completion_s | (2.05/2) | 2 | False |
 | completion_QC | completion_lambda | (2.127/2) | 2 | False |
 | completion_QC | completion_QE | ((8*log(3)/log(2048))/2) | 1 | False |
 | completion_QC | completion_deg | (log(6)/log(3)/2) | 1 | False |

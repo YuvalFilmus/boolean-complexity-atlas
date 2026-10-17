@@ -1,0 +1,284 @@
+{
+  "warning": "Editorial construction overviews, linked to exact claim/source records. Variants grouped in one card are identified in the individual result statements. This is not a substitute for full formal definitions.",
+  "constructions": [
+    {
+      "id": "bkk-cheat-sheet",
+      "name": "BKK and exact-checking cheat sheets",
+      "definition": "Compose Block-k-sum gadgets to make a function with high quantum cost and cheap certificates. Its cheat-sheet totalization stores certificates at an address determined by several independent evaluations. The unique valid certificate cell controls certificate or polynomial degree.",
+      "claim_ids": [
+        "Q-C2-sep",
+        "Q-deg2-ABK"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "recbkk-cheat-sheet",
+      "name": "Recursive BKK cheat-sheet family",
+      "definition": "Iterate the BKK composition before applying the addressed cheat-sheet transform. Approximate checking polynomials make the resulting total function low in approximate degree while quantum lower bounds survive.",
+      "claim_ids": [
+        "Q-adeg4-sep"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "pointer-quantum-quartic",
+      "name": "All-one-column pointer family",
+      "definition": "A matrix has one marked all-one column. Pointers in that column encode a tree or chain of required zero entries elsewhere; the Boolean function accepts precisely valid marked structures. Parameters are balanced as in the cited source.",
+      "claim_ids": [
+        "D-Q4-sep"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "pointer-zero-error",
+      "name": "Randomized pointer and back-pointer family",
+      "definition": "A pointer matrix hides the all-one column and its certificate. Random sampling and back pointers locate a valid certificate quickly, while an adaptive deterministic adversary delays discovery.",
+      "claim_ids": [
+        "D-R0-sep-ABB"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "pointer-one-sided",
+      "name": "One-sided and zero-error pointer variant",
+      "definition": "Modify the pointer and back-pointer verification to permit a cheap one-sided randomized or exact quantum algorithm. The zero-error randomized algorithm must still locate a full certificate.",
+      "claim_ids": [
+        "R0-R-sep-ABB",
+        "R0-QE-sep-ABB"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "pointer-many-marked-columns",
+      "name": "Several-marked-column pointer family",
+      "definition": "Use the source variant with several marked columns. Exact quantum search and low-degree verification exploit the marked structure; planted distributions retain a large randomized query cost.",
+      "claim_ids": [
+        "R-QE-sep-ABB",
+        "R-adeg-sep-ABB"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "championship",
+      "name": "Championship functions",
+      "definition": "Encode competitions between candidates with race cards and verification information. Valid winners or virtual candidates can be found and checked by randomized or quantum tournament procedures; untouched cards force large negative certificates.",
+      "claim_ids": [
+        "C-R2-sep-BK",
+        "C-Q4-sep-BK"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "aik-totalized-dnf",
+      "name": "Unambiguous-DNF cheat-sheet totalization F_n",
+      "definition": "Start from the source unambiguous DNF, add position lists and count fields, and address a cheat-sheet cell containing the required checks. This is the same total family used for the joint certificate, quantum, exact and zero-error bounds.",
+      "claim_ids": [
+        "C-Q4-sep-AIK",
+        "AIK26-Q0-Q-quadratic",
+        "AIK26-C-Q0-quadratic",
+        "AIK26-C-QE-quadratic"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "aik-underlying-dnf",
+      "name": "Underlying AIK unambiguous DNF",
+      "definition": "Use the unambiguous DNF before cheat-sheet totalization. The all-zero input has a large negative certificate because small zero restrictions still admit a positive completion; randomized elimination yields a cheap capped one-sided algorithm.",
+      "claim_ids": [
+        "C-R1-2-sep-AIK",
+        "C-R2-sep-AIK",
+        "C0-R1-2-sep-AIK"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "addressed-outward-pointers",
+      "name": "Addressed outward-pointer cheat sheets",
+      "definition": "Attach addressed certificate cells and outward pointers so that one candidate is a valid winner. The quantum algorithm handles unreliable off-promise competitors using a tournament; a planted hidden-zero distribution enforces randomized address cost.",
+      "claim_ids": [
+        "R-Q4-sep-2026"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "tournament-spectral",
+      "name": "Tournament-indexed accepting subcubes",
+      "definition": "Take a union of subcubes indexed by a doubly regular tournament. Each row imposes positive conditions and selected outgoing blocking coordinates. Label constraints limit the spectral norm, while many blocks change the all-zero input.",
+      "claim_ids": [
+        "bs-lambda-sep-2026"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "fractional-graph-gadget",
+      "name": "Fractional/integral graph-property gap",
+      "definition": "Use the modified graph-property gadget of the source and compose it with OR. Its fractional block packing is substantially larger than its integral block packing.",
+      "claim_ids": [
+        "fbs-bs-sep-constant"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "ambainis-sun-patterns",
+      "name": "Ambainis–Sun spaced-pattern family",
+      "definition": "OR together carefully spaced accepting subcube patterns. The pattern arrangement permits many disjoint sensitive blocks while controlling both output-conditioned sensitivities; balancing gives the stated quadratic leading coefficient.",
+      "claim_ids": [
+        "bs-s2-sep-AS"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "bht-quantum-desensitization",
+      "name": "BHT desensitization of quantum-hard functions",
+      "definition": "Transform a quantum-hard cheap-certificate function to make one sensitivity side constant, then use AND/OR composition to balance the two sides.",
+      "claim_ids": [
+        "Q-s3-sep-BHT"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "weighted-projective-certificates",
+      "name": "Weighted projective-plane certificate construction",
+      "definition": "Compose projective-plane gadgets with fractional intermediate weights, round the weights and encode them as Boolean variables. Unambiguous certificates remain small; the BHT transformation converts the certificate gap into a sensitivity gap.",
+      "claim_ids": [
+        "C-UCmin-BHT",
+        "C-s-BHT"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "ambainis-exact-quantum",
+      "name": "Recursive exact-quantum subroutine",
+      "definition": "Use the source finite Boolean gadget with an exact quantum subroutine and compose it recursively. An eight-level algorithm uses 2048 queries; sensitivity and exact-query cost grow at different rates under iteration.",
+      "claim_ids": [
+        "s-QE-Amb13"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "dual-block-certificate",
+      "name": "Dual-block-composed approximation hardness",
+      "definition": "Apply dual block composition and hardness amplification, followed by a balanced-pair encoding that allows cheap certificates.",
+      "claim_ids": [
+        "adeg-C2-BT17"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "random-code-certificate",
+      "name": "Sparse random codeword family",
+      "definition": "Choose codewords that are far apart yet hit all sufficiently large subcubes, then OR-compose copies. Distance limits fractional sensitive-block packings; the hitting property forces large certificates.",
+      "claim_ids": [
+        "C-fbs2-GSS"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "gpw-unambiguous-pointers",
+      "name": "Unambiguous marked-column pointers",
+      "definition": "The marked all-one column contains a pointer chain certifying one zero in every other column. This supplies a short unique accepting certificate even though deterministic search must inspect the matrix.",
+      "claim_ids": [
+        "D-UC1-GPW"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "two-level-pointers",
+      "name": "Two-level randomized pointer function",
+      "definition": "Use a two-level pointer structure whose accepting certificates are short and unambiguous. Summing their indicators bounds exact degree; distributional conical-junta arguments force randomized query complexity.",
+      "claim_ids": [
+        "R-deg2-GJPW"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "recursive-uc-cheat-sheets",
+      "name": "Recursive AND/OR and unambiguous cheat sheets",
+      "definition": "Alternate AND/OR composition with cheat-sheet totalization, making accepting certificate checks unique while preserving the required query lower bounds. The separate source variants serve the D, R and Q comparisons.",
+      "claim_ids": [
+        "D-UC-sep-AKK",
+        "R-UC-sep-AKK",
+        "Q-UC-sep-AKK",
+        "Q-UC1-sep-AKK"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "row-association-certificates",
+      "name": "Random row-association certificate construction",
+      "definition": "Create a partial-function certificate gap using random row-association functions. Cheat-sheet totalization makes positive certificates unambiguous; degree and sensitivity consequences use additional documented transformations.",
+      "claim_ids": [
+        "C-UC1-2-BBGJK",
+        "C-deg2-BBGJK",
+        "C-s3-BBGJK"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "hex-cheat-sheet",
+      "name": "Hex path-certificate cheat sheets",
+      "definition": "Use the Hex partial function, encode valid path certificates in cheat-sheet cells, and approximate the consistency checks by low-degree polynomials. This is retained as a historical separation.",
+      "claim_ids": [
+        "C-adeg3-BBGJK-history"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "balanced-and-or",
+      "name": "Balanced AND of ORs",
+      "definition": "On an m by m Boolean matrix, take the AND over rows of their OR values. A zero row or one chosen one per row is a certificate; its exact polynomial contains the full-degree monomial.",
+      "claim_ids": [
+        "deg-C2-ANDOR"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "kushilevitz-six-bit",
+      "name": "Kushilevitz six-variable degree-three gadget",
+      "definition": "Iterate the explicit six-variable degree-three Boolean polynomial recorded in the Nisan–Wigderson footnote. Its value at zero differs from every unit vector, so the composed family has full sensitivity while degree grows by three per level.",
+      "claim_ids": [
+        "s-deg-Kushilevitz"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "pab-set-pairs",
+      "name": "Pabbaraju signed-set-pair DNF",
+      "definition": "Construct pairwise incompatible signed set pairs by choosing a fixed-size subset in each block. Their associated terms form an unambiguous DNF; negative certificates must hit many coordinates. Degree and cubic sensitivity gaps are the recorded transformations of this witness.",
+      "claim_ids": [
+        "C0-UC1-exact2-Pab",
+        "C-deg2-Pab",
+        "C-s3-Pab"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "bal-approximate-degree",
+      "name": "Structured negative certificates and cheat sheets",
+      "definition": "Restrict ambiguous negative certificates to a structured family. A low-degree count of compatible positive certificates verifies them, followed by the cheat-sheet transform.",
+      "claim_ids": [
+        "C-adeg4-Bal26"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "pab-approximate-degree",
+      "name": "Pointer-augmented unambiguous-DNF certificates",
+      "definition": "Attach pointers and certificate cells to the source unambiguous DNF. A selected certificate is verified by a controlled number of low-degree consistency tests; their approximants combine to the stated approximate-degree bound.",
+      "claim_ids": [
+        "C-adeg4-Pab"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "nand-tree",
+      "name": "Complete binary NAND trees",
+      "definition": "Use the complete read-once binary NAND tree. Evaluate a randomly chosen child first and stop whenever it determines the parent; output-conditioned costs obey the source two-state recurrence.",
+      "claim_ids": [
+        "deg-R0-NAND-SW",
+        "QE-R0-NAND-SW"
+      ],
+      "definition_status": "source_construction_overview_not_full_formal_definition"
+    }
+  ]
+}

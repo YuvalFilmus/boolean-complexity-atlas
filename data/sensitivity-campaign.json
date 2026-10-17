@@ -1,0 +1,101 @@
+{
+  "as_of": "2026-10-17",
+  "tracker_url": "https://prove2.me/campaigns/block-sensitivity-vs-sensitivity",
+  "tracker_html_sha256": "5cb1a7653dd33e091e9ac3ca36b78fa5c015845ae24676a8128372f64828ba55",
+  "OpenAI_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "proved_records": [
+    {
+      "id": "baseline",
+      "source": "OAIsens26",
+      "witness_id": "sensitivity-baseline",
+      "claim_id": "bs-s-superquadratic-baseline",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_OpenAI_Baseline",
+      "exponent": "2.000252407",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-15T18:38:48.632496+00:00",
+      "recorded_at_UTC": "2026-10-15T17:47:05.675068+00:00",
+      "mission_html_sha256": "fe8f35c3f265989dfe43963adc78835760059cc7dd57c8838c0aa2ad20c67a1c",
+      "proof_access": "Original construction/parameter proof route checked; Lean not rebuilt."
+    },
+    {
+      "id": "depth20",
+      "source": "P2Mdepth2026",
+      "witness_id": "sensitivity-depth20",
+      "claim_id": "bs-s-superquadratic-depth20",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Depth-20_Improvement",
+      "exponent": "2.006470828",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-15T21:19:33.744458+00:00",
+      "recorded_at_UTC": "2026-10-15T17:47:06.156527+00:00",
+      "mission_html_sha256": "ad0097de2d34b6abd7d1a61bd87c080c9b4410cec9476452cf06afe0b3233f2b",
+      "proof_access": "Original construction/parameter proof route checked; Lean not rebuilt."
+    },
+    {
+      "id": "2007",
+      "source": "P2M200726",
+      "witness_id": "sensitivity-2007",
+      "claim_id": "bs-s-superquadratic-2007",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.007",
+      "exponent": "2.007",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-15T21:07:56.592986+00:00",
+      "recorded_at_UTC": "2026-10-15T17:47:06.674737+00:00",
+      "mission_html_sha256": "68446703b9851bf93ff41f62f9133b9952a5e104c43f2c4ff62d9ab1cb3ff5bc",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+    },
+    {
+      "id": "20205",
+      "source": "P2M2020526",
+      "witness_id": "sensitivity-20205",
+      "claim_id": "bs-s-superquadratic-20205",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.0205",
+      "exponent": "2.0205",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-16T00:14:22.696993+00:00",
+      "recorded_at_UTC": "2026-10-16T04:00:16.92248+00:00",
+      "mission_html_sha256": "6dde43a592861b0815467a6454d29e43996a68ada884e03b6ce13f5df541acce",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+    },
+    {
+      "id": "20391",
+      "source": "P2M2039126",
+      "witness_id": "sensitivity-20391",
+      "claim_id": "bs-s-superquadratic-20391",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_%CE%B1_%E2%89%A5_2.0391",
+      "exponent": "2.0391",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-16T10:49:55.436195+00:00",
+      "recorded_at_UTC": "2026-10-16T14:45:20.463609+00:00",
+      "mission_html_sha256": "4bc3522e3d06439907cdab3c09fd823013bd5336a69250e5f6d39b5a47afd628",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+    },
+    {
+      "id": "205",
+      "source": "P2M20526",
+      "witness_id": "sensitivity-205",
+      "claim_id": "bs-s-superquadratic-205",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.05",
+      "exponent": "2.05",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-16T16:51:24.744977+00:00",
+      "recorded_at_UTC": "2026-10-16T14:45:21.838694+00:00",
+      "mission_html_sha256": "37bdaa39f7e3cf91ce3d1432fac0ea13396d667fe9cad24468bdf8956ef0fb68",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+    }
+  ],
+  "open_targets": [
+    {
+      "exponent": "2.0635",
+      "mission_name": "Block Sensitivity vs. Sensitivity: Reach 2.0635",
+      "platform_proved": false,
+      "mission_id": "dcd3dbe1-5b49-4587-934f-ee69d34e2bab"
+    },
+    {
+      "exponent": "2.1",
+      "mission_name": "Block Sensitivity vs. Sensitivity: Reach 2.10",
+      "platform_proved": false,
+      "mission_id": "299978d9-05c4-478a-9039-1982062058c0"
+    }
+  ],
+  "warning": "Static dated source snapshot, not a live monitor. Explicit goal/progress status supersedes stale proposal prose. Platform attestation is not an independently rebuilt proof. No proof is inferred from the displayed by-sorry statement skeleton."
+}

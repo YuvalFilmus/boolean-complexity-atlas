@@ -1,0 +1,239 @@
+{
+  "as_of": "2026-10-22",
+  "previous_snapshot": "2026-10-17",
+  "strongest_claim_id": "bs-s-superquadratic-21308255793978239",
+  "warning": "Mechanical consequences inherit the platform attestation and arbitrary positive exponent-loss qualification. Exact exponent expressions, not displayed decimals, are authoritative.",
+  "datasets": {
+    "core-matrix.json": [
+      {
+        "A": "RC",
+        "B": "s",
+        "previous": 2.05,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC"
+        ]
+      },
+      {
+        "A": "RC",
+        "B": "lambda",
+        "previous": 2.127,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "lambda-s"
+        ]
+      },
+      {
+        "A": "bs",
+        "B": "s",
+        "previous": 2.05,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239"
+        ]
+      },
+      {
+        "A": "bs",
+        "B": "lambda",
+        "previous": 2.127,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "lambda-s"
+        ]
+      }
+    ],
+    "extended-completion-exponents.json": [
+      {
+        "A": "completion_RC",
+        "B": "completion_s",
+        "previous": 2.05,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC"
+        ]
+      },
+      {
+        "A": "completion_RC",
+        "B": "completion_lambda",
+        "previous": 2.127,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "lambda-s"
+        ]
+      },
+      {
+        "A": "completion_bs",
+        "B": "completion_s",
+        "previous": 2.05,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239"
+        ]
+      },
+      {
+        "A": "completion_bs",
+        "B": "completion_lambda",
+        "previous": 2.127,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "lambda-s"
+        ]
+      },
+      {
+        "A": "completion_fbs",
+        "B": "completion_s",
+        "previous": 2.05,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "bs-fbs"
+        ]
+      },
+      {
+        "A": "completion_fbs",
+        "B": "completion_lambda",
+        "previous": 2.127,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "bs-fbs",
+          "lambda-s"
+        ]
+      },
+      {
+        "A": "completion_FC",
+        "B": "completion_s",
+        "previous": 2.05,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "completion-support-RC-FC"
+        ]
+      },
+      {
+        "A": "completion_FC",
+        "B": "completion_lambda",
+        "previous": 2.127,
+        "current": 2.130825579397824,
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "completion-support-RC-FC",
+          "lambda-s"
+        ]
+      },
+      {
+        "A": "completion_QC",
+        "B": "completion_s",
+        "previous": 1.025,
+        "current": 1.065412789698912,
+        "exponent_expression": {
+          "op": "div",
+          "left": {
+            "op": "log_ratio",
+            "numerator": "1522813785050025472152230187890625",
+            "denominator": "3738277295413674"
+          },
+          "right": "2"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "completion-support-RC-FC",
+          "completion-support-FC-QC"
+        ]
+      },
+      {
+        "A": "completion_QC",
+        "B": "completion_lambda",
+        "previous": 1.0635,
+        "current": 1.065412789698912,
+        "exponent_expression": {
+          "op": "div",
+          "left": {
+            "op": "log_ratio",
+            "numerator": "1522813785050025472152230187890625",
+            "denominator": "3738277295413674"
+          },
+          "right": "2"
+        },
+        "claim_ids": [
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "completion-support-RC-FC",
+          "completion-support-FC-QC",
+          "lambda-s"
+        ]
+      }
+    ]
+  }
+}

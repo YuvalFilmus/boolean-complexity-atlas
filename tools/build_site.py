@@ -16,7 +16,7 @@ def build():
     latex=json.loads((ROOT/'data/statement-latex.json').read_text())['statements']
     for c in catalog['claims']:
         if c['id'] in latex: c['statement_latex']=latex[c['id']]
-        e=c.get('exponent')
+        e=c.get('exponent_expression',c.get('exponent'))
         if e is not None:
             try: c['exponent_numeric']=expr_value(e);c['exponent_label']=expr_text(e)
             except (ValueError,TypeError,KeyError,ZeroDivisionError): pass

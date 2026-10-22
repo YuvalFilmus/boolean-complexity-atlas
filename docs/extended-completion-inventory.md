@@ -121,7 +121,7 @@ Minimum-completion inventory. Upper bounds choose a completion optimal for B; mi
 | completion_bs | completion_R | completion_core_evidence | 1 |  |
 | completion_bs | completion_C | completion_core_evidence | 1 |  |
 | completion_bs | completion_RC | completion_core_evidence | 1 |  |
-| completion_bs | completion_s | completion_core_evidence | 4 | bs-s2-sep-AS, bs-s-superquadratic-baseline, bs-s-superquadratic-depth20, bs-s-superquadratic-2007, bs-s-superquadratic-20205, bs-s-superquadratic-20391, bs-s-superquadratic-205 |
+| completion_bs | completion_s | completion_core_evidence | 4 | bs-s2-sep-AS, bs-s-superquadratic-baseline, bs-s-superquadratic-depth20, bs-s-superquadratic-2007, bs-s-superquadratic-20205, bs-s-superquadratic-20391, bs-s-superquadratic-205, bs-s-superquadratic-20635, bs-s-superquadratic-2075, bs-s-superquadratic-2085, bs-s-superquadratic-2119, bs-s-superquadratic-21, bs-s-superquadratic-2127294, bs-s-superquadratic-21301, bs-s-superquadratic-21303, bs-s-superquadratic-213, bs-s-superquadratic-21308255793978239, bs-s-superquadratic-coupled-exact, bs-s-superquadratic-shared-exact, bs-s-superquadratic-refined-exact |
 | completion_bs | completion_lambda | completion_core_evidence | 4 | bs-lambda-sep-2026 |
 | completion_bs | completion_QE | completion_core_evidence | 2 |  |
 | completion_bs | completion_deg | completion_core_evidence | 2 |  |

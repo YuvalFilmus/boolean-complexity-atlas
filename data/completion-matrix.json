@@ -2025,11 +2025,15 @@
         ]
       },
       "lower": {
-        "exponent_expression": "2.05",
-        "numeric_for_ranking": 2.05,
-        "witness": "bs-s-superquadratic-205",
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "numeric_for_ranking": 2.130825579397824,
+        "witness": "bs-s-superquadratic-21308255793978239",
         "claim_ids": [
-          "bs-s-superquadratic-205",
+          "bs-s-superquadratic-21308255793978239",
           "partial-bs-RC"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
@@ -2067,12 +2071,17 @@
         ]
       },
       "lower": {
-        "exponent_expression": "2.127",
-        "numeric_for_ranking": 2.127,
-        "witness": "bs-lambda-sep-2026",
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "numeric_for_ranking": 2.130825579397824,
+        "witness": "bs-s-superquadratic-21308255793978239",
         "claim_ids": [
-          "bs-lambda-sep-2026",
-          "partial-bs-RC"
+          "bs-s-superquadratic-21308255793978239",
+          "partial-bs-RC",
+          "lambda-s"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
       },
@@ -2480,11 +2489,15 @@
         ]
       },
       "lower": {
-        "exponent_expression": "2.05",
-        "numeric_for_ranking": 2.05,
-        "witness": "bs-s-superquadratic-205",
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "numeric_for_ranking": 2.130825579397824,
+        "witness": "bs-s-superquadratic-21308255793978239",
         "claim_ids": [
-          "bs-s-superquadratic-205"
+          "bs-s-superquadratic-21308255793978239"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
       },
@@ -2520,11 +2533,16 @@
         ]
       },
       "lower": {
-        "exponent_expression": "2.127",
-        "numeric_for_ranking": 2.127,
-        "witness": "bs-lambda-sep-2026",
+        "exponent_expression": {
+          "op": "log_ratio",
+          "numerator": "1522813785050025472152230187890625",
+          "denominator": "3738277295413674"
+        },
+        "numeric_for_ranking": 2.130825579397824,
+        "witness": "bs-s-superquadratic-21308255793978239",
         "claim_ids": [
-          "bs-lambda-sep-2026"
+          "bs-s-superquadratic-21308255793978239",
+          "lambda-s"
         ],
         "proof": "Transfer the witness using A_witness<=O(A_target^u) and B_target<=O(B_witness^v); a target exponent below ell/(u*v) contradicts the witness. Logarithmic upper losses affect endpoint attainment, not this excluded-exponent argument."
       },

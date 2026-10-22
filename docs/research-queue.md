@@ -248,10 +248,10 @@ Status: refuted_in_primary_preprint_and_platform_improvements_recorded.
 
 Source: [NS94](https://web.vu.lt/mif/s.jukna/boolean/Nisan-Szegedy.pdf), Section 4 quadratic suggestion; original attribution checked against OAIsens26 introduction.
 
-- The qualitative polynomial sensitivity conjecture remains resolved positively. The quantitative quadratic strengthening fails; the recorded quartic universal upper exponent is unchanged.
-- The campaign attests exponent 2.05 as completed on 16 October 2026. Targets 2.0635 and 2.10 were open on inspection and are not lower-bound claims.
+- The qualitative polynomial sensitivity conjecture remains resolved positively; its quadratic strengthening fails. The recorded universal upper exponent remains 4.
+- On 22 October 2026 the campaign records exact achieved exponent log(14055^8)/log(3738277295413674), with arbitrary positive exponent loss. The 2.15 target remains open.
 
-Resolution records: bs-s-superquadratic-baseline, bs-s-superquadratic-205.
+Resolution records: bs-s-superquadratic-baseline, bs-s-superquadratic-21308255793978239.
 
 ## Queue: quartic-RQ-2026
 

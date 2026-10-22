@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-22",
   "tracker_url": "https://prove2.me/campaigns/block-sensitivity-vs-sensitivity",
-  "tracker_html_sha256": "5cb1a7653dd33e091e9ac3ca36b78fa5c015845ae24676a8128372f64828ba55",
+  "tracker_html_sha256": "72048a3086aab11326884e6337cccf17d7e482032be59ee8b54c412b2c4fce64",
   "OpenAI_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
   "proved_records": [
     {
@@ -14,21 +14,9 @@
       "platform_proved": true,
       "platform_solved_at_UTC": "2026-10-15T18:38:48.632496+00:00",
       "recorded_at_UTC": "2026-10-15T17:47:05.675068+00:00",
-      "mission_html_sha256": "fe8f35c3f265989dfe43963adc78835760059cc7dd57c8838c0aa2ad20c67a1c",
-      "proof_access": "Original construction/parameter proof route checked; Lean not rebuilt."
-    },
-    {
-      "id": "depth20",
-      "source": "P2Mdepth2026",
-      "witness_id": "sensitivity-depth20",
-      "claim_id": "bs-s-superquadratic-depth20",
-      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Depth-20_Improvement",
-      "exponent": "2.006470828",
-      "platform_proved": true,
-      "platform_solved_at_UTC": "2026-10-15T21:19:33.744458+00:00",
-      "recorded_at_UTC": "2026-10-15T17:47:06.156527+00:00",
-      "mission_html_sha256": "ad0097de2d34b6abd7d1a61bd87c080c9b4410cec9476452cf06afe0b3233f2b",
-      "proof_access": "Original construction/parameter proof route checked; Lean not rebuilt."
+      "mission_html_sha256": "eb0b6952f4d6d4d4e9bef953b6307aa12d3bf5930ce7c984ad3730353386b5da",
+      "proof_access": "Original construction/parameter proof route checked; Lean not rebuilt.",
+      "last_checked": "2026-10-22"
     },
     {
       "id": "2007",
@@ -40,8 +28,23 @@
       "platform_proved": true,
       "platform_solved_at_UTC": "2026-10-15T21:07:56.592986+00:00",
       "recorded_at_UTC": "2026-10-15T17:47:06.674737+00:00",
-      "mission_html_sha256": "68446703b9851bf93ff41f62f9133b9952a5e104c43f2c4ff62d9ab1cb3ff5bc",
-      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+      "mission_html_sha256": "d57cc7fad55883017fb6467a148e6ff154c618dec57561de47ab0e060a45bf55",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt.",
+      "last_checked": "2026-10-22"
+    },
+    {
+      "id": "depth20",
+      "source": "P2Mdepth2026",
+      "witness_id": "sensitivity-depth20",
+      "claim_id": "bs-s-superquadratic-depth20",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Depth-20_Improvement",
+      "exponent": "2.006470828",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-15T21:19:33.744458+00:00",
+      "recorded_at_UTC": "2026-10-15T17:47:06.156527+00:00",
+      "mission_html_sha256": "4ddfb659bc09cd9ba5cb74280c19dea9bb22f9620e6835846c7654d29a487f7f",
+      "proof_access": "Original construction/parameter proof route checked; Lean not rebuilt.",
+      "last_checked": "2026-10-22"
     },
     {
       "id": "20205",
@@ -53,8 +56,9 @@
       "platform_proved": true,
       "platform_solved_at_UTC": "2026-10-16T00:14:22.696993+00:00",
       "recorded_at_UTC": "2026-10-16T04:00:16.92248+00:00",
-      "mission_html_sha256": "6dde43a592861b0815467a6454d29e43996a68ada884e03b6ce13f5df541acce",
-      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+      "mission_html_sha256": "4fe6e9c4c37c7425d8fe992e256b992565f5d2f803e47137d34862e354518a97",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt.",
+      "last_checked": "2026-10-22"
     },
     {
       "id": "20391",
@@ -66,8 +70,9 @@
       "platform_proved": true,
       "platform_solved_at_UTC": "2026-10-16T10:49:55.436195+00:00",
       "recorded_at_UTC": "2026-10-16T14:45:20.463609+00:00",
-      "mission_html_sha256": "4bc3522e3d06439907cdab3c09fd823013bd5336a69250e5f6d39b5a47afd628",
-      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+      "mission_html_sha256": "3699745c9a4a077db172357931739a3f3bfa4b8df6f28934f1ec1bfa95c719ef",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt.",
+      "last_checked": "2026-10-22"
     },
     {
       "id": "205",
@@ -79,23 +84,191 @@
       "platform_proved": true,
       "platform_solved_at_UTC": "2026-10-16T16:51:24.744977+00:00",
       "recorded_at_UTC": "2026-10-16T14:45:21.838694+00:00",
-      "mission_html_sha256": "37bdaa39f7e3cf91ce3d1432fac0ea13396d667fe9cad24468bdf8956ef0fb68",
-      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt."
+      "mission_html_sha256": "155366d62238a08adaa4aea258102bdac21b555c3951cab8a1704e933cacc6c7",
+      "proof_access": "Public statement and status checked; accepted proof body not recovered or rebuilt.",
+      "last_checked": "2026-10-22"
+    },
+    {
+      "id": "20635",
+      "source": "P2M2063526",
+      "witness_id": "sensitivity-20635",
+      "claim_id": "bs-s-superquadratic-20635",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.0635",
+      "exponent": "2.0635",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-18T04:29:35.700657+00:00",
+      "recorded_at_UTC": "2026-10-16T20:42:39.306587+00:00",
+      "mission_html_sha256": "072d40cdf157ea5a95aa5b53c6c21aa851bd4e0076ebeed2cedbe5f16eb2c0f4",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/f4a6abf1-69b0-4785-a7d9-cd45649231b2",
+      "theorem_html_sha256": "88408d3e4f02ea03dfc7c3e5617032d2ef10ae9c750a9fd7acacaea3bb9aff4f"
+    },
+    {
+      "id": "2075",
+      "source": "P2M207526",
+      "witness_id": "sensitivity-2075",
+      "claim_id": "bs-s-superquadratic-2075",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.075",
+      "exponent": "2.075",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-19T20:16:20.976478+00:00",
+      "recorded_at_UTC": "2026-10-20T02:42:38.861857+00:00",
+      "mission_html_sha256": "8816cfa1ad061cdd82fc619a7ec08f1ca58859b9b84185994e9c59c8e331853f",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/49fdd176-c319-4f1e-b15f-b1fd5130f0bc",
+      "theorem_html_sha256": "36bb89af56451c29c1af9f81a4d678a994e17cc6b08375d2d75ddd4e729c1105"
+    },
+    {
+      "id": "2085",
+      "source": "P2M208526",
+      "witness_id": "sensitivity-2085",
+      "claim_id": "bs-s-superquadratic-2085",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Eight-layer_exponent_%242.085%24",
+      "exponent": "2.085",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T03:37:57.575444+00:00",
+      "recorded_at_UTC": "2026-10-20T15:19:12.641466+00:00",
+      "mission_html_sha256": "8e180284a34d7713e671d71d8e697c1d9e7ba690b6e7f9455f5f85bd5c54f43b",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/7e54a28e-196b-40a3-a2c0-957e75db9e4f",
+      "theorem_html_sha256": "d0ce42a34dbb78398dfdcc4f4de067978ed14021fdef8c85c4bd835375630434"
+    },
+    {
+      "id": "2119",
+      "source": "P2M211926",
+      "witness_id": "sensitivity-2119",
+      "claim_id": "bs-s-superquadratic-2119",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Periodic_exponent_%242.119%24",
+      "exponent": "2.119",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T04:21:04.146766+00:00",
+      "recorded_at_UTC": "2026-10-20T15:19:13.591482+00:00",
+      "mission_html_sha256": "f6cdf9f93959ba1709285a3be5209aed3039e693129f26726bfa6ef19e7785c4",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/cf005af0-93b2-44c1-991f-ddab41d85874",
+      "theorem_html_sha256": "ba5dcb59b06115376495e8d5a75357a90a46284a3c24247a3f0a0d8c084af2c9"
+    },
+    {
+      "id": "21",
+      "source": "P2M2126",
+      "witness_id": "sensitivity-21",
+      "claim_id": "bs-s-superquadratic-21",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.10",
+      "exponent": "2.1",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T04:24:24.074873+00:00",
+      "recorded_at_UTC": "2026-10-16T20:42:51.490531+00:00",
+      "mission_html_sha256": "1ad85f303432e93072b8bcf186a46590d41d2cf8159d5ca04f0157e1649e2f8c",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/34794a98-e5bd-4623-ae65-526fc87e9ad1",
+      "theorem_html_sha256": "2943cda457ad6e48a1603c273a6f77c63746fb58901c6177970a31d733ae7202"
+    },
+    {
+      "id": "21301",
+      "source": "P2M2130126",
+      "witness_id": "sensitivity-21301",
+      "claim_id": "bs-s-superquadratic-21301",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_%242.1301%24",
+      "exponent": "2.1301",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T05:54:41.792277+00:00",
+      "recorded_at_UTC": "2026-10-20T15:19:17.662761+00:00",
+      "mission_html_sha256": "749586577f635d0036f5cc1d81e91f7e406663616398a411108658b8e14340e0",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/ff7ef69d-ca91-413b-872c-cf760dc244dc",
+      "theorem_html_sha256": "afe0fcf432ddadd353772d99175525551957c24c6002c2ee2303d0d2d888622e"
+    },
+    {
+      "id": "21303",
+      "source": "P2M2130326",
+      "witness_id": "sensitivity-21303",
+      "claim_id": "bs-s-superquadratic-21303",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_%242.1303%24",
+      "exponent": "2.1303",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T07:13:15.040641+00:00",
+      "recorded_at_UTC": "2026-10-20T15:19:18.973249+00:00",
+      "mission_html_sha256": "aff5625b783804c0aa5cf76449622b2b84d43bdd9d9ebb87c7c87fd175d5eda4",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/637bbe88-761a-4bb9-bad9-78a8c1bb90c7",
+      "theorem_html_sha256": "39bf4d7e70c08122ef7de6a66e25ab6f6bdb07cccac3b62c9a4ed69f4cae0172"
+    },
+    {
+      "id": "2127294",
+      "source": "P2M212729426",
+      "witness_id": "sensitivity-2127294",
+      "claim_id": "bs-s-superquadratic-2127294",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.127294",
+      "exponent": "2.127294",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T18:39:49.730713+00:00",
+      "recorded_at_UTC": "2026-10-20T15:19:14.548653+00:00",
+      "mission_html_sha256": "cb9002045a2182ee2fbcb0a63b3b3fd452c41ddeb68ef51d51af322fd12ee504",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "213",
+      "source": "P2M21326",
+      "witness_id": "sensitivity-213",
+      "claim_id": "bs-s-superquadratic-213",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.13",
+      "exponent": "2.13",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T18:40:06.550558+00:00",
+      "recorded_at_UTC": "2026-10-20T15:19:23.204731+00:00",
+      "mission_html_sha256": "ac1525f9b931a7bc00c4656c96c8ef8338cb77cf7892e564b56ac68554f40aa4",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "21308255793978239",
+      "source": "P2M2130825579397823926",
+      "witness_id": "sensitivity-21308255793978239",
+      "claim_id": "bs-s-superquadratic-21308255793978239",
+      "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_%242.1308255793978239%5Cldots%24",
+      "exponent": "2.1308255793978239",
+      "platform_proved": true,
+      "platform_solved_at_UTC": "2026-10-20T23:13:42.768368+00:00",
+      "recorded_at_UTC": "2026-10-21T04:25:20.724361+00:00",
+      "mission_html_sha256": "0c4e10dcd4c02f2003ca963795171b84179053585d6924b9e68db8f4b013f4b9",
+      "proof_access": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "theorem_url": "https://prove2.me/theorems/01bb63ef-ced2-4ae9-8b81-b5ed295526c6",
+      "theorem_html_sha256": "b04d6d55bc6a9d1517c3236ca84983dff96e9a4835359dcdd15543e821ec7429",
+      "exponent_expression": {
+        "op": "log_ratio",
+        "numerator": "1522813785050025472152230187890625",
+        "denominator": "3738277295413674"
+      },
+      "exponent_decimal_role": "Tracker display approximation; exact theorem is logarithmic."
     }
   ],
   "open_targets": [
     {
-      "exponent": "2.0635",
-      "mission_name": "Block Sensitivity vs. Sensitivity: Reach 2.0635",
+      "exponent": "2.15",
+      "mission_name": "Block Sensitivity vs. Sensitivity: Reach 2.15",
       "platform_proved": false,
-      "mission_id": "dcd3dbe1-5b49-4587-934f-ee69d34e2bab"
-    },
-    {
-      "exponent": "2.1",
-      "mission_name": "Block Sensitivity vs. Sensitivity: Reach 2.10",
-      "platform_proved": false,
-      "mission_id": "299978d9-05c4-478a-9039-1982062058c0"
+      "mission_id": "47d0a7d9-928e-4e79-925f-7f35a473e6ae"
     }
   ],
-  "warning": "Static dated source snapshot, not a live monitor. Explicit goal/progress status supersedes stale proposal prose. Platform attestation is not an independently rebuilt proof. No proof is inferred from the displayed by-sorry statement skeleton."
+  "warning": "Static dated source snapshot, not a live monitor. Explicit goal/progress status supersedes stale proposal prose. Platform attestation is not an independently rebuilt proof. No proof is inferred from the displayed by-sorry statement skeleton.",
+  "strongest_claim_id": "bs-s-superquadratic-21308255793978239",
+  "strongest_exponent_expression": {
+    "op": "log_ratio",
+    "numerator": "1522813785050025472152230187890625",
+    "denominator": "3738277295413674"
+  },
+  "strongest_exponent_latex": "\\frac{\\log(14055^8)}{\\log(3738277295413674)}",
+  "access_limit": {
+    "endpoint": "/api/v1/submissions/a9d25c46-43bd-4fb1-826b-0ed075b8cf0a/solution",
+    "http_status": 401,
+    "meaning": "Public statements and construction descriptions are accessible; accepted solution requires authentication. No proof body or Lean replay is claimed."
+  },
+  "chronology_note": "Sorted by platform solve time. A weaker checkpoint can complete after a stronger one; recorded_at is ingestion time, not discovery priority. Classical quadratic mission is represented by existing historical witness records.",
+  "classical_benchmark": {
+    "exponent": "2",
+    "mission_url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Classical_Quadratic_Bound",
+    "platform_proved": true,
+    "platform_solved_at_UTC": "2026-10-16T12:11:01.570072+00:00",
+    "catalogue_note": "Classical constructions already indexed separately; no new discovery priority is assigned to this formalization date."
+  },
+  "tracker_entry_count": 18
 }

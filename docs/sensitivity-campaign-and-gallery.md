@@ -1,5 +1,50 @@
 # Witness gallery and the 2026 sensitivity-separation updates
 
+## Update checked 22 October 2026
+
+The tracker now records **16 completed superquadratic checkpoints**, plus the separately indexed classical quadratic benchmark. Ten completed entries have been added since the 17 October snapshot: 2.0635, 2.075, 2.085, 2.10, 2.119, 2.127294, 2.13, 2.1301, 2.1303, and the exact logarithmic endpoint below. **2.15 remains open** and is excluded from every bound calculation. Completion timestamps and ingestion timestamps are stored separately; neither is treated as certified discovery priority.
+
+The strongest completed exponent is
+
+$$\alpha=\frac{\log(14055^8)}{\log(3738277295413674)}=2.130825579397823947629976285043\ldots.$$
+
+For every positive exponent loss and every sensitivity threshold at least two, the recorded theorem supplies a total Boolean function above that threshold with block sensitivity at least sensitivity to the power alpha minus the loss. This is an exponent-level lower bound with arbitrary positive loss. The universal upper exponent remains four. The exact logarithmic expression is authoritative; the tracker decimal is a display approximation. The [public primitive theorem](https://prove2.me/theorems/01bb63ef-ced2-4ae9-8b81-b5ed295526c6) expands both complexity measures as finite maxima and includes the asymptotic quantifiers and a strict comparison to the preceding five-tolerance endpoint.
+
+The gallery now has **136 construction records**, indexing all **83 separation claims** and **299 no-finite-power claims**. The complete catalogue has 782 claims and 127 references.
+
+### Construction and proof details recovered from public primary records
+
+| Checkpoint or exact endpoint | Public construction information | Proof route and limits |
+|---|---|---|
+| 2.0635 | Attributed to `abhishekdpseok`; accepted submission identified by the later Kothari source. | Original analytic/seed details remain unavailable in the current public description. Tracker and proved badge supersede stale outstanding-verification prose. |
+| 2.075 | Robin Kothari and Codex: seven levels, nine nested predicates. Full2075.lean has a published SHA-256 identifier. | Joint-boundary estimates, finite labeling, disjoint blocks and exact integer certificate, followed by amplification. Seed integers remain unextracted. |
+| 2.085 | `yousofy` with Codex: eight-layer refinement in the inherited nine-predicate framework. | Exact profile certificate and Boolean-family assembly. The internal name Sensitivity20855 does not by itself establish 2.0855. |
+| 2.119 | Periodic two-stage invariant, published parameters K=44759, R=24501, C=83673433898775. | Strengthen the profile recurrence and assemble the Boolean construction. No undocumented recurrence role is inferred from these parameter names. |
+| 2.10 | Completed formal goal 21/10. | A later proposal calls the linked proof “2.105”; that stronger informal value is not imported as a verified exponent. |
+| 2.127294 | Twelve nested predicates and sharper joint boundary estimates. | Public proposal and completed goal checked; exact certificate remains unavailable. |
+| 2.1301 | Fifteen predicates, coupled target/guard profiles, K=14207, R=7922, G=K², C=32057676379612508934192581. | One family per m with s≤C R^m and bs at zero ≥G^m. Multiple defect controls and periodic profiles yield the exact endpoint log(G)/log(R), also indexed. |
+| 2.13 | Completed checkpoint, also implied by 2.1301. | Exponent weakening is a checked logical implication; it is not asserted to be the accepted checkpoint proof implementation. |
+| 2.1303 | Fifteen predicates, four-stage cycle, K=12607, defect cutoffs (23,33,45,57,71), gamma=254/253. | Finite asymmetric Lovász local lemma supplies one shared labeling. The public source describes joint independence, dependency counts and an integer activity certificate. R=50063687, G=12607^4, C=3418946681687790375032 give s≤C R^m, bs at zero ≥G^m. |
+| Refined four-stage endpoint | Keep G=12607^4 and reduce R from 50063687 to 50063523. | Public exact theorem yields log(G)/log(50063523)≈2.130320333220366; both exact endpoints are indexed separately from 2.1303. |
+| Latest endpoint | One binary tournament labeling, ordinary defect cutoffs (24,31,38,44,50,55), source cutoff 22, recursive Boolean profile. | Six shared tolerances improve the sensitivity profile. The accepted primitive theorem and campaign wrapper preserve actual total functions, global sensitivity and disjoint blocks. Full recurrence and labeling proof bodies require authenticated access. |
+
+For the finite-family route, a fixed prefactor C disappears into any positive exponent loss as m grows. The increasing zero-input block lower bounds, together with the known polynomial relation between block sensitivity and sensitivity, force sensitivity to become unbounded. For losses so large that the target power is nonpositive, witnesses for a smaller positive loss suffice. No inference uses extra coordinates alone to argue that sensitivity grows.
+
+The five-tolerance comparison log(14055^8)/log(3738289747988852) is approximately 2.130825381447605; it is distinct from the earlier four-stage endpoint approximately 2.130320333220366. The latest theorem improves the former by about 1.98×10^−7 and the latter by about 0.000505246. The campaign mission text mentions both comparisons, and they must not be conflated.
+
+### Verification and access
+
+Fetched the live tracker, all current campaign goal pages, and the linked public theorem/finite-family statements. Per-page SHA-256 identifiers are recorded in the campaign manifest or bibliographic read-version fields. The sources credit usernames where verified full names are absent. Moser–Tardos is indexed as the classical local-lemma input, with journal metadata checked against its publisher-deposited Crossref record; this is not a new local lemma attributed to the 2026 constructions.
+
+Public accepted-solution downloads return **HTTP 401**, requiring a Prove2Me login. This atlas therefore distinguishes **public primary statement/construction checks**, **platform-reported acceptance**, **source-reported local kernel verification**, and **independent proof replay**. It performs the first two checks; it has not replayed the later Lean proofs. Some exact seeds, recurrence coefficients and old 2.007/2.0391/2.05 proof bodies remain extraction gaps. The cards retain those limitations. No by-sorry statement skeleton is treated as an accepted proof. The older 2.1303 mission timeout note is historical; its linked finite-family theorem is now publicly marked Proved.
+
+85-digit Decimal checks independently reproduce the public logarithmic scores and comparisons; they are consistency checks, not rigorous interval certificates. Exact formulas remain in the claims and propagated exponent chains. The new before/after report, data/sensitivity-campaign-oct22-matrix-improvements.json, records **four core entries and ten completion entries** improved from the 17 October publication. This includes consequences for spectral sensitivity through lambda≤s; the new ordinary-sensitivity result now slightly exceeds the older 2.127 spectral lower bound. All source-attestation and positive-exponent-loss qualifications propagate. The 176 unmatched completion intervals remain unmatched.
+
+The campaign panel and footer now show the campaign check date independently of the broader catalogue audit date. The site labels exact logarithmic values as exact formulas and keeps open targets separate.
+
+## Historical snapshot: 17 October 2026
+
+
 Inspected on 17 October 2026. This edition adds a searchable witness gallery, mathematical rendering of inequalities and a dated record of the sensitivity/block-sensitivity campaign. No result is certified globally current best.
 
 ## The gallery

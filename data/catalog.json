@@ -3978,9 +3978,9 @@
       "year": 2026,
       "kind": "online_resource",
       "url": "https://prove2.me/campaigns/block-sensitivity-vs-sensitivity",
-      "accessed": "2026-10-17",
-      "annotation": "Dated primary platform record of completed sensitivity-separation missions and open targets. On inspection the strongest completed exponent is 2.05; 2.0635 and 2.10 are open targets. Goal headers and proposal prose can retain stale open wording, so use the explicit goal/progress status, not the old challenge text.",
-      "read_version": "HTML snapshot 2026-10-17; SHA-256 5cb1a7653dd33e091e9ac3ca36b78fa5c015845ae24676a8128372f64828ba55",
+      "accessed": "2026-10-22",
+      "annotation": "Dated primary platform record. On 22 October 2026 the strongest completed target has exact exponent log(14055^8)/log(3738277295413674), displayed as 2.1308255793978239; 2.15 remains open. Historical proposal prose may retain obsolete open wording.",
+      "read_version": "HTML snapshot 2026-10-22; SHA-256 72048a3086aab11326884e6337cccf17d7e482032be59ee8b54c412b2c4fce64",
       "metadata_note": "Platform-reported formalization status is not an independent Lean build or a journal publication. Snapshot details and per-entry proof-access limits are recorded in data/sensitivity-campaign.json."
     },
     {
@@ -4057,6 +4057,267 @@
       "read_version": "Public goal page and dated campaign entry, inspected 17 October 2026",
       "annotation": "The inspected mission marks reach_205 proved and displays accepted activity attributed to Robin Kothari. The stated certificate criterion is s<=A, bs at a chosen input >=B, and A^(41/20)<=B, followed by the shared amplification theorem. The accepted proof body was not retrieved, so its exact seed and proof route remain source-extraction gaps.",
       "metadata_note": "Platform attests this goal proved. Acceptance/solve dates are distinguished from proposal text. No independent Lean rebuild or completeness of contributor attribution is claimed. See the witness card for proof-access limits."
+    },
+    {
+      "id": "P2M2063526",
+      "authors": [
+        "abhishekdpseok"
+      ],
+      "title": "Campaign exponent 2.0635: separation exponent 2.0635",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/f4a6abf1-69b0-4785-a7d9-cd45649231b2",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 88408d3e4f02ea03dfc7c3e5617032d2ef10ae9c750a9fd7acacaea3bb9aff4f",
+      "annotation": "The tracker now records the exact target 4127/2000 proved. Later Kothari/Codex sources identify accepted submission f80a3f37-72fa-4d56-a094-3e4d351764f3 as their foundation. The theorem provenance still contains stale prose saying full verification is outstanding; the dated proved badge and tracker supersede that status wording. Actual seed and proof details remain unextracted.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.0635"
+      ],
+      "date": "2026-10-18"
+    },
+    {
+      "id": "P2M207526",
+      "authors": [
+        "Robin Kothari",
+        "Codex"
+      ],
+      "title": "Seven-level nine-predicate certificate: separation exponent 2.075",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/49fdd176-c319-4f1e-b15f-b1fd5130f0bc",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 36bb89af56451c29c1af9f81a4d678a994e17cc6b08375d2d75ddd4e729c1105",
+      "annotation": "Joint-change bounds and finite labeling existence control the nine sensitivity profiles; construct disjoint block witnesses and certify the finite exponent 83/40 by exact integer arithmetic. The public record identifies Full2075.lean, SHA-256 b8b3d440c3c148ee8401967fc8f2270df9c8c142dfb63f8fde28dfb88bf8c152, and accepted submission 819ad4c6-aa25-48ca-82e9-c8df39c182c0. Apply the campaign finite-certificate theorem. The actual seed integers are not exposed in the public summary.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.075"
+      ],
+      "date": "2026-10-19"
+    },
+    {
+      "id": "P2M208526",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Eight-layer nine-predicate refinement: separation exponent 2.085",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/7e54a28e-196b-40a3-a2c0-957e75db9e4f",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 d0ce42a34dbb78398dfdcc4f4de067978ed14021fdef8c85c4bd835375630434",
+      "annotation": "Refine the finite sensitivity-profile certificate and assemble actual Boolean functions, then invoke finite-seed amplification. The source names Sensitivity20855.finite_seed and achieves_20855 and accepted submission c6096517-61e7-4f51-bc68-c1521d61eb65. The public target is exactly 2.085; the internal declaration name alone is not evidence for a 2.0855 bound. Seed integers remain unavailable.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Eight-layer_exponent_%242.085%24"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M211926",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Periodic two-stage profile invariant: separation exponent 2.119",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/cf005af0-93b2-44c1-991f-ddab41d85874",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 ba5dcb59b06115376495e8d5a75357a90a46284a3c24247a3f0a0d8c084af2c9",
+      "annotation": "An exact two-stage invariant improves the profile recurrence in the inherited nine-predicate framework. The source reports standalone verification and accepted submission bb3251a4-f00f-4b06-962a-97be2de5db1b. The public summary does not specify each parameter’s recurrence role, so no unprinted formula is inferred from their names.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Periodic_exponent_%242.119%24"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M2126",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Campaign checkpoint 2.10: separation exponent 2.1",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/34794a98-e5bd-4623-ae65-526fc87e9ad1",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 2943cda457ad6e48a1603c273a6f77c63746fb58901c6177970a31d733ae7202",
+      "annotation": "Use the current campaign completed status for the exact formal 21/10 goal. The stronger informal 2.105 label is not imported as a verified exponent: the public formal target at this theorem remains 2.10. Accepted proof details are not public without authentication.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.10"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M212729426",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: Reach 2.127294",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.127294",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 cb9002045a2182ee2fbcb0a63b3b3fd452c41ddeb68ef51d51af322fd12ee504",
+      "annotation": "Sharpen joint boundary estimates in the twelve-predicate recursion, then prove the campaign asymptotic goal. The tracker records completion on 20 October 2026; exact seed parameters and the accepted proof body remain unavailable in the inspected public record.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M2130126",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Coupled target and guard profiles: separation exponent 2.1301",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/ff7ef69d-ca91-413b-872c-cf760dc244dc",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 afe0fcf432ddadd353772d99175525551957c24c6002c2ee2303d0d2d888622e",
+      "annotation": "Multiple defect tolerances and coupled target/guard profiles improve a periodic recursion. Verify the shared labeling conditions and actual disjoint block assembly, then obtain the finite-family bounds and the logarithmic exponent log(G)/log(R)>2.1301. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_%242.1301%24"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M2130326",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Shared local-lemma labeling, four-stage cycle: separation exponent 2.1303",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/637bbe88-761a-4bb9-bad9-78a8c1bb90c7",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 39bf4d7e70c08122ef7de6a66e25ab6f6bdb07cccac3b62c9a4ed69f4cae0172",
+      "annotation": "Apply the finite asymmetric Lovasz local lemma to simultaneous bad-label events, proving joint independence, dependency counts and an exact integer activity certificate. A coupled four-stage profile recurrence and actual Boolean/block assembly give the finite family. Its exponent log(G)/log(R)>2.1303. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. The mission description preserves a historical server-timeout note; the supporting finite-family theorem is now publicly marked Proved.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_%242.1303%24"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M21326",
+      "authors": [
+        "Prove2Me contributors"
+      ],
+      "title": "Block Sensitivity vs. Sensitivity: Reach 2.13",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.13",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 ac1525f9b931a7bc00c4656c96c8ef8338cb77cf7892e564b56ac68554f40aa4",
+      "annotation": "The tracker records the 2.13 goal completed. Independently, AchievesExponent(2.1301) implies AchievesExponent(2.13) by replacing epsilon with epsilon+0.0001. This is a valid implication from the public stronger theorem, not a claim about the unretrieved accepted 2.13 proof implementation.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2M2130825579397823926",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Six shared defect tolerances: separation exponent 2.1308255793978239",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/01bb63ef-ced2-4ae9-8b81-b5ed295526c6",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 b04d6d55bc6a9d1517c3236ca84983dff96e9a4835359dcdd15543e821ec7429",
+      "annotation": "Share one labeling across six ordinary defect tolerances and a source tolerance; feed the simultaneous bounds into a recursive Boolean sensitivity profile and block amplification. The public primitive theorem explicitly expands sensitivity and block sensitivity as finite maxima, proves the full asymptotic quantifiers, and strictly improves log(14055^8)/log(3738289747988852). The campaign wrapper transfers the primitive definitions to the shared ones. Accepted construction submission: a9d25c46-43bd-4fb1-826b-0ed075b8cf0a. The exact exponent is logarithmic, not the truncated tracker decimal.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401).",
+      "related_urls": [
+        "https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_%242.1308255793978239%5Cldots%24"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "id": "P2Mcoupledexact26",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Coupled target/guard finite family",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/ddfe4bf3-88be-4876-a196-33c20c0319ff",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 9e43d4388146c10b27df1c21b585fe7cb5df694f8ca3b9fdc9e28cee0a98843c",
+      "annotation": "Public exact logarithmic endpoint and finite-family provenance. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401)."
+    },
+    {
+      "id": "P2Msharedexact26",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Four-stage shared-labeling exact endpoint",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/2bc2b8ee-797d-4500-9dc8-9b23c457e131",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 6bf422d49212e66377e42e53fddba15acf4648fd8a125cfb3e9ed3fdcb4a8cbc",
+      "annotation": "Public exact logarithmic endpoint and finite-family provenance. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401)."
+    },
+    {
+      "id": "P2Mrefinedexact26",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Refined four-stage exact endpoint",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/62961329-4b50-48c7-a1fd-11159da9de26",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 0a6b52af68f3c8d9aeb301d910503ea7bc4820fb477ba234303297b86923e2ba",
+      "annotation": "Public exact logarithmic endpoint and finite-family provenance. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401)."
+    },
+    {
+      "id": "P2Msharedfamily26",
+      "authors": [
+        "yousofy",
+        "Codex"
+      ],
+      "title": "Finite Boolean families from shared local-lemma labelings and a four-stage cycle",
+      "year": 2026,
+      "kind": "online_resource",
+      "url": "https://prove2.me/theorems/13efa201-cabf-4776-8b79-3e67e73e02a0",
+      "accessed": "2026-10-22",
+      "read_version": "Public primary statement, construction summary and status, inspected 22 October 2026; HTML SHA-256 d881729152512e1cd85da802ce3cecf121e3cea08ebd4cf0192a6fa878d9c639",
+      "annotation": "Public finite-family theorem: s<=C R^m, bs(f,0)>=G^m with the exact constants on the gallery card. Its shared finite asymmetric local lemma is proved directly in the reported development; the underlying classical lemma is not a new 2026 result. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "metadata_note": "Attribution follows the public source; usernames are retained where no verified full name is supplied. Platform verification is not an independent Lean replay by this atlas. Accepted solution downloads require authentication (HTTP 401)."
+    },
+    {
+      "id": "MT10",
+      "authors": [
+        "Robin A. Moser",
+        "Gábor Tardos"
+      ],
+      "title": "A constructive proof of the general Lovász Local Lemma",
+      "year": 2010,
+      "kind": "article",
+      "journal": "Journal of the ACM",
+      "volume": "57",
+      "number": "2",
+      "pages": "1–15",
+      "doi": "10.1145/1667053.1667060",
+      "url": "https://arxiv.org/abs/0903.0544v3",
+      "eprint": "0903.0544",
+      "accessed": "2026-10-22",
+      "read_version": "arXiv v3 (20 May 2009), Theorem 1.1 cited by the public shared-labeling construction; journal bibliographic metadata verified separately",
+      "annotation": "Background for the asymmetric Lovász local lemma used to choose one labeling obeying several defect constraints. The 2026 development reports proving the existential finite lemma directly; it does not claim the classical lemma as new.",
+      "metadata_note": "Journal bibliographic fields verified against publisher-deposited Crossref record for DOI 10.1145/1667053.1667060 on 22 October 2026. The campaign cites arXiv v3 Theorem 1.1; this atlas has not independently audited the entire Moser–Tardos proof."
     }
   ],
   "measures": [
@@ -34117,6 +34378,465 @@
       "last_checked": "2026-10-17",
       "witness_id": "sensitivity-205",
       "notes": "The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level."
+    },
+    {
+      "id": "bs-s-superquadratic-20635",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.0635",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.0635.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.0635-\\varepsilon}",
+      "source": "P2M2063526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem f4a6abf1-69b0-4785-a7d9-cd45649231b2",
+      "proof_summary": "The tracker now records the exact target 4127/2000 proved. Later Kothari/Codex sources identify accepted submission f80a3f37-72fa-4d56-a094-3e4d351764f3 as their foundation. The theorem provenance still contains stale prose saying full verification is outstanding; the dated proved badge and tracker supersede that status wording. Actual seed and proof details remain unextracted. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-20635",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-2075",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.075",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.075.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.075-\\varepsilon}",
+      "source": "P2M207526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 49fdd176-c319-4f1e-b15f-b1fd5130f0bc",
+      "proof_summary": "Joint-change bounds and finite labeling existence control the nine sensitivity profiles; construct disjoint block witnesses and certify the finite exponent 83/40 by exact integer arithmetic. The public record identifies Full2075.lean, SHA-256 b8b3d440c3c148ee8401967fc8f2270df9c8c142dfb63f8fde28dfb88bf8c152, and accepted submission 819ad4c6-aa25-48ca-82e9-c8df39c182c0. Apply the campaign finite-certificate theorem. The actual seed integers are not exposed in the public summary. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-2075",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-2085",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.085",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.085.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.085-\\varepsilon}",
+      "source": "P2M208526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 7e54a28e-196b-40a3-a2c0-957e75db9e4f",
+      "proof_summary": "Refine the finite sensitivity-profile certificate and assemble actual Boolean functions, then invoke finite-seed amplification. The source names Sensitivity20855.finite_seed and achieves_20855 and accepted submission c6096517-61e7-4f51-bc68-c1521d61eb65. The public target is exactly 2.085; the internal declaration name alone is not evidence for a 2.0855 bound. Seed integers remain unavailable. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-2085",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-2119",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.119",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.119.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.119-\\varepsilon}",
+      "source": "P2M211926",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem cf005af0-93b2-44c1-991f-ddab41d85874",
+      "proof_summary": "An exact two-stage invariant improves the profile recurrence in the inherited nine-predicate framework. The source reports standalone verification and accepted submission bb3251a4-f00f-4b06-962a-97be2de5db1b. The public summary does not specify each parameter’s recurrence role, so no unprinted formula is inferred from their names. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-2119",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-21",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.1",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.1.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.1-\\varepsilon}",
+      "source": "P2M2126",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 34794a98-e5bd-4623-ae65-526fc87e9ad1",
+      "proof_summary": "Use the current campaign completed status for the exact formal 21/10 goal. The stronger informal 2.105 label is not imported as a verified exponent: the public formal target at this theorem remains 2.10. Accepted proof details are not public without authentication. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-2127294",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.127294",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.127294.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.127294-\\varepsilon}",
+      "source": "P2M212729426",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry",
+      "proof_summary": "Sharpen joint boundary estimates in the twelve-predicate recursion, then prove the campaign asymptotic goal. The tracker records completion on 20 October 2026; exact seed parameters and the accepted proof body remain unavailable in the inspected public record. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-2127294",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-21301",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.1301",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.1301.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.1301-\\varepsilon}",
+      "source": "P2M2130126",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem ff7ef69d-ca91-413b-872c-cf760dc244dc",
+      "proof_summary": "Multiple defect tolerances and coupled target/guard profiles improve a periodic recursion. Verify the shared labeling conditions and actual disjoint block assembly, then obtain the finite-family bounds and the logarithmic exponent log(G)/log(R)>2.1301. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21301",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-21303",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.1303",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.1303.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.1303-\\varepsilon}",
+      "source": "P2M2130326",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26",
+        "P2Msharedfamily26",
+        "MT10"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 637bbe88-761a-4bb9-bad9-78a8c1bb90c7",
+      "proof_summary": "Apply the finite asymmetric Lovasz local lemma to simultaneous bad-label events, proving joint independence, dependency counts and an exact integer activity certificate. A coupled four-stage profile recurrence and actual Boolean/block assembly give the finite family. Its exponent log(G)/log(R)>2.1303. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. The mission description preserves a historical server-timeout note; the supporting finite-family theorem is now publicly marked Proved. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21303",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-213",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.13",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.13.",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{2.13-\\varepsilon}",
+      "source": "P2M21326",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry",
+      "proof_summary": "The tracker records the 2.13 goal completed. Independently, AchievesExponent(2.1301) implies AchievesExponent(2.13) by replacing epsilon with epsilon+0.0001. This is a valid implication from the public stronger theorem, not a claim about the unretrieved accepted 2.13 proof implementation. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-213",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas."
+    },
+    {
+      "id": "bs-s-superquadratic-21308255793978239",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.1308255793978239",
+      "kind": "separation",
+      "statement": "For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=log(14055^8)/log(3738277295413674).",
+      "statement_latex": "\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\quad s(f)\\ge S,\\quad\\mathrm{bs}(f)\\ge s(f)^{\\frac{\\log(14055^8)}{\\log(3738277295413674)}-\\varepsilon}",
+      "source": "P2M2130825579397823926",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 01bb63ef-ced2-4ae9-8b81-b5ed295526c6",
+      "proof_summary": "Share one labeling across six ordinary defect tolerances and a source tolerance; feed the simultaneous bounds into a recursive Boolean sensitivity profile and block amplification. The public primitive theorem explicitly expands sensitivity and block sensitivity as finite maxima, proves the full asymptotic quantifiers, and strictly improves log(14055^8)/log(3738289747988852). The campaign wrapper transfers the primitive definitions to the shared ones. Accepted construction submission: a9d25c46-43bd-4fb1-826b-0ed075b8cf0a. The exact exponent is logarithmic, not the truncated tracker decimal. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21308255793978239",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "exponent_expression": {
+        "op": "log_ratio",
+        "numerator": "1522813785050025472152230187890625",
+        "denominator": "3738277295413674"
+      },
+      "exponent_decimal_role": "Display/ranking approximation only; exponent_expression is authoritative."
+    },
+    {
+      "id": "bs-s-superquadratic-coupled-exact",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.130124795190623811814339398329880183773916962501898656874710981831468974402490401064",
+      "kind": "separation",
+      "statement": "The campaign quantified separation holds at exact exponent alpha=log(201838849)/log(7922).",
+      "statement_latex": "\\alpha=\\frac{\\log(201838849)}{\\log(7922)},\\qquad\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\;s(f)\\ge S,\\;\\mathrm{bs}(f)\\ge s(f)^{\\alpha-\\varepsilon}",
+      "source": "P2Mcoupledexact26",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "locator": "Public exact endpoint/finite-family theorem ddfe4bf3-88be-4876-a196-33c20c0319ff",
+      "proof_summary": "Multiple defect tolerances and coupled target/guard profiles improve a periodic recursion. Verify the shared labeling conditions and actual disjoint block assembly, then obtain the finite-family bounds and the logarithmic exponent log(G)/log(R)>2.1301. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21301",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "exponent_expression": {
+        "op": "log_ratio",
+        "numerator": "201838849",
+        "denominator": "7922"
+      },
+      "exponent_decimal_role": "Display/ranking approximation only; exponent_expression is authoritative."
+    },
+    {
+      "id": "bs-s-superquadratic-shared-exact",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.130319939591316261213482755199411041844981809669880905177220379594601397047542035920",
+      "kind": "separation",
+      "statement": "The campaign quantified separation holds at exact exponent alpha=log(25260794820729601)/log(50063687).",
+      "statement_latex": "\\alpha=\\frac{\\log(25260794820729601)}{\\log(50063687)},\\qquad\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\;s(f)\\ge S,\\;\\mathrm{bs}(f)\\ge s(f)^{\\alpha-\\varepsilon}",
+      "source": "P2Msharedexact26",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26",
+        "P2Msharedfamily26",
+        "MT10"
+      ],
+      "locator": "Public exact endpoint/finite-family theorem 2bc2b8ee-797d-4500-9dc8-9b23c457e131",
+      "proof_summary": "Apply the finite asymmetric Lovasz local lemma to simultaneous bad-label events, proving joint independence, dependency counts and an exact integer activity certificate. A coupled four-stage profile recurrence and actual Boolean/block assembly give the finite family. Its exponent log(G)/log(R)>2.1303. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. The mission description preserves a historical server-timeout note; the supporting finite-family theorem is now publicly marked Proved. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21303",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "exponent_expression": {
+        "op": "log_ratio",
+        "numerator": "25260794820729601",
+        "denominator": "50063687"
+      },
+      "exponent_decimal_role": "Display/ranking approximation only; exponent_expression is authoritative."
+    },
+    {
+      "id": "bs-s-superquadratic-refined-exact",
+      "A": "bs",
+      "B": "s",
+      "exponent": "2.130320333220365838965754517205705352241211113936833114071341079654743300887191423144",
+      "kind": "separation",
+      "statement": "The campaign quantified separation holds at exact exponent alpha=log(25260794820729601)/log(50063523).",
+      "statement_latex": "\\alpha=\\frac{\\log(25260794820729601)}{\\log(50063523)},\\qquad\\forall\\varepsilon>0\\;\\forall S\\ge2\\;\\exists f:\\;s(f)\\ge S,\\;\\mathrm{bs}(f)\\ge s(f)^{\\alpha-\\varepsilon}",
+      "source": "P2Mrefinedexact26",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26",
+        "P2Msharedfamily26",
+        "MT10"
+      ],
+      "locator": "Public exact endpoint/finite-family theorem 62961329-4b50-48c7-a1fd-11159da9de26",
+      "proof_summary": "Keep the shared labeling and block amplification of the four-stage construction, refine the finite sensitivity recipe from growth factor 50063687 to 50063523, and retain block growth 12607^4. Absorb the fixed prefactor into positive exponent loss. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "loss": "subpolynomial",
+      "status": "primary_platform_theorem_and_attestation_checked",
+      "proof_audit": "public_theorem_and_construction_summary_checked_authenticated_proof_not_replayed",
+      "best_known_certified": false,
+      "last_checked": "2026-10-22",
+      "witness_id": "sensitivity-21303",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "exponent_expression": {
+        "op": "log_ratio",
+        "numerator": "25260794820729601",
+        "denominator": "50063523"
+      },
+      "exponent_decimal_role": "Display/ranking approximation only; exponent_expression is authoritative."
     }
   ],
   "conjectures": [
@@ -34486,11 +35206,11 @@
       "status_source": "OAIsens26",
       "resolution": [
         "bs-s-superquadratic-baseline",
-        "bs-s-superquadratic-205"
+        "bs-s-superquadratic-21308255793978239"
       ],
       "implications": [
-        "The qualitative polynomial sensitivity conjecture remains resolved positively. The quantitative quadratic strengthening fails; the recorded quartic universal upper exponent is unchanged.",
-        "The campaign attests exponent 2.05 as completed on 16 October 2026. Targets 2.0635 and 2.10 were open on inspection and are not lower-bound claims."
+        "The qualitative polynomial sensitivity conjecture remains resolved positively; its quadratic strengthening fails. The recorded universal upper exponent remains 4.",
+        "On 22 October 2026 the campaign records exact achieved exponent log(14055^8)/log(3738277295413674), with arbitrary positive exponent loss. The 2.15 target remains open."
       ]
     }
   ],
@@ -35134,7 +35854,7 @@
         "bs": ">= s^(2.000252407)"
       },
       "status": "original_construction_and_amplification_checked",
-      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "notes": "The 22 October snapshot records 2.0635 and 2.10 completed; 2.15 is still an open target. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
       "claim_ids": [
         "bs-s-superquadratic-baseline"
       ],
@@ -35165,7 +35885,7 @@
         "bs": ">= s^(2.006470828 - o(1))"
       },
       "status": "original_construction_and_amplification_checked",
-      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "notes": "The 22 October snapshot records 2.0635 and 2.10 completed; 2.15 is still an open target. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
       "claim_ids": [
         "bs-s-superquadratic-depth20"
       ],
@@ -35196,7 +35916,7 @@
         "bs": ">= s^(2.007 - o(1))"
       },
       "status": "platform_attested_construction_details_partially_extracted",
-      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "notes": "The 22 October snapshot records 2.0635 and 2.10 completed; 2.15 is still an open target. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
       "claim_ids": [
         "bs-s-superquadratic-2007"
       ]
@@ -35226,7 +35946,7 @@
         "bs": ">= s^(2.0205 - o(1))"
       },
       "status": "platform_attested_construction_details_partially_extracted",
-      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "notes": "The 22 October snapshot records 2.0635 and 2.10 completed; 2.15 is still an open target. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
       "claim_ids": [
         "bs-s-superquadratic-20205"
       ]
@@ -35256,7 +35976,7 @@
         "bs": ">= s^(2.0391 - o(1))"
       },
       "status": "platform_attested_construction_details_partially_extracted",
-      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "notes": "The 22 October snapshot records 2.0635 and 2.10 completed; 2.15 is still an open target. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
       "claim_ids": [
         "bs-s-superquadratic-20391"
       ]
@@ -35286,10 +36006,329 @@
         "bs": ">= s^(2.05 - o(1))"
       },
       "status": "platform_attested_construction_details_partially_extracted",
-      "notes": "See the dated campaign entry; 2.0635 and 2.10 are open targets, not construction records.",
+      "notes": "The 22 October snapshot records 2.0635 and 2.10 completed; 2.15 is still an open target. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
       "claim_ids": [
         "bs-s-superquadratic-205"
       ]
+    },
+    {
+      "id": "sensitivity-20635",
+      "name": "Campaign exponent 2.0635",
+      "source": "P2M2063526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "The public theorem identifies an analytic construction extending the attributed 2.0391 and 2.05 developments. Its exact seed and analytic argument are not exposed in the current public description.",
+      "proof_summary": "The tracker now records the exact target 4127/2000 proved. Later Kothari/Codex sources identify accepted submission f80a3f37-72fa-4d56-a094-3e4d351764f3 as their foundation. The theorem provenance still contains stale prose saying full verification is outstanding; the dated proved badge and tracker supersede that status wording. Actual seed and proof details remain unextracted.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.0635"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-20635"
+      ]
+    },
+    {
+      "id": "sensitivity-2075",
+      "name": "Seven-level nine-predicate certificate",
+      "source": "P2M207526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. Use seven levels and nine nested predicates, retaining joint boundary information between related predicates.",
+      "proof_summary": "Joint-change bounds and finite labeling existence control the nine sensitivity profiles; construct disjoint block witnesses and certify the finite exponent 83/40 by exact integer arithmetic. The public record identifies Full2075.lean, SHA-256 b8b3d440c3c148ee8401967fc8f2270df9c8c142dfb63f8fde28dfb88bf8c152, and accepted submission 819ad4c6-aa25-48ca-82e9-c8df39c182c0. Apply the campaign finite-certificate theorem. The actual seed integers are not exposed in the public summary.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.075"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-2075"
+      ]
+    },
+    {
+      "id": "sensitivity-2085",
+      "name": "Eight-layer nine-predicate refinement",
+      "source": "P2M208526",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. Refine the accepted nine-predicate construction to eight layers.",
+      "proof_summary": "Refine the finite sensitivity-profile certificate and assemble actual Boolean functions, then invoke finite-seed amplification. The source names Sensitivity20855.finite_seed and achieves_20855 and accepted submission c6096517-61e7-4f51-bc68-c1521d61eb65. The public target is exactly 2.085; the internal declaration name alone is not evidence for a 2.0855 bound. Seed integers remain unavailable.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.085"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-2085"
+      ]
+    },
+    {
+      "id": "sensitivity-2119",
+      "name": "Periodic two-stage profile invariant",
+      "source": "P2M211926",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. Use a two-stage periodic profile invariant with the published parameters K=44759, R=24501 and C=83673433898775.",
+      "proof_summary": "An exact two-stage invariant improves the profile recurrence in the inherited nine-predicate framework. The source reports standalone verification and accepted submission bb3251a4-f00f-4b06-962a-97be2de5db1b. The public summary does not specify each parameter’s recurrence role, so no unprinted formula is inferred from their names.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.119"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-2119"
+      ]
+    },
+    {
+      "id": "sensitivity-21",
+      "name": "Campaign checkpoint 2.10",
+      "source": "P2M2126",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "A total-Boolean construction satisfying the completed 2.10 campaign target. Its public goal still contains the original challenge wording; a later 2.127294 proposal refers to this proof informally as 2.105.",
+      "proof_summary": "Use the current campaign completed status for the exact formal 21/10 goal. The stronger informal 2.105 label is not imported as a verified exponent: the public formal target at this theorem remains 2.10. Accepted proof details are not public without authentication.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.1"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-21"
+      ]
+    },
+    {
+      "id": "sensitivity-2127294",
+      "name": "Twelve-predicate checkpoint 2.127294",
+      "source": "P2M212729426",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. The public proposal specifies twelve nested predicates and sharper joint boundary bounds, extending the Kothari 2.075 and subsequently accepted 2.10 developments.",
+      "proof_summary": "Sharpen joint boundary estimates in the twelve-predicate recursion, then prove the campaign asymptotic goal. The tracker records completion on 20 October 2026; exact seed parameters and the accepted proof body remain unavailable in the inspected public record.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.127294"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-2127294"
+      ]
+    },
+    {
+      "id": "sensitivity-21301",
+      "name": "Coupled target and guard profiles",
+      "source": "P2M2130126",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. Use fifteen nested predicates and simultaneous defect controls. The published coupled family has K=14207, R=7922, G=201838849=K^2 and C=32057676379612508934192581; for every m>=0 there is a total function with s<=C R^m and bs at zero >=G^m.",
+      "proof_summary": "Multiple defect tolerances and coupled target/guard profiles improve a periodic recursion. Verify the shared labeling conditions and actual disjoint block assembly, then obtain the finite-family bounds and the logarithmic exponent log(G)/log(R)>2.1301. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.1301"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-21301",
+        "bs-s-superquadratic-coupled-exact"
+      ],
+      "construction_latex": "s(f_m)\\le 32057676379612508934192581\\cdot7922^m,\\quad\\mathrm{bs}(f_m,0)\\ge 201838849^m"
+    },
+    {
+      "id": "sensitivity-21303",
+      "name": "Shared local-lemma labeling, four-stage cycle",
+      "source": "P2M2130326",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26",
+        "P2Mrefinedexact26",
+        "P2Msharedfamily26",
+        "MT10"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. Use fifteen nested predicates, K=12607, joint defect thresholds (23,33,45,57,71), gamma=254/253 and one edge labeling shared across four repeated stages. For every m>=0, s<=C R^m and bs at zero >=G^m, where R=50063687, G=12607^4=25260794820729601 and C=3418946681687790375032. The subsequent exact recipe refinement retains block growth and reduces sensitivity growth to 50063523.",
+      "proof_summary": "Apply the finite asymmetric Lovasz local lemma to simultaneous bad-label events, proving joint independence, dependency counts and an exact integer activity certificate. A coupled four-stage profile recurrence and actual Boolean/block assembly give the finite family. Its exponent log(G)/log(R)>2.1303. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. The mission description preserves a historical server-timeout note; the supporting finite-family theorem is now publicly marked Proved.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.1303"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-21303",
+        "bs-s-superquadratic-shared-exact",
+        "bs-s-superquadratic-refined-exact"
+      ],
+      "construction_latex": "s(f_m)\\le 3418946681687790375032\\cdot50063687^m,\\quad\\mathrm{bs}(f_m,0)\\ge 12607^{4m}"
+    },
+    {
+      "id": "sensitivity-213",
+      "name": "Campaign checkpoint 2.13",
+      "source": "P2M21326",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "A total-Boolean family satisfying the exact 2.13 campaign checkpoint. The stronger public 2.1301 construction also implies this target by choosing a smaller positive exponent loss.",
+      "proof_summary": "The tracker records the 2.13 goal completed. Independently, AchievesExponent(2.1301) implies AchievesExponent(2.13) by replacing epsilon with epsilon+0.0001. This is a valid implication from the public stronger theorem, not a claim about the unretrieved accepted 2.13 proof implementation.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=2.13"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-213"
+      ]
+    },
+    {
+      "id": "sensitivity-21308255793978239",
+      "name": "Six shared defect tolerances",
+      "source": "P2M2130825579397823926",
+      "proof_sources": [
+        "OAIsens26",
+        "P2Msens26"
+      ],
+      "definition": "Use nested predicates in a labelled regular-tournament recursion. Target clauses require strong predicates in their own row and weaker guard predicates on labelled outgoing coordinates; an OR of disjoint copies balances the output sensitivities. Use one binary tournament labeling with ordinary defect cutoffs (24,31,38,44,50,55) and source cutoff 22, followed by the exact recursive Boolean profile. The exponent is log(14055^8)/log(3738277295413674), with numerator 1522813785050025472152230187890625.",
+      "proof_summary": "Share one labeling across six ordinary defect tolerances and a source tolerance; feed the simultaneous bounds into a recursive Boolean sensitivity profile and block amplification. The public primitive theorem explicitly expands sensitivity and block sensitivity as finite maxima, proves the full asymptotic quantifiers, and strictly improves log(14055^8)/log(3738289747988852). The campaign wrapper transfers the primitive definitions to the shared ones. Accepted construction submission: a9d25c46-43bd-4fb1-826b-0ed075b8cf0a. The exact exponent is logarithmic, not the truncated tracker decimal.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [],
+        "input_alphabet": "bits",
+        "output_alphabet": "bits",
+        "cost": "as_in_measure_definitions",
+        "error": "as_in_measure_definitions",
+        "assumptions": []
+      },
+      "parameter": "Finite seed amplification or the stated finite-family parameter m; the theorem quantifies every positive exponent loss and sensitivity threshold.",
+      "values": {
+        "bs": ">= s^(alpha-o(1)); alpha=log(14055^8)/log(3738277295413674)"
+      },
+      "status": "public_primary_construction_summary_checked_proof_download_requires_authentication",
+      "definition_status": "public_primary_construction_overview_not_full_formal_definition",
+      "notes": "Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.",
+      "claim_ids": [
+        "bs-s-superquadratic-21308255793978239"
+      ],
+      "construction_latex": "\\alpha=\\frac{\\log(14055^8)}{\\log(3738277295413674)}=2.1308255793978239476\\ldots;\\quad(q_1,\\ldots,q_6)=(24,31,38,44,50,55),\\quad q_{\\mathrm{src}}=22"
     }
   ],
   "pair_summaries": [

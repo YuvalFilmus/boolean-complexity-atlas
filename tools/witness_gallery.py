@@ -47,8 +47,9 @@ def build(d,notes):
   if not w.get('proof_summary'):w['proof_summary']=' '.join(dict.fromkeys(c['proof_summary'] for c in cs)) or 'The catalogue has not yet transcribed a proof summary; consult the definition-status note and source.'
   if not w.get('definition'):w['definition']='Full construction/promise definition has not yet been transcribed. Consult the cited source and exact locator.'
   w['scopes']=list({json.dumps(c['scope'],sort_keys=True):c['scope'] for c in cs}.values()) or ([w['scope']] if w.get('scope') else [])
-  w['year']=min((sources[s]['year'] for s in w['source_ids']),default=2026)
- return {'as_of':d.get('audit_date'),'warning':notes['warning'],'summary':{'constructions':len(entries),'separation_claims_indexed':sum(c['kind']=='separation' and bool(mapping.get(c['id'])) for c in d['claims']),'no_polynomial_claims_indexed':sum(c['kind']=='no_polynomial_bound' and bool(mapping.get(c['id'])) for c in d['claims'])},'constructions':list(entries.values()),'claim_to_witness':{k:list(dict.fromkeys(v)) for k,v in mapping.items()}}
+  w['year']=sources[w['source']]['year'] if w.get('source') in sources else min((sources[s]['year'] for s in w['source_ids']),default=2026)
+ checked_dates=[c.get('last_checked','') for c in d['claims']]
+ return {'as_of':max([d.get('audit_date',''),*checked_dates]),'warning':notes['warning'],'summary':{'constructions':len(entries),'separation_claims_indexed':sum(c['kind']=='separation' and bool(mapping.get(c['id'])) for c in d['claims']),'no_polynomial_claims_indexed':sum(c['kind']=='no_polynomial_bound' and bool(mapping.get(c['id'])) for c in d['claims'])},'constructions':list(entries.values()),'claim_to_witness':{k:list(dict.fromkeys(v)) for k,v in mapping.items()}}
 def main():
  d=json.loads((ROOT/'data/catalog.json').read_text());notes=json.loads((ROOT/'data/witness-constructions.json').read_text());out=build(d,notes);(ROOT/'data/separation-gallery.json').write_text(json.dumps(out,indent=2,ensure_ascii=False)+'\n');print('Witness gallery:',out['summary'])
 if __name__=='__main__':main()

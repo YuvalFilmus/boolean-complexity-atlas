@@ -4,7 +4,7 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 769 claim records with proof summaries, and 112 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 782 claim records with proof summaries, and 127 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
 - 103 original-source snapshots with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
@@ -276,3 +276,8 @@ See [the detailed follow-up](independent-checks-and-source-versions.md): four ma
 ## Witness gallery and recent ordinary-sensitivity separation
 
 The new [gallery and sensitivity-campaign report](sensitivity-campaign-and-gallery.md) records 126 construction entries, all 70 separation claims and 299 no-finite-power claims. Added the original OpenAI September 2026 ordinary-sensitivity construction and five completed campaign improvements through exponent 2.05. Open targets 2.0635 and 2.10 are excluded from matrix bounds. Later platform-attested goals have explicit accepted-proof/seed-access limitations; no Lean rebuild is claimed. Inequalities now use locally rendered LaTeX, retaining raw statement records and all source qualifications.
+
+
+## Sensitivity update checked 22 October 2026
+
+The [campaign audit](sensitivity-campaign-and-gallery.md) now records 16 completed superquadratic milestones through the exact exponent log(14055^8)/log(3738277295413674), approximately 2.130825579397824. The 2.15 target remains open. The gallery indexes 136 construction records and all 83 separation claims. Four core and ten completion lower entries improve; all 176 unmatched completion intervals remain unmatched. Public theorem, construction and attribution details were checked, and exact endpoints are preserved in the data. Accepted proof downloads require authentication (HTTP 401); no independent replay of those Lean proofs is claimed. Older sections above describe the 17 October snapshot.

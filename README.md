@@ -2,13 +2,13 @@
 
 **[Open the website](https://yuvalfilmus.github.io/boolean-complexity-atlas/)** · [Website maintenance guide](docs/website-guide.md)
 
-A source-linked repository for query, sensitivity, certificate and polynomial complexity measures, with separate scopes for promises, search relations and restricted classes. Audited on 17 October 2026.
+A source-linked repository for query, sensitivity, certificate and polynomial complexity measures, with separate scopes for promises, search relations and restricted classes. Broad catalogue audit: 17 October 2026. Sensitivity-campaign update: 22 October 2026.
 
-**Current coverage: 249 defined measures, 769 claim records, 112 references and 9 surveys.** Both twelve-measure total and promise core grids have evidence for all 132 off-diagonal pairs. The promise grid has 49 matched finite exponents and 83 pairs with no finite polynomial bound. Search and extended-measure coverage, historical notation and source-priority audits remain incomplete. Many claim records are consequences of shared witnesses. No claim is globally certified current-best. See [the audit report](docs/source-audit.md).
+**Current coverage: 249 defined measures, 782 claim records, 127 references and 9 surveys.** Both twelve-measure total and promise core grids have evidence for all 132 off-diagonal pairs. The promise grid has 49 matched finite exponents and 83 pairs with no finite polynomial bound. Search and extended-measure coverage, historical notation and source-priority audits remain incomplete. Many claim records are consequences of shared witnesses. No claim is globally certified current-best. See [the audit report](docs/source-audit.md).
 
 ## Website
 
-The [separation-witness gallery](https://yuvalfilmus.github.io/boolean-complexity-atlas/#witnesses) connects 126 construction records to all indexed separation/no-finite-power claims. See [the sensitivity campaign and gallery audit](docs/sensitivity-campaign-and-gallery.md) for the new OpenAI construction, dated improvements, and explicit proof-access limits.
+The [separation-witness gallery](https://yuvalfilmus.github.io/boolean-complexity-atlas/#witnesses) connects 136 construction records to all indexed separation/no-finite-power claims. See [the sensitivity campaign and gallery audit](docs/sensitivity-campaign-and-gallery.md) for the new OpenAI construction, dated improvements, and explicit proof-access limits.
 
 The site includes selectable exponent tables, amber gap highlighting, clickable historical dossiers with proof summaries, an annotated bibliography, a notation dictionary and a conjecture index. Domains and query conventions have separate views. Tables and dossiers have shareable links; exports include CSV, LaTeX, JSON and BibTeX. Notations and inequalities use locally bundled KaTeX.
 

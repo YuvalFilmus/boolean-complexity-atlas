@@ -39,3 +39,8 @@ The workflow `.github/workflows/pages.yml` validates the catalogue, runs the res
 The code does not use analytics, third-party font services, a remote math-rendering CDN or a server database. The static research data is public. Source inspection statuses and independent-assistant audit records describe their actual scope; they are not formal proofs or human peer review.
 
 Presentation-only TeX transcriptions live in `data/statement-latex.json`; mathematical statement strings remain authoritative. New scalar bounds must update the relevant matrices before publishing. The dated sensitivity campaign snapshot and its attestation limits are documented in `docs/sensitivity-campaign-and-gallery.md`.
+
+
+## Sensitivity-campaign updates
+
+The campaign panel reads its date and exact leading exponent from data/sensitivity-campaign.json. Keep exact logarithmic endpoints in exponent_expression; a tracker decimal is only a display approximation when the theorem is logarithmic. Record completed checkpoints, goal URLs, page hashes and solve timestamps, while retaining open targets outside the claim registry. Distinguish public construction summaries, accepted-proof access and independent kernel replay. Rebuild all dependent matrices and the gallery after changing lower-bound claims. See the dated campaign audit for current details and remaining proof-access gaps.

@@ -7604,3 +7604,146 @@ There are total Boolean functions with unbounded sensitivity and bs(f)>=s(f)^(2.
 - Proof: The inspected mission marks reach_205 proved and displays accepted activity attributed to Robin Kothari. The stated certificate criterion is s<=A, bs at a chosen input >=B, and A^(41/20)<=B, followed by the shared amplification theorem. The accepted proof body was not retrieved, so its exact seed and proof route remain source-extraction gaps.
 
 The decimal is the exact recorded target, not a rounded claim of a stronger power. Platform-attested does not mean independently kernel-checked by this catalogue. For campaign records the loss is conservatively retained at exponent level.
+
+## bs-s-superquadratic-20635
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.0635.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2063526](https://prove2.me/theorems/f4a6abf1-69b0-4785-a7d9-cd45649231b2), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem f4a6abf1-69b0-4785-a7d9-cd45649231b2.
+- Proof: The tracker now records the exact target 4127/2000 proved. Later Kothari/Codex sources identify accepted submission f80a3f37-72fa-4d56-a094-3e4d351764f3 as their foundation. The theorem provenance still contains stale prose saying full verification is outstanding; the dated proved badge and tracker supersede that status wording. Actual seed and proof details remain unextracted. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-2075
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.075.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M207526](https://prove2.me/theorems/49fdd176-c319-4f1e-b15f-b1fd5130f0bc), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 49fdd176-c319-4f1e-b15f-b1fd5130f0bc.
+- Proof: Joint-change bounds and finite labeling existence control the nine sensitivity profiles; construct disjoint block witnesses and certify the finite exponent 83/40 by exact integer arithmetic. The public record identifies Full2075.lean, SHA-256 b8b3d440c3c148ee8401967fc8f2270df9c8c142dfb63f8fde28dfb88bf8c152, and accepted submission 819ad4c6-aa25-48ca-82e9-c8df39c182c0. Apply the campaign finite-certificate theorem. The actual seed integers are not exposed in the public summary. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-2085
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.085.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M208526](https://prove2.me/theorems/7e54a28e-196b-40a3-a2c0-957e75db9e4f), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 7e54a28e-196b-40a3-a2c0-957e75db9e4f.
+- Proof: Refine the finite sensitivity-profile certificate and assemble actual Boolean functions, then invoke finite-seed amplification. The source names Sensitivity20855.finite_seed and achieves_20855 and accepted submission c6096517-61e7-4f51-bc68-c1521d61eb65. The public target is exactly 2.085; the internal declaration name alone is not evidence for a 2.0855 bound. Seed integers remain unavailable. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-2119
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.119.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M211926](https://prove2.me/theorems/cf005af0-93b2-44c1-991f-ddab41d85874), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem cf005af0-93b2-44c1-991f-ddab41d85874.
+- Proof: An exact two-stage invariant improves the profile recurrence in the inherited nine-predicate framework. The source reports standalone verification and accepted submission bb3251a4-f00f-4b06-962a-97be2de5db1b. The public summary does not specify each parameter’s recurrence role, so no unprinted formula is inferred from their names. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-21
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.1.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2126](https://prove2.me/theorems/34794a98-e5bd-4623-ae65-526fc87e9ad1), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 34794a98-e5bd-4623-ae65-526fc87e9ad1.
+- Proof: Use the current campaign completed status for the exact formal 21/10 goal. The stronger informal 2.105 label is not imported as a verified exponent: the public formal target at this theorem remains 2.10. Accepted proof details are not public without authentication. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-2127294
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.127294.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M212729426](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.127294), Public quantified theorem, construction/provenance notes and dated campaign completed entry.
+- Proof: Sharpen joint boundary estimates in the twelve-predicate recursion, then prove the campaign asymptotic goal. The tracker records completion on 20 October 2026; exact seed parameters and the accepted proof body remain unavailable in the inspected public record. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-21301
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.1301.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2130126](https://prove2.me/theorems/ff7ef69d-ca91-413b-872c-cf760dc244dc), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem ff7ef69d-ca91-413b-872c-cf760dc244dc.
+- Proof: Multiple defect tolerances and coupled target/guard profiles improve a periodic recursion. Verify the shared labeling conditions and actual disjoint block assembly, then obtain the finite-family bounds and the logarithmic exponent log(G)/log(R)>2.1301. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-21303
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.1303.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2130326](https://prove2.me/theorems/637bbe88-761a-4bb9-bad9-78a8c1bb90c7), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 637bbe88-761a-4bb9-bad9-78a8c1bb90c7.
+- Proof: Apply the finite asymmetric Lovasz local lemma to simultaneous bad-label events, proving joint independence, dependency counts and an exact integer activity certificate. A coupled four-stage profile recurrence and actual Boolean/block assembly give the finite family. Its exponent log(G)/log(R)>2.1303. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. The mission description preserves a historical server-timeout note; the supporting finite-family theorem is now publicly marked Proved. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-213
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=2.13.
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M21326](https://prove2.me/missions/Block_Sensitivity_vs._Sensitivity%3A_Reach_2.13), Public quantified theorem, construction/provenance notes and dated campaign completed entry.
+- Proof: The tracker records the 2.13 goal completed. Independently, AchievesExponent(2.1301) implies AchievesExponent(2.13) by replacing epsilon with epsilon+0.0001. This is a valid implication from the public stronger theorem, not a claim about the unretrieved accepted 2.13 proof implementation. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-21308255793978239
+
+For every epsilon>0 and every integer S>=2 there is a total Boolean function f with s(f)>=S and bs(f)>=s(f)^(alpha-epsilon), where alpha=log(14055^8)/log(3738277295413674).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2M2130825579397823926](https://prove2.me/theorems/01bb63ef-ced2-4ae9-8b81-b5ed295526c6), Public quantified theorem, construction/provenance notes and dated campaign completed entry; theorem 01bb63ef-ced2-4ae9-8b81-b5ed295526c6.
+- Proof: Share one labeling across six ordinary defect tolerances and a source tolerance; feed the simultaneous bounds into a recursive Boolean sensitivity profile and block amplification. The public primitive theorem explicitly expands sensitivity and block sensitivity as finite maxima, proves the full asymptotic quantifiers, and strictly improves log(14055^8)/log(3738289747988852). The campaign wrapper transfers the primitive definitions to the shared ones. Accepted construction submission: a9d25c46-43bd-4fb1-826b-0ed075b8cf0a. The exact exponent is logarithmic, not the truncated tracker decimal. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-coupled-exact
+
+The campaign quantified separation holds at exact exponent alpha=log(201838849)/log(7922).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2Mcoupledexact26](https://prove2.me/theorems/ddfe4bf3-88be-4876-a196-33c20c0319ff), Public exact endpoint/finite-family theorem ddfe4bf3-88be-4876-a196-33c20c0319ff.
+- Proof: Multiple defect tolerances and coupled target/guard profiles improve a periodic recursion. Verify the shared labeling conditions and actual disjoint block assembly, then obtain the finite-family bounds and the logarithmic exponent log(G)/log(R)>2.1301. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-shared-exact
+
+The campaign quantified separation holds at exact exponent alpha=log(25260794820729601)/log(50063687).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2Msharedexact26](https://prove2.me/theorems/2bc2b8ee-797d-4500-9dc8-9b23c457e131), Public exact endpoint/finite-family theorem 2bc2b8ee-797d-4500-9dc8-9b23c457e131.
+- Proof: Apply the finite asymmetric Lovasz local lemma to simultaneous bad-label events, proving joint independence, dependency counts and an exact integer activity certificate. A coupled four-stage profile recurrence and actual Boolean/block assembly give the finite family. Its exponent log(G)/log(R)>2.1303. The construction must bound sensitivity at every input and exhibit nonempty pairwise disjoint sensitive blocks at zero. Fixed prefactors are absorbed into an arbitrary positive exponent loss; the known polynomial relation between block sensitivity and sensitivity ensures unbounded sensitivity. The mission description preserves a historical server-timeout note; the supporting finite-family theorem is now publicly marked Proved. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+## bs-s-superquadratic-refined-exact
+
+The campaign quantified separation holds at exact exponent alpha=log(25260794820729601)/log(50063523).
+
+- Kind: separation; domain: total decision_function; classes: unrestricted.
+- Evidence: primary_platform_theorem_and_attestation_checked; loss: subpolynomial.
+- Source: [P2Mrefinedexact26](https://prove2.me/theorems/62961329-4b50-48c7-a1fd-11159da9de26), Public exact endpoint/finite-family theorem 62961329-4b50-48c7-a1fd-11159da9de26.
+- Proof: Keep the shared labeling and block amplification of the four-stage construction, refine the finite sensitivity recipe from growth factor 50063687 to 50063523, and retain block growth 12607^4. Absorb the fixed prefactor into positive exponent loss. Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.
+
+Public construction summary and quantified theorem checked; accepted Lean proof body is behind authentication and has not been downloaded or replayed by this atlas.

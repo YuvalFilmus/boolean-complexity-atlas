@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-22",
+  "checks": [
+    {
+      "claim_id": "bs-s-superquadratic-coupled-exact",
+      "numerator": "201838849",
+      "denominator": "7922",
+      "log_ratio_numeric_check": "2.130124795190623811814339398329880183773916962501898656874710981831468974402490401064",
+      "warning": "85-digit Decimal consistency check, not a rigorous interval-arithmetic certificate or a replacement for the source proof."
+    },
+    {
+      "claim_id": "bs-s-superquadratic-shared-exact",
+      "numerator": "25260794820729601",
+      "denominator": "50063687",
+      "log_ratio_numeric_check": "2.130319939591316261213482755199411041844981809669880905177220379594601397047542035920",
+      "warning": "85-digit Decimal consistency check, not a rigorous interval-arithmetic certificate or a replacement for the source proof."
+    },
+    {
+      "claim_id": "bs-s-superquadratic-refined-exact",
+      "numerator": "25260794820729601",
+      "denominator": "50063523",
+      "log_ratio_numeric_check": "2.130320333220365838965754517205705352241211113936833114071341079654743300887191423144",
+      "warning": "85-digit Decimal consistency check, not a rigorous interval-arithmetic certificate or a replacement for the source proof."
+    },
+    {
+      "claim_id": "bs-s-superquadratic-21308255793978239",
+      "numerator": "1522813785050025472152230187890625",
+      "denominator": "3738277295413674",
+      "log_ratio_numeric_check": "2.130825579397823947629976285043470841187822776598239852568995294781296283108521736979",
+      "five_tolerance_comparison": "2.130825381447605328771977198524482494950167290380919683637399254121342013820431757756",
+      "improvement_over_five_tolerances": "1.97950218618857999086518988346237655486217320168931596040659954269288089979223E-7",
+      "improvement_over_refined_four_stage": "0.000505246177458108664221767837765488946611662661406738497654215126552982221330313835",
+      "tracker_decimal_below_exact": true,
+      "warning": "85-digit Decimal consistency check, not a rigorous interval-arithmetic certificate or a replacement for the source proof."
+    }
+  ]
+}

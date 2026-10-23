@@ -1039,5 +1039,68 @@
     "sha256": "801f4076be5a9afff6718cb0e1560928a93da0ef9cf3f3985db21e36d530ff3a",
     "pages": 47,
     "retrieved": "2026-10-23"
+  },
+  {
+    "id": "FHKIRSV23",
+    "snapshot_id": "FHKIRSV23final",
+    "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v30i3p29/pdf/",
+    "resolved_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v30i3p29/pdf/",
+    "sha256": "53575b90c5c258a7f5e7bb467c32c5fb52ce3ad8e393774921a0fad6a127a5b3",
+    "pages": 51,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "FHKIRSV23",
+    "snapshot_id": "FHKIRSV23v3",
+    "url": "https://arxiv.org/pdf/2212.14685v3",
+    "resolved_url": "https://arxiv.org/pdf/2212.14685v3",
+    "sha256": "8fc45ebdf1748a8d4f8fc5e02c54d3bae16342ce4b303c6709bee7ac2c15687b",
+    "pages": 39,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "FHKIRSV23",
+    "snapshot_id": "FHKIRSV23v4",
+    "url": "https://arxiv.org/pdf/2212.14685v4",
+    "resolved_url": "https://arxiv.org/pdf/2212.14685v4",
+    "sha256": "351acde7c7f6fb3859dc9d86c04866fb3a27ece03730e6b3db35a46b33da7083",
+    "pages": 37,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "KZ16",
+    "snapshot_id": "KZ16",
+    "url": "https://arxiv.org/pdf/1604.01288v1",
+    "resolved_url": "https://arxiv.org/pdf/1604.01288v1",
+    "sha256": "f73bead90b9236326da51001159efb7e03adda96ca91a83428f5cb5090859b2f",
+    "pages": 17,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "JK10",
+    "snapshot_id": "JK10",
+    "url": "https://arxiv.org/pdf/0910.4266v2",
+    "resolved_url": "https://arxiv.org/pdf/0910.4266v2",
+    "sha256": "af7e9e8994d2bc06f07f096489e3677cf7d7f74d3b36935ce2a9fad85c97fc79",
+    "pages": 28,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "KRS15",
+    "snapshot_id": "KRS15",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol040-approx-random2015/LIPIcs.APPROX-RANDOM.2015.915/LIPIcs.APPROX-RANDOM.2015.915.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol040-approx-random2015/LIPIcs.APPROX-RANDOM.2015.915/LIPIcs.APPROX-RANDOM.2015.915.pdf",
+    "sha256": "7e9e15bbb6231fa5c8a596939f642fcb1f51ae94e63ee5a697f86167d9197bf6",
+    "pages": 16,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "GJ16",
+    "snapshot_id": "GJ16",
+    "url": "https://eccc.weizmann.ac.il/report/2015/167/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2015/167/download/",
+    "sha256": "47cef694b0e4efaee4c243564f21203f9489f284bda17831424ae6dada607d74",
+    "pages": 16,
+    "retrieved": "2026-10-23"
   }
 ]

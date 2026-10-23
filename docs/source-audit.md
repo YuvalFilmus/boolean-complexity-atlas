@@ -4,9 +4,9 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 783 claim records with proof summaries, and 139 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 784 claim records with proof summaries, and 145 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
-- 116 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
+- 123 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
 - The syntactic all-measure pair register contains 61752 ordered pairs, of which 1166 have indexed evidence. Many cross-model pairs require a common-domain definition before they can be mathematical questions.
 
@@ -296,3 +296,11 @@ The second pass adds ADGG26 and GNSTW16, expands model/direction checks for seve
 A fresh independent audit re-read the original permutation, representation and Huang arguments. It found an orientation error in DFLLV26 Section 5.3: output-value transpositions in columns of B supply the parity cubes, while the printed input/A-column choice can fail in S_3. The explicit corrected construction preserves the old query lift. Direct lower-filtration orthogonality justifies tensor correlation, and the original Specht-module inputs were checked in Sagan's second edition. The complete [proof](hypermatching-proof.md) and [audit](hypermatching-full-source-audit.md) establish degree_H<=(2k-1)^2s_H^2 using the half-degree uniform-fiber descent.
 
 Two original references, Sagan01 and EFP11, were added with source hashes and exact inspected locators. The catalogue now has 783 claims and 139 references; the snapshot manifest has 116 successful captures plus one failed retrieval. New table evidence is restricted to full hypermatching profiles. The [priority check](hypermatching-priority-audit.md) did not locate an earlier general theorem, but does not certify novelty; k=2 has stronger published results. Historical ambiguity about uniform constants and direct witnessing remains.
+
+## Exact two-query certificate search: fresh audit and publication, 23 October 2026
+
+The [complete proof](exact-search-proof.md), [fresh independent source audit](exact-search-full-source-audit.md), and [priority check](exact-search-priority-audit.md) support QE(S)<=2 implies D(S)=QE(S) for total full-cube certificate-output search with a fixed worst-case standard bit-query budget. The proof includes complex amplitudes, POVM/adaptive padding, support factorization and singleton recovery. No global exponent-one comparison or asymptotic BK24 resolution is inferred.
+
+The exact final public proof was separately reread and passed. An independent Hall-condition check covers all 4096 three-bit width-two supports, in addition to the author’s additive-table and 110592 mixed singleton/pair checks. Earlier disjoint unweighted partition results are cited with final-journal/preprint version locators; no previous precise quantum implication was located, which does not certify novelty.
+
+Six bibliographic entries were added, with preview-only status retained for YYH24. Seven original PDF captures (including three versions of one work) bring the snapshot manifest to 123 successful captures plus one failed retrieval. The catalogue now has 784 claims and 145 references. Source PDFs are not redistributed.

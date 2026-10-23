@@ -104,6 +104,7 @@ Status: searched_no_resolution_found_current_openness_not_certified.
 Source: [BK24](https://arxiv.org/abs/2410.16245), Section 1.3, Open Problem 1.
 
 - The 2024 paper does not establish exact-query separations; its Q and bounded-polynomial constructions alone do not answer this.
+- The audited small-query theorem excludes a quantum advantage at QE<=2 in the certificate-output model; the asymptotic question is unchanged.
 
 ## BK24-search-poly-conical
 

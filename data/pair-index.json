@@ -320,6 +320,29 @@
             "promise-unbounded-D-QE-promise-restricted-DJ"
           ],
           "historical_claim_ids": []
+        },
+        {
+          "scope": {
+            "object_kind": "search_relation",
+            "totality": "total",
+            "classes": [
+              "certificate_output_search",
+              "exact_quantum_at_most_two_queries"
+            ],
+            "input_alphabet": "bits",
+            "output_alphabet": "partial_assignments",
+            "cost": "fixed_worst_case_bit_queries",
+            "error": "probability_one_on_every_full_cube_input",
+            "assumptions": [
+              "Output label c is valid exactly on the subcube of inputs extending c.",
+              "Full Boolean input cube; finite-dimensional standard bit-oracle algorithm with a fixed worst-case budget at most two.",
+              "Inactive queries are allowed; no expected-time zero-error or promise interpretation."
+            ]
+          },
+          "claim_ids": [
+            "exact-search-two-query-rigidity"
+          ],
+          "historical_claim_ids": []
         }
       ],
       "core_matrix_record": true,

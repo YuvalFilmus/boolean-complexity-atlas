@@ -143,8 +143,16 @@
           "text": "ADGG26 Pelagic Fourier Fishing has one quantum query with success at least 3/4 and randomized cost linear in truth-table length. Its Theorem 1.3 is exact quantum communication for a different problem, with a fixed-degree polynomial classical lower bound. Neither establishes the exponential exact-query separation asked by BK24. AGL26 restricts outputs to a canonical answer with high probability; exact relation algorithms may output many different valid answers.",
           "latex": "Q(\\mathrm{Pelagic})=1,\\quad R(\\mathrm{Pelagic})=\\Omega(N),\\quad N=2^n.",
           "proof_summary": "For the upper bound, Fourier sampling chooses y with probability |hhat(y)|^2. Each excluded tail carries less than 1/8 mass, so total success is at least 3/4. A T-query classical algorithm yields a two-way protocol exchanging at most two bits per query to h=fg, transferring the communication lower bound. This verifies the scope/reduction, not every step of the 65-page lower-bound proof."
+        },
+        {
+          "title": "Verified small-query rigidity",
+          "text": "An independently audited repository proof establishes D(S)=QE(S) for QE(S)<=2 in full-cube certificate-output search. It treats complex amplitudes, weighted overlapping covers and singleton-output recovery. It does not answer the asymptotic exponential-separation question or extend to arbitrary output relations.",
+          "latex": "Q_E(S)\\leq2\\quad\\Longrightarrow\\quad D(S)=Q_E(S)."
         }
-      ]
+      ],
+      "proof_page": "proofs/exact-search.html",
+      "audit_page": "proofs/exact-search-audit.html",
+      "priority_page": "proofs/exact-search-priority.html"
     },
     {
       "id": "BK24-search-poly-conical",

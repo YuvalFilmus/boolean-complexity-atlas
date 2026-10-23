@@ -977,6 +977,60 @@
       "title": "Intersecting families of permutations",
       "kind": "research",
       "year": 2011
+    },
+    {
+      "id": "FHKIRSV23",
+      "source_ids": [
+        "FHKIRSV23"
+      ],
+      "title": "Irreducible Subcube Partitions",
+      "kind": "research",
+      "year": 2023
+    },
+    {
+      "id": "KZ16",
+      "source_ids": [
+        "KZ16"
+      ],
+      "title": "Unsatisfiable hitting clause-sets with three more clauses than variables",
+      "kind": "research",
+      "year": 2016
+    },
+    {
+      "id": "JK10",
+      "source_ids": [
+        "JK10"
+      ],
+      "title": "The Partition Bound for Classical Communication Complexity and Query Complexity",
+      "kind": "research",
+      "year": 2010
+    },
+    {
+      "id": "KRS15",
+      "source_ids": [
+        "KRS15"
+      ],
+      "title": "Separating Decision Tree Complexity from Subcube Partition Complexity",
+      "kind": "research",
+      "year": 2015
+    },
+    {
+      "id": "GJ16",
+      "source_ids": [
+        "GJ16"
+      ],
+      "title": "A Composition Theorem for Conical Juntas",
+      "kind": "research",
+      "year": 2016
+    },
+    {
+      "id": "YYH24",
+      "source_ids": [
+        "YYH24"
+      ],
+      "title": "Characterization of exact two-query quantum algorithms",
+      "kind": "research",
+      "year": 2024
     }
   ],
   "centrality": {
@@ -9533,8 +9587,16 @@
             "text": "ADGG26 Pelagic Fourier Fishing has one quantum query with success at least 3/4 and randomized cost linear in truth-table length. Its Theorem 1.3 is exact quantum communication for a different problem, with a fixed-degree polynomial classical lower bound. Neither establishes the exponential exact-query separation asked by BK24. AGL26 restricts outputs to a canonical answer with high probability; exact relation algorithms may output many different valid answers.",
             "latex": "Q(\\mathrm{Pelagic})=1,\\quad R(\\mathrm{Pelagic})=\\Omega(N),\\quad N=2^n.",
             "proof_summary": "For the upper bound, Fourier sampling chooses y with probability |hhat(y)|^2. Each excluded tail carries less than 1/8 mass, so total success is at least 3/4. A T-query classical algorithm yields a two-way protocol exchanging at most two bits per query to h=fg, transferring the communication lower bound. This verifies the scope/reduction, not every step of the 65-page lower-bound proof."
+          },
+          {
+            "title": "Verified small-query rigidity",
+            "text": "An independently audited repository proof establishes D(S)=QE(S) for QE(S)<=2 in full-cube certificate-output search. It treats complex amplitudes, weighted overlapping covers and singleton-output recovery. It does not answer the asymptotic exponential-separation question or extend to arbitrary output relations.",
+            "latex": "Q_E(S)\\leq2\\quad\\Longrightarrow\\quad D(S)=Q_E(S)."
           }
-        ]
+        ],
+        "proof_page": "proofs/exact-search.html",
+        "audit_page": "proofs/exact-search-audit.html",
+        "priority_page": "proofs/exact-search-priority.html"
       },
       "status_note": "No resolution found. The October Pelagic Fourier Fishing paper gives an optimal bounded-error query separation, while its exact result concerns a different communication problem. Neither answers BK24’s exact query question; pseudo-deterministic quantum results also use a different output requirement.",
       "activity_sources": [
@@ -9543,7 +9605,8 @@
         "ADGG26"
       ],
       "implications": [
-        "The 2024 paper does not establish exact-query separations; its Q and bounded-polynomial constructions alone do not answer this."
+        "The 2024 paper does not establish exact-query separations; its Q and bounded-polynomial constructions alone do not answer this.",
+        "The audited small-query theorem excludes a quantum advantage at QE<=2 in the certificate-output model; the asymptotic question is unchanged."
       ],
       "implication_reach": null,
       "gap": null,
@@ -9556,7 +9619,8 @@
         "statement": "Can a total search problem have an exponential QE/R separation in either direction?",
         "status": "searched_no_resolution_found_current_openness_not_certified",
         "implications": [
-          "The 2024 paper does not establish exact-query separations; its Q and bounded-polynomial constructions alone do not answer this."
+          "The 2024 paper does not establish exact-query separations; its Q and bounded-polynomial constructions alone do not answer this.",
+          "The audited small-query theorem excludes a quantum advantage at QE<=2 in the certificate-output model; the asymptotic question is unchanged."
         ],
         "status_history": [
           {
@@ -9602,8 +9666,16 @@
               "text": "ADGG26 Pelagic Fourier Fishing has one quantum query with success at least 3/4 and randomized cost linear in truth-table length. Its Theorem 1.3 is exact quantum communication for a different problem, with a fixed-degree polynomial classical lower bound. Neither establishes the exponential exact-query separation asked by BK24. AGL26 restricts outputs to a canonical answer with high probability; exact relation algorithms may output many different valid answers.",
               "latex": "Q(\\mathrm{Pelagic})=1,\\quad R(\\mathrm{Pelagic})=\\Omega(N),\\quad N=2^n.",
               "proof_summary": "For the upper bound, Fourier sampling chooses y with probability |hhat(y)|^2. Each excluded tail carries less than 1/8 mass, so total success is at least 3/4. A T-query classical algorithm yields a two-way protocol exchanging at most two bits per query to h=fg, transferring the communication lower bound. This verifies the scope/reduction, not every step of the 65-page lower-bound proof."
+            },
+            {
+              "title": "Verified small-query rigidity",
+              "text": "An independently audited repository proof establishes D(S)=QE(S) for QE(S)<=2 in full-cube certificate-output search. It treats complex amplitudes, weighted overlapping covers and singleton-output recovery. It does not answer the asymptotic exponential-separation question or extend to arbitrary output relations.",
+              "latex": "Q_E(S)\\leq2\\quad\\Longrightarrow\\quad D(S)=Q_E(S)."
             }
-          ]
+          ],
+          "proof_page": "proofs/exact-search.html",
+          "audit_page": "proofs/exact-search-audit.html",
+          "priority_page": "proofs/exact-search-priority.html"
         },
         "status_sources": [
           "BK24",
@@ -27124,7 +27196,7 @@
     "archive": 8,
     "gaps": 224,
     "endpoint_questions": 3,
-    "scholarly_works": 106,
+    "scholarly_works": 112,
     "status_checks": {
       "primary_reaffirmed_open": 6,
       "no_resolution_found": 7,

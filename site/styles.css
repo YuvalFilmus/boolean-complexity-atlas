@@ -9,3 +9,5 @@
 
 .question-copy>p{max-width:100%;overflow-x:auto}.question-copy .question-id{overflow-wrap:anywhere}
 .proof-page{max-width:940px;margin:38px auto;padding:0 24px 65px}.proof-page h1{font:clamp(30px,4vw,46px)/1.16 var(--serif);margin:22px 0}.proof-page h2{font:29px/1.25 var(--serif);margin:38px 0 17px}.proof-page h3{font:22px/1.3 var(--serif);margin:28px 0 12px}.proof-page p,.proof-page li{line-height:1.85}.proof-page code{overflow-wrap:anywhere}.proof-page .proof-equation{display:block;max-width:100%;overflow-x:auto;padding:10px 0}.proof-page .proof-math{max-width:100%}.proof-page .small{font-size:12px}.proof-page .math-error{color:#a02d26;white-space:pre-wrap}.proof-page hr{margin-top:40px;border:0;border-top:1px solid var(--line)}
+
+.proof-table{overflow-x:auto;margin:1.4rem 0}.proof-table table{width:100%;border-collapse:collapse}.proof-table th,.proof-table td{padding:.65rem .8rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.proof-table code{overflow-wrap:anywhere}

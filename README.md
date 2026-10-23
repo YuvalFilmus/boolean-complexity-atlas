@@ -4,13 +4,15 @@
 
 A source-linked repository for query, sensitivity, certificate and polynomial complexity measures, with separate scopes for promises, search relations and restricted classes. Broad catalogue audit: 17 October 2026. Sensitivity-campaign update: 22 October 2026.
 
-**Current coverage: 249 defined measures, 783 claim records, 139 references and 9 surveys.** Both twelve-measure total and promise core grids have evidence for all 132 off-diagonal pairs. The promise grid has 49 matched finite exponents and 83 pairs with no finite polynomial bound. Search and extended-measure coverage, historical notation and source-priority audits remain incomplete. Many claim records are consequences of shared witnesses. No claim is globally certified current-best. See [the audit report](docs/source-audit.md).
+**Current coverage: 249 defined measures, 784 claim records, 145 references and 9 surveys.** Both twelve-measure total and promise core grids have evidence for all 132 off-diagonal pairs. The promise grid has 49 matched finite exponents and 83 pairs with no finite polynomial bound. Search and extended-measure coverage, historical notation and source-priority audits remain incomplete. Many claim records are consequences of shared witnesses. No claim is globally certified current-best. See [the audit report](docs/source-audit.md).
 
 The [Open Questions tab](https://yuvalfilmus.github.io/boolean-complexity-atlas/#questions) offers six transparent ranking orders, passage-level repeated-question highlights, scoped gap views and a resolved/refuted archive. Counts reflect indexed literature; unknown scores and unverified current status are marked. See [ranking methods and maintenance](docs/open-questions.md).
 
 ## Audited research proof
 
 The [separate hypermatching proof page](https://yuvalfilmus.github.io/boolean-complexity-atlas/proofs/hypermatching.html) proves intrinsic degree <= (2k-1) times packing sensitivity squared on the full lambda-partite domain. It includes the corrected output-transposition construction, a [fresh source audit](docs/hypermatching-full-source-audit.md), and a [scoped priority check](docs/hypermatching-priority-audit.md). Prior general publication was not located; novelty and optimal constants are not certified. The associated profile cells retain their k-dependent prefactor.
+
+The [exact two-query certificate-search proof](https://yuvalfilmus.github.io/boolean-complexity-atlas/proofs/exact-search.html) establishes D(S)=QE(S) whenever QE(S)<=2 on the full Boolean cube with certificate-output labels. Its complete proof, fresh independent source audit and priority check are separate pages. This small-query result is indexed as a scoped record, with no global exponent inferred.
 
 ## Website
 

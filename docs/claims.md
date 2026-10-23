@@ -7758,3 +7758,14 @@ For full lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2 and n>=2
 - Proof: Average entry polynomials over uniform representation fibers; partition-lattice inversion gives 2degree_H<=degree_Z. Corrected output/B-column pseudo-characters give a correlated D-dimensional cube with D>=degree_Z/2. Nonzero top correlation excludes loop axes. A matching of at least D/(2k-1) axes yields an injectively projected native face after some fixing preserving its top coefficient. Huang gives s_H^2>=D/(2k-1).
 
 The printed DFLLV26 input/A-column cube orientation fails in S_3. The separate proof uses output/B-column transpositions, directly checks homogeneous filtration, and preserves native disjointness. No intrinsic hypermatching witnessing family is asserted.
+
+## exact-search-two-query-rigidity
+
+For full-cube total certificate-output search, QE(S)<=2 implies D(S)<=2, and D(S)=QE(S) whenever QE(S)<=2.
+
+- Kind: parameterized_upper_bound; domain: total search_relation; classes: certificate_output_search, exact_quantum_at_most_two_queries.
+- Evidence: repository_derivation_checked; loss: none.
+- Source: Repository proof, Derived research note, docs/exact-search-proof.md; fresh independent source audit 23 October 2026.
+- Proof: A T-query amplitude supported on an output certificate factors as its subcube indicator times a polynomial on the unassigned coordinates, with degrees adding. At T=2 every width-two output probability is a constant nonnegative multiple of its indicator. Exclude all allowed singleton outputs on a residual subcube. A nonnegative 2x2 additive-table decomposition supplies a two-query tree there; provenance of residual singleton terms supplies one-coordinate singleton fallbacks making the tree correct on the whole cube. The T=0,1 cases are proved separately.
+
+Small-query rigidity only; this is not an asymptotic exponent-one inequality. The asymptotic BK24 Open Problem 1 remains separately recorded. Publication priority is not certified.

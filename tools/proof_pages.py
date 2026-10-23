@@ -3,7 +3,7 @@ from pathlib import Path
 import html,re,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 TOKEN=re.compile(r'\$\$([\s\S]*?)\$\$|\$([^\n$]+)\$|\[([^\]]+)\]\(([^)\s]+)\)|\*\*([^*]+)\*\*|`([^`]+)`')
-PAGES=[('hypermatching','hypermatching-proof.md','Quadratic sensitivity bounds for hypermatchings'),('hypermatching-audit','hypermatching-full-source-audit.md','Full source audit of the hypermatching proof'),('hypermatching-priority','hypermatching-priority-audit.md','Hypermatching literature and priority check')]
+PAGES=[('hypermatching','hypermatching-proof.md','Quadratic sensitivity bounds for hypermatchings'),('hypermatching-audit','hypermatching-full-source-audit.md','Full source audit of the hypermatching proof'),('hypermatching-priority','hypermatching-priority-audit.md','Hypermatching literature and priority check'),('exact-search','exact-search-proof.md','Exact two-query certificate search'),('exact-search-audit','exact-search-full-source-audit.md','Independent audit of exact two-query certificate search'),('exact-search-priority','exact-search-priority-audit.md','Exact certificate search literature and priority check')]
 LINKS={source:slug+'.html' for slug,source,title in PAGES}
 def inline(s):
  out=[];pos=0
@@ -27,6 +27,9 @@ def markdown(s):
   lines=block.splitlines()
   if len(lines)==1 and (m:=re.match(r'^(#{1,4}) (.+)$',block)):
    level=len(m[1]);blocks.append(f'<h{level}>'+inline(m[2])+f'</h{level}>')
+  elif len(lines)>1 and re.match(r'^\|(?:\s*:?-+:?\s*\|)+$',lines[1]) and all(line.startswith('|') and line.endswith('|') for line in lines):
+   rows=[[cell.strip() for cell in line.strip('|').split('|')] for line in lines]
+   blocks.append('<div class="proof-table"><table><thead><tr>'+''.join('<th scope="col">'+inline(cell)+'</th>' for cell in rows[0])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+inline(cell)+'</td>' for cell in row)+'</tr>' for row in rows[2:])+'</tbody></table></div>')
   elif all(re.match(r'^[*-] ',line) for line in lines):blocks.append('<ul>'+''.join('<li>'+inline(line[2:])+'</li>' for line in lines)+'</ul>')
   elif all(re.match(r'^\d+\. ',line) for line in lines):blocks.append('<ol>'+''.join('<li>'+inline(re.sub(r'^\d+\. ','',line))+'</li>' for line in lines)+'</ol>')
   else:blocks.append('<p>'+inline(block)+'</p>')
@@ -38,8 +41,10 @@ def build(dst):
   if not path.exists():raise FileNotFoundError('Missing audited proof page source '+str(path))
   raw=path.read_text();digest=hashlib.sha256(path.read_bytes()).hexdigest()
   body=markdown(raw)
+  family='exact-search' if slug.startswith('exact-search') else 'hypermatching'
+  query='exact%20quantum' if family=='exact-search' else 'hypergraphical'
   doc='''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'''+html.escape(title)+''' · Boolean Complexity Atlas</title><link rel="icon" href="../icon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../vendor/katex/katex.min.css"></head><body>
-<a class="skip" href="#proof-main">Skip to proof</a><header class="site-header"><a class="brand" href="../#explorer">Boolean Complexity <strong>Atlas</strong></a><nav aria-label="Proof navigation"><a href="../#explorer">Exponent tables</a><a href="../#questions?q=hypergraphical">Open questions</a><a href="hypermatching.html">Proof</a><a href="hypermatching-audit.html">Full audit</a><a href="hypermatching-priority.html">Priority check</a></nav></header>
-<main id="proof-main" class="proof-page"><p class="eyebrow">DERIVED RESEARCH NOTE · CHECKED 23 OCTOBER 2026</p>'''+body+'''<hr><p class="small"><a href="../research-notes/'''+html.escape(source)+'''">Plaintext Markdown source</a> · <a href="../downloads/hypermatching-proof-audit.json">Audit manifest</a></p><p class="small">Source SHA-256: <code>'''+digest+'''</code></p><noscript><p>JavaScript is disabled. Mathematical source is visible in TeX; enable JavaScript to render it with the bundled KaTeX.</p></noscript></main><script type="module" src="../proof-math.mjs"></script></body></html>'''
+<a class="skip" href="#proof-main">Skip to proof</a><header class="site-header"><a class="brand" href="../#explorer">Boolean Complexity <strong>Atlas</strong></a><nav aria-label="Proof navigation"><a href="../#explorer">Exponent tables</a><a href="../#questions?q='''+query+'''">Open questions</a><a href="'''+family+'''.html">Proof</a><a href="'''+family+'''-audit.html">Full audit</a><a href="'''+family+'''-priority.html">Priority check</a></nav></header>
+<main id="proof-main" class="proof-page"><p class="eyebrow">DERIVED RESEARCH NOTE · CHECKED 23 OCTOBER 2026</p>'''+body+'''<hr><p class="small"><a href="../research-notes/'''+html.escape(source)+'''">Plaintext Markdown source</a> · <a href="../downloads/'''+family+'''-proof-audit.json">Audit manifest</a></p><p class="small">Source SHA-256: <code>'''+digest+'''</code></p><noscript><p>JavaScript is disabled. Mathematical source is visible in TeX; enable JavaScript to render it with the bundled KaTeX.</p></noscript></main><script type="module" src="../proof-math.mjs"></script></body></html>'''
   (out/(slug+'.html')).write_text(doc)

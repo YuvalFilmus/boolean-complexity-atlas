@@ -10,7 +10,7 @@
   "final_publication_rewrite_reviewed": true,
   "proof": {
     "path": "docs/rooted-paths-proof.md",
-    "sha256": "3b882faa99cbb37e696f8583c84bfc98bf00ea65813cbf876708eadb4afd5ced",
+    "sha256": "cd2d1dd407cb391d0e97eaf221a9cfb39433276a2433dea196aac46f5af17559",
     "page": "proofs/rooted-paths.html"
   },
   "audit": {
@@ -45,5 +45,7 @@
     "Explicit consequence of classical quadratic-chaos methods.",
     "No optimality or novelty certification.",
     "No general AA resolution or transformed/native influence equality."
-  ]
+  ],
+  "prior_publication_proof_sha256": "3b882faa99cbb37e696f8583c84bfc98bf00ea65813cbf876708eadb4afd5ced",
+  "followup_note": "Added a cross-link to the stronger graphic influence proof; audited mathematical body unchanged."
 }

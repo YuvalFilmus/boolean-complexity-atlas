@@ -7790,4 +7790,15 @@ For ancestor-descendant tree-path Fourier support of length at most d, max_e I_e
 - Source: Repository proof, Derived classical-method consequence, docs/rooted-paths-proof.md; Szarek76 Theorem 1 for the sharper constant.
 - Proof: Prefix characters turn path monomials into endpoint pairs. Orient endpoints from descendants to ancestors to get outdegree at most d. Symmetric polarization, convex sign rounding and the Rademacher L1 inequality control the sum of incident coefficient l2 norms by oscillation. Charging coefficients to tails controls Fourier l1 mass; a largest original coefficient supplies a native influence without identifying transformed influences. Root-anchor homogenization preserves range. The fourth-moment version is self-contained; sharp Khintchine improves 12d to 8d.
 
-Explicit consequence of classical quadratic-chaos methods; no analytic novelty, general AA resolution, or optimality certification. Degree is the original path-length bound. Broader known coefficient estimates give other tree-path influence consequences.
+Explicit consequence of classical quadratic-chaos methods; no analytic novelty, general AA resolution, or optimality certification. Degree is the original path-length bound. Broader known coefficient estimates give other tree-path influence consequences. The separately proved quadratic-character-native-influence record removes the path-length factor in the influence conclusion; the rooted-path spectral-mass and approximation estimates retain their own value.
+
+## quadratic-character-native-influence
+
+For nonconstant real polynomials whose Fourier support becomes singleton/pair characters under an invertible F2 character basis change, max native I_i>=Var(p)^2/(8 osc(p)^2). This covers all tree-path supports; a self-contained moment proof gives denominator 12.
+
+- Kind: multivariate_lower_bound; domain: total real_valued_function; classes: invertibly_quadratic_fourier_character_support.
+- Evidence: repository_derivation_checked; loss: none.
+- Source: Repository proof, Derived proof docs/graphic-influence-proof.md; weighted separating cuts, fractional endpoint allocation, quadratic norm estimate.
+- Proof: Native influences equal graph endpoint-label cut energies. Recursively splitting every induced vertex set gives internal energy at most t(|A|-1), with t=max native influence. A real-capacity flow allocates all edge energy to endpoint loads at most t, implying V<=sqrt(t) times the sum of square roots of incident energies. A bijective character basis and anchor homogenization preserve the full graph range. Symmetric polarization and Rademacher lower bounds control that incident norm by oscillation. The self-contained fourth moment gives 12; importing Szarek gives 8.
+
+Derived consequence of classical quadratic-chaos and fractional-orientation ingredients. Applies to all simple tree-path Fourier supports, without a path-length influence factor. Independent transformed coordinates/full graph range are essential. Exact prior publication not located, not certified absent; no optimal constant or general AA resolution.

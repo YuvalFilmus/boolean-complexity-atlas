@@ -5461,6 +5461,183 @@
           "pages": 28
         }
       ]
+    },
+    {
+      "id": "FF56",
+      "authors": [
+        "L. R. Ford, Jr.",
+        "D. R. Fulkerson"
+      ],
+      "bibtex_author": "Ford, Jr., L. R. and Fulkerson, D. R.",
+      "title": "Maximal Flow Through a Network",
+      "year": 1956,
+      "kind": "article",
+      "journal": "Canadian Journal of Mathematics",
+      "volume": "8",
+      "pages": "399--404",
+      "doi": "10.4153/CJM-1956-045-5",
+      "url": "https://doi.org/10.4153/CJM-1956-045-5",
+      "read_version": "Original six-page scan; Theorem 1 printed p.400 visually checked",
+      "annotation": "Historical minimal-cut theorem, stated in terms of chain flows. The atlas separately proves its directed real-capacity feasibility assertion using compactness and residual paths, without relying on termination of irrational-capacity augmenting algorithms. No novelty is attributed to the general flow method.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "FF56",
+        "snapshot_id": "FF56-round5",
+        "url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+        "resolved_url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+        "sha256": "ad378e3c07842a685e94f4cd4c2a18ae2fabe4d39a65338afd896fb069b394a1",
+        "pages": 6,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "FF56",
+          "snapshot_id": "FF56-round5",
+          "url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+          "resolved_url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+          "sha256": "ad378e3c07842a685e94f4cd4c2a18ae2fabe4d39a65338afd896fb069b394a1",
+          "pages": 6,
+          "retrieved": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "CHR25",
+      "authors": [
+        "Aleksander Bjørn Christiansen",
+        "Ivor van der Hoog",
+        "Eva Rotenberg"
+      ],
+      "title": "Local Density and Its Distributed Approximation",
+      "year": 2025,
+      "kind": "inproceedings",
+      "booktitle": "42nd International Symposium on Theoretical Aspects of Computer Science (STACS 2025)",
+      "publisher": "Schloss Dagstuhl – Leibniz-Zentrum für Informatik",
+      "series": "Leibniz International Proceedings in Informatics",
+      "volume": "327",
+      "pages": "25:1--25:20",
+      "doi": "10.4230/LIPIcs.STACS.2025.25",
+      "url": "https://doi.org/10.4230/LIPIcs.STACS.2025.25",
+      "eprint": "2411.12694",
+      "read_version": "Published STACS PDF, Section 2 weighted DS/FO LP on p.25:4, Lemma 2 and Corollary 10",
+      "annotation": "Direct primary weighted fractional-orientation/density statement: real edge demands may be split nonnegatively among endpoints, with optimum maximum load equal to maximum weighted subgraph density. This supplies established context for the graphic-influence endpoint allocation, not the native variance-quadratic theorem. Proceedings Lemma 2 refers to the full version for its proof; the atlas supplies its own feasibility proof.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "CHR25",
+        "snapshot_id": "CHR25-round5",
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+        "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+        "sha256": "4c7b293ac3eb9cbb26d1a759ef2f28175b24f41683b80becca0951e59d8ab175",
+        "pages": 20,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "CHR25",
+          "snapshot_id": "CHR25-round5",
+          "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+          "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+          "sha256": "4c7b293ac3eb9cbb26d1a759ef2f28175b24f41683b80becca0951e59d8ab175",
+          "pages": 20,
+          "retrieved": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "Hak65",
+      "authors": [
+        "S. Louis Hakimi"
+      ],
+      "title": "On the degrees of the vertices of a directed graph",
+      "year": 1965,
+      "kind": "article",
+      "journal": "Journal of the Franklin Institute",
+      "volume": "279",
+      "number": "4",
+      "pages": "290--308",
+      "doi": "10.1016/0016-0032(65)90340-6",
+      "url": "https://doi.org/10.1016/0016-0032(65)90340-6",
+      "read_version": "Bibliographic and degree-constrained-orientation role checked in primary later references; original full text not obtained",
+      "annotation": "Historical orientation context only. The exact real-weighted fractional statement is not marked directly read here, and indivisible orientations are not substituted for fractional endpoint allocations.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "KP09",
+      "authors": [
+        "Nathan Keller",
+        "Haran Pilpel"
+      ],
+      "title": "Linear transformations of monotone functions on the discrete cube",
+      "year": 2009,
+      "kind": "article",
+      "journal": "Discrete Mathematics",
+      "volume": "309",
+      "number": "12",
+      "pages": "4210--4214",
+      "doi": "10.1016/j.disc.2008.12.018",
+      "url": "https://doi.org/10.1016/j.disc.2008.12.018",
+      "read_version": "Author original dated 17 July 2008, abstract and Definitions 1–2/introduction checked; journal metadata separately checked",
+      "annotation": "Studies total influence of monotone Boolean functions under invertible F2 input transformations. This is adjacent context, not the maximum half-flip influence bound for real polynomials with transformed quadratic Fourier support.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "KP09",
+        "snapshot_id": "KP09-round5",
+        "url": "https://u.math.biu.ac.il/~nkeller/keller-pilpel.pdf",
+        "resolved_url": "https://u.math.biu.ac.il/~nkeller/keller-pilpel.pdf",
+        "sha256": "3efacdcdce1a85a7d25a3d506efc140cbae1660b64b839880c89137c735d192c",
+        "pages": 7,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "KP09",
+          "snapshot_id": "KP09-round5",
+          "url": "https://u.math.biu.ac.il/~nkeller/keller-pilpel.pdf",
+          "resolved_url": "https://u.math.biu.ac.il/~nkeller/keller-pilpel.pdf",
+          "sha256": "3efacdcdce1a85a7d25a3d506efc140cbae1660b64b839880c89137c735d192c",
+          "pages": 7,
+          "retrieved": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "Chr10",
+      "authors": [
+        "Demetres Christofides"
+      ],
+      "title": "Influences of monotone Boolean functions",
+      "year": 2010,
+      "kind": "article",
+      "journal": "Discrete Mathematics",
+      "volume": "310",
+      "number": "8",
+      "pages": "1401--1402",
+      "doi": "10.1016/j.disc.2009.12.017",
+      "url": "https://doi.org/10.1016/j.disc.2009.12.017",
+      "eprint": "0909.5652",
+      "read_version": "Original arXiv:0909.5652v1, 30 September 2009, introduction/directional-influence statement checked",
+      "annotation": "Proves the Keller–Pilpel total-influence monotonicity conjecture for monotone Boolean functions under invertible linear changes. Different output, monotonicity and total-versus-maximum conventions prevent substituting it for the graphic-character influence theorem.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "Chr10",
+        "snapshot_id": "Chr10-round5",
+        "url": "https://arxiv.org/pdf/0909.5652v1",
+        "resolved_url": "https://arxiv.org/pdf/0909.5652v1",
+        "sha256": "f037286b76df88f5071829a9e42561202e4ca9ee45aefbfc1f867dd343e41750",
+        "pages": 3,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "Chr10",
+          "snapshot_id": "Chr10-round5",
+          "url": "https://arxiv.org/pdf/0909.5652v1",
+          "resolved_url": "https://arxiv.org/pdf/0909.5652v1",
+          "sha256": "f037286b76df88f5071829a9e42561202e4ca9ee45aefbfc1f867dd343e41750",
+          "pages": 3,
+          "retrieved": "2026-10-23"
+        }
+      ]
     }
   ],
   "measures": [
@@ -36170,13 +36347,65 @@
       "audit_page": "proofs/rooted-paths-audit.html",
       "priority_page": "proofs/rooted-paths-priority.html",
       "proof_audit": "fresh_cross_reviewer_passed_and_original_sharp_khintchine_statement_checked",
-      "notes": "Explicit consequence of classical quadratic-chaos methods; no analytic novelty, general AA resolution, or optimality certification. Degree is the original path-length bound. Broader known coefficient estimates give other tree-path influence consequences.",
+      "notes": "Explicit consequence of classical quadratic-chaos methods; no analytic novelty, general AA resolution, or optimality certification. Degree is the original path-length bound. Broader known coefficient estimates give other tree-path influence consequences. The separately proved quadratic-character-native-influence record removes the path-length factor in the influence conclusion; the rooted-path spectral-mass and approximation estimates retain their own value.",
       "related_sources": [
         "Ast98",
         "AL25",
         "DMP19",
         "Bour85"
+      ],
+      "strengthened_by": [
+        "quadratic-character-native-influence"
       ]
+    },
+    {
+      "id": "quadratic-character-native-influence",
+      "A": null,
+      "B": null,
+      "exponent": null,
+      "kind": "multivariate_lower_bound",
+      "statement": "For nonconstant real polynomials whose Fourier support becomes singleton/pair characters under an invertible F2 character basis change, max native I_i>=Var(p)^2/(8 osc(p)^2). This covers all tree-path supports; a self-contained moment proof gives denominator 12.",
+      "statement_latex": "\\max_i I_i(p)\\geq\\frac{\\operatorname{Var}(p)^2}{8\\,\\operatorname{osc}(p)^2}",
+      "source": "definitions",
+      "locator": "Derived proof docs/graphic-influence-proof.md; weighted separating cuts, fractional endpoint allocation, quadratic norm estimate",
+      "proof_summary": "Native influences equal graph endpoint-label cut energies. Recursively splitting every induced vertex set gives internal energy at most t(|A|-1), with t=max native influence. A real-capacity flow allocates all edge energy to endpoint loads at most t, implying V<=sqrt(t) times the sum of square roots of incident energies. A bijective character basis and anchor homogenization preserve the full graph range. Symmetric polarization and Rademacher lower bounds control that incident norm by oscillation. The self-contained fourth moment gives 12; importing Szarek gives 8.",
+      "scope": {
+        "object_kind": "real_valued_function",
+        "totality": "total",
+        "classes": [
+          "invertibly_quadratic_fourier_character_support"
+        ],
+        "input_alphabet": "independent_uniform_original_signs",
+        "output_alphabet": "real",
+        "cost": "original_coordinate_half_bitflip_fourier_influence",
+        "error": "exact_polynomial_statement",
+        "assumptions": [
+          "Nonconstant p; W=oscillation>0 and V=uniform variance.",
+          "Some invertible F2 character basis makes every nonconstant Fourier support a singleton or pair.",
+          "Influence is E[((p(x)-p(x^i))/2)^2], in original coordinates; full squared-flip influence is four times larger."
+        ]
+      },
+      "loss": "none",
+      "status": "repository_derivation_checked",
+      "proof_audit": "fresh_cross_reviewer_passed_including_real_capacity_flow",
+      "best_known_certified": false,
+      "last_checked": "2026-10-23",
+      "scalar_inference_allowed": false,
+      "proof_sources": [
+        "Sz76",
+        "AL25"
+      ],
+      "related_sources": [
+        "CHR25",
+        "FF56",
+        "DMP19",
+        "KP09",
+        "Chr10"
+      ],
+      "proof_page": "proofs/graphic-influence.html",
+      "audit_page": "proofs/graphic-influence-audit.html",
+      "priority_page": "proofs/graphic-influence-priority.html",
+      "notes": "Derived consequence of classical quadratic-chaos and fractional-orientation ingredients. Applies to all simple tree-path Fourier supports, without a path-length influence factor. Independent transformed coordinates/full graph range are essential. Exact prior publication not located, not certified absent; no optimal constant or general AA resolution."
     }
   ],
   "conjectures": [
@@ -37171,14 +37400,25 @@
           "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
         ],
         "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
-        "proof_page": "proofs/rooted-paths.html",
-        "audit_page": "proofs/rooted-paths-audit.html",
-        "priority_page": "proofs/rooted-paths-priority.html",
+        "proof_page": "proofs/graphic-influence.html",
+        "audit_page": "proofs/graphic-influence-audit.html",
+        "priority_page": "proofs/graphic-influence-priority.html",
         "clarifications": [
           {
             "title": "Classical-method rooted-path consequence",
             "text": "For ancestor-descendant tree-path Fourier supports of length at most d, the original-coordinate influence has the explicit bound below. The self-contained proof gives 12d; the sharp classical Khintchine theorem improves it to 8d. These are half-bitflip influences; the AA full-flip convention is four times larger. Broader classical coefficient estimates also give tree-path consequences. No general conjecture is marked solved.",
             "latex": "\\max_e I_e\\geq\\frac{V^2}{8dW^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+          },
+          {
+            "title": "Stronger all-tree-path native influence consequence",
+            "text": "A freshly audited weighted-cut proof removes the path-length influence factor for all supports made quadratic by an invertible binary character change, including all simple tree paths. The denominator is 12 from a self-contained moment calculation and 8 using the classical sharp Khintchine theorem. This retains original-coordinate half-flip influences and is not a general AA proof. Classical norm and fractional-allocation ingredients are credited; no exact earlier publication was located in the bounded search.",
+            "latex": "\\max_i I_i(p)\\geq\\frac{V^2}{8W^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+          }
+        ],
+        "additional_proof_pages": [
+          {
+            "title": "Earlier rooted-path spectral and approximation bounds",
+            "page": "proofs/rooted-paths.html"
           }
         ]
       }
@@ -39372,6 +39612,16 @@
       "proof_summary": "Keep the m largest nonconstant Fourier terms and query their native supports. Squared tail energy is at most A^2/(4m), at most 2d/m by sharp Khintchine or 3d/m by the fourth moment. Parseval and Markov give the error; clipping preserves the estimate.",
       "notes": "Derived repository corollary; Sz76 supplies only the sharp Khintchine input, not the tree/query theorem. Fourier representation available; no efficient recovery algorithm, promise extension or arbitrary-distribution claim.",
       "proof_page": "proofs/rooted-paths.html",
+      "scalar_inference_allowed": false
+    },
+    {
+      "id": "quadratic-character-nonadaptive-approximation",
+      "source": "AL25",
+      "locator": "Derived mixed-norm calculation in docs/graphic-influence-proof.md; not a query theorem quoted from AL25",
+      "statement": "For [0,1]-valued polynomials in the invertibly quadratic-character support class with original support size at most d, d*ceil(8/(3 delta^2 epsilon^4)) representation-available nonadaptive native queries suffice for uniform-input epsilon approximation with failure probability at most delta.",
+      "proof_summary": "Symmetric mixed-norm Holder yields 2sum|a|^(4/3)<=R^(4/3), and moment polarization gives R<=2sqrt(3)W. Keeping m largest coefficients leaves squared error at most sqrt(8/3)W^2/sqrt(m). Parseval, Markov and clipping give the error guarantee; evaluate each selected monomial using at most d original queries.",
+      "notes": "This classical coefficient consequence is separate from the stronger weighted-cut influence bound. AL25 supplies analytic context; the native query consequence is a derived repository result. No coefficient recovery or nonuniform-distribution claim.",
+      "proof_page": "proofs/graphic-influence.html",
       "scalar_inference_allowed": false
     }
   ],

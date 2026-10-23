@@ -4,9 +4,9 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 786 claim records with proof summaries, and 156 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 787 claim records with proof summaries, and 161 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
-- 131 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
+- 135 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
 - The syntactic all-measure pair register contains 61752 ordered pairs, of which 1166 have indexed evidence. Many cross-model pairs require a common-domain definition before they can be mathematical questions.
 
@@ -310,3 +310,9 @@ Six bibliographic entries were added, with preview-only status retained for YYH2
 Fresh cross-reviewers reconstructed both proofs without accepting prior audit verdicts. The [four-query proof](width-three-proof.md) includes an explicit ten-orbit rational certificate, an independent input-pair Fourier reconstruction, and a downloadable basis-averaging verifier. Its partition and classical D=4 are directly in KRS15; no earlier precise eight-output Q_E=4 statement was located, without certifying absence. The [rooted-path proof](rooted-paths-proof.md) is explicitly a consequence of classical quadratic-chaos analysis. The original Szarek Theorem 1 statement was visually checked and improves the denominator 12d to 8d, with the range qualifier retained for the query bound. It is not a reconstruction of Szarek’s full proof.
 
 Both have separate fresh audit and priority pages, linked from the new Research proofs tab and the relevant open questions. The finite search example also has a gallery card. These scoped records are excluded from unrestricted scalar exponent inference. General AA and BK24 questions retain their prior statuses. The catalogue has 786 claims, 156 references and 131 successful source captures plus one failed retrieval; eleven bibliographic entries were added. Private PDFs are not redistributed.
+
+## All-tree-path native influence, 23 October 2026
+
+The [new proof](graphic-influence-proof.md) removes the path-length influence factor for all supports made quadratic by an invertible binary character change, including every simple tree-path support. A fresh reviewer rederived the cut/flow, moment, basis/range and native-normalization arguments and approved the exact public rewrite. The denominator is twelve with the self-contained moment and real-capacity flow proof, and eight after the source-checked Szarek theorem. The independent checker uses endpoint-load dynamic programming rather than the author’s network-flow code, exhausts 122304 signed examples over all168 three-bit bases, and checks4980 injectively labeled weighted graph cases. Distinct dependent labels do not suffice for the polynomial range argument.
+
+The [priority review](graphic-influence-priority-audit.md) credits established quadratic-chaos, density/fractional-orientation and flow ingredients. No precise earlier native consequence was located in the bounded search; novelty is not certified. Five bibliography entries and four private PDF captures were added, with full-text/metadata-only limits explicit. The catalogue now has787 claims,161 references and135 successful captures plus one failed retrieval. No scalar exponent or general conjecture status is changed.

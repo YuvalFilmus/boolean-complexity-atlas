@@ -391,6 +391,16 @@ Derived repository corollary; Sz76 supplies only the sharp Khintchine input, not
 
 Source: [Sz76](https://doi.org/10.4064/sm-58-2-197-208), Derived proof, docs/rooted-paths-proof.md, nonadaptive approximation and sharp Khintchine variant.
 
+## quadratic-character-nonadaptive-approximation
+
+For [0,1]-valued polynomials in the invertibly quadratic-character support class with original support size at most d, d*ceil(8/(3 delta^2 epsilon^4)) representation-available nonadaptive native queries suffice for uniform-input epsilon approximation with failure probability at most delta.
+
+Symmetric mixed-norm Holder yields 2sum|a|^(4/3)<=R^(4/3), and moment polarization gives R<=2sqrt(3)W. Keeping m largest coefficients leaves squared error at most sqrt(8/3)W^2/sqrt(m). Parseval, Markov and clipping give the error guarantee; evaluate each selected monomial using at most d original queries.
+
+This classical coefficient consequence is separate from the stronger weighted-cut influence bound. AL25 supplies analytic context; the native query consequence is a derived repository result. No coefficient recovery or nonuniform-distribution claim.
+
+Source: [AL25](https://doi.org/10.1007/s00208-025-03257-9), Derived mixed-norm calculation in docs/graphic-influence-proof.md; not a query theorem quoted from AL25.
+
 ## query_TFZPP
 
 Total relations with polylogarithmic certificate verification and a polylog-depth randomized decision tree that returns only valid answers or bottom, succeeding with probability at least 2/3 on each input.

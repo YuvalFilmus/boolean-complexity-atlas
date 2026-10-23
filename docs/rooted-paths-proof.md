@@ -4,6 +4,8 @@ A polynomial whose Fourier supports are short ancestor–descendant paths can ha
 
 This is a support-restricted application of classical Rademacher-chaos methods. The analytic mechanism is already known. The [priority review](rooted-paths-priority-audit.md) separates the classical ingredients, the explicit rooted-path application, and stronger related statements. No novelty or general Aaronson–Ambainis resolution is asserted.
 
+A subsequent [all-tree-path influence proof](graphic-influence-proof.md) removes the path-length factor in the influence estimate and allows incomparable endpoints. The spectral-mass and approximation estimates on this page retain their stated ancestor–descendant scope.
+
 ## Definitions and statement
 
 Let $T$ be a finite tree rooted at $o$, with one independent uniform input sign $x_e\in\{-1,1\}$ per edge. Let

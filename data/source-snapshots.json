@@ -1174,5 +1174,41 @@
     "sha256": "83d2dbaf0e80390e2221b983376346f10769023741aa3d22f3fb7d44dfee7569",
     "pages": 19,
     "retrieved": "2026-10-23"
+  },
+  {
+    "id": "FF56",
+    "snapshot_id": "FF56-round5",
+    "url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+    "resolved_url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+    "sha256": "ad378e3c07842a685e94f4cd4c2a18ae2fabe4d39a65338afd896fb069b394a1",
+    "pages": 6,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "CHR25",
+    "snapshot_id": "CHR25-round5",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+    "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+    "sha256": "4c7b293ac3eb9cbb26d1a759ef2f28175b24f41683b80becca0951e59d8ab175",
+    "pages": 20,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "KP09",
+    "snapshot_id": "KP09-round5",
+    "url": "https://u.math.biu.ac.il/~nkeller/keller-pilpel.pdf",
+    "resolved_url": "https://u.math.biu.ac.il/~nkeller/keller-pilpel.pdf",
+    "sha256": "3efacdcdce1a85a7d25a3d506efc140cbae1660b64b839880c89137c735d192c",
+    "pages": 7,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "Chr10",
+    "snapshot_id": "Chr10-round5",
+    "url": "https://arxiv.org/pdf/0909.5652v1",
+    "resolved_url": "https://arxiv.org/pdf/0909.5652v1",
+    "sha256": "f037286b76df88f5071829a9e42561202e4ca9ee45aefbfc1f867dd343e41750",
+    "pages": 3,
+    "retrieved": "2026-10-23"
   }
 ]

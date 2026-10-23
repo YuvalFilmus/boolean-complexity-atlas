@@ -498,14 +498,25 @@
         "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
       ],
       "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
-      "proof_page": "proofs/rooted-paths.html",
-      "audit_page": "proofs/rooted-paths-audit.html",
-      "priority_page": "proofs/rooted-paths-priority.html",
+      "proof_page": "proofs/graphic-influence.html",
+      "audit_page": "proofs/graphic-influence-audit.html",
+      "priority_page": "proofs/graphic-influence-priority.html",
       "clarifications": [
         {
           "title": "Classical-method rooted-path consequence",
           "text": "For ancestor-descendant tree-path Fourier supports of length at most d, the original-coordinate influence has the explicit bound below. The self-contained proof gives 12d; the sharp classical Khintchine theorem improves it to 8d. These are half-bitflip influences; the AA full-flip convention is four times larger. Broader classical coefficient estimates also give tree-path consequences. No general conjecture is marked solved.",
           "latex": "\\max_e I_e\\geq\\frac{V^2}{8dW^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+        },
+        {
+          "title": "Stronger all-tree-path native influence consequence",
+          "text": "A freshly audited weighted-cut proof removes the path-length influence factor for all supports made quadratic by an invertible binary character change, including all simple tree paths. The denominator is 12 from a self-contained moment calculation and 8 using the classical sharp Khintchine theorem. This retains original-coordinate half-flip influences and is not a general AA proof. Classical norm and fractional-allocation ingredients are credited; no exact earlier publication was located in the bounded search.",
+          "latex": "\\max_i I_i(p)\\geq\\frac{V^2}{8W^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+        }
+      ],
+      "additional_proof_pages": [
+        {
+          "title": "Earlier rooted-path spectral and approximation bounds",
+          "page": "proofs/rooted-paths.html"
         }
       ]
     },

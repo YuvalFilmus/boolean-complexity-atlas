@@ -5,9 +5,10 @@ ROOT=Path(__file__).resolve().parents[1]
 TOKEN=re.compile(r'\$\$([\s\S]*?)\$\$|\$([^\n$]+)\$|\[([^\]]+)\]\(([^)\s]+)\)|\*\*([^*]+)\*\*|`([^`]+)`')
 PAGES=[('hypermatching','hypermatching-proof.md','Quadratic sensitivity bounds for hypermatchings'),('hypermatching-audit','hypermatching-full-source-audit.md','Full source audit of the hypermatching proof'),('hypermatching-priority','hypermatching-priority-audit.md','Hypermatching literature and priority check'),('exact-search','exact-search-proof.md','Exact two-query certificate search'),('exact-search-audit','exact-search-full-source-audit.md','Independent audit of exact two-query certificate search'),('exact-search-priority','exact-search-priority-audit.md','Exact certificate search literature and priority check')]
 PAGES += [('width-three','width-three-proof.md','Four queries for the 4-MAJ certificate partition'),('width-three-audit','width-three-full-source-audit.md','Independent audit of the four-query obstruction'),('width-three-priority','width-three-priority-audit.md','Four-query obstruction literature and priority check'),('rooted-paths','rooted-paths-proof.md','Influence bounds for rooted-path Fourier supports'),('rooted-paths-audit','rooted-paths-full-source-audit.md','Independent audit of rooted-path influence bounds'),('rooted-paths-priority','rooted-paths-priority-audit.md','Rooted-path influence literature and priority check')]
+PAGES += [('graphic-influence','graphic-influence-proof.md','Influence bounds for all tree-path supports'),('graphic-influence-audit','graphic-influence-full-source-audit.md','Fresh audit of graphic-character influence bounds'),('graphic-influence-priority','graphic-influence-priority-audit.md','Graphic-character influence literature and priority check')]
 LINKS={source:slug+'.html' for slug,source,title in PAGES}
-FAMILIES={'hypermatching':'hypergraphical','exact-search':'exact%20quantum','width-three':'exact%20quantum','rooted-paths':'AA-bounded-polynomial-influence'}
-CHECKERS=['width_three_check.py','width_three_independent_check.py','rooted_paths_independent_check.py']
+FAMILIES={'hypermatching':'hypergraphical','exact-search':'exact%20quantum','width-three':'exact%20quantum','rooted-paths':'AA-bounded-polynomial-influence','graphic-influence':'AA-bounded-polynomial-influence'}
+CHECKERS=['width_three_check.py','width_three_independent_check.py','rooted_paths_independent_check.py','graphic_influence_check.py','graphic_influence_independent_check.py']
 def inline(s):
  out=[];pos=0
  for m in TOKEN.finditer(s):

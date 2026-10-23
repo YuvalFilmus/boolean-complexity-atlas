@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-23",
+  "verdict": "passed_fresh_cross_reviewer_audit",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "priority_certified": false,
+  "claim_ids": [
+    "quadratic-character-native-influence"
+  ],
+  "final_publication_rewrite_reviewed": true,
+  "scope": "Uniform original sign inputs; nonconstant real polynomial with singleton/pair Fourier supports after an invertible F2 character basis change. Includes all simple tree-path supports.",
+  "bounds": {
+    "self_contained": "max native I >= V^2/(12W^2)",
+    "sharp_import": "max native I >= V^2/(8W^2)",
+    "native_influence": "half-bitflip squared/Fourier normalization"
+  },
+  "real_capacity_flow": "Self-contained compactness and residual-path proof included; no irrational augmenting-path termination assumption.",
+  "finite_checks": {
+    "signed_polynomials": 122304,
+    "invertible_three_bit_bases": 168,
+    "distinct_label_energy_cases": 4980,
+    "author_graphic_examples": 315,
+    "author_density_checks": 22545,
+    "independent_allocation": "exhaustive endpoint-load DP, not max-flow"
+  },
+  "limitations": [
+    "Basis/range independence is essential for the polynomial conclusion; distinct dependent labels alone do not suffice.",
+    "Exact previous native-coordinate statement not located, not certified absent.",
+    "No general AA result or optimal numerical constant is asserted."
+  ],
+  "proof": {
+    "path": "docs/graphic-influence-proof.md",
+    "sha256": "9e26b9edde1c8a7b7825acf5758eb2b09cc4e5dbe4a154b12df77ba67dee8210",
+    "page": "proofs/graphic-influence.html"
+  },
+  "audit": {
+    "path": "docs/graphic-influence-full-source-audit.md",
+    "sha256": "3dc84c2539f5335e7b74df9845f626a3223f6ac70e97612a260761674e8237fb",
+    "page": "proofs/graphic-influence-audit.html"
+  },
+  "priority": {
+    "path": "docs/graphic-influence-priority-audit.md",
+    "sha256": "e55df4e95b123c44f1703572f30afbbb446f1888dea1f0089a83bc99d3a919b7",
+    "page": "proofs/graphic-influence-priority.html"
+  },
+  "checkers": [
+    {
+      "path": "tests/graphic_influence_check.py",
+      "sha256": "c6aa95b655a12e14d31356dd767b58c70ccd03aee76d0129ac904c798cb58be1",
+      "download": "proofs/checks/graphic_influence_check.py"
+    },
+    {
+      "path": "tests/graphic_influence_independent_check.py",
+      "sha256": "30b31287f6ebeac360c40ba05fdaf4094286b2bfb8e88f0c475e22c8d4eece7d",
+      "download": "proofs/checks/graphic_influence_independent_check.py"
+    }
+  ],
+  "source_captures": [
+    {
+      "id": "Sz76",
+      "snapshot_id": "Sz76-round4",
+      "url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+      "resolved_url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+      "sha256": "31bf836a493917760154c0886181feb023bbc2d193edc8c70211eac0b767a070",
+      "retrieved": "2026-10-23",
+      "pages": 7
+    },
+    {
+      "id": "AL25",
+      "snapshot_id": "AL25-round4",
+      "url": "https://arxiv.org/pdf/2412.20107v1",
+      "resolved_url": "https://arxiv.org/pdf/2412.20107v1",
+      "sha256": "dbeb1a725835e9146c6618a0fcf16df4ebd77d9afab916999948e702cde9b3de",
+      "retrieved": "2026-10-23",
+      "pages": 30
+    },
+    {
+      "id": "FF56",
+      "snapshot_id": "FF56-round5",
+      "url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+      "resolved_url": "https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf",
+      "sha256": "ad378e3c07842a685e94f4cd4c2a18ae2fabe4d39a65338afd896fb069b394a1",
+      "pages": 6,
+      "retrieved": "2026-10-23"
+    },
+    {
+      "id": "CHR25",
+      "snapshot_id": "CHR25-round5",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+      "resolved_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol327-stacs2025/LIPIcs.STACS.2025.25/LIPIcs.STACS.2025.25.pdf",
+      "sha256": "4c7b293ac3eb9cbb26d1a759ef2f28175b24f41683b80becca0951e59d8ab175",
+      "pages": 20,
+      "retrieved": "2026-10-23"
+    }
+  ]
+}

@@ -52,7 +52,12 @@
       "resolution": "M=N_total for the permutation product; improve coefficient to 10368*(2k-1)^10"
     }
   ],
-  "corrected_doc_sha256": "4889d4943f1df1480b32650d480d3adc0a2f643818685ee90cad2bb395185eff",
+  "corrected_doc_sha256": "6ce79f3cc544de0518d661d177b782fbe7b9cb011f9f9970730859d8d4163b3d",
   "priority_certified": false,
-  "result": "pass after repair; full-domain/oracle hypotheses retained"
+  "result": "pass after repair; full-domain/oracle hypotheses retained",
+  "followup_2026_10_23": {
+    "previous_doc_sha256": "4889d4943f1df1480b32650d480d3adc0a2f643818685ee90cad2bb395185eff",
+    "finding": "Original source cube orientation must be output/B-column. Earlier import acceptance superseded by fresh source audit; query bound survives repair.",
+    "report": "docs/hypermatching-full-source-audit.md"
+  }
 }

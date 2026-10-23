@@ -24,6 +24,8 @@ def build(d,profiles):
    edge('domainC','domainS',5,'K_T',['profile-certificate-sensitivity-five'])
   if p['id']=='hypermatching':edge('domainD','domainS',10,'K_G',['lambda-partite-D-sensitivity-product-lift'])
   if p['id']=='uniform-hypermatching':edge('domainD','domainS',10,'K_L',['uniform-hypermatching-D-sensitivity-lift'])
+  if p['id'] in ['hypermatching','uniform-hypermatching']:
+   edge('domainDegree','domainS',2,'K_H',['hypermatching-degree-sensitivity-descent'])
   if p['id']=='product':
    for b in ['domainC','domainUC']:edge('domainD',b,2,'1',['product-domainD-'+b+'-square'])
   for k in nodes:
@@ -41,8 +43,8 @@ def build(d,profiles):
     if (a,b) in paths:
      v=paths[a,b];row.update(status='profile_parameter_upper_chain',exponent=str(v[0]),prefactor=v[1],claim_ids=v[2],assumptions=sorted(v[3]))
     rows.append(row)
-  out.append(dict(profile=p['id'],domain=p['domain'],queries=p['queries'],parameter_bounds={k:p[k] for k in ['Delta','M','beta','beta_c','alpha']},coefficient_definitions=dict(K_D='beta^(-2)*max(Delta,n/M)',K_C='beta^(-1)',K_S='alpha^(-1)',K_P='max(Delta,n/M)',K_T='6*beta_c^(-1)*alpha^(-2)',K_L='10368*(2k-1)^10',K_G='10368*(2k-1)^10; k=|lambda|',C='C[claimID] is the domain-independent constant under that claim’s error/query convention; not optimized here.'),source='DFLLV26',locator='Theorem 3.1 and Theorem 5.3; corresponding domain examples',cells=rows))
- return dict(warning='These are parameterized bounds for the listed query oracles, not uniform exponents after dropping parameters. K_D requires M>0. General lambda-partite hypermatchings use a separate product-permutation query lift; no alpha-witnessing parameter for the hypermatching domain is asserted. Endpoint constants are not optimized.',profiles=out)
+  out.append(dict(profile=p['id'],domain=p['domain'],queries=p['queries'],parameter_bounds={k:p[k] for k in ['Delta','M','beta','beta_c','alpha']},coefficient_definitions=dict(K_D='beta^(-2)*max(Delta,n/M)',K_C='beta^(-1)',K_S='alpha^(-1)',K_P='max(Delta,n/M)',K_T='6*beta_c^(-1)*alpha^(-2)',K_L='10368*(2k-1)^10',K_G='10368*(2k-1)^10; k=|lambda|',K_H='(2k-1)^2; k=sum(lambda_i)',C='C[claimID] is the domain-independent constant under that claim’s error/query convention; not optimized here.'),source='DFLLV26',locator='Theorem 3.1 and Theorem 5.3; corresponding domain examples',cells=rows))
+ return dict(warning='These are parameterized bounds for the listed query oracles, not uniform exponents after dropping parameters. K_D requires M>0. Full lambda-partite hypermatchings use a separate audited degree-descent bound and product-permutation query lift; no alpha-witnessing parameter for the hypermatching domain is asserted. Endpoint constants are not optimized.',profiles=out)
 def main():
  out=build(json.loads((ROOT/'data/catalog.json').read_text()),json.loads((ROOT/'data/general-domains.json').read_text()));(ROOT/'data/profile-matrices.json').write_text(json.dumps(out,indent=2)+'\n');ls=['# Parameterized domain-profile comparisons','',out['warning'],'','K_D=beta^(-2)*max(Delta,n/M); K_C=beta^(-1); K_S=alpha^(-1); K_P=max(Delta,n/M); K_T=6*beta_c^(-1)*alpha^(-2). C[claimID] denotes the cited claim’s domain-independent constant. Composition multiplies constants and raises them to the preceding exponent.','']
  for p in out['profiles']:

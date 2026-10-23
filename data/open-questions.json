@@ -959,6 +959,24 @@
       "title": "Smooth Boolean Functions are Easy: Efficient Algorithms for Low-Sensitivity Functions",
       "kind": "research",
       "year": 2016
+    },
+    {
+      "id": "Sagan01",
+      "source_ids": [
+        "Sagan01"
+      ],
+      "title": "The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions",
+      "kind": "research",
+      "year": 2001
+    },
+    {
+      "id": "EFP11",
+      "source_ids": [
+        "EFP11"
+      ],
+      "title": "Intersecting families of permutations",
+      "kind": "research",
+      "year": 2011
     }
   ],
   "centrality": {
@@ -11504,7 +11522,7 @@
       "status_audit": {
         "checked": "2026-10-23",
         "verdict": "formulation_unresolved",
-        "summary": "The historical question is now separated into explicit editorial variants: a fixed-hyperedge-size coarse query comparison, a quadratic intrinsic-degree bound, and stronger uniformity or witness requirements. The atlas lift establishes the stated coarse variant in its oracle model; it does not settle the others or establish published priority.",
+        "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
         "evidence": [
           {
             "source": "FLLV20notes",
@@ -11532,37 +11550,37 @@
           "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture",
           "\"hypergraphical\" \"sensitivity\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "limitations": "Independent assistant mathematical review, not formal verification or human peer review. General published priority is unverified. Historical uniformity and witnessing requirements remain unspecified.",
         "followup_checked": "2026-10-23",
         "clarifications": [
           {
-            "title": "Specify the domain and oracle first",
-            "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+            "title": "Verified fixed-edge-size quadratic result",
+            "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
+            "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
           },
           {
-            "title": "Coarse polynomial equivalence",
-            "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
-            "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+            "title": "Source repair and literature status",
+            "text": "The printed permutation cube argument chooses input positions from A; the displayed pseudo-character instead alternates under output-value transpositions in B columns. The separate full proof gives a counterexample and explicit repair. All imported steps were rechecked. No earlier general statement was found in targeted primary searches; this is not a novelty certification."
           },
           {
-            "title": "Direct quadratic intrinsic-degree theorem",
-            "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
-            "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
-          },
-          {
-            "title": "Uniformity and witness framework are further questions",
-            "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+            "title": "Historical formulation remains qualified",
+            "text": "This proves a precise fixed-k quadratic reading of the historical closing question. Constants independent of lambda, direct witnessing systems, restricted promises and other sensitivity/oracle conventions remain separate targets. The entry is retained rather than declaring every interpretation settled."
           }
-        ]
+        ],
+        "proof_page": "proofs/hypermatching.html",
+        "audit_page": "proofs/hypermatching-audit.html",
+        "priority_page": "proofs/hypermatching-priority.html"
       },
-      "status_note": "The historical question is now separated into explicit editorial variants: a fixed-hyperedge-size coarse query comparison, a quadratic intrinsic-degree bound, and stronger uniformity or witness requirements. The atlas lift establishes the stated coarse variant in its oracle model; it does not settle the others or establish published priority.",
+      "status_note": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
       "activity_sources": [
         "FLLV20notes",
-        "DFLLV26"
+        "DFLLV26",
+        "Sagan01",
+        "EFP11"
       ],
       "implications": [
-        "Separate coarse polynomial equivalence for fixed hyperedge size from a direct quadratic intrinsic degree/sensitivity theorem or a witnessing framework.",
-        "The separately audited repository query lift gives coarse parameterized polynomial bounds on full lambda-partite hypermatching domains; no published priority or resolution of every intended formulation is claimed."
+        "A fresh independently audited repository derivation proves degree_H<=(2k-1)^2s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.",
+        "The proof repairs an imported cube orientation; published priority and broader historical interpretations remain unverified."
       ],
       "implication_reach": null,
       "gap": null,
@@ -11575,14 +11593,16 @@
         "statement": "Historical question: extend sensitivity theorems to hypergraphical analogues of the symmetric group and perfect matching scheme.",
         "status": "formulation_still_needs_clarification",
         "implications": [
-          "Separate coarse polynomial equivalence for fixed hyperedge size from a direct quadratic intrinsic degree/sensitivity theorem or a witnessing framework.",
-          "The separately audited repository query lift gives coarse parameterized polynomial bounds on full lambda-partite hypermatching domains; no published priority or resolution of every intended formulation is claimed."
+          "A fresh independently audited repository derivation proves degree_H<=(2k-1)^2s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.",
+          "The proof repairs an imported cube orientation; published priority and broader historical interpretations remain unverified."
         ],
         "status_sources": [
           "FLLV20notes",
-          "DFLLV26"
+          "DFLLV26",
+          "Sagan01",
+          "EFP11"
         ],
-        "notes": "The original notes closing sentence does not quantify the desired exponent or parameter uniformity. Do not replace this ambiguity by a stronger or weaker conjecture without qualification. The nearby notes context emphasizes Huang-type estimates; a direct quadratic reading is plausible, but no retroactive resolution of this ambiguous historical formulation is asserted.",
+        "notes": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
         "status_history": [
           {
             "superseded_by_audit": "2026-10-23",
@@ -11596,7 +11616,7 @@
         "status_audit": {
           "checked": "2026-10-23",
           "verdict": "formulation_unresolved",
-          "summary": "The historical question is now separated into explicit editorial variants: a fixed-hyperedge-size coarse query comparison, a quadratic intrinsic-degree bound, and stronger uniformity or witness requirements. The atlas lift establishes the stated coarse variant in its oracle model; it does not settle the others or establish published priority.",
+          "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
           "evidence": [
             {
               "source": "FLLV20notes",
@@ -11624,47 +11644,40 @@
             "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture",
             "\"hypergraphical\" \"sensitivity\""
           ],
-          "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+          "limitations": "Independent assistant mathematical review, not formal verification or human peer review. General published priority is unverified. Historical uniformity and witnessing requirements remain unspecified.",
           "followup_checked": "2026-10-23",
           "clarifications": [
             {
-              "title": "Specify the domain and oracle first",
-              "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+              "title": "Verified fixed-edge-size quadratic result",
+              "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
+              "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
             },
             {
-              "title": "Coarse polynomial equivalence",
-              "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
-              "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+              "title": "Source repair and literature status",
+              "text": "The printed permutation cube argument chooses input positions from A; the displayed pseudo-character instead alternates under output-value transpositions in B columns. The separate full proof gives a counterexample and explicit repair. All imported steps were rechecked. No earlier general statement was found in targeted primary searches; this is not a novelty certification."
             },
             {
-              "title": "Direct quadratic intrinsic-degree theorem",
-              "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
-              "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
-            },
-            {
-              "title": "Uniformity and witness framework are further questions",
-              "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+              "title": "Historical formulation remains qualified",
+              "text": "This proves a precise fixed-k quadratic reading of the historical closing question. Constants independent of lambda, direct witnessing systems, restricted promises and other sensitivity/oracle conventions remain separate targets. The entry is retained rather than declaring every interpretation settled."
             }
-          ]
+          ],
+          "proof_page": "proofs/hypermatching.html",
+          "audit_page": "proofs/hypermatching-audit.html",
+          "priority_page": "proofs/hypermatching-priority.html"
         },
         "formulation_clarifications": [
           {
-            "title": "Specify the domain and oracle first",
-            "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+            "title": "Verified fixed-edge-size quadratic result",
+            "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
+            "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
           },
           {
-            "title": "Coarse polynomial equivalence",
-            "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
-            "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+            "title": "Source repair and literature status",
+            "text": "The printed permutation cube argument chooses input positions from A; the displayed pseudo-character instead alternates under output-value transpositions in B columns. The separate full proof gives a counterexample and explicit repair. All imported steps were rechecked. No earlier general statement was found in targeted primary searches; this is not a novelty certification."
           },
           {
-            "title": "Direct quadratic intrinsic-degree theorem",
-            "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
-            "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
-          },
-          {
-            "title": "Uniformity and witness framework are further questions",
-            "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+            "title": "Historical formulation remains qualified",
+            "text": "This proves a precise fixed-k quadratic reading of the historical closing question. Constants independent of lambda, direct witnessing systems, restricted promises and other sensitivity/oracle conventions remain separate targets. The entry is retained rather than declaring every interpretation settled."
           }
         ]
       },
@@ -27111,7 +27124,7 @@
     "archive": 8,
     "gaps": 224,
     "endpoint_questions": 3,
-    "scholarly_works": 104,
+    "scholarly_works": 106,
     "status_checks": {
       "primary_reaffirmed_open": 6,
       "no_resolution_found": 7,

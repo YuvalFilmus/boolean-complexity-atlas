@@ -4812,6 +4812,76 @@
           "retrieved": "2026-10-23"
         }
       ]
+    },
+    {
+      "id": "Sagan01",
+      "authors": [
+        "Bruce E. Sagan"
+      ],
+      "title": "The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions",
+      "year": 2001,
+      "kind": "book",
+      "publisher": "Springer-Verlag, New York",
+      "series": "Graduate Texts in Mathematics",
+      "volume": "203",
+      "edition": "2",
+      "doi": "10.1007/978-1-4757-6804-6",
+      "url": "https://doi.org/10.1007/978-1-4757-6804-6",
+      "read_version": "Second edition complete book; Definitions 2.3.2/2.3.4, Lemma 2.3.3, Proposition 2.3.5, Sign Lemma 2.4.1, Submodule Theorem 2.4.4 and classification Theorem 2.4.6, printed pp.61–66, PDF pp.75–80",
+      "metadata_note": "Edition 2; original book inspected from instructor-hosted copy. Only source metadata/hash is redistributed.",
+      "annotation": "Original tabloid and polytabloid construction of irreducible Specht modules. Used to verify the pure representation coefficient spaces spanning permutation functions. These standard representation inputs are distinct from the derived hypermatching degree descent. The separate proof page makes the output-transposition orientation explicit.",
+      "accessed": "2026-10-23",
+      "snapshot": {
+        "url": "https://fardila.com/Clase/RepTh/sagan.pdf",
+        "sha256": "9f181ef09bb175ef37d439658ec3856051fd751434022476b896d92715837b6c",
+        "pages": 254,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "snapshot_id": "Sagan01",
+          "url": "https://fardila.com/Clase/RepTh/sagan.pdf",
+          "sha256": "9f181ef09bb175ef37d439658ec3856051fd751434022476b896d92715837b6c",
+          "pages": 254,
+          "retrieved": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "EFP11",
+      "authors": [
+        "David Ellis",
+        "Ehud Friedgut",
+        "Haran Pilpel"
+      ],
+      "title": "Intersecting families of permutations",
+      "year": 2011,
+      "kind": "article",
+      "journal": "Journal of the American Mathematical Society",
+      "volume": "24",
+      "number": "3",
+      "pages": "649--682",
+      "doi": "10.1090/S0894-0347-2011-00690-5",
+      "url": "https://doi.org/10.1090/S0894-0347-2011-00690-5",
+      "eprint": "1011.3342",
+      "read_version": "Author manuscript arXiv:1011.3342v2, 7 July 2017, 47 pages; Theorem 7 and its proof, PDF pp.25–26",
+      "annotation": "Theorem 7 identifies the span of k-coset indicators with Fourier support on partitions having first row at least n−k. This is the permutation spatial-degree filtration used in the hypermatching audit. The independent proof page also gives the lower-degree orthogonality argument explicitly. The distinct Boolean decomposition assertion of Theorem 8 is not used.",
+      "accessed": "2026-10-23",
+      "snapshot": {
+        "url": "https://arxiv.org/pdf/1011.3342v2",
+        "sha256": "801f4076be5a9afff6718cb0e1560928a93da0ef9cf3f3985db21e36d530ff3a",
+        "pages": 47,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "snapshot_id": "EFP11",
+          "url": "https://arxiv.org/pdf/1011.3342v2",
+          "sha256": "801f4076be5a9afff6718cb0e1560928a93da0ef9cf3f3985db21e36d530ff3a",
+          "pages": 47,
+          "retrieved": "2026-10-23"
+        }
+      ]
     }
   ],
   "measures": [
@@ -34460,7 +34530,7 @@
       "statement": "On uniform k-hypermatchings with vertex-to-hyperedge queries, D(f)<=10368*(2k-1)^10*s(f)^10, k>=2.",
       "source": "definitions",
       "locator": "Repository permutation-lift derivation from final-journal Lemmas 3.3,3.5,3.6 and Theorem 5.3",
-      "proof_summary": "Lift f to permutations of kn vertices by grouping consecutive positions into k-sets. A permutation query or inverse query can be simulated with at most one hyperedge query by lazily assigning each newly discovered hyperedge to an unused position block. For t disjoint sensitive permutation transpositions, form a multigraph on original hyperedges. Sensitive swaps join distinct hyperedges, and each hyperedge has degree at most k because the transpositions use disjoint positions. Greedy matching gives at least t/(2k-1) swaps on disjoint hyperedge pairs, so s_perm<=(2k-1)*s_hyper. The permutation inequalities degree<=2s^2, bs<=6degree^2, C<=3s*bs and D<=2C^2 give D_perm<=10368*s_perm^10. Combine the query simulation and sensitivity comparison.",
+      "proof_summary": "Lift f to permutations of kn vertices by grouping consecutive positions into k-sets. A permutation query or inverse query can be simulated with at most one hyperedge query by lazily assigning each newly discovered hyperedge to an unused position block. For t disjoint sensitive permutation transpositions, form a multigraph on original hyperedges. Sensitive swaps join distinct hyperedges, and each hyperedge has degree at most k because the transpositions use disjoint positions. Greedy matching gives at least t/(2k-1) swaps on disjoint hyperedge pairs, so s_perm<=(2k-1)*s_hyper. The permutation inequalities degree<=2s^2, bs<=6degree^2, C<=3s*bs and D<=2C^2 give D_perm<=10368*s_perm^10. Combine the query simulation and sensitivity comparison. The fresh source audit repairs the imported cube orientation to output/B-column transpositions; the constant survives.",
       "scope": {
         "object_kind": "decision_function",
         "totality": "total",
@@ -34478,7 +34548,7 @@
       },
       "loss": "domain_parameters",
       "status": "repository_derivation_checked",
-      "proof_audit": "proof_route_checked_not_independent_full_proof",
+      "proof_audit": "fresh_independent_source_audit_passed_after_output_transposition_repair",
       "best_known_certified": false,
       "last_checked": "2026-10-17",
       "scalar_inference_allowed": false,
@@ -34486,7 +34556,8 @@
       "proof_sources": [
         "DFLLV26"
       ],
-      "journal_version_check": "Final 2026 journal definitions and main theorem/parameter statements checked; original priority source retained."
+      "journal_version_check": "Final 2026 journal definitions and main theorem/parameter statements checked; original priority source retained.",
+      "independent_audit_report": "docs/hypermatching-full-source-audit.md"
     },
     {
       "id": "completion-support-FC-RC",
@@ -34554,7 +34625,7 @@
       "statement": "For lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2, D<=10368*(2k-1)^10*s^10 under vertex-to-entire-hyperedge queries.",
       "source": "definitions",
       "locator": "Repository product-permutation lift using final-journal Theorems 5.3/5.5 and Lemmas 3.3,3.5,3.6",
-      "proof_summary": "Represent a hypermatching by independent permutations of the lambda_i*n vertices in each color class, grouping lambda_i consecutive positions per common block label. Lazy simultaneous assignment of a discovered hyperedge to a free common block label simulates each forward/inverse permutation query using at most one hyperedge query. Products of the source permutation pseudo-characters span the product degree filtration and induce product cubes of at least half their degree, giving degree<=2s^2 on the permutation product. There Delta<=2, beta_c>=1/3, M=sum_i(lambda_i*n), and total set-input size is k*n. Thus C<=72s^5 and D<=2*C^2. Disjoint sensitive component transpositions form a multigraph on original hyperedges of maximum degree at most k; matching extraction gives s_product<=(2k-1)*s_hyper. Combine these inequalities. The simulation invariant is existential: every transcript admits a representative of the fixed input, not that all arbitrary completions project to it. Independent audit checked the tensor grading, full conflict threshold, simulation and matching argument.",
+      "proof_summary": "Represent a hypermatching by independent permutations of the lambda_i*n vertices in each color class, grouping lambda_i consecutive positions per common block label. Lazy simultaneous assignment of a discovered hyperedge to a free common block label simulates each forward/inverse permutation query using at most one hyperedge query. Products of the source permutation pseudo-characters span the product degree filtration and induce product cubes of at least half their degree, giving degree<=2s^2 on the permutation product. There Delta<=2, beta_c>=1/3, M=sum_i(lambda_i*n), and total set-input size is k*n. Thus C<=72s^5 and D<=2*C^2. Disjoint sensitive component transpositions form a multigraph on original hyperedges of maximum degree at most k; matching extraction gives s_product<=(2k-1)*s_hyper. Combine these inequalities. The simulation invariant is existential: every transcript admits a representative of the fixed input, not that all arbitrary completions project to it. Independent audit checked the tensor grading, full conflict threshold, simulation and matching argument. The fresh source audit repairs the imported cube orientation to output/B-column transpositions; the constant survives.",
       "scope": {
         "object_kind": "decision_function",
         "totality": "total",
@@ -34572,7 +34643,7 @@
       },
       "loss": "domain_parameters",
       "status": "repository_derivation_checked",
-      "proof_audit": "independent_agent_source_level_audit_passed_after_simulation_invariant_repair",
+      "proof_audit": "fresh_independent_source_audit_passed_after_output_transposition_repair",
       "best_known_certified": false,
       "last_checked": "2026-10-17",
       "scalar_inference_allowed": false,
@@ -34580,7 +34651,8 @@
       "proof_sources": [
         "DFLLV26"
       ],
-      "journal_version_check": "Final 2026 journal definitions and main theorem/parameter statements checked; original priority source retained."
+      "journal_version_check": "Final 2026 journal definitions and main theorem/parameter statements checked; original priority source retained.",
+      "independent_audit_report": "docs/hypermatching-full-source-audit.md"
     },
     {
       "id": "AIK26-Q0-Q-quadratic",
@@ -35333,6 +35405,51 @@
         "denominator": "50063523"
       },
       "exponent_decimal_role": "Display/ranking approximation only; exponent_expression is authoritative."
+    },
+    {
+      "id": "hypermatching-degree-sensitivity-descent",
+      "A": "domainDegree",
+      "B": "domainS",
+      "exponent": 2,
+      "kind": "upper_bound",
+      "statement": "For full lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2 and n>=2, degree_H(f)<=(2k-1)^2*s_H(f)^2.",
+      "statement_latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2",
+      "source": "definitions",
+      "locator": "Derived research proof, docs/hypermatching-proof.md; full source audit 23 October 2026",
+      "proof_summary": "Average entry polynomials over uniform permutation-representation fibers. Partition-lattice inversion replaces singleton-vertex containment factors by one, reducing degree d to at most floor(d/2). Pure permutation coefficient spaces give a correlated product of parity cubes using corrected output/B-column transpositions; Huang yields degree_Z<=2s_Z^2. Pack projected sensitive transpositions by a matching in a multigraph of maximum degree k, giving s_Z<=(2k-1)s_H. Combine 2degree_H<=degree_Z<=2s_Z^2.",
+      "scope": {
+        "object_kind": "decision_function",
+        "totality": "total",
+        "classes": [
+          "lambda_partite_hypermatching_vertex_queries",
+          "uniform_hypermatching_vertex_queries"
+        ],
+        "input_alphabet": "query_domain",
+        "output_alphabet": "bits",
+        "cost": "one_vertex_to_entire_hyperedge_query",
+        "error": "exact_polynomial_degree",
+        "assumptions": [
+          "All lambda_i positive, k=sum_i lambda_i>=2, n>=2; full perfect-hypermatching domain.",
+          "Spatial degree is minimum degree in hyperedge-membership coordinates; native sensitivity packs pairwise-disjoint two-edge removal sets.",
+          "Coefficient depends on k; no parameter-free bound over growing k is inferred."
+        ]
+      },
+      "loss": "domain_parameters",
+      "status": "repository_derivation_checked",
+      "proof_audit": "fresh_independent_source_audit_passed_after_output_transposition_repair",
+      "best_known_certified": false,
+      "last_checked": "2026-10-23",
+      "scalar_inference_allowed": false,
+      "proof_sources": [
+        "DFLLV26",
+        "Hua19",
+        "Sagan01",
+        "EFP11"
+      ],
+      "proof_page": "proofs/hypermatching.html",
+      "audit_page": "proofs/hypermatching-audit.html",
+      "priority_note": "Prior general publication not located in targeted searches; novelty and sharp constants not certified. Published k=2 results give stronger constants.",
+      "notes": "The printed DFLLV26 input/A-column cube orientation fails in S_3. The separate proof uses output/B-column transpositions, directly checks homogeneous filtration, and preserves native disjointness. No intrinsic hypermatching witnessing family is asserted."
     }
   ],
   "conjectures": [
@@ -36316,14 +36433,16 @@
       "statement": "Historical question: extend sensitivity theorems to hypergraphical analogues of the symmetric group and perfect matching scheme.",
       "status": "formulation_still_needs_clarification",
       "implications": [
-        "Separate coarse polynomial equivalence for fixed hyperedge size from a direct quadratic intrinsic degree/sensitivity theorem or a witnessing framework.",
-        "The separately audited repository query lift gives coarse parameterized polynomial bounds on full lambda-partite hypermatching domains; no published priority or resolution of every intended formulation is claimed."
+        "A fresh independently audited repository derivation proves degree_H<=(2k-1)^2s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.",
+        "The proof repairs an imported cube orientation; published priority and broader historical interpretations remain unverified."
       ],
       "status_sources": [
         "FLLV20notes",
-        "DFLLV26"
+        "DFLLV26",
+        "Sagan01",
+        "EFP11"
       ],
-      "notes": "The original notes closing sentence does not quantify the desired exponent or parameter uniformity. Do not replace this ambiguity by a stronger or weaker conjecture without qualification. The nearby notes context emphasizes Huang-type estimates; a direct quadratic reading is plausible, but no retroactive resolution of this ambiguous historical formulation is asserted.",
+      "notes": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
       "status_history": [
         {
           "superseded_by_audit": "2026-10-23",
@@ -36337,7 +36456,7 @@
       "status_audit": {
         "checked": "2026-10-23",
         "verdict": "formulation_unresolved",
-        "summary": "The historical question is now separated into explicit editorial variants: a fixed-hyperedge-size coarse query comparison, a quadratic intrinsic-degree bound, and stronger uniformity or witness requirements. The atlas lift establishes the stated coarse variant in its oracle model; it does not settle the others or establish published priority.",
+        "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
         "evidence": [
           {
             "source": "FLLV20notes",
@@ -36365,47 +36484,40 @@
           "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture",
           "\"hypergraphical\" \"sensitivity\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "limitations": "Independent assistant mathematical review, not formal verification or human peer review. General published priority is unverified. Historical uniformity and witnessing requirements remain unspecified.",
         "followup_checked": "2026-10-23",
         "clarifications": [
           {
-            "title": "Specify the domain and oracle first",
-            "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+            "title": "Verified fixed-edge-size quadratic result",
+            "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
+            "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
           },
           {
-            "title": "Coarse polynomial equivalence",
-            "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
-            "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+            "title": "Source repair and literature status",
+            "text": "The printed permutation cube argument chooses input positions from A; the displayed pseudo-character instead alternates under output-value transpositions in B columns. The separate full proof gives a counterexample and explicit repair. All imported steps were rechecked. No earlier general statement was found in targeted primary searches; this is not a novelty certification."
           },
           {
-            "title": "Direct quadratic intrinsic-degree theorem",
-            "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
-            "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
-          },
-          {
-            "title": "Uniformity and witness framework are further questions",
-            "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+            "title": "Historical formulation remains qualified",
+            "text": "This proves a precise fixed-k quadratic reading of the historical closing question. Constants independent of lambda, direct witnessing systems, restricted promises and other sensitivity/oracle conventions remain separate targets. The entry is retained rather than declaring every interpretation settled."
           }
-        ]
+        ],
+        "proof_page": "proofs/hypermatching.html",
+        "audit_page": "proofs/hypermatching-audit.html",
+        "priority_page": "proofs/hypermatching-priority.html"
       },
       "formulation_clarifications": [
         {
-          "title": "Specify the domain and oracle first",
-          "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+          "title": "Verified fixed-edge-size quadratic result",
+          "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
+          "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
         },
         {
-          "title": "Coarse polynomial equivalence",
-          "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
-          "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+          "title": "Source repair and literature status",
+          "text": "The printed permutation cube argument chooses input positions from A; the displayed pseudo-character instead alternates under output-value transpositions in B columns. The separate full proof gives a counterexample and explicit repair. All imported steps were rechecked. No earlier general statement was found in targeted primary searches; this is not a novelty certification."
         },
         {
-          "title": "Direct quadratic intrinsic-degree theorem",
-          "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
-          "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
-        },
-        {
-          "title": "Uniformity and witness framework are further questions",
-          "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+          "title": "Historical formulation remains qualified",
+          "text": "This proves a precise fixed-k quadratic reading of the historical closing question. Constants independent of lambda, direct witnessing systems, restricted promises and other sensitivity/oracle conventions remain separate targets. The entry is retained rather than declaring every interpretation settled."
         }
       ]
     },
@@ -38399,9 +38511,11 @@
       "source": "DFLLV26",
       "locator": "Repository tensor-product lemma from Theorem 5.5 and Section 5.3",
       "statement": "For a finite product of permutation domains with forward and inverse coordinate queries, the product spatial-degree filtration is 1/2-witnessing for disjoint-transposition sensitivity.",
-      "proof_summary": "Each coordinate indicator monomial factors across permutation components, so V_d(product)=sum_{sum d_i<=d} tensor_i V_{d_i}. The source irreducible decomposition assigns each permutation isotypic component a degree depth and supplies pure-degree pseudo-characters spanning it. Products of those pseudo-characters span the product graded components. A product of degree depths summing to d induces a cube whose dimension is the sum of the factor dimensions, at least d/2. Neighbor changes from separate factors have disjoint supports. A Boolean function with nonzero top graded component correlates with one such product; source Lemma 5.2 then yields s>=sqrt(d/2).",
+      "proof_summary": "Each coordinate indicator monomial factors across permutation components, so V_d(product)=sum_{sum d_i<=d} tensor_i V_{d_i}. The source irreducible decomposition assigns each permutation isotypic component a degree depth and supplies pure-degree pseudo-characters spanning it. Products of those pseudo-characters span the product graded components. A product of degree depths summing to d induces a cube whose dimension is the sum of the factor dimensions, at least d/2. Neighbor changes from separate factors have disjoint supports. A Boolean function with nonzero top graded component correlates with one such product; source Lemma 5.2 then yields s>=sqrt(d/2). Fresh 23 October audit rechecks the homogeneous decomposition and uses output-value transpositions in B columns; the printed input/A-column orientation fails, with an explicit S_3 counterexample.",
       "notes": "Uses the source permutation isotypic grading, not an unproved plethysm assertion for hypermatchings. Cube dimensions add and the parity signs multiply. This is a repository tensor argument, not a claim that the source explicitly states the product lemma.",
-      "status": "repository_derivation_checked"
+      "status": "repository_derivation_checked",
+      "proof_audit": "fresh_independent_source_audit_passed_after_output_transposition_repair",
+      "independent_audit_report": "docs/hypermatching-full-source-audit.md"
     },
     {
       "id": "quantitative-kernel-line-slab-avoidance",
@@ -38476,6 +38590,22 @@
       "notes": "This retains lower-order terms beyond the quadratic upper exponent. It does not change the count of matching completion exponents. Separate minima are never multiplied. A separate agent checked the original Tal statement as well as the deduction; this is not an independent proof audit of the earlier hypergraph theorem. No optimality or novelty claim.",
       "status": "repository_derivation_checked",
       "proof_audit": "independent_agent_original_statement_algebra_and_completion_lift_passed"
+    },
+    {
+      "id": "hypermatching-degree-comparison",
+      "source": "DFLLV26",
+      "locator": "Repository uniform-fiber averaging and partition-lattice derivation; separate full proof",
+      "statement": "For every real f on full lambda-partite hypermatchings, 2degree_H(f)<=degree_Z(f composed with pi)<=k degree_H(f); the same inequalities hold for epsilon-approximate degree on the two native domains.",
+      "proof_summary": "Uniform representation fibers have n! product_i(lambda_i!)^n elements. An entry monomial of degree t specifies t distinct vertices. Mobius inversion on touched group labels expresses its fiber average by products of containment indicators J_U; singleton U factors equal one and each remaining factor consumes at least two vertices. This yields degree<=floor(t/2). Pulling back each hyperedge indicator costs degree at most k. Conditional averaging preserves uniform approximation error.",
+      "status": "repository_derivation_checked",
+      "proof_sources": [
+        "Sagan01",
+        "EFP11",
+        "Hua19"
+      ],
+      "proof_audit": "fresh_independent_source_audit_passed_after_output_transposition_repair",
+      "independent_audit_report": "docs/hypermatching-full-source-audit.md",
+      "notes": "The averaging/degree comparison is a repository derivation, not a printed theorem attributed to DFLLV26. The purely algebraic comparison holds for real f; the sensitivity consequence requires Boolean f."
     }
   ],
   "literature_searches": [

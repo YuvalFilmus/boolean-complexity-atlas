@@ -124,9 +124,9 @@ def matches(c, args):
 def bibtex(d):
     out = ['% Generated from data/catalog.json. Preserve the source JSON as authoritative.', '% Preprint entries do not imply absence of a later published version.\n']
     for r in d['sources']:
-        kind = 'article' if r.get('journal') else ('inproceedings' if r.get('booktitle') else 'misc')
+        kind = 'book' if r.get('kind')=='book' else ('article' if r.get('journal') else ('inproceedings' if r.get('booktitle') else 'misc'))
         fields = dict(author=' and '.join(r['authors']), title='{'+r['title']+'}', year=str(r['year']))
-        for key in ['journal', 'booktitle', 'publisher', 'series', 'volume', 'number', 'pages', 'doi', 'url', 'eprint']:
+        for key in ['journal', 'booktitle', 'publisher', 'series', 'volume', 'number', 'pages', 'doi', 'url', 'eprint', 'edition']:
             if key in r:
                 fields[key] = str(r[key])
         if r.get('eprint'):

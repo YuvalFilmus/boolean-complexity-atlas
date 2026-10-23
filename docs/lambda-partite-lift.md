@@ -1,5 +1,7 @@
 # A product-permutation lift for lambda-partite hypermatchings
 
+**23 October source-audit update.** The imported cube construction needs output-value transpositions from columns of B; the printed input/A-column construction fails in S_3. The corrected proof preserves the old query bound. The new [complete proof](hypermatching-proof.md) additionally establishes quadratic intrinsic degree. The [fresh source audit](hypermatching-full-source-audit.md) supersedes earlier acceptance of the uncorrected imported orientation.
+
 This is a repository derivation using the inspected final DFLLV26 journal as input. It is not attributed as a printed theorem or claimed novel. A separate-agent source-level mathematical audit passed after a simulation-invariant correction; this is not formal verification or human peer review. See [the audit](lambda-lift-independent-audit.md). It gives coarse polynomial sensitivity comparisons without constructing hypermatching pseudo-characters.
 
 Let lambda=(lambda_1,...,lambda_r), with every lambda_i positive, k=sum_i lambda_i>=2. There are n>=2 hyperedges, each containing lambda_i vertices from the color class P_i of size lambda_i*n. The input is any perfect lambda-partite hypermatching. One query reveals the hyperedge containing a specified vertex. Sensitivity packs disjoint sensitive changes of minimum chunk size two.

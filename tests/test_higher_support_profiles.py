@@ -13,7 +13,9 @@ class HigherSupportProfilesTests(unittest.TestCase):
   d=json.loads((ROOT/'data/profile-matrices.json').read_text());p=next(p for p in d['profiles']if p['profile']=='hypermatching')
   self.assertEqual(sum(c['status']=='not_yet_indexed'for c in p['cells']),0)
   for c in p['cells']:
-   if c['B']=='domainS':self.assertIn('lambda-partite-D-sensitivity-product-lift',c['claim_ids']);self.assertNotIn('profile-witnessing-degree-sensitivity',c['claim_ids'])
+   if c['B']=='domainS':
+    self.assertTrue(any(i in c['claim_ids'] for i in ['lambda-partite-D-sensitivity-product-lift','hypermatching-degree-sensitivity-descent']))
+    self.assertNotIn('profile-witnessing-degree-sensitivity',c['claim_ids'])
  def test_profile_guards_and_claim_provenance(self):
   d=json.loads((ROOT/'data/catalog.json').read_text());ids={c['id']for c in d['claims']};ps=json.loads((ROOT/'data/profile-matrices.json').read_text())['profiles']
   for p in ps:

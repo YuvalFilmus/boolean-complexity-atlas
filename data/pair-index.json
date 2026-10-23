@@ -701218,6 +701218,29 @@
             "profile-witnessing-degree-sensitivity"
           ],
           "historical_claim_ids": []
+        },
+        {
+          "scope": {
+            "object_kind": "decision_function",
+            "totality": "total",
+            "classes": [
+              "lambda_partite_hypermatching_vertex_queries",
+              "uniform_hypermatching_vertex_queries"
+            ],
+            "input_alphabet": "query_domain",
+            "output_alphabet": "bits",
+            "cost": "one_vertex_to_entire_hyperedge_query",
+            "error": "exact_polynomial_degree",
+            "assumptions": [
+              "All lambda_i positive, k=sum_i lambda_i>=2, n>=2; full perfect-hypermatching domain.",
+              "Spatial degree is minimum degree in hyperedge-membership coordinates; native sensitivity packs pairwise-disjoint two-edge removal sets.",
+              "Coefficient depends on k; no parameter-free bound over growing k is inferred."
+            ]
+          },
+          "claim_ids": [
+            "hypermatching-degree-sensitivity-descent"
+          ],
+          "historical_claim_ids": []
         }
       ],
       "core_matrix_record": false,

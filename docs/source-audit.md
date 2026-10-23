@@ -4,9 +4,9 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 782 claim records with proof summaries, and 137 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 783 claim records with proof summaries, and 139 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
-- 114 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
+- 116 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
 - The syntactic all-measure pair register contains 61752 ordered pairs, of which 1166 have indexed evidence. Many cross-model pairs require a common-domain definition before they can be mathematical questions.
 
@@ -290,3 +290,9 @@ See [the dated question-status audit](question-status-audit-2026-10-23.md). All 
 ## Question-status follow-up, 23 October 2026
 
 The second pass adds ADGG26 and GNSTW16, expands model/direction checks for seven negative searches, and gives explicit editorial formulations for the two ambiguous questions. A parity family diagnoses the chosen-degree/native-degree mismatch in the literal HKMP reading; the intended restricted version remains unverified. See the follow-up section of [the dated status audit](question-status-audit-2026-10-23.md). The bibliography has 137 records; the snapshot manifest has 114 successful captures and one failed retrieval. No new resolution or exponent improvement is asserted.
+
+## Full hypermatching source audit and proof page, 23 October 2026
+
+A fresh independent audit re-read the original permutation, representation and Huang arguments. It found an orientation error in DFLLV26 Section 5.3: output-value transpositions in columns of B supply the parity cubes, while the printed input/A-column choice can fail in S_3. The explicit corrected construction preserves the old query lift. Direct lower-filtration orthogonality justifies tensor correlation, and the original Specht-module inputs were checked in Sagan's second edition. The complete [proof](hypermatching-proof.md) and [audit](hypermatching-full-source-audit.md) establish degree_H<=(2k-1)^2s_H^2 using the half-degree uniform-fiber descent.
+
+Two original references, Sagan01 and EFP11, were added with source hashes and exact inspected locators. The catalogue now has 783 claims and 139 references; the snapshot manifest has 116 successful captures plus one failed retrieval. New table evidence is restricted to full hypermatching profiles. The [priority check](hypermatching-priority-audit.md) did not locate an earlier general theorem, but does not certify novelty; k=2 has stronger published results. Historical ambiguity about uniform constants and direct witnessing remains.

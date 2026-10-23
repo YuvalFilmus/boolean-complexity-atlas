@@ -1332,6 +1332,7 @@
     "profile-witnessing-degree-sensitivity",
     "profile-certificate-sensitivity-five",
     "uniform-hypermatching-D-sensitivity-lift",
-    "lambda-partite-D-sensitivity-product-lift"
+    "lambda-partite-D-sensitivity-product-lift",
+    "hypermatching-degree-sensitivity-descent"
   ]
 }

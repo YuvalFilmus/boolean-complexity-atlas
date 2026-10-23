@@ -1,5 +1,7 @@
 # Independent mathematical audit of the lambda-partite lift
 
+**23 October source-audit update.** The imported cube construction needs output-value transpositions from columns of B; the printed input/A-column construction fails in S_3. The corrected proof preserves the old query bound. The new [complete proof](hypermatching-proof.md) additionally establishes quadratic intrinsic degree. The [fresh source audit](hypermatching-full-source-audit.md) supersedes earlier acceptance of the uncorrected imported orientation.
+
 Audit date: 2026-10-17. Scope: the complete argument in `docs/lambda-partite-lift.md` and claim `lambda-partite-D-sensitivity-product-lift`. This is a separate-agent mathematical check of the argument, not a priority or optimality certification. The inspected original is the final DFLLV26 journal, `work/sources/DFLLV26journal.txt`, including its actual lemma proofs, Section 2.3 parameter definitions, Section 5.3 pseudo-characters and Theorem 5.5. No authoritative file was edited.
 
 ## Verdict

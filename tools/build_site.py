@@ -3,6 +3,7 @@
 import json, shutil, sys
 import witness_gallery
 import open_questions
+import proof_pages
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
@@ -38,6 +39,7 @@ def build():
     (dst/'downloads/separation-gallery.json').write_text(json.dumps(gallery,ensure_ascii=False,indent=2)+'\n')
     shutil.copytree(ROOT/'docs',dst/'research-notes')
     (dst/'downloads/README.txt').write_text('Authoritative plaintext catalogue: catalog.json. Generated matrices retain provenance and endpoint conventions. Source PDFs are not redistributed. The research notes are available under ../research-notes/.\n')
+    proof_pages.build(dst)
     (dst/'.nojekyll').write_text('')
     print(f'Built {dst}: {len(catalog["measures"])} measures, {len(catalog["claims"])} claims, {len(catalog["sources"])} references.')
 if __name__=='__main__': build()

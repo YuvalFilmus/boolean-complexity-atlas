@@ -1023,5 +1023,21 @@
     "sha256": "b66e4fcea12fff747e5c518664ad51282c43e1122a1a931ebbf759f4be897ec1",
     "pages": 8,
     "retrieved": "2026-10-23"
+  },
+  {
+    "id": "Sagan01",
+    "snapshot_id": "Sagan01",
+    "url": "https://fardila.com/Clase/RepTh/sagan.pdf",
+    "sha256": "9f181ef09bb175ef37d439658ec3856051fd751434022476b896d92715837b6c",
+    "pages": 254,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "EFP11",
+    "snapshot_id": "EFP11",
+    "url": "https://arxiv.org/pdf/1011.3342v2",
+    "sha256": "801f4076be5a9afff6718cb0e1560928a93da0ef9cf3f3985db21e36d530ff3a",
+    "pages": 47,
+    "retrieved": "2026-10-23"
   }
 ]

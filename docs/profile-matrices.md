@@ -1,6 +1,6 @@
 # Parameterized domain-profile comparisons
 
-These are parameterized bounds for the listed query oracles, not uniform exponents after dropping parameters. K_D requires M>0. General lambda-partite hypermatchings use a separate product-permutation query lift; no alpha-witnessing parameter for the hypermatching domain is asserted. Endpoint constants are not optimized.
+These are parameterized bounds for the listed query oracles, not uniform exponents after dropping parameters. K_D requires M>0. Full lambda-partite hypermatchings use a separate audited degree-descent bound and product-permutation query lift; no alpha-witnessing parameter for the hypermatching domain is asserted. Endpoint constants are not optimized.
 
 K_D=beta^(-2)*max(Delta,n/M); K_C=beta^(-1); K_S=alpha^(-1); K_P=max(Delta,n/M); K_T=6*beta_c^(-1)*alpha^(-2). C[claimID] denotes the cited claim’s domain-independent constant. Composition multiplies constants and raises them to the preceding exponent.
 
@@ -488,16 +488,16 @@ P(n;lambda); Reveal the hyperedge containing a vertex.
 | domainQE | domainFBS | 4 |  |
 | domainQE | domainS | 10 |  |
 | domainDegree | domainD | 1 |  |
-| domainDegree | domainR | 4 |  |
-| domainDegree | domainRfail23 | 4 |  |
-| domainDegree | domainQ | 8 |  |
+| domainDegree | domainR | 2 |  |
+| domainDegree | domainRfail23 | 2 |  |
+| domainDegree | domainQ | 4 |  |
 | domainDegree | domainQE | 1 |  |
-| domainDegree | domainAdeg | 8 |  |
+| domainDegree | domainAdeg | 4 |  |
 | domainDegree | domainC | 2 |  |
 | domainDegree | domainUC | 2 |  |
-| domainDegree | domainBS | 4 |  |
-| domainDegree | domainFBS | 4 |  |
-| domainDegree | domainS | 10 |  |
+| domainDegree | domainBS | 2 |  |
+| domainDegree | domainFBS | 2 |  |
+| domainDegree | domainS | 2 |  |
 | domainAdeg | domainD | 1 |  |
 | domainAdeg | domainR | 1 |  |
 | domainAdeg | domainRfail23 | 1 |  |
@@ -506,9 +506,9 @@ P(n;lambda); Reveal the hyperedge containing a vertex.
 | domainAdeg | domainDegree | 1 |  |
 | domainAdeg | domainC | 2 |  |
 | domainAdeg | domainUC | 2 |  |
-| domainAdeg | domainBS | 4 |  |
-| domainAdeg | domainFBS | 4 |  |
-| domainAdeg | domainS | 10 |  |
+| domainAdeg | domainBS | 2 |  |
+| domainAdeg | domainFBS | 2 |  |
+| domainAdeg | domainS | 2 |  |
 | domainC | domainD | 1 |  |
 | domainC | domainR | 2 |  |
 | domainC | domainRfail23 | 2 |  |
@@ -519,7 +519,7 @@ P(n;lambda); Reveal the hyperedge containing a vertex.
 | domainC | domainUC | 1 |  |
 | domainC | domainBS | 2 |  |
 | domainC | domainFBS | 2 |  |
-| domainC | domainS | 10 |  |
+| domainC | domainS | 8 |  |
 | domainUC | domainD | 1 |  |
 | domainUC | domainR | 4 |  |
 | domainUC | domainRfail23 | 4 |  |
@@ -541,7 +541,7 @@ P(n;lambda); Reveal the hyperedge containing a vertex.
 | domainBS | domainC | 1 |  |
 | domainBS | domainUC | 1 |  |
 | domainBS | domainFBS | 1 |  |
-| domainBS | domainS | 10 |  |
+| domainBS | domainS | 4 |  |
 | domainFBS | domainD | 1 |  |
 | domainFBS | domainR | 2 |  |
 | domainFBS | domainRfail23 | 2 |  |
@@ -552,7 +552,7 @@ P(n;lambda); Reveal the hyperedge containing a vertex.
 | domainFBS | domainC | 1 |  |
 | domainFBS | domainUC | 1 |  |
 | domainFBS | domainBS | 2 |  |
-| domainFBS | domainS | 10 |  |
+| domainFBS | domainS | 8 |  |
 | domainS | domainD | 1 |  |
 | domainS | domainR | 1 |  |
 | domainS | domainRfail23 | 1 |  |
@@ -908,16 +908,16 @@ Partitions of kn vertices into n unordered k-sets (lambda=(k)); Reveal the block
 | domainQE | domainFBS | 4 |  |
 | domainQE | domainS | 10 |  |
 | domainDegree | domainD | 1 |  |
-| domainDegree | domainR | 4 |  |
-| domainDegree | domainRfail23 | 4 |  |
-| domainDegree | domainQ | 8 |  |
+| domainDegree | domainR | 2 |  |
+| domainDegree | domainRfail23 | 2 |  |
+| domainDegree | domainQ | 4 |  |
 | domainDegree | domainQE | 1 |  |
-| domainDegree | domainAdeg | 8 |  |
+| domainDegree | domainAdeg | 4 |  |
 | domainDegree | domainC | 2 |  |
 | domainDegree | domainUC | 2 |  |
-| domainDegree | domainBS | 4 |  |
-| domainDegree | domainFBS | 4 |  |
-| domainDegree | domainS | 10 |  |
+| domainDegree | domainBS | 2 |  |
+| domainDegree | domainFBS | 2 |  |
+| domainDegree | domainS | 2 |  |
 | domainAdeg | domainD | 1 |  |
 | domainAdeg | domainR | 1 |  |
 | domainAdeg | domainRfail23 | 1 |  |
@@ -926,9 +926,9 @@ Partitions of kn vertices into n unordered k-sets (lambda=(k)); Reveal the block
 | domainAdeg | domainDegree | 1 |  |
 | domainAdeg | domainC | 2 |  |
 | domainAdeg | domainUC | 2 |  |
-| domainAdeg | domainBS | 4 |  |
-| domainAdeg | domainFBS | 4 |  |
-| domainAdeg | domainS | 10 |  |
+| domainAdeg | domainBS | 2 |  |
+| domainAdeg | domainFBS | 2 |  |
+| domainAdeg | domainS | 2 |  |
 | domainC | domainD | 1 |  |
 | domainC | domainR | 2 |  |
 | domainC | domainRfail23 | 2 |  |
@@ -939,7 +939,7 @@ Partitions of kn vertices into n unordered k-sets (lambda=(k)); Reveal the block
 | domainC | domainUC | 1 |  |
 | domainC | domainBS | 2 |  |
 | domainC | domainFBS | 2 |  |
-| domainC | domainS | 10 |  |
+| domainC | domainS | 8 |  |
 | domainUC | domainD | 1 |  |
 | domainUC | domainR | 4 |  |
 | domainUC | domainRfail23 | 4 |  |
@@ -961,7 +961,7 @@ Partitions of kn vertices into n unordered k-sets (lambda=(k)); Reveal the block
 | domainBS | domainC | 1 |  |
 | domainBS | domainUC | 1 |  |
 | domainBS | domainFBS | 1 |  |
-| domainBS | domainS | 10 |  |
+| domainBS | domainS | 4 |  |
 | domainFBS | domainD | 1 |  |
 | domainFBS | domainR | 2 |  |
 | domainFBS | domainRfail23 | 2 |  |
@@ -972,7 +972,7 @@ Partitions of kn vertices into n unordered k-sets (lambda=(k)); Reveal the block
 | domainFBS | domainC | 1 |  |
 | domainFBS | domainUC | 1 |  |
 | domainFBS | domainBS | 2 |  |
-| domainFBS | domainS | 10 |  |
+| domainFBS | domainS | 8 |  |
 | domainS | domainD | 1 |  |
 | domainS | domainR | 1 |  |
 | domainS | domainRfail23 | 1 |  |

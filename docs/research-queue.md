@@ -237,8 +237,8 @@ Status: formulation_still_needs_clarification.
 
 Source: [FLLV20notes](https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf), Section 7, p.7.
 
-- Separate coarse polynomial equivalence for fixed hyperedge size from a direct quadratic intrinsic degree/sensitivity theorem or a witnessing framework.
-- The separately audited repository query lift gives coarse parameterized polynomial bounds on full lambda-partite hypermatching domains; no published priority or resolution of every intended formulation is claimed.
+- A fresh independently audited repository derivation proves degree_H<=(2k-1)^2s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.
+- The proof repairs an imported cube orientation; published priority and broader historical interpretations remain unverified.
 
 ## bs-s-quadratic
 

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-23",
+  "verdict": "passed_after_explicit_output_transposition_repair",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "priority_certified": false,
+  "scope": "Full lambda-partite perfect hypermatchings; k>=2, n>=2; spatial degree and disjoint two-edge packing sensitivity.",
+  "claim_ids": [
+    "hypermatching-degree-sensitivity-descent"
+  ],
+  "proof": {
+    "path": "docs/hypermatching-proof.md",
+    "sha256": "033548b5b20c9a320743e33106824cb4712be45ce8748bcac06ccf5498f84e3d",
+    "page": "proofs/hypermatching.html"
+  },
+  "audit": {
+    "path": "docs/hypermatching-full-source-audit.md",
+    "sha256": "8a31dd10bc93cb156b9b46d801215a598484d3636718cce027ad437a4eec4ff1",
+    "page": "proofs/hypermatching-audit.html"
+  },
+  "priority": {
+    "path": "docs/hypermatching-priority-audit.md",
+    "sha256": "f2f57f59bef989122982680ab457db72f2b9ed9ed63dd5c7813f5c1afe15ba01",
+    "page": "proofs/hypermatching-priority.html",
+    "finding": "Earlier general publication not located in targeted sources; no novelty certification."
+  },
+  "repair": {
+    "source": "DFLLV26",
+    "locator": "Section 5.3, article pp.33–34",
+    "printed": "Input-position transpositions chosen from A columns",
+    "corrected": "Output-value transpositions chosen from B columns",
+    "counterexample": {
+      "shape": [
+        2,
+        1
+      ],
+      "permutation": [
+        2,
+        1,
+        3
+      ],
+      "input_swap_value": 0,
+      "original_value": 1,
+      "output_swap_value": -1
+    }
+  },
+  "imports": [
+    {
+      "source": "DFLLV26",
+      "sha256": "1a2f5ab8280dead7f0ecf8d007b36fef1934b457d83bae22d08bf352816d3fc5"
+    },
+    {
+      "source": "Hua19",
+      "sha256": "9193d2dac7b3f6b6a84270884c6143913ae5a0ba9bf3db19273f9703db0ed6a2"
+    },
+    {
+      "source": "Sagan01",
+      "sha256": "9f181ef09bb175ef37d439658ec3856051fd751434022476b896d92715837b6c"
+    },
+    {
+      "source": "EFP11",
+      "sha256": "801f4076be5a9afff6718cb0e1560928a93da0ef9cf3f3985db21e36d530ff3a"
+    }
+  ],
+  "finite_checks": {
+    "output_covariance": 3434,
+    "lower_filtration_orthogonality": 1467,
+    "maximum_permutation_size": 5
+  },
+  "limitations": [
+    "Fixed k coefficient; no optimality assertion.",
+    "Published k=2 cases have stronger constants.",
+    "No intrinsic hypermatching cube-witness family or restricted-promise generalization is claimed."
+  ]
+}

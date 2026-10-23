@@ -1,5 +1,5 @@
 {
-  "warning": "These are parameterized bounds for the listed query oracles, not uniform exponents after dropping parameters. K_D requires M>0. General lambda-partite hypermatchings use a separate product-permutation query lift; no alpha-witnessing parameter for the hypermatching domain is asserted. Endpoint constants are not optimized.",
+  "warning": "These are parameterized bounds for the listed query oracles, not uniform exponents after dropping parameters. K_D requires M>0. Full lambda-partite hypermatchings use a separate audited degree-descent bound and product-permutation query lift; no alpha-witnessing parameter for the hypermatching domain is asserted. Endpoint constants are not optimized.",
   "profiles": [
     {
       "profile": "product",
@@ -20,6 +20,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -1868,6 +1869,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -3723,6 +3725,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -5578,6 +5581,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -6372,11 +6376,11 @@
           "B": "domainR",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*(C[domain-chain-domainBS-domainR])^(4)",
+          "exponent": "2",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainR])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainR"
           ],
           "assumptions": []
@@ -6386,11 +6390,11 @@
           "B": "domainRfail23",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*((C[domain-chain-domainBS-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))^(4)",
+          "exponent": "2",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*((C[domain-chain-domainBS-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainR",
             "domain-chain-domainR-domainRfail23"
           ],
@@ -6401,11 +6405,11 @@
           "B": "domainQ",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "8",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*((C[domain-chain-domainBS-domainAdeg])*(C[domain-chain-domainAdeg-domainQ])^(2))^(4)",
+          "exponent": "4",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*((C[domain-chain-domainBS-domainAdeg])*(C[domain-chain-domainAdeg-domainQ])^(2))^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainAdeg",
             "domain-chain-domainAdeg-domainQ"
           ],
@@ -6428,11 +6432,11 @@
           "B": "domainAdeg",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "8",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*(C[domain-chain-domainBS-domainAdeg])^(4)",
+          "exponent": "4",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainAdeg])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainAdeg"
           ],
           "assumptions": []
@@ -6469,11 +6473,11 @@
           "B": "domainBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "(C[domain-chain-domainDegree-domainD])*(K_D)^(1)",
+          "exponent": "2",
+          "prefactor": "(K_H)*(C[domain-chain-domainS-domainBS])^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS"
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS"
           ],
           "assumptions": []
         },
@@ -6482,11 +6486,11 @@
           "B": "domainFBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*(C[domain-chain-domainBS-domainFBS])^(4)",
+          "exponent": "2",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainFBS])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainFBS"
           ],
           "assumptions": []
@@ -6496,11 +6500,10 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "(C[domain-chain-domainDegree-domainD])*(K_G)^(1)",
+          "exponent": "2",
+          "prefactor": "K_H",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "lambda-partite-D-sensitivity-product-lift"
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -6621,14 +6624,12 @@
           "B": "domainBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "(C[domain-chain-domainAdeg-domainQ])*(((C[domain-added-domainQ-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_D)^(1))^(1))^(1)",
+          "exponent": "2",
+          "prefactor": "((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))*(C[domain-chain-domainS-domainBS])^(2)",
           "claim_ids": [
-            "domain-chain-domainAdeg-domainQ",
-            "domain-added-domainQ-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "domain-parameterized-domainD-domainBS"
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS"
           ],
           "assumptions": []
         },
@@ -6637,14 +6638,12 @@
           "B": "domainFBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainAdeg-domainQ])*(((C[domain-added-domainQ-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_D)^(1))^(1))^(1))*(C[domain-chain-domainBS-domainFBS])^(4)",
+          "exponent": "2",
+          "prefactor": "((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainFBS])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainAdeg-domainQ",
-            "domain-added-domainQ-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainFBS"
           ],
           "assumptions": []
@@ -6654,14 +6653,11 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "(C[domain-chain-domainAdeg-domainQ])*(((C[domain-added-domainQ-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_G)^(1))^(1))^(1)",
+          "exponent": "2",
+          "prefactor": "(C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1)",
           "claim_ids": [
-            "domain-chain-domainAdeg-domainQ",
-            "domain-added-domainQ-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "lambda-partite-D-sensitivity-product-lift"
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -6803,12 +6799,13 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "(C[domain-chain-domainC-domainUC])*((C[domain-chain-domainUC-domainD])*(K_G)^(1))^(1)",
+          "exponent": "8",
+          "prefactor": "(K_C)*((C[domain-chain-domainBS-domainAdeg])*((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))^(2))^(2)",
           "claim_ids": [
-            "domain-chain-domainC-domainUC",
-            "domain-chain-domainUC-domainD",
-            "lambda-partite-D-sensitivity-product-lift"
+            "domain-parameterized-domainC-domainBS",
+            "domain-chain-domainBS-domainAdeg",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -7101,13 +7098,12 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "((C[domain-chain-domainBS-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_G)^(1))^(1)",
+          "exponent": "4",
+          "prefactor": "(C[domain-chain-domainBS-domainAdeg])*((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainBS-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "lambda-partite-D-sensitivity-product-lift"
+            "domain-chain-domainBS-domainAdeg",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -7257,13 +7253,14 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "((C[domain-chain-domainFBS-domainC])*(C[domain-chain-domainC-domainUC])^(1))*((C[domain-chain-domainUC-domainD])*(K_G)^(1))^(1)",
+          "exponent": "8",
+          "prefactor": "((C[domain-chain-domainFBS-domainC])*(K_C)^(1))*((C[domain-chain-domainBS-domainAdeg])*((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))^(2))^(2)",
           "claim_ids": [
             "domain-chain-domainFBS-domainC",
-            "domain-chain-domainC-domainUC",
-            "domain-chain-domainUC-domainD",
-            "lambda-partite-D-sensitivity-product-lift"
+            "domain-parameterized-domainC-domainBS",
+            "domain-chain-domainBS-domainAdeg",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -7440,6 +7437,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -9417,6 +9415,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -11394,6 +11393,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
+        "K_H": "(2k-1)^2; k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -12188,11 +12188,11 @@
           "B": "domainR",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*(C[domain-chain-domainBS-domainR])^(4)",
+          "exponent": "2",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainR])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainR"
           ],
           "assumptions": []
@@ -12202,11 +12202,11 @@
           "B": "domainRfail23",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*((C[domain-chain-domainBS-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))^(4)",
+          "exponent": "2",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*((C[domain-chain-domainBS-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainR",
             "domain-chain-domainR-domainRfail23"
           ],
@@ -12217,11 +12217,11 @@
           "B": "domainQ",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "8",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*((C[domain-chain-domainBS-domainAdeg])*(C[domain-chain-domainAdeg-domainQ])^(2))^(4)",
+          "exponent": "4",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*((C[domain-chain-domainBS-domainAdeg])*(C[domain-chain-domainAdeg-domainQ])^(2))^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainAdeg",
             "domain-chain-domainAdeg-domainQ"
           ],
@@ -12244,11 +12244,11 @@
           "B": "domainAdeg",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "8",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*(C[domain-chain-domainBS-domainAdeg])^(4)",
+          "exponent": "4",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainAdeg])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainAdeg"
           ],
           "assumptions": []
@@ -12285,11 +12285,11 @@
           "B": "domainBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "(C[domain-chain-domainDegree-domainD])*(K_D)^(1)",
+          "exponent": "2",
+          "prefactor": "(K_H)*(C[domain-chain-domainS-domainBS])^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS"
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS"
           ],
           "assumptions": []
         },
@@ -12298,11 +12298,11 @@
           "B": "domainFBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainDegree-domainD])*(K_D)^(1))*(C[domain-chain-domainBS-domainFBS])^(4)",
+          "exponent": "2",
+          "prefactor": "(K_H)*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainFBS])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainFBS"
           ],
           "assumptions": []
@@ -12312,11 +12312,10 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "(C[domain-chain-domainDegree-domainD])*(K_L)^(1)",
+          "exponent": "2",
+          "prefactor": "K_H",
           "claim_ids": [
-            "domain-chain-domainDegree-domainD",
-            "uniform-hypermatching-D-sensitivity-lift"
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -12437,14 +12436,12 @@
           "B": "domainBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "(C[domain-chain-domainAdeg-domainQ])*(((C[domain-added-domainQ-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_D)^(1))^(1))^(1)",
+          "exponent": "2",
+          "prefactor": "((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))*(C[domain-chain-domainS-domainBS])^(2)",
           "claim_ids": [
-            "domain-chain-domainAdeg-domainQ",
-            "domain-added-domainQ-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "domain-parameterized-domainD-domainBS"
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS"
           ],
           "assumptions": []
         },
@@ -12453,14 +12450,12 @@
           "B": "domainFBS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "4",
-          "prefactor": "((C[domain-chain-domainAdeg-domainQ])*(((C[domain-added-domainQ-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_D)^(1))^(1))^(1))*(C[domain-chain-domainBS-domainFBS])^(4)",
+          "exponent": "2",
+          "prefactor": "((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))*((C[domain-chain-domainS-domainBS])*(C[domain-chain-domainBS-domainFBS])^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainAdeg-domainQ",
-            "domain-added-domainQ-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "domain-parameterized-domainD-domainBS",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent",
+            "domain-chain-domainS-domainBS",
             "domain-chain-domainBS-domainFBS"
           ],
           "assumptions": []
@@ -12470,14 +12465,11 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "(C[domain-chain-domainAdeg-domainQ])*(((C[domain-added-domainQ-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_L)^(1))^(1))^(1)",
+          "exponent": "2",
+          "prefactor": "(C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1)",
           "claim_ids": [
-            "domain-chain-domainAdeg-domainQ",
-            "domain-added-domainQ-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "uniform-hypermatching-D-sensitivity-lift"
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -12619,12 +12611,13 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "(C[domain-chain-domainC-domainUC])*((C[domain-chain-domainUC-domainD])*(K_L)^(1))^(1)",
+          "exponent": "8",
+          "prefactor": "(K_C)*((C[domain-chain-domainBS-domainAdeg])*((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))^(2))^(2)",
           "claim_ids": [
-            "domain-chain-domainC-domainUC",
-            "domain-chain-domainUC-domainD",
-            "uniform-hypermatching-D-sensitivity-lift"
+            "domain-parameterized-domainC-domainBS",
+            "domain-chain-domainBS-domainAdeg",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -12917,13 +12910,12 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "((C[domain-chain-domainBS-domainR])*(C[domain-chain-domainR-domainRfail23])^(1))*((C[domain-chain-domainRfail23-domainD])*(K_L)^(1))^(1)",
+          "exponent": "4",
+          "prefactor": "(C[domain-chain-domainBS-domainAdeg])*((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))^(2)",
           "claim_ids": [
-            "domain-chain-domainBS-domainR",
-            "domain-chain-domainR-domainRfail23",
-            "domain-chain-domainRfail23-domainD",
-            "uniform-hypermatching-D-sensitivity-lift"
+            "domain-chain-domainBS-domainAdeg",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },
@@ -13073,13 +13065,14 @@
           "B": "domainS",
           "status": "profile_parameter_upper_chain",
           "globally_best_known_certified": false,
-          "exponent": "10",
-          "prefactor": "((C[domain-chain-domainFBS-domainC])*(C[domain-chain-domainC-domainUC])^(1))*((C[domain-chain-domainUC-domainD])*(K_L)^(1))^(1)",
+          "exponent": "8",
+          "prefactor": "((C[domain-chain-domainFBS-domainC])*(K_C)^(1))*((C[domain-chain-domainBS-domainAdeg])*((C[domain-chain-domainAdeg-domainDegree])*(K_H)^(1))^(2))^(2)",
           "claim_ids": [
             "domain-chain-domainFBS-domainC",
-            "domain-chain-domainC-domainUC",
-            "domain-chain-domainUC-domainD",
-            "uniform-hypermatching-D-sensitivity-lift"
+            "domain-parameterized-domainC-domainBS",
+            "domain-chain-domainBS-domainAdeg",
+            "domain-chain-domainAdeg-domainDegree",
+            "hypermatching-degree-sensitivity-descent"
           ],
           "assumptions": []
         },

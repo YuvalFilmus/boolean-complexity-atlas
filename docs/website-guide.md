@@ -44,3 +44,8 @@ Presentation-only TeX transcriptions live in `data/statement-latex.json`; mathem
 ## Sensitivity-campaign updates
 
 The campaign panel reads its date and exact leading exponent from data/sensitivity-campaign.json. Keep exact logarithmic endpoints in exponent_expression; a tracker decimal is only a display approximation when the theorem is logarithmic. Record completed checkpoints, goal URLs, page hashes and solve timestamps, while retaining open targets outside the claim registry. Distinguish public construction summaries, accepted-proof access and independent kernel replay. Rebuild all dependent matrices and the gallery after changing lower-bound claims. See the dated campaign audit for current details and remaining proof-access gaps.
+
+
+## Ranked open questions
+
+Maintain question mappings and exact recurrence passages in data/question-annotations.json, then run python3 tools/open_questions.py. The site build also computes a fresh ranking payload directly from the sources. See [the ranking methodology](open-questions.md) for all six orders, exclusions, archive rules and unknown-value handling.

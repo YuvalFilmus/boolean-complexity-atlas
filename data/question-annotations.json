@@ -1,0 +1,411 @@
+{
+  "as_of": "2026-10-23",
+  "warning": "Curated question-to-measure mappings and exact recurrence sightings. Mention counts are lower counts within the indexed corpus, not a literature census. Source status labels are preserved; inclusion does not certify that a question is currently open.",
+  "questions": [
+    {
+      "id": "sensitivity-polynomial",
+      "measure_ids": [
+        "bs",
+        "s"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "HKP11",
+          "locator": "Central sensitivity conjecture",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "D-bs-quadratic",
+      "measure_ids": [
+        "D",
+        "bs"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "ABKBRT21",
+          "locator": "Conjecture 1",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": {
+        "A": "D",
+        "B": "bs",
+        "exponent": "2"
+      }
+    },
+    {
+      "id": "R-Q-cubic",
+      "measure_ids": [
+        "R",
+        "Q"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "ABKBRT21",
+          "locator": "Conjecture 2",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "rational-polynomial",
+      "measure_ids": [
+        "deg",
+        "rdeg"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "IJKKSWW23",
+          "locator": "Introduction / abstract",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "bs-lambda-quadratic",
+      "measure_ids": [
+        "bs",
+        "lambda"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "ABKBRT21",
+          "locator": "Open problems / spectral sensitivity questions",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "Saks-Wigderson-maximal-speedup",
+      "measure_ids": [
+        "D",
+        "R0"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "SW86",
+          "locator": "Conjecture 1.6, p.31",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "extremal-forrelation-sqrt",
+      "measure_ids": [
+        "R",
+        "QE"
+      ],
+      "context": "partial",
+      "mentions": [
+        {
+          "source": "GS26",
+          "locator": "Conjecture 6",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "extremal-k-forrelation",
+      "measure_ids": [
+        "R",
+        "QE"
+      ],
+      "context": "partial",
+      "mentions": [
+        {
+          "source": "GS26",
+          "locator": "Conjecture 7",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "BK24-search-QE-R",
+      "measure_ids": [
+        "QE",
+        "R"
+      ],
+      "context": "search-total",
+      "mentions": [
+        {
+          "source": "BK24",
+          "locator": "Section 1.3, Open Problem 1",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "BK24-search-poly-conical",
+      "measure_ids": [
+        "rel_adeg",
+        "rel_conical",
+        "rel_deg"
+      ],
+      "context": "search-total",
+      "mentions": [
+        {
+          "source": "BK24",
+          "locator": "Section 1.3, Open Problem 2",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "BK24-search-Adv-degree",
+      "measure_ids": [
+        "rel_Adv",
+        "rel_adeg"
+      ],
+      "context": "search-total",
+      "mentions": [
+        {
+          "source": "BK24",
+          "locator": "Section 1.3, Open Problem 3",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "KLMY-randomized-AND-derandomization",
+      "measure_ids": [
+        "DandPos",
+        "RandPos"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "KLMY21survey",
+          "locator": "Conjecture 3.16",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "KLMY-monomial-approximation",
+      "measure_ids": [
+        "monomialSparsity",
+        "approxMonomialSparsity"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "KLMY21survey",
+          "locator": "Conjecture 3.19 and Claim 3.20",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "KLMY-pure-monomial-AND",
+      "measure_ids": [
+        "DandPos",
+        "monomialSparsity"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "KLMY21",
+          "locator": "Conjecture 6.1",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "Wellens-relevant-sensitivity",
+      "measure_ids": [
+        "nRelevant",
+        "s"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "Wel22",
+          "locator": "Conjecture 3.17",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "HKMP-natural-perturbation",
+      "measure_ids": [
+        "completion_adeg",
+        "cubeBoundedAdeg"
+      ],
+      "context": "completion",
+      "mentions": [
+        {
+          "source": "HKMP26",
+          "locator": "Conjecture 72",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "Exact intended support, norm, margin and completion quantifiers still need clarification. This entry is marked formulation review rather than a settled open conjecture.",
+      "pair": null
+    },
+    {
+      "id": "HKMP-dense-almost-completion",
+      "measure_ids": [
+        "completion_adeg",
+        "cubeBoundedAdeg"
+      ],
+      "context": "completion",
+      "mentions": [
+        {
+          "source": "HKMP26",
+          "locator": "Conjecture 78",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "domain-robust-low-degree",
+      "measure_ids": [
+        "permDegree",
+        "permD"
+      ],
+      "context": "other",
+      "mentions": [
+        {
+          "source": "DFLLV22author",
+          "locator": "Section 9, Robust versions",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "domain-q-analog-framework",
+      "measure_ids": [],
+      "context": "other",
+      "mentions": [
+        {
+          "source": "DFLLV22author",
+          "locator": "Section 9, q-analogs",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "The target domains and query models are part of the question; existing symmetric-group measure counts are not substituted for undefined q-analog measures.",
+      "pair": null
+    },
+    {
+      "id": "AA-folklore-average-simulation",
+      "measure_ids": [
+        "D",
+        "Q"
+      ],
+      "context": "distributional",
+      "mentions": [
+        {
+          "source": "AA14",
+          "locator": "Conjecture 1.5 and Appendix Conjecture 7.1",
+          "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "GMNR26",
+          "locator": "Introduction, Theorem 1.1 and distributional folklore formulation",
+          "relation": "Same uniform simulation question and equivalent distributional variants."
+        },
+        {
+          "source": "HKMP26",
+          "locator": "Conjecture 77; cites AA14 Appendix Conjecture 7.1",
+          "relation": "Dense-promise equivalent formulation. Different from the polynomial influence conjecture."
+        }
+      ],
+      "mapping_note": "D and Q label the algorithmic resources for ranking. The question concerns approximation of acceptance probabilities on most inputs, not the worst-case D/Q exponent table.",
+      "pair": null
+    },
+    {
+      "id": "AA-bounded-polynomial-influence",
+      "measure_ids": [],
+      "context": "distributional",
+      "mentions": [
+        {
+          "source": "AA14",
+          "locator": "Conjecture 1.7; Theorem 1.8",
+          "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "GMNR26",
+          "locator": "Conjecture 4.2 explicitly cites AA14 Conjecture 1.7",
+          "relation": "Same conjecture, with equivalent distributional analogues."
+        }
+      ],
+      "mapping_note": "This is about real bounded polynomials, their degree, variance and coordinate influences. It is not Boolean approximate degree. A complete centrality mapping for these parameters is not assessed yet.",
+      "pair": null
+    },
+    {
+      "id": "FLLV20-hypergraphical-sensitivity-question",
+      "measure_ids": [
+        "domainDegree",
+        "domainS"
+      ],
+      "context": "other",
+      "mentions": [
+        {
+          "source": "FLLV20notes",
+          "locator": "Section 7, p.7",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    },
+    {
+      "id": "bs-s-quadratic",
+      "measure_ids": [
+        "bs",
+        "s"
+      ],
+      "context": "total",
+      "mentions": [
+        {
+          "source": "NS94",
+          "locator": "Section 4 quadratic suggestion; original attribution checked against OAIsens26 introduction",
+          "relation": "Formulation in the cited source."
+        }
+      ],
+      "mapping_note": "",
+      "pair": null
+    }
+  ]
+}

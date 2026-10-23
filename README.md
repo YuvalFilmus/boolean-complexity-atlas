@@ -6,6 +6,8 @@ A source-linked repository for query, sensitivity, certificate and polynomial co
 
 **Current coverage: 249 defined measures, 782 claim records, 127 references and 9 surveys.** Both twelve-measure total and promise core grids have evidence for all 132 off-diagonal pairs. The promise grid has 49 matched finite exponents and 83 pairs with no finite polynomial bound. Search and extended-measure coverage, historical notation and source-priority audits remain incomplete. Many claim records are consequences of shared witnesses. No claim is globally certified current-best. See [the audit report](docs/source-audit.md).
 
+The [Open Questions tab](https://yuvalfilmus.github.io/boolean-complexity-atlas/#questions) offers six transparent ranking orders, passage-level repeated-question highlights, scoped gap views and a resolved/refuted archive. Counts reflect indexed literature; unknown scores and unverified current status are marked. See [ranking methods and maintenance](docs/open-questions.md).
+
 ## Website
 
 The [separation-witness gallery](https://yuvalfilmus.github.io/boolean-complexity-atlas/#witnesses) connects 136 construction records to all indexed separation/no-finite-power claims. See [the sensitivity campaign and gallery audit](docs/sensitivity-campaign-and-gallery.md) for the new OpenAI construction, dated improvements, and explicit proof-access limits.

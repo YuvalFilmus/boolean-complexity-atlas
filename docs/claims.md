@@ -7750,11 +7750,11 @@ Public construction summary and quantified theorem checked; accepted Lean proof 
 
 ## hypermatching-degree-sensitivity-descent
 
-For full lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2 and n>=2, degree_H(f)<=(2k-1)^2*s_H(f)^2.
+For full lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2 and n>=2, degree_H(f)<=(2k-1)*s_H(f)^2.
 
 - Kind: upper_bound; domain: total decision_function; classes: lambda_partite_hypermatching_vertex_queries, uniform_hypermatching_vertex_queries.
 - Evidence: repository_derivation_checked; loss: domain_parameters.
 - Source: Repository proof, Derived research proof, docs/hypermatching-proof.md; full source audit 23 October 2026.
-- Proof: Average entry polynomials over uniform permutation-representation fibers. Partition-lattice inversion replaces singleton-vertex containment factors by one, reducing degree d to at most floor(d/2). Pure permutation coefficient spaces give a correlated product of parity cubes using corrected output/B-column transpositions; Huang yields degree_Z<=2s_Z^2. Pack projected sensitive transpositions by a matching in a multigraph of maximum degree k, giving s_Z<=(2k-1)s_H. Combine 2degree_H<=degree_Z<=2s_Z^2.
+- Proof: Average entry polynomials over uniform representation fibers; partition-lattice inversion gives 2degree_H<=degree_Z. Corrected output/B-column pseudo-characters give a correlated D-dimensional cube with D>=degree_Z/2. Nonzero top correlation excludes loop axes. A matching of at least D/(2k-1) axes yields an injectively projected native face after some fixing preserving its top coefficient. Huang gives s_H^2>=D/(2k-1).
 
 The printed DFLLV26 input/A-column cube orientation fails in S_3. The separate proof uses output/B-column transpositions, directly checks homogeneous filtration, and preserves native disjointness. No intrinsic hypermatching witnessing family is asserted.

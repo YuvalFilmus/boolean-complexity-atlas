@@ -484,7 +484,7 @@
       "id": "FLLV20-hypergraphical-sensitivity-question",
       "checked": "2026-10-23",
       "verdict": "formulation_unresolved",
-      "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
+      "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
       "evidence": [
         {
           "source": "FLLV20notes",
@@ -518,7 +518,7 @@
         {
           "title": "Verified fixed-edge-size quadratic result",
           "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
-          "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
+          "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)s_{\\mathcal H}(f)^2."
         },
         {
           "title": "Source repair and literature status",

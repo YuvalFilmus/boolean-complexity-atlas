@@ -7,7 +7,7 @@ Checked 23 October 2026. This is a targeted literature check, **not a novelty ce
 I did not locate an earlier statement of either the full fixed-edge-size hypermatching inequality
 
 $$
-\deg_{\mathcal H}(f)\le(2k-1)^2s_{\mathcal H}(f)^2
+\deg_{\mathcal H}(f)\le(2k-1)s_{\mathcal H}(f)^2
 $$
 
 or the general colored-domain comparison

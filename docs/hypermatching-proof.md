@@ -14,7 +14,7 @@ For Boolean $f$, define $s_{\mathcal H}(f,H)$ as the maximum number of inputs $H
 
 **Proposition.** For every Boolean function on this full domain,
 
-$$\deg_{\mathcal H}(f)\leq(2k-1)^2s_{\mathcal H}(f)^2.$$
+$$\deg_{\mathcal H}(f)\leq(2k-1)s_{\mathcal H}(f)^2.$$
 
 The coefficient is uniform in $n$ and in the individual color multiplicities for fixed $k$. Its optimality is not asserted. The result does not apply automatically to restricted promises or a different sensitivity convention.
 
@@ -114,17 +114,29 @@ $$s_Z(F)\geq\sqrt D\geq\sqrt{d/2},\qquad\deg_Z(F)\leq2s_Z(F)^2.$$
 
 The degree-zero case is immediate. This also proves the precise cube-witness implication needed from DFLLV26 Lemma 5.2. It does not rely on inferring top-degree correlation from an arbitrary nonorthogonal spanning family.
 
-### Passing sensitivity to hypermatchings
+### Projecting a native cube before applying Huang
 
-Fix $z\in Z$ and a packing of $a$ sensitive component transpositions. A transposition within one common group fixes $\pi(z)$, so every sensitive one joins two different original hyperedges. Make a multigraph whose vertices are the original hyperedges and whose edges are these transpositions. Disjoint permutation changes use each position at most once, so its maximum degree is at most $k$.
+Write $h=\deg_{\mathcal H}(f)$ and $d=\deg_Z(F)$. The degree comparison gives $d\geq2h$. For $d>0$, the corrected pseudo-character construction above supplies a $D$-dimensional cube of disjoint output-value transpositions, with $D\geq d/2\geq h$, on which the restriction $g$ has nonzero full-parity coefficient. The constant case is immediate.
 
-Greedy matching selects at least $a/(2k-1)$ multigraph edges: selecting one removes at most $2k-1$ edges meeting its endpoints. Each selected transposition projects to a sensitive change removing exactly two original hyperedges, and the selected removal pairs are disjoint. Therefore
+At an initial representation, draw each axis as an edge between the common position groups containing its two output values. Each group has $k$ tagged positions, and axes use disjoint output values, so this multigraph has maximum degree at most $k$.
 
-$$s_Z(F)\leq(2k-1)s_{\mathcal H}(f).$$
+There are no loops. If an axis swapped two values within one group, every other generator would leave those values at their positions. Flipping that axis would merely reorder the same hyperedge at every cube vertex. Then $g$ would be independent of that axis, contradicting its nonzero full-parity coefficient. This argument does not assume that axes are sensitive at the initial vertex.
 
-Combining the degree-descent lemma and these two sensitivity comparisons proves
+Greedy matching selects a set $I$ of $m\geq D/(2k-1)$ axes: choosing an edge deletes at most $2k-1$ edges meeting its endpoints, including parallel edges. Let $J$ be the other axes. For each fixing $y$ of $J$, let $g_y$ be the restriction to $I$. Then
 
-$$\deg_{\mathcal H}(f)\leq\tfrac12\deg_Z(F)\leq s_Z(F)^2\leq(2k-1)^2s_{\mathcal H}(f)^2.$$ ∎
+$$\widehat g([D])=\mathbb E_y\!\left[\widehat{g_y}(I)(-1)^{\sum_{j\in J}y_j}\right]\ne0.$$
+
+Some fixing therefore retains a nonzero full-parity coefficient. Fix that $y$. Unselected generators swap values disjoint from the selected ones, so every selected value remains at its original tagged position. Thus the selected axes still join disjoint pairs of groups.
+
+Each selected axis swaps one same-color vertex between its two hyperedges, leaving $k-1\geq1$ vertices in each. Both resulting edges differ from the originals, even after group labels are forgotten: a retained vertex excludes equality with the other original edge, and the incoming vertex excludes equality with its own original edge. Different selected axes act on disjoint $2k$-vertex unions. The projected face is consequently injective, and at every face vertex its coordinate changes remove disjoint pairs of original hyperedges.
+
+Apply Huang to this selected face. At a vertex with at least $\sqrt m$ sensitive cube axes, their projections are native sensitive neighbors with disjoint removal pairs. Hence
+
+$$s_{\mathcal H}(f)^2\geq m\geq\frac{D}{2k-1}\geq\frac{h}{2k-1}.$$
+
+Rearranging proves $\deg_{\mathcal H}(f)\leq(2k-1)s_{\mathcal H}(f)^2$. ∎
+
+This improves the earlier squared coefficient by selecting a matching of cube axes before applying Huang. The separate audit checks the loop exclusion, the fixing identity, injectivity after forgetting group labels, and disjoint removal sets at every face vertex.
 
 ## Sources and status
 

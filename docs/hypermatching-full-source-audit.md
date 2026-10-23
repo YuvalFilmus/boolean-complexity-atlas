@@ -2,7 +2,9 @@
 
 Audit date: 23 October 2026. This audit starts from the proof and the original imported arguments, rather than accepting the previous assistants' verdicts. It covers the exact and approximate degree comparison, product-permutation degree/sensitivity theorem, Huang's theorem and its reduction, and sensitivity transfer. Published novelty is a separate literature question and is not certified here.
 
-## Verdict
+The final independently audited bound is $\deg_{\mathcal H}(f)\leq(2k-1)s_{\mathcal H}(f)^2$. The initial audit below established the squared coefficient; the final section checks the stronger cube-first argument.
+
+## Initial source-audit verdict
 
 **PASS AFTER AN EXPLICIT REPAIR TO THE IMPORTED PERMUTATION CUBE CONSTRUCTION.**
 
@@ -161,3 +163,91 @@ The constant depends only on k and is uniform in n and the individual positive c
 3. Include the direct homogeneous-filtration argument or the full matrix-coefficient explanation; avoid the bare assertion that degree-d spanning vectors necessarily correlate with a degree-d function.
 4. Retain exact domain, degree and packing-sensitivity definitions, fixed-k quantifiers and novelty limitations.
 5. Mark earlier assistant audit verdicts as superseded by this source-level repair wherever the earlier reports simply accepted the printed cube step.
+
+
+## Independent refinement audit: choosing a native face before applying Huang
+
+23 October 2026. This is a new sharpening beyond the already audited square coefficient. It does not certify published novelty.
+
+### Refinement verdict
+
+**PASS.** The repaired output-transposition pseudo-character construction supports
+
+$$
+\boxed{\deg_{\mathcal H}(f)\le (2k-1)s_{\mathcal H}(f)^2.}
+$$
+
+The domain, degree and sensitivity conventions and fixed-k quantifiers are exactly those of the complete proof: all lambda-partite perfect hypermatchings, n>=2, positive multiplicities summing to k>=2, hyperedge-coordinate degree, packing of size-two sensitive edge removals. The factor of two from representation averaging is retained and used. No assumption is made that all cube axes are sensitive at their base point.
+
+The improvement comes from choosing a large matching of **cube axes** first and then applying Huang to a face whose projection is a native hypermatching cube. The previous square-coefficient argument instead applied Huang before extracting a matching of sensitive axes.
+
+### Audited refinement construction
+
+Write h=deg_H f, F=f composed with pi, and d=deg_Z F. The audited averaging lemma gives d>=2h. For d>0, the repaired homogeneous tensor pseudo-character argument gives a cube of dimension D>=d/2, parameterized by disjoint output-value transpositions, on which g=F restricted to that cube has nonzero full-parity coefficient. Thus D>=h. Constant functions are immediate.
+
+At a fixed initial permutation representation z, draw each of its D output transpositions as an edge between the common position-group labels containing the two swapped output values. Different axes use disjoint output values in their respective tagged components. At z these correspond to disjoint tagged positions, so each common group has at most k incident stubs.
+
+### Required extra observation: there are no loops
+
+A cube axis need not be sensitive at z, so absence of loops must not be justified by base-point sensitivity. Instead, suppose its two output values occupy positions in the same common group. Every other cube generator swaps different output values and hence leaves both these values at their existing positions. Flipping the selected axis consequently only changes the within-group ordering, at every point of the whole cube. It fixes pi and therefore F on the whole cube. This makes g independent of that axis, contradicting the nonzero full-parity coefficient. Thus the multigraph is loopless and has maximum degree at most k.
+
+Greedy matching supplies a set I of m axes with
+
+$$
+m\ge \frac{D}{2k-1}.
+$$
+
+Parallel edges are harmless: selecting an edge deletes no more than deg(u)+deg(v)−1<=2k−1 edges. The chosen group pairs are disjoint.
+
+### Fixing the other axes preserves a top coefficient somewhere
+
+Let J be the remaining axes. For each y in {0,1}^J, write g_y for the restricted function on I and let
+
+$$
+a(y)=2^{-m}\sum_{x\in\{0,1\}^{I}}g(x,y)(-1)^{\sum_{i\in I}x_i}.
+$$
+
+Then
+
+$$
+\widehat g([D])=\mathbb E_y\left[a(y)(-1)^{\sum_{j\in J}y_j}\right]\ne0.
+$$
+
+Therefore some fixing y has a(y)!=0. The selected-axis face at this fixing retains a nonzero full-parity coefficient; it is not necessary to retain its numerical magnitude.
+
+### The selected face remains a native cube after fixing
+
+Each unselected generator swaps output values disjoint from the selected ones. Hence fixing the J axes does not move any selected output value from its original tagged position. The group pair associated with each selected axis remains the same after every such fixing. As the selected axes themselves vary, their values only alternate between their own two positions; no other selected axis touches either group in that pair.
+
+Fix the J-axis state y. On the projected face, each selected axis consequently acts on its own disjoint pair of groups, swapping one same-color vertex between their two edges. Because k>=2, each edge retains at least one other vertex. The new pair of edges is different from the old pair, even after edge labels are forgotten: a retained vertex from either group prevents its new edge from equaling the other group's old edge, while the incoming distinct vertex prevents equality with its own old edge. No other hyperedge can equal either new edge because all these vertices belong to this pair's disjoint vertex union.
+
+The 2k-vertex unions for different selected group pairs are disjoint at this fixed face. Each coordinate therefore has two different local partitions on its own union, independently of the other coordinates. This proves that the projected face has exactly 2^m distinct hypermatchings. Thus projection of this face is injective, including the uncolored case where the common group labels are not part of an input.
+
+At every face vertex each axis changes exactly two hyperedges, and the removal pairs of different axes are disjoint. The projected face is consequently a cube embedding of precisely the type required by the native packing-sensitivity convention. This argument concerns disjointness locally at every vertex; it does not assume that the two edge sets themselves remain unchanged as the associated coordinate flips.
+
+### Apply Huang on this face
+
+The selected fixing has nonzero full-parity coefficient, so Huang gives s(g_y)>=sqrt(m). At a point attaining this sensitivity, each of those sensitive face neighbors projects to a different native hypermatching neighbor. Their two-edge removal sets are disjoint. Hence
+
+$$
+s_H(f)^2\ge m\ge\frac{D}{2k-1}\ge\frac{h}{2k-1}.
+$$
+
+Rearranging proves the displayed refinement. No unrestricted full-cube boundedness, promise extension, non-disjoint block sensitivity, or variable group labels are introduced.
+
+### Refinement traps checked
+
+* **Axes insensitive at the base point:** allowed. Only a globally dummy axis is excluded, via the full-parity coefficient.
+* **Loops:** excluded by the separate argument above, not by assuming sensitivity.
+* **Fixing changes the selected graph:** it does not, because unselected output supports are disjoint from selected supports. This is precisely where the repaired output-transposition construction matters.
+* **Loss of top Fourier coefficient:** some fixing preserves nonzeroness by the explicit identity above, although most fixings may not.
+* **Forgotten group labels collapse two states:** disjoint local vertex unions and the retained k−1 vertices exclude this for k>=2.
+* **Sensitivity uses disjoint removed edges, not sensitive degree:** the selected matching supplies disjoint group pairs at every face vertex.
+* **Dimension comparison:** D>=d/2>=h uses the audited degree-halving lemma. Using only d>=h would lose another factor two.
+* **Maximum degree:** at most k, even with multiple colors, because a group contains exactly k tagged positions in all components together.
+
+### Refinement structural checks
+
+`python3 tests/hypermatching_cube_faces_check.py` passed. It enumerates all partial disjoint-output-swap families in eleven small lambda/n cases, including uncolored 2-uniform n=4 and colored (1,1), n=4, so multidimensional native faces are checked. Across 2,071 loopless axis families it checked 28,836 faces, including all fixings of their unselected axes, 66,096 native-neighbor instances, and 34,544 dummy-loop instances. Every selected matching face projected injectively, and every vertex had disjoint size-two removed-edge sets. The base representative is the identity, without loss for this structural check by relabeling the output vertices within each color.
+
+These enumerations check the structural invariants; the general proof above, not finite enumeration, establishes the result.

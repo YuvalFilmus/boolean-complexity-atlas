@@ -35412,11 +35412,11 @@
       "B": "domainS",
       "exponent": 2,
       "kind": "upper_bound",
-      "statement": "For full lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2 and n>=2, degree_H(f)<=(2k-1)^2*s_H(f)^2.",
-      "statement_latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2",
+      "statement": "For full lambda-partite perfect hypermatchings with k=sum_i lambda_i>=2 and n>=2, degree_H(f)<=(2k-1)*s_H(f)^2.",
+      "statement_latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)s_{\\mathcal H}(f)^2",
       "source": "definitions",
       "locator": "Derived research proof, docs/hypermatching-proof.md; full source audit 23 October 2026",
-      "proof_summary": "Average entry polynomials over uniform permutation-representation fibers. Partition-lattice inversion replaces singleton-vertex containment factors by one, reducing degree d to at most floor(d/2). Pure permutation coefficient spaces give a correlated product of parity cubes using corrected output/B-column transpositions; Huang yields degree_Z<=2s_Z^2. Pack projected sensitive transpositions by a matching in a multigraph of maximum degree k, giving s_Z<=(2k-1)s_H. Combine 2degree_H<=degree_Z<=2s_Z^2.",
+      "proof_summary": "Average entry polynomials over uniform representation fibers; partition-lattice inversion gives 2degree_H<=degree_Z. Corrected output/B-column pseudo-characters give a correlated D-dimensional cube with D>=degree_Z/2. Nonzero top correlation excludes loop axes. A matching of at least D/(2k-1) axes yields an injectively projected native face after some fixing preserving its top coefficient. Huang gives s_H^2>=D/(2k-1).",
       "scope": {
         "object_kind": "decision_function",
         "totality": "total",
@@ -36433,7 +36433,7 @@
       "statement": "Historical question: extend sensitivity theorems to hypergraphical analogues of the symmetric group and perfect matching scheme.",
       "status": "formulation_still_needs_clarification",
       "implications": [
-        "A fresh independently audited repository derivation proves degree_H<=(2k-1)^2s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.",
+        "A fresh independently audited repository derivation proves degree_H<=(2k-1)s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.",
         "The proof repairs an imported cube orientation; published priority and broader historical interpretations remain unverified."
       ],
       "status_sources": [
@@ -36442,7 +36442,7 @@
         "Sagan01",
         "EFP11"
       ],
-      "notes": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
+      "notes": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
       "status_history": [
         {
           "superseded_by_audit": "2026-10-23",
@@ -36456,7 +36456,7 @@
       "status_audit": {
         "checked": "2026-10-23",
         "verdict": "formulation_unresolved",
-        "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)^2s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
+        "summary": "The fixed-k quadratic spatial-degree interpretation now has an independently audited repository proof: degree_H<=(2k-1)s_H^2. The full audit repairs an imported output/input transposition orientation. Historical parameter-uniformity and witnessing interpretations remain distinct; prior general publication was not located, not certified absent.",
         "evidence": [
           {
             "source": "FLLV20notes",
@@ -36490,7 +36490,7 @@
           {
             "title": "Verified fixed-edge-size quadratic result",
             "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
-            "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
+            "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)s_{\\mathcal H}(f)^2."
           },
           {
             "title": "Source repair and literature status",
@@ -36509,7 +36509,7 @@
         {
           "title": "Verified fixed-edge-size quadratic result",
           "text": "On the full lambda-partite domain, degree is intrinsic hyperedge-coordinate degree and sensitivity packs disjoint two-edge removal sets. Uniform-fiber averaging and Mobius inversion give 2degree_H<=degree_Z, then the corrected product-permutation cubes yield the quadratic bound. The coefficient depends on k; no intrinsic witnessing family is claimed.",
-          "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)^2s_{\\mathcal H}(f)^2."
+          "latex": "\\deg_{\\mathcal H}(f)\\leq(2k-1)s_{\\mathcal H}(f)^2."
         },
         {
           "title": "Source repair and literature status",

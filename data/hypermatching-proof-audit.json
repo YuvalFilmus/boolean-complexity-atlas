@@ -10,23 +10,23 @@
   ],
   "proof": {
     "path": "docs/hypermatching-proof.md",
-    "sha256": "033548b5b20c9a320743e33106824cb4712be45ce8748bcac06ccf5498f84e3d",
+    "sha256": "eabfc95d9919b2dab3d37a78605ce459b9102acf72ce291c41cc9d12be9250df",
     "page": "proofs/hypermatching.html"
   },
   "audit": {
     "path": "docs/hypermatching-full-source-audit.md",
-    "sha256": "8a31dd10bc93cb156b9b46d801215a598484d3636718cce027ad437a4eec4ff1",
+    "sha256": "acd7f1df11a4d1069b6f95d63688d0e224aab605e63c7a2e58c22f945c524b9a",
     "page": "proofs/hypermatching-audit.html"
   },
   "priority": {
     "path": "docs/hypermatching-priority-audit.md",
-    "sha256": "f2f57f59bef989122982680ab457db72f2b9ed9ed63dd5c7813f5c1afe15ba01",
+    "sha256": "570bc7334ff2175d6ab58620589b41fa9004e98de874144fa4a1c9869e220571",
     "page": "proofs/hypermatching-priority.html",
     "finding": "Earlier general publication not located in targeted sources; no novelty certification."
   },
   "repair": {
     "source": "DFLLV26",
-    "locator": "Section 5.3, article pp.33–34",
+    "locator": "Section 5.3, article pp.33\u201334",
     "printed": "Input-position transpositions chosen from A columns",
     "corrected": "Output-value transpositions chosen from B columns",
     "counterexample": {
@@ -65,11 +65,22 @@
   "finite_checks": {
     "output_covariance": 3434,
     "lower_filtration_orthogonality": 1467,
-    "maximum_permutation_size": 5
+    "maximum_permutation_size": 5,
+    "loopless_axis_families": 2071,
+    "fixed_matching_faces": 28836,
+    "native_neighbors": 66096,
+    "dummy_loops": 34544
   },
   "limitations": [
     "Fixed k coefficient; no optimality assertion.",
     "Published k=2 cases have stronger constants.",
     "No intrinsic hypermatching cube-witness family or restricted-promise generalization is claimed."
-  ]
+  ],
+  "final_bound": "deg_H(f) <= (2k-1) s_H(f)^2",
+  "refinement": "Independently audited: select a matching of cube axes, fix the other axes preserving top correlation, then apply Huang on the native face.",
+  "previous_publication": {
+    "proof": "033548b5b20c9a320743e33106824cb4712be45ce8748bcac06ccf5498f84e3d",
+    "audit": "8a31dd10bc93cb156b9b46d801215a598484d3636718cce027ad437a4eec4ff1",
+    "priority": "f2f57f59bef989122982680ab457db72f2b9ed9ed63dd5c7813f5c1afe15ba01"
+  }
 }

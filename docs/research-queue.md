@@ -237,7 +237,7 @@ Status: formulation_still_needs_clarification.
 
 Source: [FLLV20notes](https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf), Section 7, p.7.
 
-- A fresh independently audited repository derivation proves degree_H<=(2k-1)^2s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.
+- A fresh independently audited repository derivation proves degree_H<=(2k-1)s_H^2 for the full fixed-k lambda-partite hypermatching domain under the recorded spatial degree and packing sensitivity.
 - The proof repairs an imported cube orientation; published priority and broader historical interpretations remain unverified.
 
 ## bs-s-quadratic

@@ -20,7 +20,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -1869,7 +1869,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -3725,7 +3725,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -5581,7 +5581,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -7437,7 +7437,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -9415,7 +9415,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",
@@ -11393,7 +11393,7 @@
         "K_T": "6*beta_c^(-1)*alpha^(-2)",
         "K_L": "10368*(2k-1)^10",
         "K_G": "10368*(2k-1)^10; k=|lambda|",
-        "K_H": "(2k-1)^2; k=sum(lambda_i)",
+        "K_H": "(2k-1); k=sum(lambda_i)",
         "C": "C[claimID] is the domain-independent constant under that claim\u2019s error/query convention; not optimized here."
       },
       "source": "DFLLV26",

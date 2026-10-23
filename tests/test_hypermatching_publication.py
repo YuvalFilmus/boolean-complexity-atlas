@@ -22,8 +22,10 @@ class HypermatchingPublicationTests(unittest.TestCase):
   for p in d['profiles']:
    cell=next(c for c in p['cells'] if c['A']=='domainDegree' and c['B']=='domainS')
    if p['profile'] in ['hypermatching','uniform-hypermatching']:
-    self.assertEqual(cell['exponent'],'2');self.assertEqual(cell['claim_ids'],[claim['id']]);self.assertIn('(2k-1)^2',p['coefficient_definitions']['K_H'])
+    self.assertEqual(cell['exponent'],'2');self.assertEqual(cell['claim_ids'],[claim['id']]);self.assertIn('(2k-1);',p['coefficient_definitions']['K_H'])
    else:self.assertNotIn(claim['id'],cell['claim_ids'])
+ def test_native_cube_faces_and_fixed_axes(self):
+  runpy.run_path(str(ROOT/'tests/hypermatching_cube_faces_check.py'))
  def test_proof_renderer_escapes_text_and_rejects_unsafe_links(self):
   self.assertIn('&lt;script&gt;',proof_pages.inline('<script>'))
   with self.assertRaises(ValueError):proof_pages.inline('[bad](javascript:alert)')

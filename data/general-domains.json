@@ -62,7 +62,7 @@
       "alpha": "not established by this source",
       "source": "DFLLV22author",
       "locator": "Section 4.2",
-      "caveat": "Fresh repository degree descent gives degree_H<=(2k-1)^2s_H^2 after independently checking and correcting the imported permutation cubes. The existing D<=10368*(2k-1)^10*s_H^10 query lift remains valid. These retain k-dependent coefficients and do not establish an intrinsic alpha-witnessing parameter; prior general publication is not certified."
+      "caveat": "Fresh repository degree descent gives degree_H<=(2k-1)s_H^2 after independently checking and correcting the imported permutation cubes. The existing D<=10368*(2k-1)^10*s_H^10 query lift remains valid. These retain k-dependent coefficients and do not establish an intrinsic alpha-witnessing parameter; prior general publication is not certified."
     },
     {
       "id": "multislice",
@@ -104,7 +104,7 @@
       "alpha": "not asserted; use permutation sensitivity lift",
       "source": "DFLLV26",
       "locator": "Section 4.2; repository permutation lift",
-      "caveat": "Fresh repository degree descent gives degree_H<=(2k-1)^2s_H^2 after independently checking and correcting the imported permutation cubes. The existing D<=10368*(2k-1)^10*s_H^10 query lift remains valid. These retain k-dependent coefficients and do not establish an intrinsic alpha-witnessing parameter; prior general publication is not certified."
+      "caveat": "Fresh repository degree descent gives degree_H<=(2k-1)s_H^2 after independently checking and correcting the imported permutation cubes. The existing D<=10368*(2k-1)^10*s_H^10 query lift remains valid. These retain k-dependent coefficients and do not establish an intrinsic alpha-witnessing parameter; prior general publication is not certified."
     }
   ],
   "warnings": [

@@ -10,7 +10,7 @@ The [Open Questions tab](https://yuvalfilmus.github.io/boolean-complexity-atlas/
 
 ## Audited research proof
 
-The [separate hypermatching proof page](https://yuvalfilmus.github.io/boolean-complexity-atlas/proofs/hypermatching.html) proves intrinsic degree <= (2k-1)^2 times packing sensitivity squared on the full lambda-partite domain. It includes the corrected output-transposition construction, a [fresh source audit](docs/hypermatching-full-source-audit.md), and a [scoped priority check](docs/hypermatching-priority-audit.md). Prior general publication was not located; novelty and optimal constants are not certified. The associated profile cells retain their k-dependent prefactor.
+The [separate hypermatching proof page](https://yuvalfilmus.github.io/boolean-complexity-atlas/proofs/hypermatching.html) proves intrinsic degree <= (2k-1) times packing sensitivity squared on the full lambda-partite domain. It includes the corrected output-transposition construction, a [fresh source audit](docs/hypermatching-full-source-audit.md), and a [scoped priority check](docs/hypermatching-priority-audit.md). Prior general publication was not located; novelty and optimal constants are not certified. The associated profile cells retain their k-dependent prefactor.
 
 ## Website
 

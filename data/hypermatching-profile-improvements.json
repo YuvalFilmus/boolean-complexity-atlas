@@ -344,5 +344,6 @@
         "hypermatching-degree-sensitivity-descent"
       ]
     }
-  ]
+  ],
+  "coefficient_refinement": "K_H=(2k-1), improved from (2k-1)^2 by the independently audited native-face-first proof."
 }

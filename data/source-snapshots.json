@@ -996,5 +996,32 @@
     "sha256": "c55f17d6e40d605dbeff024902efafd4290aaf8d16ce399fb247c7eb98779dae",
     "pages": 21,
     "retrieved": "2026-10-23"
+  },
+  {
+    "id": "ADGG26",
+    "snapshot_id": "ADGG26",
+    "url": "https://arxiv.org/pdf/2610.05585v1",
+    "resolved_url": "https://arxiv.org/pdf/2610.05585v1",
+    "sha256": "897e58f3014d3102b91e51e2ad29e1728eeaa0c99b9650ed44849f2a818ec286",
+    "pages": 65,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "GNSTW16",
+    "snapshot_id": "GNSTW16",
+    "url": "https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf",
+    "resolved_url": "https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf",
+    "sha256": "ae98487d6197f518e6e6f32997406e1e124cb95e30fa84ce8cf2bc701150d2a8",
+    "pages": 12,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "FLLV20notes",
+    "snapshot_id": "FLLV20notes",
+    "url": "https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf",
+    "resolved_url": "https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf",
+    "sha256": "b66e4fcea12fff747e5c518664ad51282c43e1122a1a931ebbf759f4be897ec1",
+    "pages": 8,
+    "retrieved": "2026-10-23"
   }
 ]

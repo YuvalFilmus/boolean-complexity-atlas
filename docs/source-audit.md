@@ -4,9 +4,9 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 782 claim records with proof summaries, and 135 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 782 claim records with proof summaries, and 137 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
-- 112 original-source snapshots with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
+- 114 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
 - The syntactic all-measure pair register contains 61752 ordered pairs, of which 1166 have indexed evidence. Many cross-model pairs require a common-domain definition before they can be mathematical questions.
 
@@ -286,3 +286,7 @@ The [campaign audit](sensitivity-campaign-and-gallery.md) now records 16 complet
 ## Open-question literature audit, 23 October 2026
 
 See [the dated question-status audit](question-status-audit-2026-10-23.md). All 15 active published candidates have a scoped status check: six recent-source reaffirmations, seven searches finding no resolution, and two formulation issues. Eight primary bibliographic records were added, with selected statements and proof routes inspected. The corpus now has 135 references. No new resolution or changed exponent is inferred from restricted-class theorems, nonadaptive results or communication bounds with log n losses.
+
+## Question-status follow-up, 23 October 2026
+
+The second pass adds ADGG26 and GNSTW16, expands model/direction checks for seven negative searches, and gives explicit editorial formulations for the two ambiguous questions. A parity family diagnoses the chosen-degree/native-degree mismatch in the literal HKMP reading; the intended restricted version remains unverified. See the follow-up section of [the dated status audit](question-status-audit-2026-10-23.md). The bibliography has 137 records; the snapshot manifest has 114 successful captures and one failed retrieval. No new resolution or exponent improvement is asserted.

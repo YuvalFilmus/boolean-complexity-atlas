@@ -151,7 +151,7 @@ Definition locator: KLLPV26 Definition 31 (output-restricted maxima for s_b).
 
 Earlier seed attributions corrected; see `alias_attribution_history` in the source JSON.
 
-Sources: [BdW02](https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf), [KLLPV26](https://arxiv.org/abs/2609.26757).
+Sources: [BdW02](https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf), [KLLPV26](https://arxiv.org/abs/2609.26757), [GNSTW16](https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf).
 
 ## s0: 0-sensitivity
 
@@ -1842,7 +1842,7 @@ Definition locator: Section 2.
 - Alias `n(f)`: [Wel22](https://arxiv.org/abs/2005.00566v2), Section 2; source_checked.
 - Alias `R(f)`: [CHS20](https://doi.org/10.1007/s00493-019-4136-7), Introduction, p.1; source_checked.
 
-Sources: [Wel22](https://arxiv.org/abs/2005.00566v2), [CHS20](https://doi.org/10.1007/s00493-019-4136-7).
+Sources: [Wel22](https://arxiv.org/abs/2005.00566v2), [CHS20](https://doi.org/10.1007/s00493-019-4136-7), [GNSTW16](https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf).
 
 ## Dweighted: weighted deterministic query complexity
 

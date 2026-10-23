@@ -3960,7 +3960,22 @@
       "pages": "1--8",
       "read_version": "Dated June 24, 2020; 8-page author-hosted talk notes, inspected via original PDF extraction",
       "accessed": "2026-10-17",
-      "metadata_note": "Four names on this notes cover; do not merge with the later five-author DFLLV paper. Section 7 records a historical hypergraphical-sensitivity question."
+      "metadata_note": "Four names on this notes cover; do not merge with the later five-author DFLLV paper. Section 7 records a historical hypergraphical-sensitivity question.",
+      "snapshot": {
+        "url": "https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf",
+        "sha256": "b66e4fcea12fff747e5c518664ad51282c43e1122a1a931ebbf759f4be897ec1",
+        "pages": 8,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "snapshot_id": "FLLV20notes",
+          "url": "https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf",
+          "sha256": "b66e4fcea12fff747e5c518664ad51282c43e1122a1a931ebbf759f4be897ec1",
+          "pages": 8,
+          "retrieved": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "CL12",
@@ -4727,6 +4742,76 @@
       ],
       "annotation": "Published version of the random-restriction result, with a changed title. Explicitly states the full Aaronson–Ambainis influence conjecture and proves a restricted random-restriction theorem. Same work as the 2024 report and its March 2026 revision; not an additional distinct-paper recurrence.",
       "metadata_note": "Official publisher metadata and selected full-PDF conjecture/theorem statements checked. The latest arXiv page 2402.13952v2 says accepted at ITCS 2025. Full proof not independently re-proved."
+    },
+    {
+      "id": "ADGG26",
+      "authors": [
+        "Ryan Anselm",
+        "Michelle Ding",
+        "Dar Gilboa",
+        "Sabee Grewal"
+      ],
+      "title": "Optimal and Verifiable Quantum Advantages in Communication Complexity",
+      "year": 2026,
+      "kind": "preprint",
+      "url": "https://arxiv.org/abs/2610.05585v1",
+      "eprint": "2610.05585",
+      "doi": "10.48550/arXiv.2610.05585",
+      "read_version": "arXiv v1, 4 October 2026, 65 pages; Theorems 1.1–1.3, Sections 1.1.1, 4.1–4.2; selected statements and proof route checked, not a full proof audit",
+      "annotation": "Pelagic Fourier Fishing gives an optimal one-query bounded-error versus linear randomized query separation for a total relation, via a two-way communication lower bound. Fourier sampling lands in the middle of squared Fourier mass with probability at least 3/4; the classical proof uses entropy/coupling and a Gaussian window robust to shifts. This does not answer BK24 Open Problem 1: the Pelagic algorithm is bounded-error. The exact protocol of Theorem 1.3 is a different communication problem and yields a fixed-degree polynomial, not exponential, separation. No exact query separation is inferred from it.",
+      "accessed": "2026-10-23",
+      "snapshot": {
+        "url": "https://arxiv.org/pdf/2610.05585v1",
+        "sha256": "897e58f3014d3102b91e51e2ad29e1728eeaa0c99b9650ed44849f2a818ec286",
+        "pages": 65,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "snapshot_id": "ADGG26",
+          "url": "https://arxiv.org/pdf/2610.05585v1",
+          "sha256": "897e58f3014d3102b91e51e2ad29e1728eeaa0c99b9650ed44849f2a818ec286",
+          "pages": 65,
+          "retrieved": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "GNSTW16",
+      "authors": [
+        "Parikshit Gopalan",
+        "Noam Nisan",
+        "Rocco A. Servedio",
+        "Kunal Talwar",
+        "Avi Wigderson"
+      ],
+      "title": "Smooth Boolean Functions are Easy: Efficient Algorithms for Low-Sensitivity Functions",
+      "year": 2016,
+      "kind": "inproceedings",
+      "url": "https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf",
+      "eprint": "1508.02420",
+      "booktitle": "Proceedings of the 2016 ACM Conference on Innovations in Theoretical Computer Science (ITCS 2016)",
+      "publisher": "Association for Computing Machinery",
+      "pages": "59--70",
+      "doi": "10.1145/2840728.2840738",
+      "read_version": "12-page author-hosted proceedings PDF; Theorem 8 and Section 2.1 checked",
+      "annotation": "Theorem 8 explicitly attributes the relevant-variable bound n(f) <= s(f)4^{s(f)} to Simon. This is historical context for Wellens Conjecture 3.17, which asks to remove the prefactor s(f); the 2016 paper is not a recurrence of that later sharper conjecture. Its structural algorithms use majority reconstruction of neighboring values; these do not prove the O(4^s) variable bound.",
+      "accessed": "2026-10-23",
+      "snapshot": {
+        "url": "https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf",
+        "sha256": "ae98487d6197f518e6e6f32997406e1e124cb95e30fa84ce8cf2bc701150d2a8",
+        "pages": 12,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "snapshot_id": "GNSTW16",
+          "url": "https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf",
+          "sha256": "ae98487d6197f518e6e6f32997406e1e124cb95e30fa84ce8cf2bc701150d2a8",
+          "pages": 12,
+          "retrieved": "2026-10-23"
+        }
+      ]
     }
   ],
   "measures": [
@@ -5149,7 +5234,8 @@
       "family": "core",
       "sources": [
         "BdW02",
-        "KLLPV26"
+        "KLLPV26",
+        "GNSTW16"
       ],
       "aliases": [
         {
@@ -8720,7 +8806,8 @@
       "family": "extension",
       "sources": [
         "Wel22",
-        "CHS20"
+        "CHS20",
+        "GNSTW16"
       ],
       "definition_locator": "Section 2",
       "aliases": [
@@ -35314,13 +35401,27 @@
             "source": "CPS23",
             "locator": "Question 1 and Theorems 4–5",
             "role": "restricted progress; not a general resolution"
+          },
+          {
+            "source": "CPS23",
+            "locator": "Theorem 5 and Proposition 29(1)",
+            "role": "Parameter-dependent progress: bounded alternation only"
           }
         ],
         "queries": [
           "\"D(f)\" \"bs(f)\" quadratic conjecture 2026 site:arxiv.org",
-          "\"Decision Tree Complexity\" \"Block Sensitivity\" 2025 2026 conjecture"
+          "\"Decision Tree Complexity\" \"Block Sensitivity\" 2025 2026 conjecture",
+          "\"block sensitivity\" \"quadratic\" \"decision tree\" 2025 2026 conjecture"
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "What the restricted theorem proves",
+            "text": "CPS23 gives a bound depending on alternation. Replacing alternation by a universal constant changes the class of functions, so it cannot close the unrestricted quadratic question.",
+            "latex": "D(f)=O(\\operatorname{alt}(f)\\,s(f)\\,\\operatorname{bs}(f))."
+          }
+        ]
       },
       "status_sources": [
         "ABKBRT21",
@@ -35495,17 +35596,33 @@
             "source": "CCM26",
             "locator": "v2 Introduction and Theorem 3",
             "role": "nearby k=2 restricted result, not a resolution"
+          },
+          {
+            "source": "BS21",
+            "locator": "Abstract and main theorem",
+            "role": "Ordinary bounded-error k-Forrelation; different extremal promise"
           }
         ],
         "queries": [
           "\"extremal forrelation\" \"2026\" conjecture randomized",
-          "\"extremal k-forrelation\" lower bound"
+          "\"extremal k-forrelation\" lower bound",
+          "\"extremal\" \"k-Forrelation\"",
+          "\"k-Forrelation\" \"exact\" conjecture"
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Two different promises",
+            "text": "BS21 proves the optimal ordinary bounded-error k-Forrelation separation. GS26 Conjecture 7 asks for extremal instances supporting exact quantum computation. The adjective extremal in a discussion of optimal separations alone does not identify the extremal promise.",
+            "latex": "R(\\mathrm{Extremal}\\ k\\text{-Forrelation})\\stackrel{?}{=}\\widetilde\\Omega(2^{n(1-1/k)}),\\quad k>2."
+          }
+        ]
       },
       "status_sources": [
         "GS26",
-        "CCM26"
+        "CCM26",
+        "BS21"
       ]
     },
     {
@@ -35527,24 +35644,47 @@
       "status_audit": {
         "checked": "2026-10-23",
         "verdict": "no_resolution_found",
-        "summary": "The original exact-quantum versus randomized total-search question is still listed in BK24, whose official history has no revision beyond v1. Searches found no primary answer; bounded-error Q separations do not answer the exact QE question.",
+        "summary": "No resolution found. The October Pelagic Fourier Fishing paper gives an optimal bounded-error query separation, while its exact result concerns a different communication problem. Neither answers BK24’s exact query question; pseudo-deterministic quantum results also use a different output requirement.",
         "evidence": [
           {
             "source": "BK24",
             "locator": "Section 1.3, Open Problem 1, PDF pp.8–9",
             "role": "original precise relation question; latest listed v1"
+          },
+          {
+            "source": "AGL26",
+            "locator": "Final Theorem 4 and Section 3.1",
+            "role": "Pseudo-deterministic quantum, not exact arbitrary-output search"
+          },
+          {
+            "source": "ADGG26",
+            "locator": "Theorem 1.1, Section 1.1.1; Theorem 1.3",
+            "role": "Recent bounded-error query separation; separate exact communication result"
           }
         ],
         "queries": [
           "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
           "\"total search\" \"conical\" \"2026\"",
           "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
-          "\"Separations in query complexity for total search problems\""
+          "\"Separations in query complexity for total search problems\"",
+          "\"total search\" \"exact quantum\" separation",
+          "\"Separations in query complexity for total search problems\" 2025 2026"
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "October progress does not give exact query search",
+            "text": "ADGG26 Pelagic Fourier Fishing has one quantum query with success at least 3/4 and randomized cost linear in truth-table length. Its Theorem 1.3 is exact quantum communication for a different problem, with a fixed-degree polynomial classical lower bound. Neither establishes the exponential exact-query separation asked by BK24. AGL26 restricts outputs to a canonical answer with high probability; exact relation algorithms may output many different valid answers.",
+            "latex": "Q(\\mathrm{Pelagic})=1,\\quad R(\\mathrm{Pelagic})=\\Omega(N),\\quad N=2^n.",
+            "proof_summary": "For the upper bound, Fourier sampling chooses y with probability |hhat(y)|^2. Each excluded tail carries less than 1/8 mass, so total success is at least 3/4. A T-query classical algorithm yields a two-way protocol exchanging at most two bits per query to h=fg, transferring the communication lower bound. This verifies the scope/reduction, not every step of the 65-page lower-bound proof."
+          }
+        ]
       },
       "status_sources": [
-        "BK24"
+        "BK24",
+        "AGL26",
+        "ADGG26"
       ]
     },
     {
@@ -35572,15 +35712,30 @@
             "source": "BK24",
             "locator": "Section 1.3, Open Problem 2, PDF pp.8–9",
             "role": "original precise relation question; latest listed v1"
+          },
+          {
+            "source": "BK24",
+            "locator": "Definitions 10–12, PDF pp.11–12",
+            "role": "Precise global nonnegativity and normalization constraints"
           }
         ],
         "queries": [
           "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
           "\"total search\" \"conical\" \"2026\"",
           "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
-          "\"Separations in query complexity for total search problems\""
+          "\"Separations in query complexity for total search problems\"",
+          "\"total search\" \"conical\" degree 2025 2026",
+          "\"total search\" \"approximate degree\" 2026 2025 separation \"Ben-David\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Two subquestions with a shared convention",
+            "text": "The first asks whether approximate conical degree can be exponentially larger than approximate relation degree. The second asks whether exact relation degree can be exponentially larger than approximate relation degree. A relation is represented by one nonnegative polynomial per output; their sum is at most one on the whole cube and valid-output mass is at least 1-epsilon on the domain. Exact degree means epsilon=0. Scalar-function or unbounded-off-promise polynomial separations do not suffice.",
+            "latex": "\\widetilde{\\deg}_{+2}(R)\\gg\\widetilde{\\deg}(R)\\qquad\\text{or}\\qquad\\deg(R)\\gg\\widetilde{\\deg}(R)."
+          }
+        ]
       },
       "status_sources": [
         "BK24"
@@ -35611,15 +35766,29 @@
             "source": "BK24",
             "locator": "Section 1.3, Open Problem 3, PDF pp.8–9",
             "role": "original precise relation question; latest listed v1"
+          },
+          {
+            "source": "BK24",
+            "locator": "Definition 13 and Theorem 8",
+            "role": "Positive-weight adversary and direction of existing separation"
           }
         ],
         "queries": [
           "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
           "\"total search\" \"conical\" \"2026\"",
           "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
-          "\"Separations in query complexity for total search problems\""
+          "\"Separations in query complexity for total search problems\"",
+          "\"total search\" \"adversary\" \"approximate degree\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Which direction remains unproved",
+            "text": "BK24 Theorem 8 separates approximate degree above the positive adversary bound. Open Problem 3 asks about the reverse ordering. Adv here is the positive-weight relation bound in Definition 13, not the negative-weight adversary bound.",
+            "latex": "\\operatorname{Adv}(R)\\stackrel{?}{=}O(\\widetilde{\\deg}(R)^2)."
+          }
+        ]
       },
       "status_sources": [
         "BK24"
@@ -35691,19 +35860,35 @@
             "source": "NPS26",
             "locator": "Sections 3–4",
             "role": "related condensation question, not this conjecture"
+          },
+          {
+            "source": "Sparse25",
+            "locator": "Theorems 4.6–4.7 and discussion following them",
+            "role": "De Morgan representations with input-length dependence, different from the pure query target"
           }
         ],
         "queries": [
           "\"Log-Rank and Lifting for AND-Functions\" conjecture 2025 2026",
-          "\"monomial sparsity\" \"AND\" \"2026\" conjecture"
+          "\"monomial sparsity\" \"AND\" \"2026\" conjecture",
+          "\"AND\" \"monomial sparsity\" \"log\" 2026",
+          "\"Restriction Trees for Sparsity and Applications\" conjecture AND log n"
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Which sparsity and which model",
+            "text": "The target uses ordinary 0/1 monomial sparsity and AND-query depth. Sparse25 compares exact and approximate De Morgan/generalized-monomial sparsity and retains input-length factors; BBCLD26 is a communication theorem. Those are substantive adjacent results but do not establish this dimension-free query bound.",
+            "latex": "D_{\\land}(f)\\stackrel{?}{\\leq}\\operatorname{poly}(\\log(2+\\operatorname{spar}(f)))."
+          }
+        ]
       },
       "status_sources": [
         "KLMY21",
         "KLMY21survey",
         "BBCLD26",
-        "NPS26"
+        "NPS26",
+        "Sparse25"
       ]
     },
     {
@@ -35731,17 +35916,38 @@
             "source": "Wel22",
             "locator": "Conjecture 3.17; discussion near end of paper",
             "role": "exact sensitivity-variable conjecture"
+          },
+          {
+            "source": "GNSTW16",
+            "locator": "Theorem 8, proceedings p.61",
+            "role": "Historical Simon bound; not the sharper conjecture"
+          },
+          {
+            "source": "Wel22",
+            "locator": "Section 3.5, Conjecture 3.17 and Theorem 3.18",
+            "role": "Strong potential target versus mixed-measure progress"
           }
         ],
         "queries": [
           "\"Wellens\" \"relevant variables\" \"conjecture\" sensitivity 2026",
           "\"n(f)\" \"4\" \"Wellens\" \"conjecture\"",
-          "\"relevant variables\" \"sensitivity\" \"2026\" bound"
+          "\"relevant variables\" \"sensitivity\" \"2026\" bound",
+          "\"Wellens\" \"Conjecture 3.17\"",
+          "\"relevant variables\" \"sensitivity\" Wellens conjecture"
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Removing a factor versus changing the exponent",
+            "text": "The known Simon bound has a prefactor s; Wellens asks to remove it uniformly. The stronger potential assertion would imply that removal because each coordinate sensitivity is at most twice maximum sensitivity. The mixed sensitivity/degree theorem is not a sensitivity-only solution.",
+            "latex": "n_{\\mathrm{rel}}(f)\\leq s(f)4^{s(f)},\\qquad n_{\\mathrm{rel}}(f)\\stackrel{?}{=}O(4^{s(f)})."
+          }
+        ]
       },
       "status_sources": [
-        "Wel22"
+        "Wel22",
+        "GNSTW16"
       ]
     },
     {
@@ -35781,22 +35987,76 @@
       "status_audit": {
         "checked": "2026-10-23",
         "verdict": "formulation_unresolved",
-        "summary": "The latest listed framework version remains v3. Conjecture 72 is present, but an intended nontrivial characterization still needs precise support, norm, fixed-completion and margin constraints. Unrestricted coefficient subtraction is only a representation equivalence; neither a proof nor a disproof of an intended restricted statement is asserted.",
+        "summary": "Literal enlarged-basis perturbation is coefficient subtraction after fixing the same completion and degree scale. Definition 59 uses native approximate degree, whereas Conjecture 72 writes deg(p); an explicit parity family diagnoses this difference for arbitrary p. The intended restricted normalization statement remains unresolved.",
         "evidence": [
           {
             "source": "HKMP26",
             "locator": "v3 Conjecture 72 and Lemma 71",
             "role": "source formulation and flagged normalization step"
+          },
+          {
+            "source": "HKMP26",
+            "locator": "Definition 59, manuscript p.27; Definition 68; Lemma 71 and Conjecture 72, pp.33–34",
+            "role": "Fixes the target completion and exposes distinct degree parameters"
           }
         ],
         "queries": [
           "\"natural completions\" \"perturbation\" 2026",
           "\"completion\" \"perturbation\" \"Huffstutler\""
         ],
-        "limitations": "The intended restricted formulation and the dependent-support normalization step remain unresolved in the atlas. Version-history confirmation is not a mathematical repair."
+        "limitations": "The intended restricted formulation and the dependent-support normalization step remain unresolved in the atlas. Version-history confirmation is not a mathematical repair.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Fix both the target and the degree scale",
+            "text": "Definition 59 fixes F_p(x)=+1 when p(x)>=0 and -1 otherwise. Its no-blowup condition is measured against native approximate degree a. Conjecture 72 instead writes polynomial in d=deg(p). For a family, require d=poly(a) with common constants before treating these scales as interchangeable. At zeros, F_p=+1; a replacement approximant need not share those zeros.",
+            "latex": "a=\\widetilde{\\deg}(f),\\quad d=\\deg(p),\\quad F_p(x)=\\begin{cases}+1&p(x)\\geq0,\\\\-1&p(x)<0.\\end{cases}"
+          },
+          {
+            "title": "A diagnostic family for the degree mismatch",
+            "text": "On the promise product_{i=2}^n x_i=1, let f_n(x)=x_1 and choose p_n(x)=product_{i=1}^n x_i. Native approximate degree is one, but the chosen polynomial and its fixed natural completion have approximate degree n. Delta=0 satisfies the polynomial-in-d approximant condition. Thus arbitrary p and a native-degree left side cannot be combined literally; this diagnoses a missing degree hypothesis rather than refuting an intended optimal-degree version.",
+            "latex": "\\widetilde{\\deg}(f_n)=1,\\quad d_n=n,\\quad F_{p_n}=\\chi_{[n]},\\quad\\widetilde{\\deg}(F_{p_n})=n.",
+            "proof_summary": "Both labels occur on the promise, so no constant approximates f_n; x_1 does. For any polynomial r of degree less than n, orthogonality gives E[r chi_[n]]=0. Uniform approximation to chi_[n] with error below one would instead force this expectation positive. Hence the natural parity completion has approximate degree n."
+          },
+          {
+            "title": "Literal unrestricted perturbation is an equivalence of coordinates",
+            "text": "With a full degree-t basis, t>=d, every approximant q to this same fixed F_p has Delta=qhat-phat and p_Delta=q. Conversely such a perturbation already supplies an approximant. This implication needs neither a kernel condition nor Lemma 71. It is an algebraic observation about the literal enlarged-basis statement, not evidence for a stronger restricted characterization.",
+            "latex": "q=p+\\sum_{|S|\\leq t}(\\widehat q(S)-\\widehat p(S))\\chi_S."
+          },
+          {
+            "title": "A precise sufficient normalization condition",
+            "text": "An editorial sufficient statement, not a replacement author conjecture: q has degree t, full-cube norm at most K, full-cube margin gamma>0 and sign(q)=F_p everywhere. Then fixed-error approximate degree of F_p is O(tK/gamma). To obtain polynomial native-degree overhead, t and K/gamma must be polynomial in a with uniform constants. Keeping only promise signs gives some completion, not necessarily F_p. A coefficient infinity-norm bound alone does not control K.",
+            "latex": "\\|q\\|_{\\infty}\\leq K,\\quad\\min_x|q(x)|\\geq\\gamma\\quad\\Longrightarrow\\quad\\widetilde{\\deg}(\\operatorname{sign}q)=O(tK/\\gamma).",
+            "proof_summary": "Normalize by K, then compose with a polynomial sign approximant on the two intervals separated from zero by gamma/K. The unrestricted original-support dependent-kernel case remains unverified."
+          }
+        ]
       },
       "status_sources": [
         "HKMP26"
+      ],
+      "formulation_clarifications": [
+        {
+          "title": "Fix both the target and the degree scale",
+          "text": "Definition 59 fixes F_p(x)=+1 when p(x)>=0 and -1 otherwise. Its no-blowup condition is measured against native approximate degree a. Conjecture 72 instead writes polynomial in d=deg(p). For a family, require d=poly(a) with common constants before treating these scales as interchangeable. At zeros, F_p=+1; a replacement approximant need not share those zeros.",
+          "latex": "a=\\widetilde{\\deg}(f),\\quad d=\\deg(p),\\quad F_p(x)=\\begin{cases}+1&p(x)\\geq0,\\\\-1&p(x)<0.\\end{cases}"
+        },
+        {
+          "title": "A diagnostic family for the degree mismatch",
+          "text": "On the promise product_{i=2}^n x_i=1, let f_n(x)=x_1 and choose p_n(x)=product_{i=1}^n x_i. Native approximate degree is one, but the chosen polynomial and its fixed natural completion have approximate degree n. Delta=0 satisfies the polynomial-in-d approximant condition. Thus arbitrary p and a native-degree left side cannot be combined literally; this diagnoses a missing degree hypothesis rather than refuting an intended optimal-degree version.",
+          "latex": "\\widetilde{\\deg}(f_n)=1,\\quad d_n=n,\\quad F_{p_n}=\\chi_{[n]},\\quad\\widetilde{\\deg}(F_{p_n})=n.",
+          "proof_summary": "Both labels occur on the promise, so no constant approximates f_n; x_1 does. For any polynomial r of degree less than n, orthogonality gives E[r chi_[n]]=0. Uniform approximation to chi_[n] with error below one would instead force this expectation positive. Hence the natural parity completion has approximate degree n."
+        },
+        {
+          "title": "Literal unrestricted perturbation is an equivalence of coordinates",
+          "text": "With a full degree-t basis, t>=d, every approximant q to this same fixed F_p has Delta=qhat-phat and p_Delta=q. Conversely such a perturbation already supplies an approximant. This implication needs neither a kernel condition nor Lemma 71. It is an algebraic observation about the literal enlarged-basis statement, not evidence for a stronger restricted characterization.",
+          "latex": "q=p+\\sum_{|S|\\leq t}(\\widehat q(S)-\\widehat p(S))\\chi_S."
+        },
+        {
+          "title": "A precise sufficient normalization condition",
+          "text": "An editorial sufficient statement, not a replacement author conjecture: q has degree t, full-cube norm at most K, full-cube margin gamma>0 and sign(q)=F_p everywhere. Then fixed-error approximate degree of F_p is O(tK/gamma). To obtain polynomial native-degree overhead, t and K/gamma must be polynomial in a with uniform constants. Keeping only promise signs gives some completion, not necessarily F_p. A coefficient infinity-norm bound alone does not control K.",
+          "latex": "\\|q\\|_{\\infty}\\leq K,\\quad\\min_x|q(x)|\\geq\\gamma\\quad\\Longrightarrow\\quad\\widetilde{\\deg}(\\operatorname{sign}q)=O(tK/\\gamma).",
+          "proof_summary": "Normalize by K, then compose with a polynomial sign approximant on the two intervals separated from zero by gamma/K. The unrestricted original-support dependent-kernel case remains unverified."
+        }
       ]
     },
     {
@@ -36077,7 +36337,7 @@
       "status_audit": {
         "checked": "2026-10-23",
         "verdict": "formulation_unresolved",
-        "summary": "The original closing question does not fix exponents, parameter uniformity or the exact intended analogue. The atlas query lift is a separate repository derivation and is not assigned published priority or represented as settling every reading of that historical question.",
+        "summary": "The historical question is now separated into explicit editorial variants: a fixed-hyperedge-size coarse query comparison, a quadratic intrinsic-degree bound, and stronger uniformity or witness requirements. The atlas lift establishes the stated coarse variant in its oracle model; it does not settle the others or establish published priority.",
         "evidence": [
           {
             "source": "FLLV20notes",
@@ -36088,14 +36348,66 @@
             "source": "DFLLV26",
             "locator": "Section 8 and query-domain framework",
             "role": "related later journal context"
+          },
+          {
+            "source": "FLLV20notes",
+            "locator": "Sections 1, 3 and 7",
+            "role": "Huang-type quantitative context versus unquantified closing question"
+          },
+          {
+            "source": "DFLLV26",
+            "locator": "Section 5 opening paragraph",
+            "role": "Limitation of the representation-theoretic method, not a counterexample"
           }
         ],
         "queries": [
           "\"hypergraphical\" \"sensitivity\" Boolean functions",
-          "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture"
+          "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture",
+          "\"hypergraphical\" \"sensitivity\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
-      }
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "followup_checked": "2026-10-23",
+        "clarifications": [
+          {
+            "title": "Specify the domain and oracle first",
+            "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+          },
+          {
+            "title": "Coarse polynomial equivalence",
+            "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
+            "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+          },
+          {
+            "title": "Direct quadratic intrinsic-degree theorem",
+            "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
+            "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
+          },
+          {
+            "title": "Uniformity and witness framework are further questions",
+            "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+          }
+        ]
+      },
+      "formulation_clarifications": [
+        {
+          "title": "Specify the domain and oracle first",
+          "text": "Use all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i. A query at a vertex reveals its entire hyperedge. Degree is minimum degree in hyperedge-indicator coordinates, and sensitivity uses the native disjoint-support convention. Restricting the allowed hypermatchings or changing to membership queries is a different problem."
+        },
+        {
+          "title": "Coarse polynomial equivalence",
+          "text": "One possible question asks for a uniform-in-n polynomial when k is fixed. The separately audited atlas lift supplies the displayed bound in this oracle model. This is a repository derivation, with published priority unverified. It establishes this particular coarse statement, rather than every reading of the historical question.",
+          "latex": "D(f)\\leq 10368(2k-1)^{10}s(f)^{10}."
+        },
+        {
+          "title": "Direct quadratic intrinsic-degree theorem",
+          "text": "A stronger possible target is a Huang-type intrinsic degree bound with exponent two. Neither the coarse query lift nor the final journal method establishes it for these hypermatching domains. This is an editorial quantitative reading suggested by Sections 1 and 3 of the 2020 notes, not an exact conjecture attributed to the authors.",
+          "latex": "\\deg_{\\mathcal H_{\\lambda,n}}(f)\\stackrel{?}{\\leq}C_{\\lambda}s(f)^2."
+        },
+        {
+          "title": "Uniformity and witness framework are further questions",
+          "text": "A constant independent of lambda, or a direct witnessing/representation-theoretic proof, is stronger or method-specific. The final journal says its technique does not capture hypergraphical perfect matchings; this is a limitation of that technique, not a theorem that no polynomial comparison exists. The historical closing sentence does not choose among these variants."
+        }
+      ]
     },
     {
       "id": "bs-s-quadratic",

@@ -55,3 +55,38 @@ data/question-status-audit.json stores all 15 verdicts, source locators, search 
 The site exposes the verdict and its scope on every published-question card. Centrality also counts explicitly annotated measure mentions in checked question passages, with the source and locator exposed in the evidence list. No combined importance score is introduced.
 
 The published random-restriction paper is also indexed as Bha25, *Random Restrictions of Bounded Low Degree Polynomials Are Juntas*, ITCS 2025, DOI 10.4230/LIPIcs.ITCS.2025.17. Its Conjecture 4 and Theorems 5/30 correspond to the revised report. The changed title and newer report revision do not create a sixth distinct-paper occurrence.
+
+## Follow-up: seven negative searches and two formulation issues
+
+A second pass on 23 October checked the seven negative-search entries again. None has a verified new resolution. These remain bounded negative findings, not certifications of current openness. Every affected website card now exposes its precise model/direction and the nearby result most likely to be confused with a resolution.
+
+Two primary references were added, with source hashes and full bibliography entries:
+
+- Ryan Anselm, Michelle Ding, Dar Gilboa and Sabee Grewal, *Optimal and Verifiable Quantum Advantages in Communication Complexity*, arXiv:2610.05585v1, 4 October 2026, 65 pp., [original manuscript](https://arxiv.org/abs/2610.05585v1). Theorem 1.1 and Section 1.1.1 imply one-query bounded-error versus linear randomized complexity for Pelagic Fourier Fishing. Fourier sampling hits the middle of squared Fourier mass with probability at least 3/4. A classical query to h=fg can be simulated by exchanging at most two bits, transferring the two-way communication lower bound. The lower-bound route uses entropy/coupling and a two-sided Gaussian window robust to independent shifts; a complete independent proof audit is not claimed. The exact quantum protocol in Theorem 1.3 is for a different communication relation, with fixed-degree polynomial classical cost. It does not answer BK24's exponential exact-query question.
+- Parikshit Gopalan, Noam Nisan, Rocco A. Servedio, Kunal Talwar and Avi Wigderson, *Smooth Boolean Functions are Easy: Efficient Algorithms for Low-Sensitivity Functions*, ITCS 2016, pp.59–70, DOI [10.1145/2840728.2840738](https://doi.org/10.1145/2840728.2840738); [author proceedings PDF](https://www.cs.columbia.edu/~rocco/Public/GNSTW.pdf). Theorem 8 attributes n(f)<=s(f)4^{s(f)} to Simon. This is a historical reference for the starting bound, not another occurrence of Wellens' sharper later conjecture. The majority-neighborhood reconstruction results do not remove that prefactor.
+
+Additional checked contextual references are attached to the question cards: BS21 for ordinary k-Forrelation, AGL26 for pseudo-deterministic search, Sparse25 for De Morgan sparsity, and BK24 Definitions 10–13 for bounded relation polynomial systems and positive adversary. They do not increase same-question recurrence counts: none was verified to restate these exact open targets. Preprint/proceedings versions continue to count once.
+
+The seven outstanding targets are now displayed with their directions: unrestricted quadratic D versus bs; extremal k>2 Forrelation; exact quantum versus randomized total search in either direction; conical versus approximate relation degree and exact versus approximate relation degree; positive adversary above approximate relation degree; dimension-free AND-query depth versus ordinary monomial sparsity; and sensitivity-only relevant-variable bounds. They retain their existing verdicts.
+
+### Perturbation: fixed completion, two degree scales, and a precise sufficient statement
+
+[HKMP26 v3](https://arxiv.org/abs/2603.29256v3), Definition 59 (p.27), fixes F_p(x)=+1 if p(x)>=0 and -1 otherwise. “Without a degree blow-up” there uses native approximate degree a=adeg(f). Conjecture 72 (p.34) instead writes d=deg(p). To identify polynomial-in-d overhead with polynomial-in-a overhead, require d=poly(a), uniformly for the family.
+
+A diagnostic family shows the distinction is substantive. Let the promise be product_{i=2}^n x_i=1, let f_n=x_1 on that promise, and choose p_n=product_{i=1}^n x_i. Then a_n=1, d_n=n, and the fixed natural completion is n-bit parity, of approximate degree n. Delta=0 is already a degree-d_n approximant to that completion. Both promised labels occur, so native degree cannot be zero. Parity's approximate-degree lower bound follows directly from orthogonality: every polynomial r of degree less than n has E[r chi_[n]]=0, whereas uniform error below one would force the expectation positive. Thus the arbitrary-p/native-degree reading fails; this does not refute an intended version requiring an optimal-degree p.
+
+After fixing the same target F_p and tying d to native degree, the unrestricted enlarged-basis statement is a coordinate identity: if q approximates F_p, choose Delta=qhat-phat; conversely, p_Delta already is the approximant. An exact promise-kernel requirement is stronger and is not automatic. A kernel perturbation or promise-sign preservation establishes a completion of f, but does not identify its off-promise signs with F_p.
+
+An explicit **editorial sufficient statement**, not an author conjecture, is: if q has degree t, full-cube norm at most K, full-cube margin at least gamma>0, and sign(q)=F_p everywhere, then adeg(F_p)=O(tK/gamma) at fixed error. Normalize by K and compose with a sign approximant. Uniform polynomial bounds on t and K/gamma in a give polynomial native-degree overhead. Bounding only coefficient infinity norm does not supply K. The unrestricted dependent-original-support normalization problem remains unverified. No source correction or general repair of Lemma 71 is claimed.
+
+### Hypergraphical sensitivity: three distinct targets
+
+The original [2020 notes](https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf), Sections 1/3/7, motivate Huang-type bounds but leave the closing hypergraphical question unquantified. The site now labels the following as **editorial readings**, rather than retroactively attributing exact conjectures:
+
+1. On all lambda-partite perfect hypermatchings, with fixed positive lambda_i and k=sum_i lambda_i, a vertex query reveals its entire hyperedge. The audited atlas product-permutation lift proves D<=10368(2k-1)^10 s^10. This settles that particular coarse, fixed-k polynomial comparison in the stated oracle model; its published priority remains unverified.
+2. A direct intrinsic-degree inequality deg_H(f)<=C_lambda s(f)^2 is stronger. Neither that coarse lift nor the checked journal method proves this for the hypermatching domains.
+3. Constants independent of lambda, or a direct witnessing framework, are additional requirements. The final DFLLV26 Section 5 opening states that its representation-theoretic technique does not capture hypergraphical perfect matching domains. This is a method limitation, not a counterexample to polynomial equivalence.
+
+Changing the oracle, restricting the allowed hypermatchings, or allowing k to grow changes what is being asked. The historical entry keeps its formulation-review badge because the authors' exact intended quantitative target has not been established. The site does not silently replace it by either the coarse statement or the quadratic variant.
+
+Source PDFs remain outside the repository. Only bibliography, source hashes, checked locators, summaries and the diagnostic argument are published. No exponent table was changed by this status follow-up.

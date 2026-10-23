@@ -1,0 +1,485 @@
+{
+  "as_of": "2026-10-23",
+  "scope": "All 15 active published-question candidates in the 23 October Open Questions tab; inferred table gaps are not literature-status certifications.",
+  "summary": {
+    "primary_reaffirmed_open": 6,
+    "no_resolution_found": 7,
+    "formulation_unresolved": 2
+  },
+  "records": [
+    {
+      "id": "D-bs-quadratic",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "The cubic-to-quadratic unrestricted problem remains unresolved in the checked CPS proceedings; quadratic results there require zebra or bounded-alternation hypotheses. A search through 23 October 2026 found no primary resolution.",
+      "evidence": [
+        {
+          "source": "ABKBRT21",
+          "locator": "Conjecture 1",
+          "role": "original target"
+        },
+        {
+          "source": "CPS23",
+          "locator": "Question 1 and Theorems 4–5",
+          "role": "restricted progress; not a general resolution"
+        }
+      ],
+      "queries": [
+        "\"D(f)\" \"bs(f)\" quadratic conjecture 2026 site:arxiv.org",
+        "\"Decision Tree Complexity\" \"Block Sensitivity\" 2025 2026 conjecture"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "extremal-forrelation-sqrt",
+      "checked": "2026-10-23",
+      "verdict": "primary_reaffirmed_open",
+      "summary": "The latest CCM v2 is nonadaptive. Its Appendix B.4 explicitly distinguishes the remaining adaptive Girish–Servedio conjecture; the stronger adaptive claim in v1 has a gap.",
+      "evidence": [
+        {
+          "source": "GS26",
+          "locator": "Conjecture 6, Section 1.3",
+          "role": "original adaptive question"
+        },
+        {
+          "source": "CCM26",
+          "locator": "v2 Theorems 1/3, Appendix B.4, Appendix D",
+          "role": "current restricted result and explicit remaining adaptive conjecture"
+        }
+      ],
+      "queries": [
+        "\"extremal forrelation\" \"2026\" conjecture randomized",
+        "arXiv:2602.07503 current version history"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "extremal-k-forrelation",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "No primary resolution of the k>2 extremal/exact-quantum conjecture was found. The checked CCM theorem is about the two-function extremal problem with a nonadaptive classical lower bound; ordinary bounded-error k-Forrelation separations are different.",
+      "evidence": [
+        {
+          "source": "GS26",
+          "locator": "Conjecture 7, Section 1.3",
+          "role": "original k>2 extremal question"
+        },
+        {
+          "source": "CCM26",
+          "locator": "v2 Introduction and Theorem 3",
+          "role": "nearby k=2 restricted result, not a resolution"
+        }
+      ],
+      "queries": [
+        "\"extremal forrelation\" \"2026\" conjecture randomized",
+        "\"extremal k-forrelation\" lower bound"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "BK24-search-QE-R",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "The original exact-quantum versus randomized total-search question is still listed in BK24, whose official history has no revision beyond v1. Searches found no primary answer; bounded-error Q separations do not answer the exact QE question.",
+      "evidence": [
+        {
+          "source": "BK24",
+          "locator": "Section 1.3, Open Problem 1, PDF pp.8–9",
+          "role": "original precise relation question; latest listed v1"
+        }
+      ],
+      "queries": [
+        "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
+        "\"total search\" \"conical\" \"2026\"",
+        "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
+        "\"Separations in query complexity for total search problems\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "BK24-search-poly-conical",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "Both approximate-degree/conical-degree and exact-degree/approximate-degree subquestions remain listed in the unchanged BK24 source. Searches found no primary answer. Relation polynomial systems and their boundedness conventions remain essential.",
+      "evidence": [
+        {
+          "source": "BK24",
+          "locator": "Section 1.3, Open Problem 2, PDF pp.8–9",
+          "role": "original precise relation question; latest listed v1"
+        }
+      ],
+      "queries": [
+        "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
+        "\"total search\" \"conical\" \"2026\"",
+        "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
+        "\"Separations in query complexity for total search problems\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "BK24-search-Adv-degree",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "No primary proof or counterexample to the relation Adv=O(approximate-degree squared) direction was found. BK24’s exponential separation is in the opposite direction; partial-function theorems do not automatically transfer to total relations.",
+      "evidence": [
+        {
+          "source": "BK24",
+          "locator": "Section 1.3, Open Problem 3, PDF pp.8–9",
+          "role": "original precise relation question; latest listed v1"
+        }
+      ],
+      "queries": [
+        "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
+        "\"total search\" \"conical\" \"2026\"",
+        "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
+        "\"Separations in query complexity for total search problems\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "KLMY-pure-monomial-AND",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "The dimension-free AND-query target remains conjectural in the checked sources. The 2026 quantum/classical result is for communication and retains polylog(n) factors; neither it nor hardness incondensability removes the log n in the query bound.",
+      "evidence": [
+        {
+          "source": "KLMY21",
+          "locator": "Conjecture 6.1",
+          "role": "original dimension-free query target"
+        },
+        {
+          "source": "KLMY21survey",
+          "locator": "Conjecture 3.13 and Theorem 3.11",
+          "role": "same target in survey"
+        },
+        {
+          "source": "BBCLD26",
+          "locator": "Section 1.1, PDF pp.3–5",
+          "role": "related communication result with input-length losses"
+        },
+        {
+          "source": "NPS26",
+          "locator": "Sections 3–4",
+          "role": "related condensation question, not this conjecture"
+        }
+      ],
+      "queries": [
+        "\"Log-Rank and Lifting for AND-Functions\" conjecture 2025 2026",
+        "\"monomial sparsity\" \"AND\" \"2026\" conjecture"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "Wellens-relevant-sensitivity",
+      "checked": "2026-10-23",
+      "verdict": "no_resolution_found",
+      "summary": "No primary resolution of nRelevant=O(4^s), or the stronger coordinate-sensitivity potential, was found. The latest listed Wellens version remains v2 (December 2022). Bounds involving polynomial degree and hardness condensation address different questions.",
+      "evidence": [
+        {
+          "source": "Wel22",
+          "locator": "Conjecture 3.17; discussion near end of paper",
+          "role": "exact sensitivity-variable conjecture"
+        }
+      ],
+      "queries": [
+        "\"Wellens\" \"relevant variables\" \"conjecture\" sensitivity 2026",
+        "\"n(f)\" \"4\" \"Wellens\" \"conjecture\"",
+        "\"relevant variables\" \"sensitivity\" \"2026\" bound"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "HKMP-natural-perturbation",
+      "checked": "2026-10-23",
+      "verdict": "formulation_unresolved",
+      "summary": "The latest listed framework version remains v3. Conjecture 72 is present, but an intended nontrivial characterization still needs precise support, norm, fixed-completion and margin constraints. Unrestricted coefficient subtraction is only a representation equivalence; neither a proof nor a disproof of an intended restricted statement is asserted.",
+      "evidence": [
+        {
+          "source": "HKMP26",
+          "locator": "v3 Conjecture 72 and Lemma 71",
+          "role": "source formulation and flagged normalization step"
+        }
+      ],
+      "queries": [
+        "\"natural completions\" \"perturbation\" 2026",
+        "\"completion\" \"perturbation\" \"Huffstutler\""
+      ],
+      "limitations": "The intended restricted formulation and the dependent-support normalization step remain unresolved in the atlas. Version-history confirmation is not a mathematical repair."
+    },
+    {
+      "id": "HKMP-dense-almost-completion",
+      "checked": "2026-10-23",
+      "verdict": "primary_reaffirmed_open",
+      "summary": "Conjecture 78 remains explicitly posed in the latest v3. It permits discarding a delta fraction of the promise and extends a subfunction; this is not completion of every original promise input. No resolution was found.",
+      "evidence": [
+        {
+          "source": "HKMP26",
+          "locator": "v3 Conjectures 77–78, manuscript p.36",
+          "role": "explicit current conjecture and subfunction caveat"
+        }
+      ],
+      "queries": [
+        "\"dense\" \"completion\" \"approximate degree\" \"2026\" conjecture",
+        "arXiv:2603.29256 current version history"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "domain-robust-low-degree",
+      "checked": "2026-10-23",
+      "verdict": "primary_reaffirmed_open",
+      "summary": "The final 2026 journal explicitly retains the arbitrary-degree robust decision-tree question on the symmetric group and perfect matchings. Degree-one Grassmann FKN structure is related progress on a different domain, not a solution.",
+      "evidence": [
+        {
+          "source": "DFLLV26",
+          "locator": "Section 8, article pp.48–49",
+          "role": "explicit open robustness direction"
+        },
+        {
+          "source": "FLM26",
+          "locator": "Theorems 1.2–1.3",
+          "role": "related degree-one Grassmann structural result only"
+        }
+      ],
+      "queries": [
+        "\"robust\" \"symmetric group\" \"degree\" \"2026\" Boolean",
+        "\"An FKN Theorem for the Binary Grassmann Scheme\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "domain-q-analog-framework",
+      "checked": "2026-10-23",
+      "verdict": "primary_reaffirmed_open",
+      "summary": "The final 2026 journal says it can neither extend its general comparison theorem to q-analogs nor give nontrivial counterexamples. The 2026 binary Grassmann FKN theorem concerns degree-one structure and does not establish a full query-measure equivalence framework.",
+      "evidence": [
+        {
+          "source": "DFLLV26",
+          "locator": "Section 8, q-analogs, article p.49",
+          "role": "explicit current open direction"
+        },
+        {
+          "source": "FLM26",
+          "locator": "Introduction and Theorem 1.3",
+          "role": "adjacent structural progress, different target"
+        }
+      ],
+      "queries": [
+        "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture",
+        "\"An FKN Theorem for the Binary Grassmann Scheme\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "AA-folklore-average-simulation",
+      "checked": "2026-10-23",
+      "verdict": "primary_reaffirmed_open",
+      "summary": "The unrestricted adaptive simulation question remains explicitly posed in LM v2 (20 October 2026). Its Theorems 1.6–1.8 prove parallel, limited-preprocessing and constant-layer cases; layer-dependent exponents do not give a uniform polynomial for arbitrary adaptivity. GMNR establishes equivalences, not truth of the conjecture.",
+      "evidence": [
+        {
+          "source": "LMparallel26",
+          "locator": "Conjecture 1.1, Theorems 1.6–1.8, PDF pp.3,7–8",
+          "role": "recent explicit conjecture and restricted progress"
+        },
+        {
+          "source": "GMNR26",
+          "locator": "Introduction and Theorem 1.1",
+          "role": "distributional equivalences only"
+        },
+        {
+          "source": "BSW22",
+          "locator": "Conjecture 1.1 and Section 4",
+          "role": "earlier formulation and restricted case"
+        },
+        {
+          "source": "HKMP26",
+          "locator": "Conjecture 77",
+          "role": "equivalent dense-promise formulation"
+        }
+      ],
+      "queries": [
+        "\"Aaronson Ambainis conjecture\" 2026 resolution",
+        "\"Parallel Quantum Advantage with Limited Adaptivity Requires Structure\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "AA-bounded-polynomial-influence",
+      "checked": "2026-10-23",
+      "verdict": "primary_reaffirmed_open",
+      "summary": "The unrestricted real bounded-polynomial influence conjecture remains explicitly open in the checked October LM version and September GMNR paper. Completely bounded block-multilinear forms and random restrictions under variance hypotheses are positive special cases, not a general proof. This stronger polynomial question is kept distinct from algorithmic simulation.",
+      "evidence": [
+        {
+          "source": "LMparallel26",
+          "locator": "Introduction, PDF p.4",
+          "role": "explicit general-open statement"
+        },
+        {
+          "source": "GMNR26",
+          "locator": "Conjecture 4.2 and Theorem 4.3",
+          "role": "same conjecture and equivalences"
+        },
+        {
+          "source": "BSW22",
+          "locator": "Conjecture 1.2 and Theorem 1.3",
+          "role": "completely bounded positive case"
+        },
+        {
+          "source": "Bha26",
+          "locator": "Conjecture 1.3 and main result",
+          "role": "random-restriction positive case"
+        }
+      ],
+      "queries": [
+        "\"Aaronson Ambainis conjecture\" 2026 resolution",
+        "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    },
+    {
+      "id": "FLLV20-hypergraphical-sensitivity-question",
+      "checked": "2026-10-23",
+      "verdict": "formulation_unresolved",
+      "summary": "The original closing question does not fix exponents, parameter uniformity or the exact intended analogue. The atlas query lift is a separate repository derivation and is not assigned published priority or represented as settling every reading of that historical question.",
+      "evidence": [
+        {
+          "source": "FLLV20notes",
+          "locator": "Section 7, p.7",
+          "role": "historical ambiguous formulation"
+        },
+        {
+          "source": "DFLLV26",
+          "locator": "Section 8 and query-domain framework",
+          "role": "related later journal context"
+        }
+      ],
+      "queries": [
+        "\"hypergraphical\" \"sensitivity\" Boolean functions",
+        "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture"
+      ],
+      "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+    }
+  ],
+  "version_checks": [
+    {
+      "source": "LMparallel26",
+      "url": "https://arxiv.org/abs/2608.20297",
+      "html_sha256": "352b0ce46e01c5aebbcb53a1aecb7a5e1f9236380ab2ebe3a9d6e9d28e0c0cb7",
+      "versions": [
+        "[v1]  ",
+        "[v2] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "BBCLD26",
+      "url": "https://arxiv.org/abs/2606.03249",
+      "html_sha256": "b11c68ea9c31561d3d9aa774ae3786d4ecd64a3c0c133a010d3f82d3078d35ac",
+      "versions": [
+        "[v1] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "BSW22",
+      "url": "https://arxiv.org/abs/2203.00212",
+      "html_sha256": "611c10b2aa4ae99054074a14d51ff9b835554251dff9e8bd7a0b43fc9f995348",
+      "versions": [
+        "[v1] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "Bha26",
+      "url": "https://eccc.weizmann.ac.il/report/2024/035/",
+      "html_sha256": "2345f17e22ef4d2c45307455e5e2880cb3962b0cb3fc3a2c4435928def4f4aae",
+      "versions": [],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "FLM26",
+      "url": "https://arxiv.org/abs/2608.11320",
+      "html_sha256": "9141d661ed6a2b4bb5d67338c11d287a04dad17f42f08a76176cff744cc41a77",
+      "versions": [
+        "[v1] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "NPS26",
+      "url": "https://arxiv.org/abs/2602.01042",
+      "html_sha256": "86092fd07a457cba7eca9f6369f2ac2c0f61998a0ce7d5d952a948ba1f947696",
+      "versions": [
+        "[v1]  ",
+        "[v2] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "BK24",
+      "url": "https://arxiv.org/abs/2410.16245",
+      "html_sha256": "17abc6559e927e69b4e3b6d236059f248364e4337917f21520fe8379a9a7f59c",
+      "versions": [
+        "[v1] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "CCM26",
+      "url": "https://arxiv.org/abs/2602.07503",
+      "html_sha256": "c0a8820e41ffdd5782b4a2c47c382fdef27095b6ef37d7ee87b2c1267b6f23ca",
+      "versions": [
+        "[v1]  ",
+        "[v2] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "GMNR26",
+      "url": "https://arxiv.org/abs/2609.35327",
+      "html_sha256": "19772ff1d9d93f02a427decd75c40771eaa221fe644ecb7f2369c809523e2001",
+      "versions": [
+        "[v1] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "HKMP26",
+      "url": "https://arxiv.org/abs/2603.29256",
+      "html_sha256": "97c666ea7f9a4f259e0d487e1c88225a787632a8c5e3e13b0980b938080aa9c9",
+      "versions": [
+        "[v1]  ",
+        "[v2]  ",
+        "[v3] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "Wel22",
+      "url": "https://arxiv.org/abs/2005.00566",
+      "html_sha256": "96c43095d58a8c79711fad0e91ce2e4df66e38c44a0204672d0d4dd2e55b8af2",
+      "versions": [
+        "[v1]  ",
+        "[v2] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "GS26",
+      "url": "https://arxiv.org/abs/2508.02514",
+      "html_sha256": "b5abd1054508220a33c586d604220c39ed9e4d3f46da0360fed13ef31d78a20c",
+      "versions": [
+        "[v1] "
+      ],
+      "checked": "2026-10-23"
+    },
+    {
+      "source": "DFLLV26",
+      "url": "https://escholarship.org/uc/item/0p80m4dg",
+      "html_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "versions": [],
+      "checked": "2026-10-23"
+    }
+  ],
+  "warning": "No complete resolution of these 15 candidates was established in this audit. Six are explicitly still posed in checked recent primary sources; seven only have a bounded negative search; two retain formulation issues. The eight previously resolved/refuted records remain archived. Search results and paper titles alone are not proofs."
+}

@@ -28,7 +28,7 @@ class BroaderDomainTests(unittest.TestCase):
   self.assertEqual(flip(zero),0);self.assertEqual(flip(other),1/2)
   self.assertTrue(all(other(x)==other(3^x)for x in support))
  def test_distributional_equivalence_not_resolution(self):
-  qs={q['id']:q for q in D['conjectures']};self.assertIn('no_resolution_verified',qs['AA-bounded-polynomial-influence']['status']);self.assertIn('not its truth',qs['AA-bounded-polynomial-influence']['implications'][0])
+  qs={q['id']:q for q in D['conjectures']};self.assertEqual(qs['AA-bounded-polynomial-influence']['status_audit']['verdict'],'primary_reaffirmed_open');self.assertNotIn('resolution',qs['AA-bounded-polynomial-influence']);self.assertIn('not its truth',qs['AA-bounded-polynomial-influence']['implications'][0])
  def test_extended_inventory_size(self):
   out=ec.build(D,json.loads((ROOT/'data/completion-matrix.json').read_text()));self.assertEqual(len(out['order']),23);self.assertEqual(len(out['cells']),506)
 if __name__=='__main__':unittest.main()

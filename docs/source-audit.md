@@ -4,9 +4,9 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 782 claim records with proof summaries, and 127 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 782 claim records with proof summaries, and 135 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
-- 103 original-source snapshots with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
+- 112 original-source snapshots with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
 - The syntactic all-measure pair register contains 61752 ordered pairs, of which 1166 have indexed evidence. Many cross-model pairs require a common-domain definition before they can be mathematical questions.
 
@@ -281,3 +281,8 @@ The new [gallery and sensitivity-campaign report](sensitivity-campaign-and-galle
 ## Sensitivity update checked 22 October 2026
 
 The [campaign audit](sensitivity-campaign-and-gallery.md) now records 16 completed superquadratic milestones through the exact exponent log(14055^8)/log(3738277295413674), approximately 2.130825579397824. The 2.15 target remains open. The gallery indexes 136 construction records and all 83 separation claims. Four core and ten completion lower entries improve; all 176 unmatched completion intervals remain unmatched. Public theorem, construction and attribution details were checked, and exact endpoints are preserved in the data. Accepted proof downloads require authentication (HTTP 401); no independent replay of those Lean proofs is claimed. Older sections above describe the 17 October snapshot.
+
+
+## Open-question literature audit, 23 October 2026
+
+See [the dated question-status audit](question-status-audit-2026-10-23.md). All 15 active published candidates have a scoped status check: six recent-source reaffirmations, seven searches finding no resolution, and two formulation issues. Eight primary bibliographic records were added, with selected statements and proof routes inspected. The corpus now has 135 references. No new resolution or changed exponent is inferred from restricted-class theorems, nonadaptive results or communication bounds with log n losses.

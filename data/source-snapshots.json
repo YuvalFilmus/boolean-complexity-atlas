@@ -932,5 +932,69 @@
     "sha256": "a589970798bc590e5a27cb35cfa3092a355a4048cfa383bc369177289a00a1f8",
     "pages": 11,
     "retrieved": "2026-10-17"
+  },
+  {
+    "id": "LMparallel26",
+    "snapshot_id": "LMparallel26",
+    "url": "https://arxiv.org/pdf/2608.20297v2",
+    "sha256": "0f75a3e35b756026328f5f60ba55487ef6b32faddc65689d340bb7722522c75d",
+    "pages": 58,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "BSW22",
+    "snapshot_id": "BSW22",
+    "url": "https://arxiv.org/pdf/2203.00212v1",
+    "sha256": "e407c77f8db9ab7cbca8e08ddfbd23cf33e26e940b4e8c99034eb091f054ef59",
+    "pages": 21,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "Bha26",
+    "snapshot_id": "Bha26",
+    "url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download/",
+    "sha256": "07ddc523ad0f1e7e4c3dcd8f274c84601af21f318c2d1fdc8f1b7c3f3de9c120",
+    "pages": 21,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "BBCLD26",
+    "snapshot_id": "BBCLD26",
+    "url": "https://arxiv.org/pdf/2606.03249v1",
+    "sha256": "99de7e6451ed655ee15ad331a2003c4ebabdb944b3552206d29606158d55ad02",
+    "pages": 20,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "FLM26",
+    "snapshot_id": "FLM26",
+    "url": "https://arxiv.org/pdf/2608.11320v1",
+    "sha256": "4c58726423e3e7c0d6df86dcc81d03c3f85c8c2c32d0fa4dd05f99cf434ff6fe",
+    "pages": 16,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "NPS26",
+    "snapshot_id": "NPS26",
+    "url": "https://arxiv.org/pdf/2602.01042v2",
+    "sha256": "77033f09295c2342a91188c7cad83ae3e478ceb4e2db5dbb884c0729de5ae804",
+    "pages": 12,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "CPS23",
+    "snapshot_id": "CPS23",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol284-fsttcs2023/LIPIcs.FSTTCS.2023.27/LIPIcs.FSTTCS.2023.27.pdf",
+    "sha256": "c9127ba4ded765c248e7086593d7a67c5320f5901e84cd2c71459591e7847745",
+    "pages": 23,
+    "retrieved": "2026-10-23"
+  },
+  {
+    "id": "Bha25",
+    "snapshot_id": "Bha25",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol325-itcs2025/LIPIcs.ITCS.2025.17/LIPIcs.ITCS.2025.17.pdf",
+    "sha256": "c55f17d6e40d605dbeff024902efafd4290aaf8d16ce399fb247c7eb98779dae",
+    "pages": 21,
+    "retrieved": "2026-10-23"
   }
 ]

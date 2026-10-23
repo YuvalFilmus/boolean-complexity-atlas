@@ -776,7 +776,16 @@
           "pages": 47,
           "retrieved": "2026-10-17"
         }
-      ]
+      ],
+      "question_status_version_recheck": {
+        "source": "BK24",
+        "url": "https://arxiv.org/abs/2410.16245",
+        "html_sha256": "17abc6559e927e69b4e3b6d236059f248364e4337917f21520fe8379a9a7f59c",
+        "versions": [
+          "[v1] "
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "CG22",
@@ -1784,7 +1793,17 @@
           "pages": 21,
           "retrieved": "2026-10-17"
         }
-      ]
+      ],
+      "question_status_version_recheck": {
+        "source": "Wel22",
+        "url": "https://arxiv.org/abs/2005.00566",
+        "html_sha256": "96c43095d58a8c79711fad0e91ce2e4df66e38c44a0204672d0d4dd2e55b8af2",
+        "versions": [
+          "[v1]  ",
+          "[v2] "
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "CPS22",
@@ -2891,7 +2910,16 @@
           "pages": 22,
           "retrieved": "2026-10-17"
         }
-      ]
+      ],
+      "question_status_version_recheck": {
+        "source": "GS26",
+        "url": "https://arxiv.org/abs/2508.02514",
+        "html_sha256": "b5abd1054508220a33c586d604220c39ed9e4d3f46da0360fed13ef31d78a20c",
+        "versions": [
+          "[v1] "
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "CDM23full",
@@ -3441,7 +3469,17 @@
           "retrieved": "2026-10-17",
           "snapshot_id": "CCM26"
         }
-      ]
+      ],
+      "question_status_version_recheck": {
+        "source": "CCM26",
+        "url": "https://arxiv.org/abs/2602.07503",
+        "html_sha256": "c0a8820e41ffdd5782b4a2c47c382fdef27095b6ef37d7ee87b2c1267b6f23ca",
+        "versions": [
+          "[v1]  ",
+          "[v2] "
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "CMP25",
@@ -3630,7 +3668,14 @@
           "provenance": "official_journal_download_via_browser",
           "snapshot_id": "DFLLV26journal"
         }
-      ]
+      ],
+      "question_status_version_recheck": {
+        "source": "DFLLV26",
+        "url": "https://escholarship.org/uc/item/0p80m4dg",
+        "html_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "versions": [],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "HKMP26",
@@ -3669,6 +3714,17 @@
         "date": "2026-10-17",
         "url": "https://arxiv.org/abs/2603.29256",
         "result": "Official abstract/version history still lists v3, revised 30 September 2026, 40 pages. Existing inspected v3 remains the current listed version."
+      },
+      "question_status_version_recheck": {
+        "source": "HKMP26",
+        "url": "https://arxiv.org/abs/2603.29256",
+        "html_sha256": "97c666ea7f9a4f259e0d487e1c88225a787632a8c5e3e13b0980b938080aa9c9",
+        "versions": [
+          "[v1]  ",
+          "[v2]  ",
+          "[v3] "
+        ],
+        "checked": "2026-10-23"
       }
     },
     {
@@ -3829,7 +3885,16 @@
           "retrieved": "2026-10-17",
           "snapshot_id": "GMNR26"
         }
-      ]
+      ],
+      "question_status_version_recheck": {
+        "source": "GMNR26",
+        "url": "https://arxiv.org/abs/2609.35327",
+        "html_sha256": "19772ff1d9d93f02a427decd75c40771eaa221fe644ecb7f2369c809523e2001",
+        "versions": [
+          "[v1] "
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "BD16",
@@ -4318,6 +4383,350 @@
       "read_version": "arXiv v3 (20 May 2009), Theorem 1.1 cited by the public shared-labeling construction; journal bibliographic metadata verified separately",
       "annotation": "Background for the asymmetric Lovász local lemma used to choose one labeling obeying several defect constraints. The 2026 development reports proving the existential finite lemma directly; it does not claim the classical lemma as new.",
       "metadata_note": "Journal bibliographic fields verified against publisher-deposited Crossref record for DOI 10.1145/1667053.1667060 on 22 October 2026. The campaign cites arXiv v3 Theorem 1.1; this atlas has not independently audited the entire Moser–Tardos proof."
+    },
+    {
+      "id": "LMparallel26",
+      "authors": [
+        "Qipeng Liu",
+        "Saachi Mutreja"
+      ],
+      "title": "Parallel Quantum Advantage with Limited Adaptivity Requires Structure",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.20297v2",
+      "kind": "preprint",
+      "accessed": "2026-10-23",
+      "read_version": "arXiv v2, 20 October 2026; Conjecture 1.1, Introduction p.4, Theorems 1.6–1.8 pp.7–8",
+      "annotation": "Proposes the unrestricted almost-everywhere simulation question separately from the bounded-polynomial influence conjecture. Reports simulation for parallel queries, terminal-parallel algorithms with limited preprocessing, and fixed adaptive layer count. The exponent depends exponentially on the layer count; this is not the full adaptive result. Proof route: couple dense distributions to uniform oracles, apply a parallel hybrid argument, then use separate preprocessing and fixed-layer induction arguments.",
+      "snapshot": {
+        "id": "LMparallel26",
+        "snapshot_id": "LMparallel26",
+        "url": "https://arxiv.org/pdf/2608.20297v2",
+        "sha256": "0f75a3e35b756026328f5f60ba55487ef6b32faddc65689d340bb7722522c75d",
+        "pages": 58,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "LMparallel26",
+          "snapshot_id": "LMparallel26",
+          "url": "https://arxiv.org/pdf/2608.20297v2",
+          "sha256": "0f75a3e35b756026328f5f60ba55487ef6b32faddc65689d340bb7722522c75d",
+          "pages": 58,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper.",
+      "eprint": "2608.20297",
+      "question_status_version_recheck": {
+        "source": "LMparallel26",
+        "url": "https://arxiv.org/abs/2608.20297",
+        "html_sha256": "352b0ce46e01c5aebbcb53a1aecb7a5e1f9236380ab2ebe3a9d6e9d28e0c0cb7",
+        "versions": [
+          "[v1]  ",
+          "[v2] "
+        ],
+        "checked": "2026-10-23"
+      }
+    },
+    {
+      "id": "BSW22",
+      "authors": [
+        "Nikhil Bansal",
+        "Makrand Sinha",
+        "Ronald de Wolf"
+      ],
+      "title": "Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms",
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2203.00212v1",
+      "kind": "preprint",
+      "accessed": "2026-10-23",
+      "read_version": "arXiv v1, 1 March 2022; Conjectures 1.1–1.2, Theorem 1.3, Section 4",
+      "annotation": "Explicitly states both the folklore simulation and polynomial influence questions. Theorem 1.3 proves an influence lower bound for completely bounded block-multilinear forms, yielding restricted simulation. Proof route: a noncommutative root-influence inequality, using free-probability techniques. Complete boundedness is an additional hypothesis; the result is not a proof for all cube-bounded polynomials.",
+      "snapshot": {
+        "id": "BSW22",
+        "snapshot_id": "BSW22",
+        "url": "https://arxiv.org/pdf/2203.00212v1",
+        "sha256": "e407c77f8db9ab7cbca8e08ddfbd23cf33e26e940b4e8c99034eb091f054ef59",
+        "pages": 21,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "BSW22",
+          "snapshot_id": "BSW22",
+          "url": "https://arxiv.org/pdf/2203.00212v1",
+          "sha256": "e407c77f8db9ab7cbca8e08ddfbd23cf33e26e940b4e8c99034eb091f054ef59",
+          "pages": 21,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper.",
+      "eprint": "2203.00212",
+      "question_status_version_recheck": {
+        "source": "BSW22",
+        "url": "https://arxiv.org/abs/2203.00212",
+        "html_sha256": "611c10b2aa4ae99054074a14d51ff9b835554251dff9e8bd7a0b43fc9f995348",
+        "versions": [
+          "[v1] "
+        ],
+        "checked": "2026-10-23"
+      }
+    },
+    {
+      "id": "Bha26",
+      "authors": [
+        "Sreejata Kishor Bhattacharya"
+      ],
+      "title": "Aaronson-Ambainis Conjecture Is True For Random Restrictions",
+      "year": 2024,
+      "url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/",
+      "kind": "preprint",
+      "accessed": "2026-10-23",
+      "read_version": "ECCC TR24-035, revision 2, 4 March 2026; Conjecture 1.3 and abstract/main result",
+      "annotation": "States the unrestricted influence conjecture and proves it for a non-negligible fraction of random restrictions, under a lower bound on variance. This does not establish the desired influential coordinate for every original unrestricted polynomial. First report 2024; the inspected revision is from 2026.",
+      "snapshot": {
+        "id": "Bha26",
+        "snapshot_id": "Bha26",
+        "url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download/",
+        "sha256": "07ddc523ad0f1e7e4c3dcd8f274c84601af21f318c2d1fdc8f1b7c3f3de9c120",
+        "pages": 21,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "Bha26",
+          "snapshot_id": "Bha26",
+          "url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download/",
+          "sha256": "07ddc523ad0f1e7e4c3dcd8f274c84601af21f318c2d1fdc8f1b7c3f3de9c120",
+          "pages": 21,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper. Bibliographic year is the original 2024 report, not the 2026 revision date. The author name follows the PDF title page.",
+      "report": "ECCC TR24-035, revision 2 (4 March 2026)",
+      "date": "2026-03-04",
+      "question_status_version_recheck": {
+        "source": "Bha26",
+        "url": "https://eccc.weizmann.ac.il/report/2024/035/",
+        "html_sha256": "2345f17e22ef4d2c45307455e5e2880cb3962b0cb3fc3a2c4435928def4f4aae",
+        "versions": [],
+        "checked": "2026-10-23"
+      },
+      "eprint": "2402.13952",
+      "related_publication": "ITCS 2025, under the title Random Restrictions of Bounded Low Degree Polynomials Are Juntas; separately keyed Bha25. One underlying work for recurrence counts."
+    },
+    {
+      "id": "BBCLD26",
+      "authors": [
+        "Sreejata Kishor Bhattacharya",
+        "Farzan Byramji",
+        "Arkadev Chattopadhyay",
+        "Yogesh Dahiya",
+        "Shachar Lovett"
+      ],
+      "title": "Quantum-Classical Equivalence for AND-Functions",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.03249v1",
+      "kind": "preprint",
+      "accessed": "2026-10-23",
+      "read_version": "arXiv v1, 2 June 2026; Section 1.1 pp.3–5",
+      "annotation": "Shows polynomial quantum/deterministic communication equivalence for AND-functions with polylogarithmic input-length losses. The inspected formulas retain log n; this is not a dimension-free AND-query bound in log sparsity. Proof route: characterize deterministic communication by De Morgan sparsity and lower bound approximate gamma_2 via structure of sparse representations.",
+      "snapshot": {
+        "id": "BBCLD26",
+        "snapshot_id": "BBCLD26",
+        "url": "https://arxiv.org/pdf/2606.03249v1",
+        "sha256": "99de7e6451ed655ee15ad331a2003c4ebabdb944b3552206d29606158d55ad02",
+        "pages": 20,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "BBCLD26",
+          "snapshot_id": "BBCLD26",
+          "url": "https://arxiv.org/pdf/2606.03249v1",
+          "sha256": "99de7e6451ed655ee15ad331a2003c4ebabdb944b3552206d29606158d55ad02",
+          "pages": 20,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper.",
+      "eprint": "2606.03249",
+      "question_status_version_recheck": {
+        "source": "BBCLD26",
+        "url": "https://arxiv.org/abs/2606.03249",
+        "html_sha256": "b11c68ea9c31561d3d9aa774ae3786d4ecd64a3c0c133a010d3f82d3078d35ac",
+        "versions": [
+          "[v1] "
+        ],
+        "checked": "2026-10-23"
+      }
+    },
+    {
+      "id": "FLM26",
+      "authors": [
+        "Yuval Filmus",
+        "Anqi Li",
+        "Dor Minzer"
+      ],
+      "title": "An FKN Theorem for the Binary Grassmann Scheme",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.11320v1",
+      "kind": "preprint",
+      "accessed": "2026-10-23",
+      "read_version": "arXiv v1, 11 August 2026; Theorems 1.2–1.3 and Introduction",
+      "annotation": "Degree-one robust structure on the binary Grassmann scheme. Relevant adjacent progress, but it does not establish arbitrary-degree robust decision-tree bounds on the symmetric group, or polynomial equivalence of query measures on all q-analog domains. Those distinctions are retained in the question audit.",
+      "snapshot": {
+        "id": "FLM26",
+        "snapshot_id": "FLM26",
+        "url": "https://arxiv.org/pdf/2608.11320v1",
+        "sha256": "4c58726423e3e7c0d6df86dcc81d03c3f85c8c2c32d0fa4dd05f99cf434ff6fe",
+        "pages": 16,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "FLM26",
+          "snapshot_id": "FLM26",
+          "url": "https://arxiv.org/pdf/2608.11320v1",
+          "sha256": "4c58726423e3e7c0d6df86dcc81d03c3f85c8c2c32d0fa4dd05f99cf434ff6fe",
+          "pages": 16,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper.",
+      "eprint": "2608.11320",
+      "question_status_version_recheck": {
+        "source": "FLM26",
+        "url": "https://arxiv.org/abs/2608.11320",
+        "html_sha256": "9141d661ed6a2b4bb5d67338c11d287a04dad17f42f08a76176cff744cc41a77",
+        "versions": [
+          "[v1] "
+        ],
+        "checked": "2026-10-23"
+      }
+    },
+    {
+      "id": "NPS26",
+      "authors": [
+        "Sai Soumya Nalli",
+        "Karthikeya Polisetty",
+        "Jayalal Sarma"
+      ],
+      "title": "On Condensation of Block Sensitivity, Certificate Complexity and the AND (and OR) Decision Tree Complexity",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.01042v2",
+      "kind": "preprint",
+      "accessed": "2026-10-23",
+      "read_version": "arXiv v2, 16 March 2026; abstract, Sections 3–4 and Appendix A",
+      "annotation": "Refutes hardness-condensation assertions for block sensitivity and related measures using explicit restricted-function examples. Inspected as adjacent work: hardness condensation is distinct from bounding AND-query depth by log sparsity. No resolution of the latter is inferred.",
+      "snapshot": {
+        "id": "NPS26",
+        "snapshot_id": "NPS26",
+        "url": "https://arxiv.org/pdf/2602.01042v2",
+        "sha256": "77033f09295c2342a91188c7cad83ae3e478ceb4e2db5dbb884c0729de5ae804",
+        "pages": 12,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "NPS26",
+          "snapshot_id": "NPS26",
+          "url": "https://arxiv.org/pdf/2602.01042v2",
+          "sha256": "77033f09295c2342a91188c7cad83ae3e478ceb4e2db5dbb884c0729de5ae804",
+          "pages": 12,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper.",
+      "eprint": "2602.01042",
+      "question_status_version_recheck": {
+        "source": "NPS26",
+        "url": "https://arxiv.org/abs/2602.01042",
+        "html_sha256": "86092fd07a457cba7eca9f6369f2ac2c0f61998a0ce7d5d952a948ba1f947696",
+        "versions": [
+          "[v1]  ",
+          "[v2] "
+        ],
+        "checked": "2026-10-23"
+      }
+    },
+    {
+      "id": "CPS23",
+      "authors": [
+        "Rahul Chugh",
+        "Supartha Podder",
+        "Swagato Sanyal"
+      ],
+      "title": "Decision Tree Complexity versus Block Sensitivity and Degree",
+      "year": 2023,
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSTTCS.2023.27",
+      "kind": "inproceedings",
+      "accessed": "2026-10-23",
+      "read_version": "FSTTCS 2023 proceedings, Question 1 and discussion p.27:3, Theorems 4–5 pp.27:4–27:5",
+      "annotation": "Explicitly discusses improving D versus block sensitivity from cubic to quadratic and proves quadratic upper bounds for restricted classes such as zebra functions and bounded alternation. The unrestricted conjecture is not settled by those theorems. Same underlying work as the indexed 2022 preprint CPS22; not a second recurrence count.",
+      "snapshot": {
+        "id": "CPS23",
+        "snapshot_id": "CPS23",
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol284-fsttcs2023/LIPIcs.FSTTCS.2023.27/LIPIcs.FSTTCS.2023.27.pdf",
+        "sha256": "c9127ba4ded765c248e7086593d7a67c5320f5901e84cd2c71459591e7847745",
+        "pages": 23,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "CPS23",
+          "snapshot_id": "CPS23",
+          "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol284-fsttcs2023/LIPIcs.FSTTCS.2023.27/LIPIcs.FSTTCS.2023.27.pdf",
+          "sha256": "c9127ba4ded765c248e7086593d7a67c5320f5901e84cd2c71459591e7847745",
+          "pages": 23,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "metadata_note": "Primary version and selected question/theorem statements and stated scope inspected. This is a literature-status and proof-route check, not an independent verification of every proof in the paper.",
+      "doi": "10.4230/LIPIcs.FSTTCS.2023.27",
+      "booktitle": "43rd IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS 2023)",
+      "series": "Leibniz International Proceedings in Informatics (LIPIcs)",
+      "volume": "284",
+      "pages": "27:1--27:23",
+      "publisher": "Schloss Dagstuhl -- Leibniz-Zentrum für Informatik"
+    },
+    {
+      "id": "Bha25",
+      "authors": [
+        "Sreejata Kishor Bhattacharya"
+      ],
+      "title": "Random Restrictions of Bounded Low Degree Polynomials Are Juntas",
+      "year": 2025,
+      "kind": "inproceedings",
+      "booktitle": "16th Innovations in Theoretical Computer Science Conference (ITCS 2025)",
+      "series": "Leibniz International Proceedings in Informatics (LIPIcs)",
+      "volume": "325",
+      "pages": "17:1--17:21",
+      "publisher": "Schloss Dagstuhl -- Leibniz-Zentrum für Informatik",
+      "doi": "10.4230/LIPIcs.ITCS.2025.17",
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.17",
+      "accessed": "2026-10-23",
+      "read_version": "Final ITCS 2025 paper; Conjecture 4, Theorems 5 and 30, article pp.17:2–17:3 and 17:19",
+      "snapshot": {
+        "id": "Bha25",
+        "snapshot_id": "Bha25",
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol325-itcs2025/LIPIcs.ITCS.2025.17/LIPIcs.ITCS.2025.17.pdf",
+        "sha256": "c55f17d6e40d605dbeff024902efafd4290aaf8d16ce399fb247c7eb98779dae",
+        "pages": 21,
+        "retrieved": "2026-10-23"
+      },
+      "inspected_versions": [
+        {
+          "id": "Bha25",
+          "snapshot_id": "Bha25",
+          "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol325-itcs2025/LIPIcs.ITCS.2025.17/LIPIcs.ITCS.2025.17.pdf",
+          "sha256": "c55f17d6e40d605dbeff024902efafd4290aaf8d16ce399fb247c7eb98779dae",
+          "pages": 21,
+          "retrieved": "2026-10-23"
+        }
+      ],
+      "annotation": "Published version of the random-restriction result, with a changed title. Explicitly states the full Aaronson–Ambainis influence conjecture and proves a restricted random-restriction theorem. Same work as the 2024 report and its March 2026 revision; not an additional distinct-paper recurrence.",
+      "metadata_note": "Official publisher metadata and selected full-PDF conjecture/theorem statements checked. The latest arXiv page 2402.13952v2 says accepted at ITCS 2025. Full proof not independently re-proved."
     }
   ],
   "measures": [
@@ -34878,12 +35287,45 @@
       },
       "source": "ABKBRT21",
       "locator": "Conjecture 1",
-      "status": "historical_conjecture_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "Would imply D=O(R^2) using bs=O(R).",
         "Would imply D=O(adeg^4) using bs=O(adeg^2)."
       ],
-      "implication_audit": "Relevant bs lower-bound edges still require extraction."
+      "implication_audit": "Relevant bs lower-bound edges still require extraction.",
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "historical_conjecture_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "The cubic-to-quadratic unrestricted problem remains unresolved in the checked CPS proceedings; quadratic results there require zebra or bounded-alternation hypotheses. A search through 23 October 2026 found no primary resolution.",
+        "evidence": [
+          {
+            "source": "ABKBRT21",
+            "locator": "Conjecture 1",
+            "role": "original target"
+          },
+          {
+            "source": "CPS23",
+            "locator": "Question 1 and Theorems 4–5",
+            "role": "restricted progress; not a general resolution"
+          }
+        ],
+        "queries": [
+          "\"D(f)\" \"bs(f)\" quadratic conjecture 2026 site:arxiv.org",
+          "\"Decision Tree Complexity\" \"Block Sensitivity\" 2025 2026 conjecture"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "ABKBRT21",
+        "CPS23"
+      ]
     },
     {
       "id": "R-Q-cubic",
@@ -34980,24 +35422,90 @@
       "source": "GS26",
       "locator": "Conjecture 6",
       "statement": "The randomized complexity of Extremal Forrelation is tildeOmega(2^(n/2)).",
-      "status": "conjectured_in_inspected_2026_source_current_status_unverified",
+      "status": "open_in_checked_recent_primary_source",
       "implications": [
         "Would improve the proven tildeOmega(2^(n/4)) lower bound. The paper reports a 2^(n/4+o(n)) distinguisher for its own two hard distributions, so new distributions are needed.",
         "CCM26 v2 proves a near-half-exponent NONADAPTIVE lower bound. It does not resolve this adaptive conjecture. Appendix D explains a gap in the stronger v1 claim."
       ],
       "status_checked": "2026-10-17",
       "status_sources": [
+        "GS26",
         "CCM26"
-      ]
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "conjectured_in_inspected_2026_source_current_status_unverified",
+          "status_sources": [
+            "CCM26"
+          ]
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "primary_reaffirmed_open",
+        "summary": "The latest CCM v2 is nonadaptive. Its Appendix B.4 explicitly distinguishes the remaining adaptive Girish–Servedio conjecture; the stronger adaptive claim in v1 has a gap.",
+        "evidence": [
+          {
+            "source": "GS26",
+            "locator": "Conjecture 6, Section 1.3",
+            "role": "original adaptive question"
+          },
+          {
+            "source": "CCM26",
+            "locator": "v2 Theorems 1/3, Appendix B.4, Appendix D",
+            "role": "current restricted result and explicit remaining adaptive conjecture"
+          }
+        ],
+        "queries": [
+          "\"extremal forrelation\" \"2026\" conjecture randomized",
+          "arXiv:2602.07503 current version history"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      }
     },
     {
       "id": "extremal-k-forrelation",
       "source": "GS26",
       "locator": "Conjecture 7",
       "statement": "For k>2, the randomized complexity of extremal k-Forrelation is tildeOmega(2^(n*(1-1/k))).",
-      "status": "conjectured_in_inspected_2026_source_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "Would approach the best bounded-error quantum/classical separations using exact quantum algorithms."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "conjectured_in_inspected_2026_source_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "No primary resolution of the k>2 extremal/exact-quantum conjecture was found. The checked CCM theorem is about the two-function extremal problem with a nonadaptive classical lower bound; ordinary bounded-error k-Forrelation separations are different.",
+        "evidence": [
+          {
+            "source": "GS26",
+            "locator": "Conjecture 7, Section 1.3",
+            "role": "original k>2 extremal question"
+          },
+          {
+            "source": "CCM26",
+            "locator": "v2 Introduction and Theorem 3",
+            "role": "nearby k=2 restricted result, not a resolution"
+          }
+        ],
+        "queries": [
+          "\"extremal forrelation\" \"2026\" conjecture randomized",
+          "\"extremal k-forrelation\" lower bound"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "GS26",
+        "CCM26"
       ]
     },
     {
@@ -35005,9 +35513,38 @@
       "source": "BK24",
       "locator": "Section 1.3, Open Problem 1",
       "statement": "Can a total search problem have an exponential QE/R separation in either direction?",
-      "status": "open_question_as_of_inspected_2024_source_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "The 2024 paper does not establish exact-query separations; its Q and bounded-polynomial constructions alone do not answer this."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "open_question_as_of_inspected_2024_source_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "The original exact-quantum versus randomized total-search question is still listed in BK24, whose official history has no revision beyond v1. Searches found no primary answer; bounded-error Q separations do not answer the exact QE question.",
+        "evidence": [
+          {
+            "source": "BK24",
+            "locator": "Section 1.3, Open Problem 1, PDF pp.8–9",
+            "role": "original precise relation question; latest listed v1"
+          }
+        ],
+        "queries": [
+          "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
+          "\"total search\" \"conical\" \"2026\"",
+          "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
+          "\"Separations in query complexity for total search problems\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "BK24"
       ]
     },
     {
@@ -35015,9 +35552,38 @@
       "source": "BK24",
       "locator": "Section 1.3, Open Problem 2",
       "statement": "Can total search exponentially separate bounded approximate polynomial degree from bounded approximate nonnegative degree? What about exact degree versus approximate degree?",
-      "status": "open_question_as_of_inspected_2024_source_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "Uses relation polynomial systems, not the ordinary unrestricted polynomial of a Boolean function."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "open_question_as_of_inspected_2024_source_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "Both approximate-degree/conical-degree and exact-degree/approximate-degree subquestions remain listed in the unchanged BK24 source. Searches found no primary answer. Relation polynomial systems and their boundedness conventions remain essential.",
+        "evidence": [
+          {
+            "source": "BK24",
+            "locator": "Section 1.3, Open Problem 2, PDF pp.8–9",
+            "role": "original precise relation question; latest listed v1"
+          }
+        ],
+        "queries": [
+          "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
+          "\"total search\" \"conical\" \"2026\"",
+          "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
+          "\"Separations in query complexity for total search problems\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "BK24"
       ]
     },
     {
@@ -35025,9 +35591,38 @@
       "source": "BK24",
       "locator": "Section 1.3, Open Problem 3",
       "statement": "Does Adv(S)=O(rel_adeg(S)^2) hold for total search? Can Adv be exponentially larger than rel_adeg?",
-      "status": "open_question_as_of_inspected_2024_source_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "Do not extend the partial decision-function theorem ABK21 to relations automatically. BK24 supplies an exponential separation in the opposite direction."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "open_question_as_of_inspected_2024_source_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "No primary proof or counterexample to the relation Adv=O(approximate-degree squared) direction was found. BK24’s exponential separation is in the opposite direction; partial-function theorems do not automatically transfer to total relations.",
+        "evidence": [
+          {
+            "source": "BK24",
+            "locator": "Section 1.3, Open Problem 3, PDF pp.8–9",
+            "role": "original precise relation question; latest listed v1"
+          }
+        ],
+        "queries": [
+          "\"total search\" \"exact quantum\" \"exponential\" 2026 query complexity",
+          "\"total search\" \"conical\" \"2026\"",
+          "\"total search\" \"adversary\" \"approximate degree\" \"open\"",
+          "\"Separations in query complexity for total search problems\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "BK24"
       ]
     },
     {
@@ -35061,9 +35656,54 @@
       "source": "KLMY21",
       "locator": "Conjecture 6.1",
       "statement": "DandPos(f)<=poly(log(2+monomialSparsity(f))) for total Boolean functions, eliminating input-length dependence.",
-      "status": "conjectured_in_inspected_2020_preprint_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "Theorem 1.2 establishes O(log^5(2+spar)*log(2n)); the conjecture would eliminate its input-length logarithm. Do not confuse this with polynomial derandomization allowing log n factors."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "conjectured_in_inspected_2020_preprint_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "The dimension-free AND-query target remains conjectural in the checked sources. The 2026 quantum/classical result is for communication and retains polylog(n) factors; neither it nor hardness incondensability removes the log n in the query bound.",
+        "evidence": [
+          {
+            "source": "KLMY21",
+            "locator": "Conjecture 6.1",
+            "role": "original dimension-free query target"
+          },
+          {
+            "source": "KLMY21survey",
+            "locator": "Conjecture 3.13 and Theorem 3.11",
+            "role": "same target in survey"
+          },
+          {
+            "source": "BBCLD26",
+            "locator": "Section 1.1, PDF pp.3–5",
+            "role": "related communication result with input-length losses"
+          },
+          {
+            "source": "NPS26",
+            "locator": "Sections 3–4",
+            "role": "related condensation question, not this conjecture"
+          }
+        ],
+        "queries": [
+          "\"Log-Rank and Lifting for AND-Functions\" conjecture 2025 2026",
+          "\"monomial sparsity\" \"AND\" \"2026\" conjecture"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "KLMY21",
+        "KLMY21survey",
+        "BBCLD26",
+        "NPS26"
       ]
     },
     {
@@ -35071,9 +35711,37 @@
       "source": "Wel22",
       "locator": "Conjecture 3.17",
       "statement": "For every total Boolean function, nRelevant(f)=O(4^s(f)). The source also conjectures a stronger bounded coordinate-sensitivity potential.",
-      "status": "conjectured_in_2022_source_current_status_unverified",
+      "status": "searched_no_resolution_found_current_openness_not_certified",
       "implications": [
         "Would remove the factor s from Simon’s bound. Monotone address functions show the exponential base 4 cannot be improved uniformly. The stronger potential requires its own definition; it is not entered as an additional scalar theorem."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "conjectured_in_2022_source_current_status_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "no_resolution_found",
+        "summary": "No primary resolution of nRelevant=O(4^s), or the stronger coordinate-sensitivity potential, was found. The latest listed Wellens version remains v2 (December 2022). Bounds involving polynomial degree and hardness condensation address different questions.",
+        "evidence": [
+          {
+            "source": "Wel22",
+            "locator": "Conjecture 3.17; discussion near end of paper",
+            "role": "exact sensitivity-variable conjecture"
+          }
+        ],
+        "queries": [
+          "\"Wellens\" \"relevant variables\" \"conjecture\" sensitivity 2026",
+          "\"n(f)\" \"4\" \"Wellens\" \"conjecture\"",
+          "\"relevant variables\" \"sensitivity\" \"2026\" bound"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "Wel22"
       ]
     },
     {
@@ -35081,7 +35749,7 @@
       "source": "HKMP26",
       "locator": "Conjecture 72",
       "statement": "Characterize polynomial approximate-degree natural completions by perturbing Fourier coefficients, allowing basis terms up to polynomial degree.",
-      "status": "formulation_or_current_resolution_unverified",
+      "status": "formulation_still_needs_clarification",
       "implications": [
         "The exact support, coefficient norm and sign-preservation constraints need clarification. Without constraints, every target polynomial in the enlarged basis is a coefficient perturbation, so that literal formulation is a representation identity. Lemma 71 does not currently provide a verified normalization route."
       ],
@@ -35102,16 +35770,70 @@
         "missing_control": "Uniform polynomial bounds on distinct constraints, nonzero directional slopes, resulting coefficient norm and function amplification are not obtained from support minimality.",
         "scope_warning": "The separate lambda-partite sensitivity lift has no implication for the natural-completion characterization."
       },
-      "bounded_polytope_followup": "Support minimality gives a full-rank stack of domain rows and active full-cube bounds at an interpolation-polytope vertex. This is not a proof of full rank for the domain matrix or polynomial kernel amplification."
+      "bounded_polytope_followup": "Support minimality gives a full-rank stack of domain rows and active full-cube bounds at an interpolation-polytope vertex. This is not a proof of full rank for the domain matrix or polynomial kernel amplification.",
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "formulation_or_current_resolution_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "formulation_unresolved",
+        "summary": "The latest listed framework version remains v3. Conjecture 72 is present, but an intended nontrivial characterization still needs precise support, norm, fixed-completion and margin constraints. Unrestricted coefficient subtraction is only a representation equivalence; neither a proof nor a disproof of an intended restricted statement is asserted.",
+        "evidence": [
+          {
+            "source": "HKMP26",
+            "locator": "v3 Conjecture 72 and Lemma 71",
+            "role": "source formulation and flagged normalization step"
+          }
+        ],
+        "queries": [
+          "\"natural completions\" \"perturbation\" 2026",
+          "\"completion\" \"perturbation\" \"Huffstutler\""
+        ],
+        "limitations": "The intended restricted formulation and the dependent-support normalization step remain unresolved in the atlas. Version-history confirmation is not a mathematical repair."
+      },
+      "status_sources": [
+        "HKMP26"
+      ]
     },
     {
       "id": "HKMP-dense-almost-completion",
       "source": "HKMP26",
       "locator": "Conjecture 78",
       "statement": "If Dom(f) has density at least epsilon and bounded approximate degree d, can one discard a delta fraction of the promise and extend the remainder to a total function with approximate degree poly(d,1/epsilon,1/delta)?",
-      "status": "formulation_or_current_resolution_unverified",
+      "status": "open_in_checked_recent_primary_source",
       "implications": [
         "The extension is of a subfunction, not necessarily of f on its whole domain. It is a polynomial-degree analogue of the average-case simulation question recalled as Conjecture 77."
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "formulation_or_current_resolution_unverified"
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "primary_reaffirmed_open",
+        "summary": "Conjecture 78 remains explicitly posed in the latest v3. It permits discarding a delta fraction of the promise and extends a subfunction; this is not completion of every original promise input. No resolution was found.",
+        "evidence": [
+          {
+            "source": "HKMP26",
+            "locator": "v3 Conjectures 77–78, manuscript p.36",
+            "role": "explicit current conjecture and subfunction caveat"
+          }
+        ],
+        "queries": [
+          "\"dense\" \"completion\" \"approximate degree\" \"2026\" conjecture",
+          "arXiv:2603.29256 current version history"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      },
+      "status_sources": [
+        "HKMP26"
       ]
     },
     {
@@ -35119,72 +35841,261 @@
       "source": "DFLLV22author",
       "locator": "Section 9, Robust versions",
       "statement": "A Boolean function on S_n close in uniform squared L2 to degree d should be close to a Boolean function computable by a decision tree of polynomial depth in d; perhaps to a Boolean degree-d function. A corresponding question is proposed for perfect matchings.",
-      "status": "still_proposed_in_2026_journal_current_resolution_unverified",
+      "status": "open_in_checked_recent_primary_source",
       "implications": [
         "A robustness conjecture, not a consequence of exact low-degree polynomial equivalence. The source gives no explicit uniform error modulus for the full conjecture."
       ],
       "status_sources": [
-        "DFLLV26"
+        "DFLLV26",
+        "FLM26"
       ],
       "journal_locator": "Section 8, article pp.48–49",
-      "query_lift_warning": "The repository hypermatching lift is an exact query/sensitivity comparison. It does not prove the robust low-degree approximation question or construct hypermatching degree witnesses."
+      "query_lift_warning": "The repository hypermatching lift is an exact query/sensitivity comparison. It does not prove the robust low-degree approximation question or construct hypermatching degree witnesses.",
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "still_proposed_in_2026_journal_current_resolution_unverified",
+          "status_sources": [
+            "DFLLV26"
+          ]
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "primary_reaffirmed_open",
+        "summary": "The final 2026 journal explicitly retains the arbitrary-degree robust decision-tree question on the symmetric group and perfect matchings. Degree-one Grassmann FKN structure is related progress on a different domain, not a solution.",
+        "evidence": [
+          {
+            "source": "DFLLV26",
+            "locator": "Section 8, article pp.48–49",
+            "role": "explicit open robustness direction"
+          },
+          {
+            "source": "FLM26",
+            "locator": "Theorems 1.2–1.3",
+            "role": "related degree-one Grassmann structural result only"
+          }
+        ],
+        "queries": [
+          "\"robust\" \"symmetric group\" \"degree\" \"2026\" Boolean",
+          "\"An FKN Theorem for the Binary Grassmann Scheme\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      }
     },
     {
       "id": "domain-q-analog-framework",
       "source": "DFLLV22author",
       "locator": "Section 9, q-analogs",
       "statement": "Can the polynomial-equivalence framework be extended to Grassmann, bilinear and general linear group domains, or can nontrivial counterexamples be found?",
-      "status": "still_proposed_in_2026_journal_current_resolution_unverified",
+      "status": "open_in_checked_recent_primary_source",
       "implications": [
         "A research direction rather than a proved scalar exponent comparison; query models and domain constants must be specified."
       ],
       "status_sources": [
-        "DFLLV26"
+        "DFLLV26",
+        "FLM26"
       ],
-      "journal_locator": "Section 8, article pp.48–49"
+      "journal_locator": "Section 8, article pp.48–49",
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "still_proposed_in_2026_journal_current_resolution_unverified",
+          "status_sources": [
+            "DFLLV26"
+          ]
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "primary_reaffirmed_open",
+        "summary": "The final 2026 journal says it can neither extend its general comparison theorem to q-analogs nor give nontrivial counterexamples. The 2026 binary Grassmann FKN theorem concerns degree-one structure and does not establish a full query-measure equivalence framework.",
+        "evidence": [
+          {
+            "source": "DFLLV26",
+            "locator": "Section 8, q-analogs, article p.49",
+            "role": "explicit current open direction"
+          },
+          {
+            "source": "FLM26",
+            "locator": "Introduction and Theorem 1.3",
+            "role": "adjacent structural progress, different target"
+          }
+        ],
+        "queries": [
+          "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture",
+          "\"An FKN Theorem for the Binary Grassmann Scheme\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      }
     },
     {
       "id": "AA-folklore-average-simulation",
       "source": "AA14",
       "locator": "Conjecture 1.5 and Appendix Conjecture 7.1",
       "statement": "A T-query quantum acceptance probability can be approximated within epsilon on at least 1-delta of uniform inputs by a deterministic classical tree of depth poly(T,1/epsilon,1/delta).",
-      "status": "conjectured_in_original_and_recalled_in_2026_primary_source_no_resolution_verified",
+      "status": "open_in_checked_recent_primary_source",
       "implications": [
         "The paper explicitly calls this folklore. Appendix 7 gives the equivalent dense-promise formulation. HKMP26 Conjecture 77 recalls that formulation; do not label the influence conjecture equivalent to it without a converse proof."
       ],
       "status_sources": [
+        "LMparallel26",
         "GMNR26",
+        "BSW22",
         "HKMP26"
-      ]
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "conjectured_in_original_and_recalled_in_2026_primary_source_no_resolution_verified",
+          "status_sources": [
+            "GMNR26",
+            "HKMP26"
+          ]
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "primary_reaffirmed_open",
+        "summary": "The unrestricted adaptive simulation question remains explicitly posed in LM v2 (20 October 2026). Its Theorems 1.6–1.8 prove parallel, limited-preprocessing and constant-layer cases; layer-dependent exponents do not give a uniform polynomial for arbitrary adaptivity. GMNR establishes equivalences, not truth of the conjecture.",
+        "evidence": [
+          {
+            "source": "LMparallel26",
+            "locator": "Conjecture 1.1, Theorems 1.6–1.8, PDF pp.3,7–8",
+            "role": "recent explicit conjecture and restricted progress"
+          },
+          {
+            "source": "GMNR26",
+            "locator": "Introduction and Theorem 1.1",
+            "role": "distributional equivalences only"
+          },
+          {
+            "source": "BSW22",
+            "locator": "Conjecture 1.1 and Section 4",
+            "role": "earlier formulation and restricted case"
+          },
+          {
+            "source": "HKMP26",
+            "locator": "Conjecture 77",
+            "role": "equivalent dense-promise formulation"
+          }
+        ],
+        "queries": [
+          "\"Aaronson Ambainis conjecture\" 2026 resolution",
+          "\"Parallel Quantum Advantage with Limited Adaptivity Requires Structure\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      }
     },
     {
       "id": "AA-bounded-polynomial-influence",
       "source": "AA14",
       "locator": "Conjecture 1.7; Theorem 1.8",
       "statement": "Every full-cube [0,1]-bounded degree-d polynomial with uniform variance at least v has a coordinate influence at least (v/d)^O(1).",
-      "status": "conjectured_in_original_and_recalled_in_2026_primary_source_no_resolution_verified",
+      "status": "open_in_checked_recent_primary_source",
       "implications": [
         "This implies the folklore simulation conjecture. GMNR26 restates it as Conjecture 4.2 and proves equivalence of its uniform, fixed-bias product and fixed-density slice analogues, not its truth."
       ],
       "status_sources": [
+        "LMparallel26",
         "GMNR26",
-        "HKMP26"
-      ]
+        "BSW22",
+        "Bha26"
+      ],
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "conjectured_in_original_and_recalled_in_2026_primary_source_no_resolution_verified",
+          "status_sources": [
+            "GMNR26",
+            "HKMP26"
+          ]
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "primary_reaffirmed_open",
+        "summary": "The unrestricted real bounded-polynomial influence conjecture remains explicitly open in the checked October LM version and September GMNR paper. Completely bounded block-multilinear forms and random restrictions under variance hypotheses are positive special cases, not a general proof. This stronger polynomial question is kept distinct from algorithmic simulation.",
+        "evidence": [
+          {
+            "source": "LMparallel26",
+            "locator": "Introduction, PDF p.4",
+            "role": "explicit general-open statement"
+          },
+          {
+            "source": "GMNR26",
+            "locator": "Conjecture 4.2 and Theorem 4.3",
+            "role": "same conjecture and equivalences"
+          },
+          {
+            "source": "BSW22",
+            "locator": "Conjecture 1.2 and Theorem 1.3",
+            "role": "completely bounded positive case"
+          },
+          {
+            "source": "Bha26",
+            "locator": "Conjecture 1.3 and main result",
+            "role": "random-restriction positive case"
+          }
+        ],
+        "queries": [
+          "\"Aaronson Ambainis conjecture\" 2026 resolution",
+          "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      }
     },
     {
       "id": "FLLV20-hypergraphical-sensitivity-question",
       "source": "FLLV20notes",
       "locator": "Section 7, p.7",
       "statement": "Historical question: extend sensitivity theorems to hypergraphical analogues of the symmetric group and perfect matching scheme.",
-      "status": "historical_question_precise_exponent_and_current_literature_status_unverified",
+      "status": "formulation_still_needs_clarification",
       "implications": [
         "Separate coarse polynomial equivalence for fixed hyperedge size from a direct quadratic intrinsic degree/sensitivity theorem or a witnessing framework.",
         "The separately audited repository query lift gives coarse parameterized polynomial bounds on full lambda-partite hypermatching domains; no published priority or resolution of every intended formulation is claimed."
       ],
       "status_sources": [
+        "FLLV20notes",
         "DFLLV26"
       ],
-      "notes": "The original notes closing sentence does not quantify the desired exponent or parameter uniformity. Do not replace this ambiguity by a stronger or weaker conjecture without qualification. The nearby notes context emphasizes Huang-type estimates; a direct quadratic reading is plausible, but no retroactive resolution of this ambiguous historical formulation is asserted."
+      "notes": "The original notes closing sentence does not quantify the desired exponent or parameter uniformity. Do not replace this ambiguity by a stronger or weaker conjecture without qualification. The nearby notes context emphasizes Huang-type estimates; a direct quadratic reading is plausible, but no retroactive resolution of this ambiguous historical formulation is asserted.",
+      "status_history": [
+        {
+          "superseded_by_audit": "2026-10-23",
+          "status": "historical_question_precise_exponent_and_current_literature_status_unverified",
+          "status_sources": [
+            "DFLLV26"
+          ]
+        }
+      ],
+      "status_date": "2026-10-23",
+      "status_audit": {
+        "checked": "2026-10-23",
+        "verdict": "formulation_unresolved",
+        "summary": "The original closing question does not fix exponents, parameter uniformity or the exact intended analogue. The atlas query lift is a separate repository derivation and is not assigned published priority or represented as settling every reading of that historical question.",
+        "evidence": [
+          {
+            "source": "FLLV20notes",
+            "locator": "Section 7, p.7",
+            "role": "historical ambiguous formulation"
+          },
+          {
+            "source": "DFLLV26",
+            "locator": "Section 8 and query-domain framework",
+            "role": "related later journal context"
+          }
+        ],
+        "queries": [
+          "\"hypergraphical\" \"sensitivity\" Boolean functions",
+          "\"Grassmann\" \"sensitivity\" \"Boolean\" conjecture"
+        ],
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+      }
     },
     {
       "id": "bs-s-quadratic",

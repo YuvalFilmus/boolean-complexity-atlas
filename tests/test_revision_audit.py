@@ -10,7 +10,7 @@ class RevisionAuditTests(unittest.TestCase):
   self.assertEqual(C[q['resolution'][0]]['kind'],'no_polynomial_bound')
  def test_nonadaptive_revision_does_not_resolve_adaptive_question(self):
   c=C['extremal-forrelation-nonadaptive-2026'];self.assertEqual(c['A'],'Rna')
-  self.assertIn('unverified',Q['extremal-forrelation-sqrt']['status'])
+  self.assertEqual(Q['extremal-forrelation-sqrt']['status_audit']['verdict'],'primary_reaffirmed_open');self.assertNotIn('resolution',Q['extremal-forrelation-sqrt'])
   self.assertIn('NONADAPTIVE',' '.join(Q['extremal-forrelation-sqrt']['implications']))
  def test_logarithmic_bounds_cannot_enter_scalar_matrix(self):
   cs=[c for c in D['claims']if c['id'].startswith('restriction-log-')];self.assertEqual(len(cs),8)

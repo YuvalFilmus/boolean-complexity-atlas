@@ -31,6 +31,16 @@
           "source": "ABKBRT21",
           "locator": "Conjecture 1",
           "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "CPS23",
+          "locator": "Question 1 and ensuing discussion, article p.27:3; Theorems 4–5, pp.27:4–27:5",
+          "relation": "Same quadratic target, discussed explicitly. Quadratic bounds for restricted classes do not prove the general conjecture.",
+          "checked": "2026-10-23",
+          "measure_mentions": [
+            "D",
+            "bs"
+          ]
         }
       ],
       "mapping_note": "",
@@ -120,6 +130,16 @@
           "source": "GS26",
           "locator": "Conjecture 6",
           "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "CCM26",
+          "locator": "arXiv v2 Introduction pp.1–2; Appendix B.4 pp.29–30; Appendix D",
+          "relation": "Explicitly recalls the same Girish–Servedio adaptive conjecture. The current lower-bound theorem is nonadaptive and does not settle that conjecture.",
+          "checked": "2026-10-23",
+          "measure_mentions": [
+            "QE",
+            "R"
+          ]
         }
       ],
       "mapping_note": "",
@@ -240,6 +260,16 @@
           "source": "KLMY21",
           "locator": "Conjecture 6.1",
           "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "KLMY21survey",
+          "locator": "Conjecture 3.13 and Theorem 3.11, PDF p.21",
+          "relation": "Same dimension-free AND-query/log-sparsity conjecture: rank(f composed with AND) equals its 0/1 monomial sparsity. Conjecture 3.14 is a related lifting question, not an extra occurrence of this formulation.",
+          "checked": "2026-10-23",
+          "measure_mentions": [
+            "DandPos",
+            "monomialSparsity"
+          ]
         }
       ],
       "mapping_note": "",
@@ -308,6 +338,12 @@
           "source": "DFLLV22author",
           "locator": "Section 9, Robust versions",
           "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "DFLLV26",
+          "locator": "Section 8, article pp.48–49",
+          "relation": "Explicitly retained as an open direction in the final journal version. This is a version of DFLLV22author, so it does not increase the distinct-paper count.",
+          "checked": "2026-10-23"
         }
       ],
       "mapping_note": "",
@@ -322,6 +358,12 @@
           "source": "DFLLV22author",
           "locator": "Section 9, q-analogs",
           "relation": "Formulation in the cited source."
+        },
+        {
+          "source": "DFLLV26",
+          "locator": "Section 8, article pp.48–49",
+          "relation": "Explicitly retained as an open direction in the final journal version. This is a version of DFLLV22author, so it does not increase the distinct-paper count.",
+          "checked": "2026-10-23"
         }
       ],
       "mapping_note": "The target domains and query models are part of the question; existing symmetric-group measure counts are not substituted for undefined q-analog measures.",
@@ -349,6 +391,26 @@
           "source": "HKMP26",
           "locator": "Conjecture 77; cites AA14 Appendix Conjecture 7.1",
           "relation": "Dense-promise equivalent formulation. Different from the polynomial influence conjecture."
+        },
+        {
+          "source": "BSW22",
+          "locator": "Conjecture 1.1 and Section 4, PDF pp.2 and 17–18",
+          "relation": "Explicit folklore almost-everywhere simulation conjecture; only restricted classes are proved.",
+          "checked": "2026-10-23",
+          "measure_mentions": [
+            "D",
+            "Q"
+          ]
+        },
+        {
+          "source": "LMparallel26",
+          "locator": "Conjecture 1.1, PDF p.3; Theorems 1.6–1.8, pp.7–8",
+          "relation": "Same deterministic simulation goal with explicit epsilon/delta quantifiers. Latest version proves parallel, limited-preprocessing and fixed-layer cases.",
+          "checked": "2026-10-23",
+          "measure_mentions": [
+            "D",
+            "Q"
+          ]
         }
       ],
       "mapping_note": "D and Q label the algorithmic resources for ranking. The question concerns approximation of acceptance probabilities on most inputs, not the worst-case D/Q exponent table.",
@@ -368,6 +430,30 @@
           "source": "GMNR26",
           "locator": "Conjecture 4.2 explicitly cites AA14 Conjecture 1.7",
           "relation": "Same conjecture, with equivalent distributional analogues."
+        },
+        {
+          "source": "BSW22",
+          "locator": "Conjecture 1.2 and Theorem 1.3, PDF pp.2 and 4",
+          "relation": "Same unrestricted polynomial influence conjecture; completely bounded forms are a restricted positive case.",
+          "checked": "2026-10-23"
+        },
+        {
+          "source": "Bha26",
+          "locator": "Conjecture 1.3, PDF p.2; main result in abstract and following theorem",
+          "relation": "Same unrestricted influence conjecture. The random-restriction theorem is partial progress under variance hypotheses, not a proof for every original polynomial.",
+          "checked": "2026-10-23"
+        },
+        {
+          "source": "LMparallel26",
+          "locator": "Introduction, PDF p.4",
+          "relation": "Explicitly restates the polynomial influence conjecture and says the general conjecture remains open. Algorithmic simulation is distinguished from this stronger polynomial statement.",
+          "checked": "2026-10-23"
+        },
+        {
+          "source": "Bha25",
+          "locator": "Conjecture 4, Theorems 5 and 30, article pp.17:2–17:3 and 17:19",
+          "relation": "Published version of the same random-restriction work as Bha26; changed title does not create a sixth distinct-paper mention.",
+          "checked": "2026-10-23"
         }
       ],
       "mapping_note": "This is about real bounded polynomials, their degree, variance and coordinate influences. It is not Boolean approximate degree. A complete centrality mapping for these parameters is not assessed yet.",

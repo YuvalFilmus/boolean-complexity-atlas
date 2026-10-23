@@ -19,7 +19,7 @@ Resolution records: bs-s4.
 
 D(f) = O(bs(f)^2)
 
-Status: historical_conjecture_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [ABKBRT21](https://arxiv.org/abs/2010.12629), Conjecture 1.
 
@@ -78,7 +78,7 @@ Resolution records: D-R0-sep-ABB.
 
 The randomized complexity of Extremal Forrelation is tildeOmega(2^(n/2)).
 
-Status: conjectured_in_inspected_2026_source_current_status_unverified.
+Status: open_in_checked_recent_primary_source.
 
 Source: [GS26](https://doi.org/10.4230/LIPIcs.ITCS.2026.72), Conjecture 6.
 
@@ -89,7 +89,7 @@ Source: [GS26](https://doi.org/10.4230/LIPIcs.ITCS.2026.72), Conjecture 6.
 
 For k>2, the randomized complexity of extremal k-Forrelation is tildeOmega(2^(n*(1-1/k))).
 
-Status: conjectured_in_inspected_2026_source_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [GS26](https://doi.org/10.4230/LIPIcs.ITCS.2026.72), Conjecture 7.
 
@@ -99,7 +99,7 @@ Source: [GS26](https://doi.org/10.4230/LIPIcs.ITCS.2026.72), Conjecture 7.
 
 Can a total search problem have an exponential QE/R separation in either direction?
 
-Status: open_question_as_of_inspected_2024_source_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [BK24](https://arxiv.org/abs/2410.16245), Section 1.3, Open Problem 1.
 
@@ -109,7 +109,7 @@ Source: [BK24](https://arxiv.org/abs/2410.16245), Section 1.3, Open Problem 1.
 
 Can total search exponentially separate bounded approximate polynomial degree from bounded approximate nonnegative degree? What about exact degree versus approximate degree?
 
-Status: open_question_as_of_inspected_2024_source_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [BK24](https://arxiv.org/abs/2410.16245), Section 1.3, Open Problem 2.
 
@@ -119,7 +119,7 @@ Source: [BK24](https://arxiv.org/abs/2410.16245), Section 1.3, Open Problem 2.
 
 Does Adv(S)=O(rel_adeg(S)^2) hold for total search? Can Adv be exponentially larger than rel_adeg?
 
-Status: open_question_as_of_inspected_2024_source_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [BK24](https://arxiv.org/abs/2410.16245), Section 1.3, Open Problem 3.
 
@@ -153,7 +153,7 @@ Resolution records: monomial-sparsity-no-pure-approx-power.
 
 DandPos(f)<=poly(log(2+monomialSparsity(f))) for total Boolean functions, eliminating input-length dependence.
 
-Status: conjectured_in_inspected_2020_preprint_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [KLMY21](https://doi.org/10.1145/3406325.3450999), Conjecture 6.1.
 
@@ -163,7 +163,7 @@ Source: [KLMY21](https://doi.org/10.1145/3406325.3450999), Conjecture 6.1.
 
 For every total Boolean function, nRelevant(f)=O(4^s(f)). The source also conjectures a stronger bounded coordinate-sensitivity potential.
 
-Status: conjectured_in_2022_source_current_status_unverified.
+Status: searched_no_resolution_found_current_openness_not_certified.
 
 Source: [Wel22](https://arxiv.org/abs/2005.00566v2), Conjecture 3.17.
 
@@ -173,7 +173,7 @@ Source: [Wel22](https://arxiv.org/abs/2005.00566v2), Conjecture 3.17.
 
 Characterize polynomial approximate-degree natural completions by perturbing Fourier coefficients, allowing basis terms up to polynomial degree.
 
-Status: formulation_or_current_resolution_unverified.
+Status: formulation_still_needs_clarification.
 
 Source: [HKMP26](https://arxiv.org/abs/2603.29256), Conjecture 72.
 
@@ -183,7 +183,7 @@ Source: [HKMP26](https://arxiv.org/abs/2603.29256), Conjecture 72.
 
 If Dom(f) has density at least epsilon and bounded approximate degree d, can one discard a delta fraction of the promise and extend the remainder to a total function with approximate degree poly(d,1/epsilon,1/delta)?
 
-Status: formulation_or_current_resolution_unverified.
+Status: open_in_checked_recent_primary_source.
 
 Source: [HKMP26](https://arxiv.org/abs/2603.29256), Conjecture 78.
 
@@ -193,7 +193,7 @@ Source: [HKMP26](https://arxiv.org/abs/2603.29256), Conjecture 78.
 
 A Boolean function on S_n close in uniform squared L2 to degree d should be close to a Boolean function computable by a decision tree of polynomial depth in d; perhaps to a Boolean degree-d function. A corresponding question is proposed for perfect matchings.
 
-Status: still_proposed_in_2026_journal_current_resolution_unverified.
+Status: open_in_checked_recent_primary_source.
 
 Source: [DFLLV22author](https://yuvalfilmus.cs.technion.ac.il/Papers/measures.pdf), Section 9, Robust versions.
 
@@ -203,7 +203,7 @@ Source: [DFLLV22author](https://yuvalfilmus.cs.technion.ac.il/Papers/measures.pd
 
 Can the polynomial-equivalence framework be extended to Grassmann, bilinear and general linear group domains, or can nontrivial counterexamples be found?
 
-Status: still_proposed_in_2026_journal_current_resolution_unverified.
+Status: open_in_checked_recent_primary_source.
 
 Source: [DFLLV22author](https://yuvalfilmus.cs.technion.ac.il/Papers/measures.pdf), Section 9, q-analogs.
 
@@ -213,7 +213,7 @@ Source: [DFLLV22author](https://yuvalfilmus.cs.technion.ac.il/Papers/measures.pd
 
 A T-query quantum acceptance probability can be approximated within epsilon on at least 1-delta of uniform inputs by a deterministic classical tree of depth poly(T,1/epsilon,1/delta).
 
-Status: conjectured_in_original_and_recalled_in_2026_primary_source_no_resolution_verified.
+Status: open_in_checked_recent_primary_source.
 
 Source: [AA14](https://theoryofcomputing.org/articles/v010a006/), Conjecture 1.5 and Appendix Conjecture 7.1.
 
@@ -223,7 +223,7 @@ Source: [AA14](https://theoryofcomputing.org/articles/v010a006/), Conjecture 1.5
 
 Every full-cube [0,1]-bounded degree-d polynomial with uniform variance at least v has a coordinate influence at least (v/d)^O(1).
 
-Status: conjectured_in_original_and_recalled_in_2026_primary_source_no_resolution_verified.
+Status: open_in_checked_recent_primary_source.
 
 Source: [AA14](https://theoryofcomputing.org/articles/v010a006/), Conjecture 1.7; Theorem 1.8.
 
@@ -233,7 +233,7 @@ Source: [AA14](https://theoryofcomputing.org/articles/v010a006/), Conjecture 1.7
 
 Historical question: extend sensitivity theorems to hypergraphical analogues of the symmetric group and perfect matching scheme.
 
-Status: historical_question_precise_exponent_and_current_literature_status_unverified.
+Status: formulation_still_needs_clarification.
 
 Source: [FLLV20notes](https://yuvalfilmus.cs.technion.ac.il/Talks/ComplexityMeasures-HUJI.pdf), Section 7, p.7.
 

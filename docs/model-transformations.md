@@ -295,7 +295,7 @@ Source: [HKMP26](https://arxiv.org/abs/2603.29256), Repository necessary conditi
 
 For a finite product of permutation domains with forward and inverse coordinate queries, the product spatial-degree filtration is 1/2-witnessing for disjoint-transposition sensitivity.
 
-Each coordinate indicator monomial factors across permutation components, so V_d(product)=sum_{sum d_i<=d} tensor_i V_{d_i}. The source irreducible decomposition assigns each permutation isotypic component a degree depth and supplies pure-degree pseudo-characters spanning it. Products of those pseudo-characters span the product graded components. A product of degree depths summing to d induces a cube whose dimension is the sum of the factor dimensions, at least d/2. Neighbor changes from separate factors have disjoint supports. A Boolean function with nonzero top graded component correlates with one such product; source Lemma 5.2 then yields s>=sqrt(d/2).
+Each coordinate indicator monomial factors across permutation components, so V_d(product)=sum_{sum d_i<=d} tensor_i V_{d_i}. The source irreducible decomposition assigns each permutation isotypic component a degree depth and supplies pure-degree pseudo-characters spanning it. Products of those pseudo-characters span the product graded components. A product of degree depths summing to d induces a cube whose dimension is the sum of the factor dimensions, at least d/2. Neighbor changes from separate factors have disjoint supports. A Boolean function with nonzero top graded component correlates with one such product; source Lemma 5.2 then yields s>=sqrt(d/2). Fresh 23 October audit rechecks the homogeneous decomposition and uses output-value transpositions in B columns; the printed input/A-column orientation fails, with an explicit S_3 counterexample.
 
 Uses the source permutation isotypic grading, not an unproved plethysm assertion for hypermatchings. Cube dimensions add and the parity signs multiply. This is a repository tensor argument, not a claim that the source explicitly states the product lemma.
 
@@ -370,6 +370,26 @@ For nonconstant total f, 1<=s<=b=bs and t-1+1/t is increasing on [1,infinity), s
 This retains lower-order terms beyond the quadratic upper exponent. It does not change the count of matching completion exponents. Separate minima are never multiplied. A separate agent checked the original Tal statement as well as the deduction; this is not an independent proof audit of the earlier hypergraph theorem. No optimality or novelty claim.
 
 Source: [Tal13](https://eccc.weizmann.ac.il/report/2012/163/), Repository consequence of original Section 5.1.2 and LP duality; minimum-completion lifting.
+
+## hypermatching-degree-comparison
+
+For every real f on full lambda-partite hypermatchings, 2degree_H(f)<=degree_Z(f composed with pi)<=k degree_H(f); the same inequalities hold for epsilon-approximate degree on the two native domains.
+
+Uniform representation fibers have n! product_i(lambda_i!)^n elements. An entry monomial of degree t specifies t distinct vertices. Mobius inversion on touched group labels expresses its fiber average by products of containment indicators J_U; singleton U factors equal one and each remaining factor consumes at least two vertices. This yields degree<=floor(t/2). Pulling back each hyperedge indicator costs degree at most k. Conditional averaging preserves uniform approximation error.
+
+The averaging/degree comparison is a repository derivation, not a printed theorem attributed to DFLLV26. The purely algebraic comparison holds for real f; the sensitivity consequence requires Boolean f.
+
+Source: [DFLLV26](https://doi.org/10.5070/C6.68665), Repository uniform-fiber averaging and partition-lattice derivation; separate full proof.
+
+## rooted-path-nonadaptive-approximation
+
+For [0,1]-valued rooted-path polynomials in the stated support class, at most d*ceil(2d/(delta*epsilon^2)) original nonadaptive queries give additive error epsilon with uniform-input failure probability at most delta; the self-contained version uses 3d in the ceiling.
+
+Keep the m largest nonconstant Fourier terms and query their native supports. Squared tail energy is at most A^2/(4m), at most 2d/m by sharp Khintchine or 3d/m by the fourth moment. Parseval and Markov give the error; clipping preserves the estimate.
+
+Derived repository corollary; Sz76 supplies only the sharp Khintchine input, not the tree/query theorem. Fourier representation available; no efficient recovery algorithm, promise extension or arbitrary-distribution claim.
+
+Source: [Sz76](https://doi.org/10.4064/sm-58-2-197-208), Derived proof, docs/rooted-paths-proof.md, nonadaptive approximation and sharp Khintchine variant.
 
 ## query_TFZPP
 

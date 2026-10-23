@@ -8,7 +8,7 @@ Each number counts claim records for that ordered pair. `—` means not yet inde
 
 | A / B | D | R0 | Rfail | R | Q | QE | rel_Qeps | psR | psQ | rel_deg | rel_udeg | rel_adeg | rel_conical | rel_bs | rel_fbs | rel_cbs | rel_fcbs | rel_Adv | rel_CAdv | V |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| D | — | 1 | — | — | — | 1 | — | 2 | 1 | — | — | — | — | — | — | — | — | — | — | — |
+| D | — | 1 | — | — | — | 2 | — | 2 | 1 | — | — | — | — | — | — | — | — | — | — | — |
 | R0 | 1 | — | 1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | Rfail | 1 | 1 | — | 1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | R | — | — | 1 | — | — | — | — | 1 | — | — | — | — | 1 | — | — | — | — | 1 | 1 | — |
@@ -32,7 +32,7 @@ Each number counts claim records for that ordered pair. `—` means not yet inde
 Indexed cells:
 
 - D / R0: [search-D-R0-total-CNF](claims.md#search-D-R0-total-CNF).
-- D / QE: [exact-search-two-query-rigidity](claims.md#exact-search-two-query-rigidity).
+- D / QE: [exact-search-two-query-rigidity](claims.md#exact-search-two-query-rigidity), [four-query-4maj-certificate-obstruction](claims.md#four-query-4maj-certificate-obstruction).
 - D / psR: [search-D-psR3](claims.md#search-D-psR3), [search-D-psR4-historical](claims.md#search-D-psR4-historical).
 - D / psQ: [search-D-psQ](claims.md#search-D-psQ).
 - R0 / D: [search-elementary-R0-D](claims.md#search-elementary-R0-D).

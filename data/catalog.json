@@ -2677,6 +2677,15 @@
           "url": "https://arxiv.org/pdf/1011.3020",
           "pages": 19,
           "retrieved": "2026-10-17"
+        },
+        {
+          "id": "LMRSS11",
+          "snapshot_id": "LMRSS11-author-round4",
+          "url": "https://www.ucw.cz/~robert/papers/state-conversion.pdf",
+          "resolved_url": "https://www.ucw.cz/~robert/papers/state-conversion.pdf",
+          "sha256": "83d2dbaf0e80390e2221b983376346f10769023741aa3d22f3fb7d44dfee7569",
+          "pages": 19,
+          "retrieved": "2026-10-23"
         }
       ]
     },
@@ -5110,6 +5119,348 @@
       "read_version": "Publisher abstract and introduction preview only; full text not obtained",
       "annotation": "Studies exact two-query scalar Boolean functions. The announced classification is conditional on numerical four-bit classification results and includes functions with classical complexity greater than two. Scalar output differs from returning a specified partial input assignment. This preview does not verify the full proof and neither contradicts nor establishes the certificate-output theorem.",
       "accessed": "2026-10-23"
+    },
+    {
+      "id": "Sz76",
+      "authors": [
+        "Stanisław J. Szarek"
+      ],
+      "title": "On the best constants in the Khinchin inequality",
+      "year": 1976,
+      "kind": "article",
+      "journal": "Studia Mathematica",
+      "volume": "58",
+      "number": "2",
+      "pages": "197--208",
+      "doi": "10.4064/sm-58-2-197-208",
+      "url": "https://doi.org/10.4064/sm-58-2-197-208",
+      "read_version": "Original scanned spreads, Theorem 1 printed p.198; statement visually checked, full original proof not reconstructed",
+      "annotation": "Sharp real Rademacher L1 lower bound with factor 1/sqrt(2). Applying it to the derived rooted-path proof improves its moment-based 12d influence denominator to 8d and its approximation ceiling numerator 3d to 2d. The source itself does not state the rooted-path query result.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "Sz76",
+        "snapshot_id": "Sz76-round4",
+        "url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+        "resolved_url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+        "sha256": "31bf836a493917760154c0886181feb023bbc2d193edc8c70211eac0b767a070",
+        "retrieved": "2026-10-23",
+        "pages": 7
+      },
+      "inspected_versions": [
+        {
+          "id": "Sz76",
+          "snapshot_id": "Sz76-round4",
+          "url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+          "resolved_url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+          "sha256": "31bf836a493917760154c0886181feb023bbc2d193edc8c70211eac0b767a070",
+          "retrieved": "2026-10-23",
+          "pages": 7
+        }
+      ]
+    },
+    {
+      "id": "Ast98",
+      "authors": [
+        "Sergey V. Astashkin"
+      ],
+      "title": "Rademacher chaos in symmetric spaces",
+      "year": 1998,
+      "kind": "article",
+      "journal": "East Journal on Approximations",
+      "volume": "4",
+      "number": "3",
+      "pages": "311--336",
+      "url": "https://astashkin.ssau.ru/papers/21.pdf",
+      "read_version": "Author manuscript, Section 4, Theorem 5 and following Walsh-matrix proposition, manuscript pp.13–15",
+      "annotation": "Classical Khintchine/bilinear mechanism and Hadamard/Walsh obstruction closely precede the derived graph estimate and spectral-mass boundary example. These analytic ideas and constructions are not claimed new.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "Ast98",
+        "snapshot_id": "Ast98-round4",
+        "url": "https://astashkin.ssau.ru/papers/21.pdf",
+        "resolved_url": "https://astashkin.ssau.ru/papers/21.pdf",
+        "sha256": "5e7312cefdc2aac8d5a890654712713ab38834a20a4f5b01c97809994c2f2272",
+        "retrieved": "2026-10-23",
+        "pages": 22
+      },
+      "inspected_versions": [
+        {
+          "id": "Ast98",
+          "snapshot_id": "Ast98-round4",
+          "url": "https://astashkin.ssau.ru/papers/21.pdf",
+          "resolved_url": "https://astashkin.ssau.ru/papers/21.pdf",
+          "sha256": "5e7312cefdc2aac8d5a890654712713ab38834a20a4f5b01c97809994c2f2272",
+          "retrieved": "2026-10-23",
+          "pages": 22
+        }
+      ]
+    },
+    {
+      "id": "AL25",
+      "authors": [
+        "Sergey V. Astashkin",
+        "Konstantin V. Lykov"
+      ],
+      "title": "Random unconditional convergence of Rademacher chaos in L∞ and sharp estimates for discrepancy of weighted graphs and hypergraphs",
+      "year": 2025,
+      "kind": "article",
+      "journal": "Mathematische Annalen",
+      "volume": "393",
+      "number": "1",
+      "pages": "407--438",
+      "doi": "10.1007/s00208-025-03257-9",
+      "url": "https://doi.org/10.1007/s00208-025-03257-9",
+      "eprint": "2412.20107",
+      "read_version": "arXiv:2412.20107v1, 28 December 2024; journal bibliographic metadata checked separately",
+      "annotation": "Theorem 3/Eq.(27) and introduction Eq.(3) give the weighted quadratic-chaos row/column-l2 mechanism underlying the rooted-path application; Eq.(6) states the sharp real Khintchine bound. Norms/constants differ from the atlas oscillation proof. Historical attribution includes Bennett and Astashkin for earlier unimodular results. No new analytic inequality is asserted by the atlas.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "AL25",
+        "snapshot_id": "AL25-round4",
+        "url": "https://arxiv.org/pdf/2412.20107v1",
+        "resolved_url": "https://arxiv.org/pdf/2412.20107v1",
+        "sha256": "dbeb1a725835e9146c6618a0fcf16df4ebd77d9afab916999948e702cde9b3de",
+        "retrieved": "2026-10-23",
+        "pages": 30
+      },
+      "inspected_versions": [
+        {
+          "id": "AL25",
+          "snapshot_id": "AL25-round4",
+          "url": "https://arxiv.org/pdf/2412.20107v1",
+          "resolved_url": "https://arxiv.org/pdf/2412.20107v1",
+          "sha256": "dbeb1a725835e9146c6618a0fcf16df4ebd77d9afab916999948e702cde9b3de",
+          "retrieved": "2026-10-23",
+          "pages": 30
+        }
+      ]
+    },
+    {
+      "id": "DMP19",
+      "authors": [
+        "Andreas Defant",
+        "Mieczysław Mastyło",
+        "Antonio Pérez"
+      ],
+      "title": "On the Fourier spectrum of functions on Boolean cubes",
+      "year": 2019,
+      "kind": "article",
+      "journal": "Mathematische Annalen",
+      "volume": "374",
+      "number": "1–2",
+      "pages": "653--680",
+      "doi": "10.1007/s00208-018-1756-y",
+      "url": "https://doi.org/10.1007/s00208-018-1756-y",
+      "eprint": "1706.03670",
+      "read_version": "Original arXiv:1706.03670v1, 12 June 2017, Eq.(2) and Theorem 1.1; journal metadata checked",
+      "annotation": "Boolean Bohnenblust–Hille coefficient bound. Applying its degree-two case after an invertible quadratic character change gives a broader native influence bound of order V^3/W^4, since a largest original Fourier coefficient contributes to a native influence. The source is not quoted as already stating a native tree-path theorem.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "DMP19",
+        "snapshot_id": "DMP19-round4",
+        "url": "https://arxiv.org/pdf/1706.03670v1",
+        "resolved_url": "https://arxiv.org/pdf/1706.03670v1",
+        "sha256": "312f3f2106f27dd7be6830b4a6e01a2f6decc6e0377dc7c44ea432baa34ced31",
+        "retrieved": "2026-10-23",
+        "pages": 25
+      },
+      "inspected_versions": [
+        {
+          "id": "DMP19",
+          "snapshot_id": "DMP19-round4",
+          "url": "https://arxiv.org/pdf/1706.03670v1",
+          "resolved_url": "https://arxiv.org/pdf/1706.03670v1",
+          "sha256": "312f3f2106f27dd7be6830b4a6e01a2f6decc6e0377dc7c44ea432baa34ced31",
+          "retrieved": "2026-10-23",
+          "pages": 25
+        }
+      ]
+    },
+    {
+      "id": "Bour85",
+      "authors": [
+        "Jean Bourgain"
+      ],
+      "title": "Sidon sets and Riesz products",
+      "year": 1985,
+      "kind": "article",
+      "journal": "Annales de l’Institut Fourier",
+      "volume": "35",
+      "number": "1",
+      "pages": "137--148",
+      "doi": "10.5802/aif.1003",
+      "url": "https://doi.org/10.5802/aif.1003",
+      "read_version": "Original introduction Eq.(1) checked for Sidon coefficient convention; not a complete proof audit",
+      "annotation": "Historical Sidon/Riesz-product context for the earlier independent-Fourier-mass route. No dedicated rooted-path priority claim follows from this reference.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "Littlewood30",
+      "authors": [
+        "J. E. Littlewood"
+      ],
+      "title": "On bounded bilinear forms in an infinite number of variables",
+      "year": 1930,
+      "kind": "article",
+      "journal": "The Quarterly Journal of Mathematics",
+      "volume": "os-1",
+      "number": "1",
+      "pages": "164--174",
+      "doi": "10.1093/qmath/os-1.1.164",
+      "url": "https://doi.org/10.1093/qmath/os-1.1.164",
+      "read_version": "Publisher bibliographic metadata only; full original proof not obtained",
+      "annotation": "Historical 4/3 inequality context. The atlas does not mark this original proof as independently audited; later primary coefficient statements and explicit elementary derivations support its actual applications.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "BH31",
+      "authors": [
+        "H. F. Bohnenblust",
+        "Einar Hille"
+      ],
+      "title": "On the Absolute Convergence of Dirichlet Series",
+      "year": 1931,
+      "kind": "article",
+      "journal": "Annals of Mathematics",
+      "volume": "32",
+      "number": "3",
+      "pages": "600--622",
+      "doi": "10.2307/1968255",
+      "url": "https://doi.org/10.2307/1968255",
+      "read_version": "Original issue metadata checked; full original proof not audited",
+      "annotation": "Historical Dirichlet-series/multilinear background. The Boolean fixed-degree consequence is supported by the directly inspected later DMP19 coefficient theorem, not by identifying all formulations.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "Sav02",
+      "authors": [
+        "Petr Savický"
+      ],
+      "title": "On determinism versus unambiguous nondeterminism for decision trees",
+      "year": 2002,
+      "kind": "technical_report",
+      "report": "ECCC TR02-009",
+      "pages": "6",
+      "url": "https://eccc.weizmann.ac.il/report/2002/009/",
+      "read_version": "Original six-page PDF captured; broken glyph body not freshly reconstructed; official metadata and KRS attribution checked",
+      "annotation": "KRS15 attributes the scalar 4-MAJ function and earlier size/partition separation to this report. Exact eight-certificate first priority was not independently established. The official record misspells unambiguous as unambiquous; the standard spelling is used here.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "Sav02",
+        "snapshot_id": "Sav02-round4",
+        "url": "https://eccc.weizmann.ac.il/report/2002/009/download/",
+        "resolved_url": "https://eccc.weizmann.ac.il/report/2002/009/download/",
+        "sha256": "6240ef415b4bf4e2cb0b999b595413867556ea8ccd39e181cceb4b76d51207dc",
+        "retrieved": "2026-10-23",
+        "pages": 6
+      },
+      "inspected_versions": [
+        {
+          "id": "Sav02",
+          "snapshot_id": "Sav02-round4",
+          "url": "https://eccc.weizmann.ac.il/report/2002/009/download/",
+          "resolved_url": "https://eccc.weizmann.ac.il/report/2002/009/download/",
+          "sha256": "6240ef415b4bf4e2cb0b999b595413867556ea8ccd39e181cceb4b76d51207dc",
+          "retrieved": "2026-10-23",
+          "pages": 6
+        }
+      ]
+    },
+    {
+      "id": "BSS02",
+      "authors": [
+        "Howard Barnum",
+        "Michael Saks",
+        "Mario Szegedy"
+      ],
+      "title": "Quantum Decision Trees and Semidefinite Programming",
+      "year": 2002,
+      "kind": "technical_report",
+      "report": "Los Alamos LA-UR-01-6417",
+      "url": "https://www.osti.gov/servlets/purl/975874/",
+      "read_version": "Technical title page dated 23 May 2002; cover/title verified, glyph-encoded body not sole source for theorem locators",
+      "annotation": "Earlier technical version of BSS03; title and version differ from the conference proceedings. General exact SDP/Gram methodology is prior work, with no located evaluation of this particular certificate partition.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "BSS02",
+        "snapshot_id": "BSS02-round4",
+        "url": "https://www.osti.gov/servlets/purl/975874/",
+        "resolved_url": "https://www.osti.gov/servlets/purl/975874/",
+        "sha256": "fb86f41e19412d972d4a4c31b65d0ea9d68d7df86a7cf4f08c5c9fdc5883d3d1",
+        "retrieved": "2026-10-23",
+        "pages": 16
+      },
+      "inspected_versions": [
+        {
+          "id": "BSS02",
+          "snapshot_id": "BSS02-round4",
+          "url": "https://www.osti.gov/servlets/purl/975874/",
+          "resolved_url": "https://www.osti.gov/servlets/purl/975874/",
+          "sha256": "fb86f41e19412d972d4a4c31b65d0ea9d68d7df86a7cf4f08c5c9fdc5883d3d1",
+          "retrieved": "2026-10-23",
+          "pages": 16
+        }
+      ]
+    },
+    {
+      "id": "BSS03",
+      "authors": [
+        "Howard Barnum",
+        "Michael Saks",
+        "Mario Szegedy"
+      ],
+      "title": "Quantum query complexity and semi-definite programming",
+      "year": 2003,
+      "kind": "inproceedings",
+      "booktitle": "18th Annual IEEE Conference on Computational Complexity (CCC 2003)",
+      "publisher": "IEEE Computer Society",
+      "pages": "179--193",
+      "doi": "10.1109/CCC.2003.1214419",
+      "url": "https://doi.org/10.1109/CCC.2003.1214419",
+      "read_version": "Original-authored proceedings text consulted via author upload; technical report BSS02 separately captured",
+      "annotation": "General quantum query/output SDP is a predecessor of the finite Gram method, not a new method in the atlas. Theorem 5 in Section 9.3 concerns a Boolean specialization; no precise eight-output four-query evaluation was located.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "MJM15",
+      "authors": [
+        "Ashley Montanaro",
+        "Richard Jozsa",
+        "Graeme Mitchison"
+      ],
+      "title": "On exact quantum query complexity",
+      "year": 2015,
+      "kind": "article",
+      "journal": "Algorithmica",
+      "volume": "71",
+      "number": "4",
+      "pages": "775--796",
+      "doi": "10.1007/s00453-013-9826-8",
+      "url": "https://doi.org/10.1007/s00453-013-9826-8",
+      "eprint": "1111.0475",
+      "read_version": "arXiv:1111.0475v2, essentially published version, 28 pp.; version date and manuscript header distinguished",
+      "annotation": "Theorem 4 describes the older BSS Boolean SDP characterization; Section 5 warns that numerical feasibility does not prove exact query complexity. Four-bit Boolean tables do not classify the eight-output certificate problem. Scalar 4-MAJ output and unique-certificate output must be distinguished.",
+      "accessed": "2026-10-23",
+      "source_snapshot": {
+        "id": "MJM15",
+        "snapshot_id": "MJM15-round4",
+        "url": "https://arxiv.org/pdf/1111.0475v2",
+        "resolved_url": "https://arxiv.org/pdf/1111.0475v2",
+        "sha256": "efa33668cfc6905c0ae2ac626137497e011a8fb54cc19666d5efc873f9886278",
+        "retrieved": "2026-10-23",
+        "pages": 28
+      },
+      "inspected_versions": [
+        {
+          "id": "MJM15",
+          "snapshot_id": "MJM15-round4",
+          "url": "https://arxiv.org/pdf/1111.0475v2",
+          "resolved_url": "https://arxiv.org/pdf/1111.0475v2",
+          "sha256": "efa33668cfc6905c0ae2ac626137497e011a8fb54cc19666d5efc873f9886278",
+          "retrieved": "2026-10-23",
+          "pages": 28
+        }
+      ]
     }
   ],
   "measures": [
@@ -35729,6 +36080,103 @@
         "GJ16",
         "YYH24"
       ]
+    },
+    {
+      "exponent": null,
+      "source": "definitions",
+      "loss": "none",
+      "status": "repository_derivation_checked",
+      "best_known_certified": false,
+      "last_checked": "2026-10-23",
+      "scalar_inference_allowed": false,
+      "id": "four-query-4maj-certificate-obstruction",
+      "A": "D",
+      "B": "QE",
+      "kind": "identity",
+      "statement": "For the fixed full-cube eight-output 4-MAJ certificate partition S, D(S)=QE(S)=4.",
+      "statement_latex": "D(S)=Q_E(S)=4",
+      "locator": "Derived proof, docs/width-three-proof.md, exact 10-orbit affine certificate and PSD star trace contradiction",
+      "proof_summary": "At three queries, width-three output amplitudes force identical endpoint states and a fixed final Gram. Last-query support constraints and the 48 partition symmetries reduce all possible quadratic prefix Grams to a scalar multiple of one six-by-six matrix; exact orbit equations independently reconstruct this identity. Its forced star signs require twice the available trace for any two-query prefix. The old partition and classical lower bound are credited to KRS15.",
+      "scope": {
+        "object_kind": "search_relation",
+        "totality": "total",
+        "classes": [
+          "certificate_output_search",
+          "fixed_four_bit_4maj_certificate_partition"
+        ],
+        "input_alphabet": "bits",
+        "output_alphabet": "eight_partial_assignments",
+        "cost": "fixed_worst_case_bit_queries",
+        "error": "probability_one_on_the_full_four_cube",
+        "assumptions": [
+          "Precisely the eight width-three assignments in docs/width-three-proof.md; a finite instance.",
+          "Finite-dimensional standard bit oracle, inactive queries permitted."
+        ]
+      },
+      "proof_sources": [
+        "BBCMW01",
+        "KRS15",
+        "FHKIRSV23"
+      ],
+      "proof_page": "proofs/width-three.html",
+      "audit_page": "proofs/width-three-audit.html",
+      "priority_page": "proofs/width-three-priority.html",
+      "proof_audit": "fresh_cross_reviewer_passed_exact_rational_certificate",
+      "notes": "Known 4-MAJ partition and known classical D=4; exact quantum eight-output lower-bound priority not certified. No asymptotic exponent or separation is inferred.",
+      "related_sources": [
+        "BSS03",
+        "MJM15",
+        "LMRSS11",
+        "Sav02"
+      ]
+    },
+    {
+      "exponent": null,
+      "source": "definitions",
+      "loss": "none",
+      "status": "repository_derivation_checked",
+      "best_known_certified": false,
+      "last_checked": "2026-10-23",
+      "scalar_inference_allowed": false,
+      "id": "rooted-path-native-influence",
+      "A": null,
+      "B": null,
+      "kind": "multivariate_lower_bound",
+      "statement": "For ancestor-descendant tree-path Fourier support of length at most d, max_e I_e(p)>=Var(p)^2/(8d osc(p)^2); a self-contained moment proof gives denominator 12d instead.",
+      "statement_latex": "\\max_e I_e(p)\\geq\\frac{\\operatorname{Var}(p)^2}{8d\\,\\operatorname{osc}(p)^2}",
+      "locator": "Derived classical-method consequence, docs/rooted-paths-proof.md; Szarek76 Theorem 1 for the sharper constant",
+      "proof_summary": "Prefix characters turn path monomials into endpoint pairs. Orient endpoints from descendants to ancestors to get outdegree at most d. Symmetric polarization, convex sign rounding and the Rademacher L1 inequality control the sum of incident coefficient l2 norms by oscillation. Charging coefficients to tails controls Fourier l1 mass; a largest original coefficient supplies a native influence without identifying transformed influences. Root-anchor homogenization preserves range. The fourth-moment version is self-contained; sharp Khintchine improves 12d to 8d.",
+      "scope": {
+        "object_kind": "real_valued_function",
+        "totality": "total",
+        "classes": [
+          "ancestor_descendant_tree_path_fourier_support"
+        ],
+        "input_alphabet": "signs_on_original_tree_edges",
+        "output_alphabet": "real",
+        "cost": "original_coordinate_half_bitflip_fourier_influence",
+        "error": "exact_polynomial_statement_uniform_input",
+        "assumptions": [
+          "Nonconstant real polynomial; distinct nonempty ancestor-descendant support paths have length at most integer d>=1.",
+          "Uniform independent original edge signs; I_e is one quarter of full squared flip influence.",
+          "W=oscillation>0; sharp constant uses the original real lower Khintchine theorem."
+        ]
+      },
+      "proof_sources": [
+        "AA14",
+        "Sz76"
+      ],
+      "proof_page": "proofs/rooted-paths.html",
+      "audit_page": "proofs/rooted-paths-audit.html",
+      "priority_page": "proofs/rooted-paths-priority.html",
+      "proof_audit": "fresh_cross_reviewer_passed_and_original_sharp_khintchine_statement_checked",
+      "notes": "Explicit consequence of classical quadratic-chaos methods; no analytic novelty, general AA resolution, or optimality certification. Degree is the original path-length bound. Broader known coefficient estimates give other tree-path influence consequences.",
+      "related_sources": [
+        "Ast98",
+        "AL25",
+        "DMP19",
+        "Bour85"
+      ]
     }
   ],
   "conjectures": [
@@ -36080,11 +36528,22 @@
             "title": "Verified small-query rigidity",
             "text": "An independently audited repository proof establishes D(S)=QE(S) for QE(S)<=2 in full-cube certificate-output search. It treats complex amplitudes, weighted overlapping covers and singleton-output recovery. It does not answer the asymptotic exponential-separation question or extend to arbitrary output relations.",
             "latex": "Q_E(S)\\leq2\\quad\\Longrightarrow\\quad D(S)=Q_E(S)."
+          },
+          {
+            "title": "Verified finite four-query obstruction",
+            "text": "The known four-bit 4-MAJ certificate partition has exact quantum and deterministic complexity four. A fresh independent rational Gram audit verifies the eight-output quantum lower bound. This is a fixed finite example and leaves the general exponential-separation question unresolved.",
+            "latex": "D(S)=Q_E(S)=4."
           }
         ],
         "proof_page": "proofs/exact-search.html",
         "audit_page": "proofs/exact-search-audit.html",
-        "priority_page": "proofs/exact-search-priority.html"
+        "priority_page": "proofs/exact-search-priority.html",
+        "additional_proof_pages": [
+          {
+            "title": "Four-query 4-MAJ certificate obstruction",
+            "page": "proofs/width-three.html"
+          }
+        ]
       },
       "status_sources": [
         "BK24",
@@ -36711,7 +37170,17 @@
           "\"Aaronson Ambainis conjecture\" 2026 resolution",
           "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "proof_page": "proofs/rooted-paths.html",
+        "audit_page": "proofs/rooted-paths-audit.html",
+        "priority_page": "proofs/rooted-paths-priority.html",
+        "clarifications": [
+          {
+            "title": "Classical-method rooted-path consequence",
+            "text": "For ancestor-descendant tree-path Fourier supports of length at most d, the original-coordinate influence has the explicit bound below. The self-contained proof gives 12d; the sharp classical Khintchine theorem improves it to 8d. These are half-bitflip influences; the AA full-flip convention is four times larger. Broader classical coefficient estimates also give tree-path consequences. No general conjecture is marked solved.",
+            "latex": "\\max_e I_e\\geq\\frac{V^2}{8dW^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+          }
+        ]
       }
     },
     {
@@ -38894,6 +39363,16 @@
       "proof_audit": "fresh_independent_source_audit_passed_after_output_transposition_repair",
       "independent_audit_report": "docs/hypermatching-full-source-audit.md",
       "notes": "The averaging/degree comparison is a repository derivation, not a printed theorem attributed to DFLLV26. The purely algebraic comparison holds for real f; the sensitivity consequence requires Boolean f."
+    },
+    {
+      "id": "rooted-path-nonadaptive-approximation",
+      "source": "Sz76",
+      "locator": "Derived proof, docs/rooted-paths-proof.md, nonadaptive approximation and sharp Khintchine variant",
+      "statement": "For [0,1]-valued rooted-path polynomials in the stated support class, at most d*ceil(2d/(delta*epsilon^2)) original nonadaptive queries give additive error epsilon with uniform-input failure probability at most delta; the self-contained version uses 3d in the ceiling.",
+      "proof_summary": "Keep the m largest nonconstant Fourier terms and query their native supports. Squared tail energy is at most A^2/(4m), at most 2d/m by sharp Khintchine or 3d/m by the fourth moment. Parseval and Markov give the error; clipping preserves the estimate.",
+      "notes": "Derived repository corollary; Sz76 supplies only the sharp Khintchine input, not the tree/query theorem. Fourier representation available; no efficient recovery algorithm, promise extension or arbitrary-distribution claim.",
+      "proof_page": "proofs/rooted-paths.html",
+      "scalar_inference_allowed": false
     }
   ],
   "literature_searches": [

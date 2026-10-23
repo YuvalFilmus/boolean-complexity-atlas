@@ -4,9 +4,9 @@ This is a source-linked research catalogue, not an exhaustive or independently c
 
 ## Coverage
 
-- 249 defined measures, 784 claim records with proof summaries, and 145 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
+- 249 defined measures, 786 claim records with proof summaries, and 156 bibliographic records including 9 surveys. Pairwise consequences from a shared witness count as multiple records, not independent results.
 - 411 notation/name records, with source-checked occurrences, repository display variants, candidates and attribution history distinguished by status.
-- 123 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
+- 131 successful original-source snapshots (plus one failed retrieval record) with SHA-256 identifiers. These include author preprints, proceedings and scanned originals.
 - All 132 off-diagonal cells of the twelve-measure total-function core matrix have an evidence chain. No historical table entry is imported into the matrix as an unverified current theorem.
 - The syntactic all-measure pair register contains 61752 ordered pairs, of which 1166 have indexed evidence. Many cross-model pairs require a common-domain definition before they can be mathematical questions.
 
@@ -304,3 +304,9 @@ The [complete proof](exact-search-proof.md), [fresh independent source audit](ex
 The exact final public proof was separately reread and passed. An independent Hall-condition check covers all 4096 three-bit width-two supports, in addition to the author’s additive-table and 110592 mixed singleton/pair checks. Earlier disjoint unweighted partition results are cited with final-journal/preprint version locators; no previous precise quantum implication was located, which does not certify novelty.
 
 Six bibliographic entries were added, with preview-only status retained for YYH24. Seven original PDF captures (including three versions of one work) bring the snapshot manifest to 123 successful captures plus one failed retrieval. The catalogue now has 784 claims and 145 references. Source PDFs are not redistributed.
+
+## Four-query and rooted-path publication, 23 October 2026
+
+Fresh cross-reviewers reconstructed both proofs without accepting prior audit verdicts. The [four-query proof](width-three-proof.md) includes an explicit ten-orbit rational certificate, an independent input-pair Fourier reconstruction, and a downloadable basis-averaging verifier. Its partition and classical D=4 are directly in KRS15; no earlier precise eight-output Q_E=4 statement was located, without certifying absence. The [rooted-path proof](rooted-paths-proof.md) is explicitly a consequence of classical quadratic-chaos analysis. The original Szarek Theorem 1 statement was visually checked and improves the denominator 12d to 8d, with the range qualifier retained for the query bound. It is not a reconstruction of Szarek’s full proof.
+
+Both have separate fresh audit and priority pages, linked from the new Research proofs tab and the relevant open questions. The finite search example also has a gallery card. These scoped records are excluded from unrestricted scalar exponent inference. General AA and BK24 questions retain their prior statuses. The catalogue has 786 claims, 156 references and 131 successful source captures plus one failed retrieval; eleven bibliographic entries were added. Private PDFs are not redistributed.

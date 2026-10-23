@@ -1102,5 +1102,77 @@
     "sha256": "47cef694b0e4efaee4c243564f21203f9489f284bda17831424ae6dada607d74",
     "pages": 16,
     "retrieved": "2026-10-23"
+  },
+  {
+    "id": "Sz76",
+    "snapshot_id": "Sz76-round4",
+    "url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+    "resolved_url": "https://matwbn.icm.edu.pl/ksiazki/sm/sm58/sm58113.pdf",
+    "sha256": "31bf836a493917760154c0886181feb023bbc2d193edc8c70211eac0b767a070",
+    "retrieved": "2026-10-23",
+    "pages": 7
+  },
+  {
+    "id": "Ast98",
+    "snapshot_id": "Ast98-round4",
+    "url": "https://astashkin.ssau.ru/papers/21.pdf",
+    "resolved_url": "https://astashkin.ssau.ru/papers/21.pdf",
+    "sha256": "5e7312cefdc2aac8d5a890654712713ab38834a20a4f5b01c97809994c2f2272",
+    "retrieved": "2026-10-23",
+    "pages": 22
+  },
+  {
+    "id": "AL25",
+    "snapshot_id": "AL25-round4",
+    "url": "https://arxiv.org/pdf/2412.20107v1",
+    "resolved_url": "https://arxiv.org/pdf/2412.20107v1",
+    "sha256": "dbeb1a725835e9146c6618a0fcf16df4ebd77d9afab916999948e702cde9b3de",
+    "retrieved": "2026-10-23",
+    "pages": 30
+  },
+  {
+    "id": "DMP19",
+    "snapshot_id": "DMP19-round4",
+    "url": "https://arxiv.org/pdf/1706.03670v1",
+    "resolved_url": "https://arxiv.org/pdf/1706.03670v1",
+    "sha256": "312f3f2106f27dd7be6830b4a6e01a2f6decc6e0377dc7c44ea432baa34ced31",
+    "retrieved": "2026-10-23",
+    "pages": 25
+  },
+  {
+    "id": "Sav02",
+    "snapshot_id": "Sav02-round4",
+    "url": "https://eccc.weizmann.ac.il/report/2002/009/download/",
+    "resolved_url": "https://eccc.weizmann.ac.il/report/2002/009/download/",
+    "sha256": "6240ef415b4bf4e2cb0b999b595413867556ea8ccd39e181cceb4b76d51207dc",
+    "retrieved": "2026-10-23",
+    "pages": 6
+  },
+  {
+    "id": "BSS02",
+    "snapshot_id": "BSS02-round4",
+    "url": "https://www.osti.gov/servlets/purl/975874/",
+    "resolved_url": "https://www.osti.gov/servlets/purl/975874/",
+    "sha256": "fb86f41e19412d972d4a4c31b65d0ea9d68d7df86a7cf4f08c5c9fdc5883d3d1",
+    "retrieved": "2026-10-23",
+    "pages": 16
+  },
+  {
+    "id": "MJM15",
+    "snapshot_id": "MJM15-round4",
+    "url": "https://arxiv.org/pdf/1111.0475v2",
+    "resolved_url": "https://arxiv.org/pdf/1111.0475v2",
+    "sha256": "efa33668cfc6905c0ae2ac626137497e011a8fb54cc19666d5efc873f9886278",
+    "retrieved": "2026-10-23",
+    "pages": 28
+  },
+  {
+    "id": "LMRSS11",
+    "snapshot_id": "LMRSS11-author-round4",
+    "url": "https://www.ucw.cz/~robert/papers/state-conversion.pdf",
+    "resolved_url": "https://www.ucw.cz/~robert/papers/state-conversion.pdf",
+    "sha256": "83d2dbaf0e80390e2221b983376346f10769023741aa3d22f3fb7d44dfee7569",
+    "pages": 19,
+    "retrieved": "2026-10-23"
   }
 ]

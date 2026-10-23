@@ -279,6 +279,24 @@
         "QE-R0-NAND-SW"
       ],
       "definition_status": "source_construction_overview_not_full_formal_definition"
+    },
+    {
+      "id": "4maj-certificate-partition",
+      "name": "4-MAJ certificate partition: a finite exact-query obstruction",
+      "definition": "The eight disjoint certificates *000, 0*01, 001*, 01*0, *111, 10*1, 1*10, 110* partition the full four-bit cube. The solver must return its unique containing certificate. This is the published KRS15 4-MAJ partition.",
+      "construction_latex": "S=\\{*000,0*01,001*,01*0,*111,10*1,1*10,110*\\},\\qquad D(S)=Q_E(S)=4",
+      "claim_ids": [
+        "four-query-4maj-certificate-obstruction"
+      ],
+      "source": "KRS15",
+      "proof_sources": [
+        "BBCMW01",
+        "FHKIRSV23"
+      ],
+      "definition_status": "full_finite_construction_and_derived_quantum_proof_checked",
+      "proof_summary": "Width-three amplitude rigidity and exact last-query symmetry equations force a quadratic Gram incompatible with the PSD star decomposition of any two-query prefix. The proof and independent rational verifiers are on the separate proof page.",
+      "notes": "Fixed finite obstruction, not an asymptotic separation witness. Construction and classical complexity known; exact quantum lower-bound priority uncertified.",
+      "proof_page": "proofs/width-three.html"
     }
   ]
 }

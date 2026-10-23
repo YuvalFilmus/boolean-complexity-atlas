@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-23",
+  "verdict": "passed_fresh_cross_reviewer_audit",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "priority_certified": false,
+  "claim_ids": [
+    "rooted-path-native-influence"
+  ],
+  "final_publication_rewrite_reviewed": true,
+  "proof": {
+    "path": "docs/rooted-paths-proof.md",
+    "sha256": "3b882faa99cbb37e696f8583c84bfc98bf00ea65813cbf876708eadb4afd5ced",
+    "page": "proofs/rooted-paths.html"
+  },
+  "audit": {
+    "path": "docs/rooted-paths-full-source-audit.md",
+    "sha256": "cb89f71e1be7c0f3db724d1a04d4893724146a2c82597478eea78de5525a2c44",
+    "page": "proofs/rooted-paths-audit.html"
+  },
+  "priority": {
+    "path": "docs/rooted-paths-priority-audit.md",
+    "sha256": "74f94838298853790d2e925eaae3687d76f0afe77b42ced4b42af9b275aff54b",
+    "page": "proofs/rooted-paths-priority.html"
+  },
+  "checkers": [
+    {
+      "path": "tests/rooted_paths_independent_check.py",
+      "sha256": "808419b8c321bd03c95326983defca5577724871628b7646194f175f305800ba",
+      "download": "proofs/checks/rooted_paths_independent_check.py"
+    }
+  ],
+  "scope": "Uniform original edge signs; nonconstant real polynomial with ancestor-descendant tree-path Fourier supports of length <=d; half-bitflip influence.",
+  "bounds": {
+    "self_contained": "max I >= V^2/(12dW^2)",
+    "sharp_import": "max I >= V^2/(8dW^2)",
+    "range01_queries": "d ceil(2d/(delta epsilon^2))"
+  },
+  "sharp_import": {
+    "source": "Sz76",
+    "locator": "Theorem 1 printed p.198; original scan PDF spread 2 left",
+    "status": "original_statement_visually_checked_not_full_proof_reconstruction"
+  },
+  "limitations": [
+    "Explicit consequence of classical quadratic-chaos methods.",
+    "No optimality or novelty certification.",
+    "No general AA resolution or transformed/native influence equality."
+  ]
+}

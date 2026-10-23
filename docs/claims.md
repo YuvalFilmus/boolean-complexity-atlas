@@ -7769,3 +7769,25 @@ For full-cube total certificate-output search, QE(S)<=2 implies D(S)<=2, and D(S
 - Proof: A T-query amplitude supported on an output certificate factors as its subcube indicator times a polynomial on the unassigned coordinates, with degrees adding. At T=2 every width-two output probability is a constant nonnegative multiple of its indicator. Exclude all allowed singleton outputs on a residual subcube. A nonnegative 2x2 additive-table decomposition supplies a two-query tree there; provenance of residual singleton terms supplies one-coordinate singleton fallbacks making the tree correct on the whole cube. The T=0,1 cases are proved separately.
 
 Small-query rigidity only; this is not an asymptotic exponent-one inequality. The asymptotic BK24 Open Problem 1 remains separately recorded. Publication priority is not certified.
+
+## four-query-4maj-certificate-obstruction
+
+For the fixed full-cube eight-output 4-MAJ certificate partition S, D(S)=QE(S)=4.
+
+- Kind: identity; domain: total search_relation; classes: certificate_output_search, fixed_four_bit_4maj_certificate_partition.
+- Evidence: repository_derivation_checked; loss: none.
+- Source: Repository proof, Derived proof, docs/width-three-proof.md, exact 10-orbit affine certificate and PSD star trace contradiction.
+- Proof: At three queries, width-three output amplitudes force identical endpoint states and a fixed final Gram. Last-query support constraints and the 48 partition symmetries reduce all possible quadratic prefix Grams to a scalar multiple of one six-by-six matrix; exact orbit equations independently reconstruct this identity. Its forced star signs require twice the available trace for any two-query prefix. The old partition and classical lower bound are credited to KRS15.
+
+Known 4-MAJ partition and known classical D=4; exact quantum eight-output lower-bound priority not certified. No asymptotic exponent or separation is inferred.
+
+## rooted-path-native-influence
+
+For ancestor-descendant tree-path Fourier support of length at most d, max_e I_e(p)>=Var(p)^2/(8d osc(p)^2); a self-contained moment proof gives denominator 12d instead.
+
+- Kind: multivariate_lower_bound; domain: total real_valued_function; classes: ancestor_descendant_tree_path_fourier_support.
+- Evidence: repository_derivation_checked; loss: none.
+- Source: Repository proof, Derived classical-method consequence, docs/rooted-paths-proof.md; Szarek76 Theorem 1 for the sharper constant.
+- Proof: Prefix characters turn path monomials into endpoint pairs. Orient endpoints from descendants to ancestors to get outdegree at most d. Symmetric polarization, convex sign rounding and the Rademacher L1 inequality control the sum of incident coefficient l2 norms by oscillation. Charging coefficients to tails controls Fourier l1 mass; a largest original coefficient supplies a native influence without identifying transformed influences. Root-anchor homogenization preserves range. The fourth-moment version is self-contained; sharp Khintchine improves 12d to 8d.
+
+Explicit consequence of classical quadratic-chaos methods; no analytic novelty, general AA resolution, or optimality certification. Degree is the original path-length bound. Broader known coefficient estimates give other tree-path influence consequences.

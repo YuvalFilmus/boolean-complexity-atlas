@@ -1031,6 +1031,97 @@
       "title": "Characterization of exact two-query quantum algorithms",
       "kind": "research",
       "year": 2024
+    },
+    {
+      "id": "Sz76",
+      "source_ids": [
+        "Sz76"
+      ],
+      "title": "On the best constants in the Khinchin inequality",
+      "kind": "research",
+      "year": 1976
+    },
+    {
+      "id": "Ast98",
+      "source_ids": [
+        "Ast98"
+      ],
+      "title": "Rademacher chaos in symmetric spaces",
+      "kind": "research",
+      "year": 1998
+    },
+    {
+      "id": "AL25",
+      "source_ids": [
+        "AL25"
+      ],
+      "title": "Random unconditional convergence of Rademacher chaos in L∞ and sharp estimates for discrepancy of weighted graphs and hypergraphs",
+      "kind": "research",
+      "year": 2025
+    },
+    {
+      "id": "DMP19",
+      "source_ids": [
+        "DMP19"
+      ],
+      "title": "On the Fourier spectrum of functions on Boolean cubes",
+      "kind": "research",
+      "year": 2019
+    },
+    {
+      "id": "Bour85",
+      "source_ids": [
+        "Bour85"
+      ],
+      "title": "Sidon sets and Riesz products",
+      "kind": "research",
+      "year": 1985
+    },
+    {
+      "id": "Littlewood30",
+      "source_ids": [
+        "Littlewood30"
+      ],
+      "title": "On bounded bilinear forms in an infinite number of variables",
+      "kind": "research",
+      "year": 1930
+    },
+    {
+      "id": "BH31",
+      "source_ids": [
+        "BH31"
+      ],
+      "title": "On the Absolute Convergence of Dirichlet Series",
+      "kind": "research",
+      "year": 1931
+    },
+    {
+      "id": "Sav02",
+      "source_ids": [
+        "Sav02"
+      ],
+      "title": "On determinism versus unambiguous nondeterminism for decision trees",
+      "kind": "research",
+      "year": 2002
+    },
+    {
+      "id": "BSS02",
+      "source_ids": [
+        "BSS02",
+        "BSS03"
+      ],
+      "title": "Quantum Decision Trees and Semidefinite Programming",
+      "kind": "research",
+      "year": 2002
+    },
+    {
+      "id": "MJM15",
+      "source_ids": [
+        "MJM15"
+      ],
+      "title": "On exact quantum query complexity",
+      "kind": "research",
+      "year": 2015
     }
   ],
   "centrality": {
@@ -9592,11 +9683,22 @@
             "title": "Verified small-query rigidity",
             "text": "An independently audited repository proof establishes D(S)=QE(S) for QE(S)<=2 in full-cube certificate-output search. It treats complex amplitudes, weighted overlapping covers and singleton-output recovery. It does not answer the asymptotic exponential-separation question or extend to arbitrary output relations.",
             "latex": "Q_E(S)\\leq2\\quad\\Longrightarrow\\quad D(S)=Q_E(S)."
+          },
+          {
+            "title": "Verified finite four-query obstruction",
+            "text": "The known four-bit 4-MAJ certificate partition has exact quantum and deterministic complexity four. A fresh independent rational Gram audit verifies the eight-output quantum lower bound. This is a fixed finite example and leaves the general exponential-separation question unresolved.",
+            "latex": "D(S)=Q_E(S)=4."
           }
         ],
         "proof_page": "proofs/exact-search.html",
         "audit_page": "proofs/exact-search-audit.html",
-        "priority_page": "proofs/exact-search-priority.html"
+        "priority_page": "proofs/exact-search-priority.html",
+        "additional_proof_pages": [
+          {
+            "title": "Four-query 4-MAJ certificate obstruction",
+            "page": "proofs/width-three.html"
+          }
+        ]
       },
       "status_note": "No resolution found. The October Pelagic Fourier Fishing paper gives an optimal bounded-error query separation, while its exact result concerns a different communication problem. Neither answers BK24’s exact query question; pseudo-deterministic quantum results also use a different output requirement.",
       "activity_sources": [
@@ -9671,11 +9773,22 @@
               "title": "Verified small-query rigidity",
               "text": "An independently audited repository proof establishes D(S)=QE(S) for QE(S)<=2 in full-cube certificate-output search. It treats complex amplitudes, weighted overlapping covers and singleton-output recovery. It does not answer the asymptotic exponential-separation question or extend to arbitrary output relations.",
               "latex": "Q_E(S)\\leq2\\quad\\Longrightarrow\\quad D(S)=Q_E(S)."
+            },
+            {
+              "title": "Verified finite four-query obstruction",
+              "text": "The known four-bit 4-MAJ certificate partition has exact quantum and deterministic complexity four. A fresh independent rational Gram audit verifies the eight-output quantum lower bound. This is a fixed finite example and leaves the general exponential-separation question unresolved.",
+              "latex": "D(S)=Q_E(S)=4."
             }
           ],
           "proof_page": "proofs/exact-search.html",
           "audit_page": "proofs/exact-search-audit.html",
-          "priority_page": "proofs/exact-search-priority.html"
+          "priority_page": "proofs/exact-search-priority.html",
+          "additional_proof_pages": [
+            {
+              "title": "Four-query 4-MAJ certificate obstruction",
+              "page": "proofs/width-three.html"
+            }
+          ]
         },
         "status_sources": [
           "BK24",
@@ -11421,7 +11534,17 @@
           "\"Aaronson Ambainis conjecture\" 2026 resolution",
           "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
         ],
-        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+        "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+        "proof_page": "proofs/rooted-paths.html",
+        "audit_page": "proofs/rooted-paths-audit.html",
+        "priority_page": "proofs/rooted-paths-priority.html",
+        "clarifications": [
+          {
+            "title": "Classical-method rooted-path consequence",
+            "text": "For ancestor-descendant tree-path Fourier supports of length at most d, the original-coordinate influence has the explicit bound below. The self-contained proof gives 12d; the sharp classical Khintchine theorem improves it to 8d. These are half-bitflip influences; the AA full-flip convention is four times larger. Broader classical coefficient estimates also give tree-path consequences. No general conjecture is marked solved.",
+            "latex": "\\max_e I_e\\geq\\frac{V^2}{8dW^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+          }
+        ]
       },
       "status_note": "The unrestricted real bounded-polynomial influence conjecture remains explicitly open in the checked October LM version and September GMNR paper. Completely bounded block-multilinear forms and random restrictions under variance hypotheses are positive special cases, not a general proof. This stronger polynomial question is kept distinct from algorithmic simulation.",
       "activity_sources": [
@@ -11495,7 +11618,17 @@
             "\"Aaronson Ambainis conjecture\" 2026 resolution",
             "\"Aaronson-Ambainis Conjecture Is True For Random Restrictions\""
           ],
-          "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed."
+          "limitations": "No exhaustive literature or independent full-proof correctness certification is claimed.",
+          "proof_page": "proofs/rooted-paths.html",
+          "audit_page": "proofs/rooted-paths-audit.html",
+          "priority_page": "proofs/rooted-paths-priority.html",
+          "clarifications": [
+            {
+              "title": "Classical-method rooted-path consequence",
+              "text": "For ancestor-descendant tree-path Fourier supports of length at most d, the original-coordinate influence has the explicit bound below. The self-contained proof gives 12d; the sharp classical Khintchine theorem improves it to 8d. These are half-bitflip influences; the AA full-flip convention is four times larger. Broader classical coefficient estimates also give tree-path consequences. No general conjecture is marked solved.",
+              "latex": "\\max_e I_e\\geq\\frac{V^2}{8dW^2},\\qquad V=\\operatorname{Var}(p),\\quad W=\\operatorname{osc}(p)."
+            }
+          ]
         }
       },
       "centrality": null,
@@ -27196,7 +27329,7 @@
     "archive": 8,
     "gaps": 224,
     "endpoint_questions": 3,
-    "scholarly_works": 112,
+    "scholarly_works": 122,
     "status_checks": {
       "primary_reaffirmed_open": 6,
       "no_resolution_found": 7,

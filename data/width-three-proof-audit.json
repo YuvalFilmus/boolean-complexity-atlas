@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-23",
+  "verdict": "passed_fresh_cross_reviewer_audit",
+  "formal_verification": false,
+  "human_peer_review": false,
+  "priority_certified": false,
+  "claim_ids": [
+    "four-query-4maj-certificate-obstruction"
+  ],
+  "final_publication_rewrite_reviewed": true,
+  "proof": {
+    "path": "docs/width-three-proof.md",
+    "sha256": "56689a4ca65f28f7897bb9ceca8cf5a0ade509719d583f95a96af289ffbd923c",
+    "page": "proofs/width-three.html"
+  },
+  "audit": {
+    "path": "docs/width-three-full-source-audit.md",
+    "sha256": "bd39a83f9f1fefb983ac2eb71ae5fc3e39c467fb6b0b8de9d5e715457955e2e7",
+    "page": "proofs/width-three-audit.html"
+  },
+  "priority": {
+    "path": "docs/width-three-priority-audit.md",
+    "sha256": "9d7d80d04b6aad89edbd26fd21b53298a878ace4cfb660404c34bcc87074451e",
+    "page": "proofs/width-three-priority.html"
+  },
+  "checkers": [
+    {
+      "path": "tests/width_three_check.py",
+      "sha256": "e6ee246734c379c9831a4e65975b49f674ba2bc39dfb80f1542b70afd1a359ca",
+      "download": "proofs/checks/width_three_check.py"
+    },
+    {
+      "path": "tests/width_three_independent_check.py",
+      "sha256": "0243453d1dffae4a9ffc33b0f8fccda961f5676bbd95e19039586baeeaf44f70",
+      "download": "proofs/checks/width_three_independent_check.py"
+    }
+  ],
+  "scope": "Fixed full-cube eight-output 4-MAJ certificate partition; standard finite-dimensional exact worst-case bit-query model.",
+  "finite_certificate": {
+    "group_order": 48,
+    "symmetric_entry_orbits": 10,
+    "constraint_rank": 8,
+    "affine_dimension": 2,
+    "quadratic_scales": [
+      "1",
+      "-2",
+      "2"
+    ],
+    "trace_required": "3/2",
+    "trace_available": "3/4"
+  },
+  "limitations": [
+    "Known partition and known classical D=4.",
+    "Exact eight-output Q_E=4 priority not certified.",
+    "No asymptotic exponent or general exact-search resolution."
+  ]
+}

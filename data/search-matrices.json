@@ -104,6 +104,29 @@
               "historical": false,
               "exponent": null,
               "loss": "none"
+            },
+            {
+              "claim_id": "four-query-4maj-certificate-obstruction",
+              "scope": {
+                "object_kind": "search_relation",
+                "totality": "total",
+                "classes": [
+                  "certificate_output_search",
+                  "fixed_four_bit_4maj_certificate_partition"
+                ],
+                "input_alphabet": "bits",
+                "output_alphabet": "eight_partial_assignments",
+                "cost": "fixed_worst_case_bit_queries",
+                "error": "probability_one_on_the_full_four_cube",
+                "assumptions": [
+                  "Precisely the eight width-three assignments in docs/width-three-proof.md; a finite instance.",
+                  "Finite-dimensional standard bit oracle, inactive queries permitted."
+                ]
+              },
+              "kind": "identity",
+              "historical": false,
+              "exponent": null,
+              "loss": "none"
             }
           ],
           "status": "direct_evidence_indexed"

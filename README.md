@@ -108,7 +108,7 @@ The matrix is a restricted exponent calculation on explicitly eligible total-fun
 
 The claim CLI performs direct scope filtering. General upper bounds apply to subclasses; witnesses apply only to supported superclasses. Without filters, the CLI displays each scope explicitly and those results must not be merged into one interval. Use stable measure IDs because printed symbols are deliberately non-unique.
 
-No HTML has been generated, and the repository has not been published. Downloaded papers are excluded from the distributable archive.
+The atlas is published on [GitHub Pages](https://yuvalfilmus.github.io/boolean-complexity-atlas/). The build generates the deployment files in the ignored `_site/` directory; GitHub Actions uploads and deploys them rather than committing them to the repository. Downloaded papers are excluded from the distributable archive.
 
 The [23 October question-status audit](docs/question-status-audit-2026-10-23.md) checks all 15 active published candidates: six are reaffirmed in recent primary sources, seven have no resolution found in the recorded search, and two retain formulation issues. Repeated-question references now cover five questions.
 
